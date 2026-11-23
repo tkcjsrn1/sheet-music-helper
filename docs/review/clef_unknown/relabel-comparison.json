@@ -1,0 +1,66 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels": 226,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "aoharu_p2",
+    "labels": 327,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "aoharu_p3",
+    "labels": 158,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels": 255,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "bach_p1",
+    "labels": 184,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "clef_change_clara1",
+    "labels": 587,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "alto_beethoven1",
+    "labels": 239,
+    "unknown": 21,
+    "json_unchanged": true,
+    "png_bytes_unchanged": false,
+    "changes_only_above_first_staff": true
+  },
+  {
+    "case": "schubert_restored",
+    "labels": 476,
+    "unknown": 0,
+    "json_unchanged": true,
+    "png_bytes_unchanged": true,
+    "changes_only_above_first_staff": true
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "run": 1,
+    "kind": "help_exit_not_gui_ready",
+    "status": 0,
+    "seconds": 8.799872000003234
+  },
+  {
+    "run": 2,
+    "kind": "help_exit_not_gui_ready",
+    "status": 0,
+    "seconds": 9.740871099998913
+  },
+  {
+    "run": 3,
+    "kind": "help_exit_not_gui_ready",
+    "status": 0,
+    "seconds": 8.282195600000705
+  }
+]

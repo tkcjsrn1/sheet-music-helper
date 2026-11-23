@@ -1,0 +1,15 @@
+test_edited_movable_double_keeps_the_modulation_region_tonic (__main__.DoubleAccidentalTests.test_edited_movable_double_keeps_the_modulation_region_tonic) ... FAIL
+
+======================================================================
+FAIL: test_edited_movable_double_keeps_the_modulation_region_tonic (__main__.DoubleAccidentalTests.test_edited_movable_double_keeps_the_modulation_region_tonic)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 135, in test_edited_movable_double_keeps_the_modulation_region_tonic
+    self.assertEqual(pitch_to_midi(row,music),73)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 72 != 73
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

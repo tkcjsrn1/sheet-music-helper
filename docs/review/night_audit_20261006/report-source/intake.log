@@ -1,0 +1,9 @@
+...
+a.zip: success
+----------------------------------------------------------------------
+b.ZIP: failed
+Ran 3 tests in 1.443s
+c.zip: success
+
+broken-settings.zip: failed
+OK

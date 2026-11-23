@@ -1,0 +1,23 @@
+{
+  "target": [
+    {
+      "id": "s2-p1-x75",
+      "staff": 2,
+      "x": 679,
+      "y": 717,
+      "nx": 37.722,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": "##",
+      "text": "파##",
+      "confidence": "check",
+      "flags": [
+        "grace_size",
+        "double_acc"
+      ],
+      "edited": false
+    }
+  ],
+  "input_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+  "actual_exe_gui_conversion": true
+}

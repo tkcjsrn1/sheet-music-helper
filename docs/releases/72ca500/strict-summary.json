@@ -1,0 +1,122 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels_before": 226,
+    "labels_after": 226,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  {
+    "case": "aoharu_p2",
+    "labels_before": 327,
+    "labels_after": 327,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  {
+    "case": "aoharu_p3",
+    "labels_before": 158,
+    "labels_after": 158,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels_before": 262,
+    "labels_after": 262,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  {
+    "case": "bach_p1",
+    "labels_before": 182,
+    "labels_after": 182,
+    "flags_changed": 1,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  {
+    "case": "clef_change_clara1",
+    "labels_before": 601,
+    "labels_after": 601,
+    "flags_changed": 2,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 10,
+    "confidence_changed": 2
+  },
+  {
+    "case": "alto_beethoven1",
+    "labels_before": 223,
+    "labels_after": 223,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  {
+    "case": "schubert_restored",
+    "labels_before": 493,
+    "labels_after": 493,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 25,
+    "confidence_changed": 0
+  },
+  {
+    "case": "clara1_leipzig",
+    "labels_before": 610,
+    "labels_after": 610,
+    "flags_changed": 2,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 8,
+    "confidence_changed": 2
+  },
+  {
+    "case": "clara2_bravura",
+    "labels_before": 578,
+    "labels_after": 578,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 27,
+    "confidence_changed": 0
+  },
+  {
+    "case": "clara2_leipzig",
+    "labels_before": 569,
+    "labels_after": 569,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 28,
+    "confidence_changed": 0
+  },
+  {
+    "case": "schubert_bravura",
+    "labels_before": 492,
+    "labels_after": 492,
+    "flags_changed": 0,
+    "added": 0,
+    "removed": 0,
+    "text_changed": 25,
+    "confidence_changed": 0
+  }
+]

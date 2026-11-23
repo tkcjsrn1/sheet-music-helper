@@ -1,0 +1,34 @@
+{
+  "job": "lanes",
+  "scope": "full",
+  "passed": true,
+  "full_suite_passed": true,
+  "stages": [
+    {
+      "name": "figures",
+      "exit": 0,
+      "seconds": 12.016534200010938
+    },
+    {
+      "name": "placement-settings",
+      "exit": 0,
+      "seconds": 6.02180670000962
+    },
+    {
+      "name": "default-bytes",
+      "exit": 0,
+      "seconds": 40.03058750000491
+    },
+    {
+      "name": "run-all",
+      "exit": 0,
+      "seconds": 916.5243753999821
+    }
+  ],
+  "min_available_bytes": 2226536448,
+  "cleanup": {
+    "numlock_before": true,
+    "numlock_after": true,
+    "numlock_restored": true
+  }
+}

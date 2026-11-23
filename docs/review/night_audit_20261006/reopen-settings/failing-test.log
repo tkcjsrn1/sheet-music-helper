@@ -1,0 +1,29 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_edits.py", line 181, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_edits.py", line 131, in main
+    gui.SheetHelperApp._open_saved_edits(app)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 1536, in _open_saved_edits
+    session = _load_edit_version(folder, source, self.output_dir)
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 246, in _load_edit_version
+    session['original_placements'] = _render_edit_document(session, original, original_png)
+                                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 136, in _render_edit_document
+    placements = render_solfege_on_image(session['image'], document_notes(doc), png,
+        confidences=display_confidences(doc), **session['render_options'])
+  File "F:\sheet-music-helper-codex-night-20261004\modules\renderer.py", line 129, in render_solfege_on_image
+    fonts = {font_size: ImageFont.truetype(font_path, font_size)}
+                        ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageFont.py", line 885, in truetype
+    return freetype(font)
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageFont.py", line 882, in freetype
+    return FreeTypeFont(font, size, index, encoding, layout_engine)
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageFont.py", line 302, in __init__
+    load_from_bytes(cast(IO[bytes], font))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageFont.py", line 281, in load_from_bytes
+    self.font_bytes = f.read()
+                      ^^^^^^
+AttributeError: 'dict' object has no attribute 'read'

@@ -1,0 +1,14 @@
+F....
+======================================================================
+FAIL: test_failure_keeps_traceback_before_unittest_summary (__main__.RunnerTests.test_failure_keeps_traceback_before_unittest_summary)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_runner.py", line 57, in test_failure_keeps_traceback_before_unittest_summary
+    self.assertIn('AssertionError: 입력칸 보호 실패', output)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'AssertionError: 입력칸 보호 실패' not found in '  [실패] test_trace.py\n          ! \n          ! \n          ! \n          ! FAILED (failures=1)\n\n1개 중 통과 0 · 건너뜀 0 · 실패 1\n실패: test_trace.py\n'
+
+----------------------------------------------------------------------
+Ran 5 tests in 1.201s
+
+FAILED (failures=1)

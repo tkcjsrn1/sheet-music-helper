@@ -1,0 +1,28 @@
+        # closing이 서로 다른 원본 성분을 잇는 경우에만 중심 잉크를 분리한다.
+        # 머리 조각이 bbox 안에 있거나 원본 성분의 세로 범위가 겹치면 그대로 둔다.
+        blob = _labels[y_lo:y_hi + 1, stats[i, 0]:stats[i, 0] + stats[i, 2]] == i
+        source_ids = np.unique(band_lab[y_lo:y_hi + 1, stats[i, 0]:stats[i, 0] + stats[i, 2]][blob])
+        source_ids = source_ids[source_ids > 0]
+        if len(source_ids) > 1:
+            bx, by, bw, bh = (int(v) for v in stats[i, :4])
+            px, py = ek.shape[1], vk.shape[0] + ek.shape[0]
+            xa, xb = max(0, bx - px), min(band.shape[1], bx + bw + px)
+            ya, yb = max(0, by - py), min(band.shape[0], by + bh + py)
+            labels = band_lab[ya:yb, xa:xb]
+            supported = []
+            for component in source_ids:
+                lo = int(band_stats[component, 1])
+                hi = lo + int(band_stats[component, 3])
+                others = [band_stats[j] for j in source_ids if j != component]
+                if any(not (int(s[1]) + int(s[3]) <= lo or int(s[1]) >= hi)
+                       or (by <= int(s[1]) and int(s[1]) + int(s[3]) <= by + bh)
+                       for s in others):
+                    continue
+                isolated = cv2.morphologyEx(np.uint8(labels == component) * 255,
+                                            cv2.MORPH_CLOSE, vk)
+                seeds = cv2.erode(isolated, ek)
+                if np.any((seeds[by-ya:by-ya+bh, bx-xa:bx-xa+bw] > 0) & blob):
+                    supported.append(isolated)
+            if len(supported) == 1:
+                win = supported[0][max(0, y0)-ya:max(0, y1)-ya,
+                                   max(0, x0)-xa:max(0, x1)-xa]

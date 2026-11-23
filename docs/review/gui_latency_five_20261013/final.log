@@ -1,0 +1,3 @@
+timed {'page_count': 5, 'viewport': [1117, 713], 'switches': [{'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.3549722000025213}, {'index': 0, 'accepted': True, 'actual_index': 0, 'seconds': 0.32436579989735037}, {'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.35084730002563447}], 'pending_disabled_seen': True, 'elapsed': 61.573846200015396}
+control {'page_count': 5, 'viewport': [1117, 713], 'switches': [{'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.35615480004344136}, {'index': 0, 'accepted': True, 'actual_index': 0, 'seconds': 0.39181280008051544}, {'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.35941059992183}], 'pending_disabled_seen': True, 'elapsed': 62.76884719997179}
+5쪽 PNG/JSON 10파일 바이트 동일

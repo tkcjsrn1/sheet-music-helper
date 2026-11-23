@@ -1,0 +1,49 @@
+.EFFE....
+======================================================================
+ERROR: test_missing_or_malformed_flags_use_fallback_without_inventing_reason (__main__.ReviewReasonTests.test_missing_or_malformed_flags_use_fallback_without_inventing_reason) (flags=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 72, in test_missing_or_malformed_flags_use_fallback_without_inventing_reason
+    text = self.reason(flags=flags)
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 17, in reason
+    return function(dict(dict(confidence='check', flags=[]), **fields))
+  File "F:\sheet-music-helper-codex-night-20261004\user_messages.py", line 64, in label_review_reason
+    reasons = [text for flag, text in REVIEW_REASON_MESSAGES.items() if flag in flags]
+                                                                        ^^^^^^^^^^^^^
+TypeError: argument of type 'NoneType' is not a container or iterable
+
+======================================================================
+ERROR: test_missing_or_malformed_flags_use_fallback_without_inventing_reason (__main__.ReviewReasonTests.test_missing_or_malformed_flags_use_fallback_without_inventing_reason) (flags=7)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 72, in test_missing_or_malformed_flags_use_fallback_without_inventing_reason
+    text = self.reason(flags=flags)
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 17, in reason
+    return function(dict(dict(confidence='check', flags=[]), **fields))
+  File "F:\sheet-music-helper-codex-night-20261004\user_messages.py", line 64, in label_review_reason
+    reasons = [text for flag, text in REVIEW_REASON_MESSAGES.items() if flag in flags]
+                                                                        ^^^^^^^^^^^^^
+TypeError: argument of type 'int' is not a container or iterable
+
+======================================================================
+FAIL: test_missing_or_malformed_flags_use_fallback_without_inventing_reason (__main__.ReviewReasonTests.test_missing_or_malformed_flags_use_fallback_without_inventing_reason) (flags='double_acc')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 73, in test_missing_or_malformed_flags_use_fallback_without_inventing_reason
+    self.assertIn('원본과 대조', text)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '원본과 대조' not found in '확인 필요: 겹임시표(bb/##)는 아직 정확히 읽지 못해요.'
+
+======================================================================
+FAIL: test_missing_or_malformed_flags_use_fallback_without_inventing_reason (__main__.ReviewReasonTests.test_missing_or_malformed_flags_use_fallback_without_inventing_reason) (flags={'double_acc': True})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 73, in test_missing_or_malformed_flags_use_fallback_without_inventing_reason
+    self.assertIn('원본과 대조', text)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '원본과 대조' not found in '확인 필요: 겹임시표(bb/##)는 아직 정확히 읽지 못해요.'
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.554s
+
+FAILED (failures=2, errors=2)

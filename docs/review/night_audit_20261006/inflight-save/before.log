@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_snapshot.py", line 69, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_snapshot.py", line 41, in main
+    dialog.assert_not_called()
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Python314\Lib\unittest\mock.py", line 946, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'asksaveasfilename' to not have been called. Called 2 times.
+Calls: [call(title='문제 신고용 ZIP 저장', initialfile='악보헬퍼_문제신고.zip', defaultextension='.zip', filetypes=[('ZIP 파일', '*.zip')]),
+ call(title='계이름 악보 저장', initialfile='KakaoTalk_20260731_162400402_계이름.png', defaultextension='.png', filetypes=[('PNG 이미지', '*.png'), ('모든 파일', '*.*')])].

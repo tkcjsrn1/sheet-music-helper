@@ -1,0 +1,455 @@
+{
+  "old_commit": "29037e2fe60229682ccb6fa3f1e3e927a9a306cd",
+  "new_commit": "a200ccd2c80b3d11b124bde7e7194687ab9a98df",
+  "old_labels": 239,
+  "new_labels": 223,
+  "counts": {
+    "added": 0,
+    "removed": 16,
+    "text_changed": 0,
+    "confidence_changed": 0
+  },
+  "differences": [
+    {
+      "kind": "label",
+      "key": [
+        0,
+        313,
+        212
+      ],
+      "before": [
+        {
+          "id": "s0-p4-x35",
+          "staff": 0,
+          "x": 313,
+          "y": 212,
+          "nx": 17.389,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": null,
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        0,
+        356,
+        186
+      ],
+      "before": [
+        {
+          "id": "s0-p7-x40",
+          "staff": 0,
+          "x": 356,
+          "y": 186,
+          "nx": 19.778,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        0,
+        356,
+        202
+      ],
+      "before": [
+        {
+          "id": "s0-p5-x40",
+          "staff": 0,
+          "x": 356,
+          "y": 202,
+          "nx": 19.778,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        0,
+        356,
+        241
+      ],
+      "before": [
+        {
+          "id": "s0-p1-x40",
+          "staff": 0,
+          "x": 356,
+          "y": 241,
+          "nx": 19.778,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        1,
+        313,
+        392
+      ],
+      "before": [
+        {
+          "id": "s1-p4-x35",
+          "staff": 1,
+          "x": 313,
+          "y": 392,
+          "nx": 17.389,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": null,
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        1,
+        356,
+        366
+      ],
+      "before": [
+        {
+          "id": "s1-p7-x40",
+          "staff": 1,
+          "x": 356,
+          "y": 366,
+          "nx": 19.778,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        1,
+        356,
+        382
+      ],
+      "before": [
+        {
+          "id": "s1-p5-x40",
+          "staff": 1,
+          "x": 356,
+          "y": 382,
+          "nx": 19.778,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        1,
+        356,
+        421
+      ],
+      "before": [
+        {
+          "id": "s1-p1-x40",
+          "staff": 1,
+          "x": 356,
+          "y": 421,
+          "nx": 19.778,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        2,
+        313,
+        581
+      ],
+      "before": [
+        {
+          "id": "s2-p3-x35",
+          "staff": 2,
+          "x": 313,
+          "y": 581,
+          "nx": 17.389,
+          "pitch": "C3",
+          "step": 3,
+          "accidental": null,
+          "text": "도",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape",
+            "clef_alto"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        2,
+        356,
+        546
+      ],
+      "before": [
+        {
+          "id": "s2-p7-x40",
+          "staff": 2,
+          "x": 356,
+          "y": 546,
+          "nx": 19.778,
+          "pitch": "G3",
+          "step": 7,
+          "accidental": null,
+          "text": "솔",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        2,
+        356,
+        562
+      ],
+      "before": [
+        {
+          "id": "s2-p5-x40",
+          "staff": 2,
+          "x": 356,
+          "y": 562,
+          "nx": 19.778,
+          "pitch": "E3",
+          "step": 5,
+          "accidental": null,
+          "text": "미",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        2,
+        356,
+        601
+      ],
+      "before": [
+        {
+          "id": "s2-p1-x40",
+          "staff": 2,
+          "x": 356,
+          "y": 601,
+          "nx": 19.778,
+          "pitch": "A2",
+          "step": 1,
+          "accidental": null,
+          "text": "라",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        3,
+        313,
+        770
+      ],
+      "before": [
+        {
+          "id": "s3-p2-x35",
+          "staff": 3,
+          "x": 313,
+          "y": 770,
+          "nx": 17.584,
+          "pitch": "G4",
+          "step": 2,
+          "accidental": null,
+          "text": "솔",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        3,
+        356,
+        726
+      ],
+      "before": [
+        {
+          "id": "s3-p7-x40",
+          "staff": 3,
+          "x": 356,
+          "y": 726,
+          "nx": 20.0,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        3,
+        356,
+        742
+      ],
+      "before": [
+        {
+          "id": "s3-p5-x40",
+          "staff": 3,
+          "x": 356,
+          "y": 742,
+          "nx": 20.0,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        3,
+        356,
+        782
+      ],
+      "before": [
+        {
+          "id": "s3-p1-x40",
+          "staff": 3,
+          "x": 356,
+          "y": 782,
+          "nx": 20.0,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked",
+            "snap_residual"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    }
+  ]
+}

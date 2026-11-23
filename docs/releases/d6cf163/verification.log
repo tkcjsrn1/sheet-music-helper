@@ -1,0 +1,17 @@
+aoharu_p1 {'certain': 225, 'caution': 1} 소스/exe/재렌더링 픽셀과 JSON 일치
+aoharu_p2 {'certain': 296, 'caution': 28, 'check': 3} 소스/exe/재렌더링 픽셀과 JSON 일치
+aoharu_p3 {'caution': 10, 'certain': 147, 'check': 1} 소스/exe/재렌더링 픽셀과 JSON 일치
+꾸밈음 grace_size check 9
+chopin_Db_p1 {'certain': 197, 'check': 25, 'caution': 38} 소스/exe/재렌더링 픽셀과 JSON 일치
+bach_p1 {'certain': 171, 'check': 12, 'caution': 1} 소스/exe/재렌더링 픽셀과 JSON 일치
+음자리표 변경 check 149
+clef_change_clara1 {'caution': 67, 'certain': 355, 'check': 177} 소스/exe/재렌더링 픽셀과 JSON 일치
+actual exe header symbols 0 / real first F4 2/2 alto_beethoven1
+알토 check/로그/머리말/재렌더링 49
+음자리표 미검출 check/로그/재렌더링 alto_beethoven1 21
+실제 exe 중심·음고 확인 alto_beethoven1 (0, 406, 239, 'F4', '파')
+alto_beethoven1 {'certain': 147, 'check': 76} 소스/exe/재렌더링 픽셀과 JSON 일치
+#217 실제 exe (606,1522) E4 유지
+schubert_restored {'caution': 160, 'certain': 295, 'check': 26} 소스/exe/재렌더링 픽셀과 JSON 일치
+새 폴더·settings 없음·Python 없는 PATH·exe 옆 output·ZIP5개 통과
+D-3 exe 수정 JSON: 진한 글씨·점선 제거·원래 확신도 보존·소스 픽셀 동일

@@ -1,0 +1,9 @@
+aoharu_p1 226 226 {'added': 0, 'removed': 0, 'text_changed': 0, 'confidence_changed': 0}
+aoharu_p2 327 327 {'added': 0, 'removed': 0, 'text_changed': 0, 'confidence_changed': 0}
+aoharu_p3 158 158 {'added': 0, 'removed': 0, 'text_changed': 0, 'confidence_changed': 0}
+chopin_Db_p1 262 262 {'added': 0, 'removed': 0, 'text_changed': 3, 'confidence_changed': 0}
+bach_p1 184 182 {'added': 0, 'removed': 2, 'text_changed': 3, 'confidence_changed': 2}
+clef_change_clara1 600 601 {'added': 2, 'removed': 1, 'text_changed': 15, 'confidence_changed': 0}
+alto_beethoven1 223 223 {'added': 0, 'removed': 0, 'text_changed': 2, 'confidence_changed': 1}
+schubert_restored 492 493 {'added': 1, 'removed': 0, 'text_changed': 2, 'confidence_changed': 0}
+RECORD8_COMPLETE: 전후행 검토 전 빌드·기준JSON 갱신 금지

@@ -1,0 +1,9 @@
+...
+----------------------------------------------------------------------
+Ran 3 tests in 1.364s
+
+OK
+a.zip: success
+b.ZIP: failed
+c.zip: success
+broken-settings.zip: failed

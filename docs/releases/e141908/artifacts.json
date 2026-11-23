@@ -1,0 +1,22 @@
+{
+  "build_commit": "e141908fca361a85396a59b91bd820b5e1f77ef4",
+  "reference_commit": "13d73f669abce51567526f4ae6ba9804612baeac",
+  "code_equals_reference": true,
+  "verification_status": "automated_passed_gui_partial",
+  "exe": {
+    "path": "F:\\sheet-music-helper-beta-13d73f6-record-20261018\\dist\\e141908fca36-20261018-210718-028242\\악보헬퍼.exe",
+    "bytes": 118704894,
+    "sha256": "79A64676E093540CAF91FB12598F0B915306673C895E3C7A5E02AF6E9D7E7EFF"
+  },
+  "zip": {
+    "path": "F:\\sheet-music-helper-beta-13d73f6-record-20261018\\dist\\악보헬퍼-e141908fca36-20261018-210718-028242.zip",
+    "bytes": 124850854,
+    "sha256": "EB10DA2A5B3FB123E06E7B9B6CB261BD742D92849968113442823F9FFAB7189B"
+  },
+  "unconfirmed": [
+    "실제 GUI 피아노 루프백",
+    "새 exe Dbb/## 실제 GUI 재생의 개별 음높이",
+    "스피커 청취",
+    "실제 다운로드 SmartScreen"
+  ]
+}

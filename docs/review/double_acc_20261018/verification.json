@@ -1,0 +1,31 @@
+{
+  "draft_only": true,
+  "beta_built": false,
+  "wiring_patch_check": "applies_to_current_main_without_applying",
+  "default_png_json_bytes": "all_six_identical",
+  "cli_recognition_wiring": "not_applied",
+  "failures": 0,
+  "full_suite": "passed",
+  "tested_files": [
+    {
+      "path": "modules/note_namer.py",
+      "sha256": "0083594FEA37644BA9EE74F14CA1294909A695E221CC597D1C77BFD05A09C73F"
+    },
+    {
+      "path": "modules/label_audio.py",
+      "sha256": "1E6DAE6EBA2EECC930D0C9DBEEAD619D3D5C275DC329D34652E7D21E8ACAC01C"
+    },
+    {
+      "path": "tests/test_double_accidentals.py",
+      "sha256": "FEF5B1EE1EC56DAB8696F8495C3168333472B4C1BA8E893505C32DFC997BEC17"
+    }
+  ],
+  "base_commit": "718abd3480d4c98c2dde99e447137d62ac229ef3",
+  "existing_audio_unit": "passed",
+  "conditional_schema_2": "pending_cli",
+  "skipped": 0,
+  "pdf_17": "unchanged",
+  "merge_allowed": false,
+  "double_accidental_unit": "passed",
+  "golden_711": "unchanged"
+}

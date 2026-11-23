@@ -1,0 +1,459 @@
+{
+  "source_branch": "claude/ring-wall-keep",
+  "cli_commit": "ec008484d7c1a041ba6a8a12061d8457b200de1f",
+  "baseline_commit": "c3964bfb410344775b4fcbb0f767577b88f2cfa3",
+  "before_labels": 255,
+  "after_labels": 260,
+  "counts": {
+    "added": 7,
+    "removed": 2,
+    "text_changed": 1,
+    "confidence_changed": 1
+  },
+  "differences": [
+    {
+      "kind": "label",
+      "key": [
+        6,
+        1170,
+        2820
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p6-x122",
+          "staff": 6,
+          "x": 1170,
+          "y": 2820,
+          "nx": 60.938,
+          "pitch": "D5",
+          "step": 6,
+          "accidental": null,
+          "text": "레b",
+          "confidence": "check",
+          "flags": [
+            "accidental_unstable"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        1972,
+        2809
+      ],
+      "before": [
+        {
+          "id": "s6-p7-x205",
+          "staff": 6,
+          "x": 1972,
+          "y": 2809,
+          "nx": 102.708,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": "#",
+          "text": "미#",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        1976,
+        2799
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p8-x206",
+          "staff": 6,
+          "x": 1976,
+          "y": 2799,
+          "nx": 102.917,
+          "pitch": "F5",
+          "step": 8,
+          "accidental": "natural",
+          "text": "파",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        1976,
+        2824
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p6-x206",
+          "staff": 6,
+          "x": 1976,
+          "y": 2824,
+          "nx": 102.917,
+          "pitch": "D5",
+          "step": 6,
+          "accidental": "natural",
+          "text": "레",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2078,
+        2801
+      ],
+      "before": [
+        {
+          "id": "s6-p8-x216",
+          "staff": 6,
+          "x": 2078,
+          "y": 2801,
+          "nx": 108.229,
+          "pitch": "F5",
+          "step": 8,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "grace_size"
+          ],
+          "edited": false
+        }
+      ],
+      "after": [
+        {
+          "id": "s6-p8-x216",
+          "staff": 6,
+          "x": 2078,
+          "y": 2801,
+          "nx": 108.229,
+          "pitch": "F5",
+          "step": 8,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "accidental_unstable",
+            "grace_size"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2121,
+        2834
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p5-x221",
+          "staff": 6,
+          "x": 2121,
+          "y": 2834,
+          "nx": 110.469,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2160,
+        2818
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p6-x225",
+          "staff": 6,
+          "x": 2160,
+          "y": 2818,
+          "nx": 112.5,
+          "pitch": "D5",
+          "step": 6,
+          "accidental": null,
+          "text": "레b",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2197,
+        2834
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p5-x229",
+          "staff": 6,
+          "x": 2197,
+          "y": 2834,
+          "nx": 114.427,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2236,
+        2799
+      ],
+      "before": [
+        {
+          "id": "s6-p8-x233",
+          "staff": 6,
+          "x": 2236,
+          "y": 2799,
+          "nx": 116.458,
+          "pitch": "F5",
+          "step": 8,
+          "accidental": null,
+          "text": "파",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ],
+      "after": [
+        {
+          "id": "s6-p8-x233",
+          "staff": 6,
+          "x": 2236,
+          "y": 2799,
+          "nx": 116.458,
+          "pitch": "F5",
+          "step": 8,
+          "accidental": "natural",
+          "text": "파",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2236,
+        2824
+      ],
+      "before": [
+        {
+          "id": "s6-p6-x233",
+          "staff": 6,
+          "x": 2236,
+          "y": 2824,
+          "nx": 116.458,
+          "pitch": "D5",
+          "step": 6,
+          "accidental": null,
+          "text": "레b",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ],
+      "after": [
+        {
+          "id": "s6-p6-x233",
+          "staff": 6,
+          "x": 2236,
+          "y": 2824,
+          "nx": 116.458,
+          "pitch": "D5",
+          "step": 6,
+          "accidental": "natural",
+          "text": "레",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2332,
+        2838
+      ],
+      "before": [
+        {
+          "id": "s6-p4-x243",
+          "staff": 6,
+          "x": 2332,
+          "y": 2838,
+          "nx": 121.458,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": "b",
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "accidental_unstable"
+          ],
+          "edited": false
+        }
+      ],
+      "after": []
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2335,
+        2828
+      ],
+      "before": [
+        {
+          "id": "s6-p5-x243",
+          "staff": 6,
+          "x": 2335,
+          "y": 2828,
+          "nx": 121.615,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": "#",
+          "text": "도#",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ],
+      "after": [
+        {
+          "id": "s6-p5-x243",
+          "staff": 6,
+          "x": 2335,
+          "y": 2828,
+          "nx": 121.615,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": "#",
+          "text": "도#",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "accidental_candidate",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "kind": "label",
+      "key": [
+        6,
+        2335,
+        2853
+      ],
+      "before": [],
+      "after": [
+        {
+          "id": "s6-p3-x243",
+          "staff": 6,
+          "x": 2335,
+          "y": 2853,
+          "nx": 121.615,
+          "pitch": "A4",
+          "step": 3,
+          "accidental": "natural",
+          "text": "라",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual",
+            "accidental_candidate",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      ]
+    }
+  ],
+  "aoharu_content_unchanged": true,
+  "ring_kept_not_serialized": true,
+  "before_sha256": "6bc51d84741162a695b7c38f849c5a6b7885e62c64abfd572681f505805651ba",
+  "after_sha256": "bf86f977f128a4d9201f6bd8757d5d6219e8ddc150ba078a55cdb48ed1b1d0d7"
+}

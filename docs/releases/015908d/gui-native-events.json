@@ -1,0 +1,47 @@
+[
+  {
+    "action": "launch",
+    "pid": 25224,
+    "sha256": "ef06c1bba718b683fc5da52233f71846774968182b99a7e0bc5cfa564348b74b",
+    "utc": "2026-10-19T23:12:07Z"
+  },
+  {
+    "action": "click",
+    "x": 240,
+    "y": 250,
+    "actual_xy": [
+      240,
+      250
+    ],
+    "expected_root": 10291134,
+    "hit_root": 10291134,
+    "pid": 26080,
+    "utc": "2026-10-19T23:12:43Z"
+  },
+  {
+    "action": "click",
+    "x": 490,
+    "y": 573,
+    "actual_xy": [
+      490,
+      573
+    ],
+    "expected_root": 1181922,
+    "hit_root": 1181922,
+    "pid": 26080,
+    "utc": "2026-10-19T23:13:15Z"
+  },
+  {
+    "action": "click",
+    "x": 240,
+    "y": 310,
+    "actual_xy": [
+      240,
+      310
+    ],
+    "expected_root": 10291134,
+    "hit_root": 10291134,
+    "pid": 26080,
+    "utc": "2026-10-19T23:13:36Z"
+  }
+]

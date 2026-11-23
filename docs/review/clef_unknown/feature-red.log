@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_result_legend.py", line 12, in <module>
+    from modules.result_legend import (add_keysig_header, add_legend,
+                                       keysig_header_text, legend_font_size, LEGEND, ALTO_WARNING, alto_warning,
+                                       UNKNOWN_CLEF_WARNING, clef_warnings)
+ImportError: cannot import name 'UNKNOWN_CLEF_WARNING' from 'modules.result_legend' (F:\sheet-music-helper-codex-night-20261004\modules\result_legend.py)

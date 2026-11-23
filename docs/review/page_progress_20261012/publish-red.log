@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_all_pages.py", line 143, in <module>
+    test_all_pages_continue_after_failure()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_all_pages.py", line 74, in test_all_pages_continue_after_failure
+    assert app.published_states and not any(app.published_states), "변환 잠금을 해제하기 전에 완료 결과를 보여줌"
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 변환 잠금을 해제하기 전에 완료 결과를 보여줌

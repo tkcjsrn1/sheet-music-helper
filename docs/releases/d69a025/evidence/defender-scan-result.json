@@ -1,0 +1,33 @@
+{
+  "name": "defender-scan",
+  "command": [
+    "C:\\Users\\user\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:/akbo-data/tmp/merge-beta-20261023/scan-beta.py",
+    "F:/akbo-data/tmp/merge-beta-20261023/verification"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\beta-features-20261023",
+  "started": "2026-10-26T09:33:57.229691+09:00",
+  "initial": {
+    "available": 2994548736,
+    "commit_headroom": 11811504128,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 184524800,
+  "peak_sampled_private": 128995328,
+  "peak_job_commit": 129282048,
+  "min_available": 2847858688,
+  "min_commit_headroom": 11646046208,
+  "max_processes": 7,
+  "samples": 51,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 10.048,
+  "finished": "2026-10-26T09:34:07.277813+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

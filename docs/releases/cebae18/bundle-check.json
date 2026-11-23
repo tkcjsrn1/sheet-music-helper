@@ -1,0 +1,9 @@
+{
+  "winsound": {
+    "raw_bytes": 33112,
+    "compressed_bytes": 18148
+  },
+  "previous_exe_bytes": 118598617,
+  "total_exe_delta": 47919,
+  "pdf_libraries_excluded": true
+}

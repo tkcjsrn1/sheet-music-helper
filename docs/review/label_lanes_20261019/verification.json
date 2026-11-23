@@ -1,0 +1,139 @@
+[
+  {
+    "before_png": "output\\label-lanes-current-20261020\\chopin_Db_p1\\before\\chopin_Db_p1_계이름.png",
+    "default_png": "output\\label-lanes-current-20261020\\chopin_Db_p1\\default\\chopin_Db_p1_계이름.png",
+    "json_reference": "015908d actual exe",
+    "before_renderer_commit": "6ecc797^1",
+    "lane_status": {
+      "applied": false,
+      "message": "계이름 줄 공간이 부족해 이 쪽 전체를 음표 옆으로 표시했습니다."
+    },
+    "case": "chopin_Db_p1",
+    "labels": 262,
+    "json_sha256": "24033f938654667f251ed4856b59671f1a602333ecf471f6532d3b896b316037",
+    "json_raw_bytes_equal": true,
+    "source_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+    "source_bytes_equal": true,
+    "input_objects_equal": true,
+    "default_png_bytes_equal": true,
+    "lane_labels": 0,
+    "moved_labels": 0,
+    "lane_staffs": [],
+    "fallback_staffs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "staff_label_counts": {
+      "0": 9,
+      "1": 37,
+      "2": 14,
+      "3": 36,
+      "4": 24,
+      "5": 36,
+      "6": 70,
+      "7": 36
+    },
+    "source_pixels_worsened": 0,
+    "png": "output\\label-lanes-current-20261020\\chopin_Db_p1\\lanes\\chopin_Db_p1_계이름.png"
+  },
+  {
+    "before_png": "output\\label-lanes-current-20261020\\aoharu_p1\\before\\KakaoTalk_20260731_162400402_계이름.png",
+    "default_png": "output\\label-lanes-current-20261020\\aoharu_p1\\default\\KakaoTalk_20260731_162400402_계이름.png",
+    "json_reference": "015908d actual exe",
+    "before_renderer_commit": "6ecc797^1",
+    "lane_status": {
+      "applied": false,
+      "message": "계이름 줄 공간이 부족해 이 쪽 전체를 음표 옆으로 표시했습니다."
+    },
+    "case": "aoharu_p1",
+    "labels": 226,
+    "json_sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+    "json_raw_bytes_equal": true,
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "source_bytes_equal": true,
+    "input_objects_equal": true,
+    "default_png_bytes_equal": true,
+    "lane_labels": 0,
+    "moved_labels": 0,
+    "lane_staffs": [],
+    "fallback_staffs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "staff_label_counts": {
+      "0": 16,
+      "1": 12,
+      "2": 21,
+      "3": 17,
+      "4": 17,
+      "5": 16,
+      "6": 21,
+      "7": 20,
+      "8": 21,
+      "9": 30,
+      "10": 20,
+      "11": 15
+    },
+    "source_pixels_worsened": 0,
+    "png": "output\\label-lanes-current-20261020\\aoharu_p1\\lanes\\KakaoTalk_20260731_162400402_계이름.png"
+  },
+  {
+    "before_png": "output\\label-lanes-current-20261020\\bach_p1\\before\\bach_p1_계이름.png",
+    "default_png": "output\\label-lanes-current-20261020\\bach_p1\\default\\bach_p1_계이름.png",
+    "json_reference": "015908d actual exe",
+    "before_renderer_commit": "6ecc797^1",
+    "lane_status": {
+      "applied": false,
+      "message": "계이름 줄 공간이 부족해 이 쪽 전체를 음표 옆으로 표시했습니다."
+    },
+    "case": "bach_p1",
+    "labels": 182,
+    "json_sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4",
+    "json_raw_bytes_equal": true,
+    "source_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+    "source_bytes_equal": true,
+    "input_objects_equal": true,
+    "default_png_bytes_equal": true,
+    "lane_labels": 0,
+    "moved_labels": 0,
+    "lane_staffs": [],
+    "fallback_staffs": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "staff_label_counts": {
+      "0": 26,
+      "1": 23,
+      "2": 25,
+      "3": 20,
+      "4": 23,
+      "5": 24,
+      "6": 19,
+      "7": 22
+    },
+    "source_pixels_worsened": 0,
+    "png": "output\\label-lanes-current-20261020\\bach_p1\\lanes\\bach_p1_계이름.png"
+  }
+]

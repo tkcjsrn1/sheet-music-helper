@@ -1,0 +1,28 @@
+test_diagnostics_follow_note_order (__main__.ConfidenceValueTests.test_diagnostics_follow_note_order) ... ok
+test_cli_options_dispatch_to_main (__main__.ExeEntryPointTests.test_cli_options_dispatch_to_main) ... ok
+test_closed_terminal_input_does_not_fail_after_conversion (__main__.ExeEntryPointTests.test_closed_terminal_input_does_not_fail_after_conversion) ... ok
+test_selftest_writes_png_and_json_and_returns_status (__main__.ExeEntryPointTests.test_selftest_writes_png_and_json_and_returns_status) ... ok
+test_single_dropped_file_keeps_gui (__main__.ExeEntryPointTests.test_single_dropped_file_keeps_gui) ... ok
+test_staff_count_confirmation_asks_for_source_check (__main__.ExeEntryPointTests.test_staff_count_confirmation_asks_for_source_check) ... ok
+test_user_message_uses_plain_staff_wording (__main__.ExeEntryPointTests.test_user_message_uses_plain_staff_wording) ... ok
+test_windowed_cli_does_not_wait_for_hidden_input (__main__.ExeEntryPointTests.test_windowed_cli_does_not_wait_for_hidden_input) ... ok
+test_windowed_cli_reconfigures_cp949_output (__main__.ExeEntryPointTests.test_windowed_cli_reconfigures_cp949_output) ... ok
+test_checkbox_value_is_used_for_each_conversion (__main__.GuiPhotoModeTests.test_checkbox_value_is_used_for_each_conversion) ... ok
+test_default_off_keeps_original_preprocess_call (__main__.GuiPhotoModeTests.test_default_off_keeps_original_preprocess_call) ... ok
+test_on_rejection_shows_retake_message (__main__.GuiPhotoModeTests.test_on_rejection_shows_retake_message) ... ok
+test_accepts_documented_key_formats (__main__.KeyOverrideValidationTests.test_accepts_documented_key_formats) ... ok
+test_cli_rejects_invalid_key_before_creating_output (__main__.KeyOverrideValidationTests.test_cli_rejects_invalid_key_before_creating_output) ... ok
+test_gui_marks_invalid_key_with_red_border_and_hint (__main__.KeyOverrideValidationTests.test_gui_marks_invalid_key_with_red_border_and_hint) ... ok
+test_rejects_trailing_junk_and_unknown_letters (__main__.KeyOverrideValidationTests.test_rejects_trailing_junk_and_unknown_letters) ... ok
+test_resolve_tonic_validates_before_using_override (__main__.KeyOverrideValidationTests.test_resolve_tonic_validates_before_using_override) ... ok
+test_default_path_uses_page_specific_base_name (__main__.LabelOutputPathTests.test_default_path_uses_page_specific_base_name) ... ok
+test_explicit_path_gets_page_suffix (__main__.LabelOutputPathTests.test_explicit_path_gets_page_suffix) ... ok
+test_explicit_single_page_path_is_unchanged (__main__.LabelOutputPathTests.test_explicit_single_page_path_is_unchanged) ... ok
+test_relabel_passes_saved_confidences_to_renderer (__main__.RelabelSourceGuardTests.test_relabel_passes_saved_confidences_to_renderer) ... ok
+test_relabel_stops_when_data_layer_rejects_source (__main__.RelabelSourceGuardTests.test_relabel_stops_when_data_layer_rejects_source) ... ok
+
+----------------------------------------------------------------------
+Ran 22 tests in 23.925s
+
+OK
+[중단][재렌더링] 다른 원본입니다

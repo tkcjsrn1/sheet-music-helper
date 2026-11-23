@@ -1,0 +1,38 @@
+{
+  "captured_at": "2026-10-13T22:45:46.3320765+09:00",
+  "processes": [
+    {
+      "ProcessId": 6272,
+      "ParentProcessId": 9188,
+      "Name": "악보헬퍼.exe",
+      "CreationDate": "2026-10-13T22:37:49.55801+09:00",
+      "ExecutablePath": "F:\\sheet-music-helper-codex-night-20261004\\dist\\1cbc0d8ec1b0-20261013-213610-292925\\악보헬퍼.exe"
+    },
+    {
+      "ProcessId": 33580,
+      "ParentProcessId": 6272,
+      "Name": "악보헬퍼.exe",
+      "CreationDate": "2026-10-13T22:38:08.757068+09:00",
+      "ExecutablePath": "F:\\sheet-music-helper-codex-night-20261004\\dist\\1cbc0d8ec1b0-20261013-213610-292925\\악보헬퍼.exe"
+    },
+    {
+      "ProcessId": 15156,
+      "ParentProcessId": 1396,
+      "Name": "smartscreen.exe",
+      "CreationDate": "2026-10-13T22:45:10.175963+09:00",
+      "ExecutablePath": "C:\\Windows\\System32\\smartscreen.exe"
+    }
+  ],
+  "windows": [
+    {
+      "Id": 18632,
+      "ProcessName": "pwsh",
+      "MainWindowTitle": "파일 열기 - 보안 경고"
+    },
+    {
+      "Id": 33580,
+      "ProcessName": "악보헬퍼",
+      "MainWindowTitle": "악보헬퍼 - 계이름 자동 표기"
+    }
+  ]
+}

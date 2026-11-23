@@ -1,0 +1,14 @@
+{
+  "commit": "dff19b286022f736ef9e53bf74bc32abe98114a2",
+  "exe_path": "C:\\Users\\user\\Desktop\\악보헬퍼\\dist\\dff19b286022-20261004-010104-873552\\악보헬퍼.exe",
+  "exe_bytes": 118598617,
+  "exe_sha256": "8FD6AA1683D97A7A059457C9C810C29F1A28DAFBD06408E9A0B40F6CE2EFF5A2",
+  "zip_path": "C:\\Users\\user\\Desktop\\악보헬퍼\\dist\\악보헬퍼-dff19b286022-20261004-010104-873552.zip",
+  "zip_bytes": 124647870,
+  "zip_sha256": "7B91BACF499D45F33F562150A3448D4F224E206B8742EE2C333533DFE235FDAB",
+  "copy_verified": true,
+  "free_before_copy": 497422336,
+  "required_copy_bytes": 243327036,
+  "free_after_copy": 252944384,
+  "folder_zip_five_files_equal": true
+}

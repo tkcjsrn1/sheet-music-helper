@@ -1,0 +1,15 @@
+{
+  "build_commit": "d69a025a063f9beb7797b4966509d18c7de5f3c4",
+  "verification_status": "automated_passed_user_checks_pending",
+  "exe": {
+    "path": "F:\\akbo-data\\tmp\\beta-features-20261023\\dist\\d69a025a063f-20261023-200643-946483\\악보헬퍼.exe",
+    "bytes": 118733009,
+    "sha256": "ADFFEAAD334C794750DD2F24E376110A7FDD89E7528C74D1D601D0F5BD4AD2F1"
+  },
+  "zip": {
+    "path": "F:\\akbo-data\\tmp\\beta-features-20261023\\dist\\악보헬퍼-d69a025a063f-20261023-200643-946483.zip",
+    "bytes": 124900964,
+    "sha256": "301741853B9114AF06F6915270BC11B1735681308B689A5B890F7B7F570FD61B"
+  },
+  "actions_url": "https://github.com/tkcjsrn1/sheet-music-helper/actions/runs/39943689610"
+}

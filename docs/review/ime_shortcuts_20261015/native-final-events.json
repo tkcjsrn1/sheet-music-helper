@@ -1,0 +1,1668 @@
+[
+  {
+    "stage": "before_send",
+    "vk": 144,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "Num_Lock",
+    "keycode": 144,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "Num_Lock",
+    "keycode": 144,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -128,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": -127
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "p",
+    "keycode": 80,
+    "char": "p",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 112,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 1
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "p",
+    "keycode": 80,
+    "char": "p",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "p",
+    "keycode": 80,
+    "char": "p",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "case_pass",
+    "native": false,
+    "numlock": false,
+    "input_guard": true
+  },
+  {
+    "stage": "before_send",
+    "vk": 21,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -128,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12636,
+    "char": "ㅜ",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12636,
+    "char": "ㅜ",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": -127
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 112,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -128,
+      "80": 1
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -128,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 0,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 0,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "case_pass",
+    "native": true,
+    "numlock": false,
+    "input_guard": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 0,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "before_send",
+    "vk": 144,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": false
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "Num_Lock",
+    "keycode": 144,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "Num_Lock",
+    "keycode": 144,
+    "char": "",
+    "state": 0,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 21,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -128,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": -127
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "p",
+    "keycode": 80,
+    "char": "p",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 112,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 1
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "n",
+    "keycode": 78,
+    "char": "n",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "p",
+    "keycode": 80,
+    "char": "p",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "p",
+    "keycode": 80,
+    "char": "p",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "case_pass",
+    "native": false,
+    "numlock": true,
+    "input_guard": true
+  },
+  {
+    "stage": "before_send",
+    "vk": 21,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": false,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -128,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12636,
+    "char": "ㅜ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12636,
+    "char": "ㅜ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": -127
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 112,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "F1",
+    "keycode": 112,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 78,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -128,
+      "80": 1
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -128,
+      "80": 1
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "before_send",
+    "vk": 80,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry",
+    "tk_class": "Entry",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 0,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 1
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 0,
+      "80": -128
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "case_pass",
+    "native": true,
+    "numlock": true,
+    "input_guard": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 0,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12638,
+    "char": "ㅞ",
+    "state": 8,
+    "tk_focus": ".!ctkframe.!ctkframe2.!canvas.!ctkscrollableframe.!ctkframe.!ctkentry.!entry"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 1,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12636,
+    "char": "ㅜ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": -127,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 12636,
+    "char": "ㅜ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "held_n_other_m_pass",
+    "review": 0
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "1",
+    "keycode": 12641,
+    "char": "ㅡ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": null,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "1",
+    "keycode": 12641,
+    "char": "ㅡ",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "before_send",
+    "vk": 21,
+    "foreground": 1902894,
+    "expected": 1902894,
+    "pid": 24328,
+    "expected_pid": 24328,
+    "tk_focus": ".!ctkframe2.!canvas",
+    "tk_class": "Canvas",
+    "native": true,
+    "numlock": true
+  },
+  {
+    "stage": "received",
+    "handler": "_review_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  },
+  {
+    "stage": "received",
+    "handler": "_help_shortcut",
+    "ime_virtual_key": 229,
+    "queued_np": {
+      "78": 1,
+      "80": 0
+    },
+    "async_np": {
+      "78": 0,
+      "80": 0
+    },
+    "keysym": "??",
+    "keycode": 229,
+    "char": "",
+    "state": 8,
+    "tk_focus": ".!ctkframe2.!canvas"
+  }
+]

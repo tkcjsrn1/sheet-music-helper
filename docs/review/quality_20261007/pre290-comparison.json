@@ -1,0 +1,406 @@
+[
+  {
+    "dx": 0.25,
+    "truth": {
+      "cx": 916.25,
+      "cy": 496.0,
+      "pitch": "E5"
+    },
+    "before": null,
+    "before_nearest_label": {
+      "id": "s0-p8-x162",
+      "staff": 0,
+      "x": 913,
+      "y": 490,
+      "nx": 80.796,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s0-p8-x162",
+      "staff": 0,
+      "x": 913,
+      "y": 491,
+      "nx": 80.796,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    "after_nearest_label": {
+      "id": "s0-p8-x162",
+      "staff": 0,
+      "x": 913,
+      "y": 491,
+      "nx": 80.796,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    }
+  },
+  {
+    "dx": 0.25,
+    "truth": {
+      "cx": 875.25,
+      "cy": 868.0,
+      "pitch": "G3"
+    },
+    "before": {
+      "id": "s3-p7-x152",
+      "staff": 3,
+      "x": 875,
+      "y": 868,
+      "nx": 76.087,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    "before_nearest_label": {
+      "id": "s3-p7-x152",
+      "staff": 3,
+      "x": 875,
+      "y": 868,
+      "nx": 76.087,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    "after": {
+      "id": "s3-p7-x152",
+      "staff": 3,
+      "x": 875,
+      "y": 868,
+      "nx": 76.087,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    "after_nearest_label": {
+      "id": "s3-p7-x152",
+      "staff": 3,
+      "x": 875,
+      "y": 868,
+      "nx": 76.087,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  },
+  {
+    "dx": 0.25,
+    "truth": {
+      "cx": 875.25,
+      "cy": 1416.0,
+      "pitch": "F2"
+    },
+    "before": {
+      "id": "s7-p-2-x156",
+      "staff": 7,
+      "x": 871,
+      "y": 1418,
+      "nx": 77.768,
+      "pitch": "E2",
+      "step": -2,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "before_nearest_label": {
+      "id": "s7-p-2-x156",
+      "staff": 7,
+      "x": 871,
+      "y": 1418,
+      "nx": 77.768,
+      "pitch": "E2",
+      "step": -2,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s7-p-2-x156",
+      "staff": 7,
+      "x": 871,
+      "y": 1418,
+      "nx": 77.768,
+      "pitch": "E2",
+      "step": -2,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "after_nearest_label": {
+      "id": "s7-p-2-x156",
+      "staff": 7,
+      "x": 871,
+      "y": 1418,
+      "nx": 77.768,
+      "pitch": "E2",
+      "step": -2,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    }
+  },
+  {
+    "dx": 0.5,
+    "truth": {
+      "cx": 916.5,
+      "cy": 496.0,
+      "pitch": "E5"
+    },
+    "before": null,
+    "before_nearest_label": {
+      "id": "s0-p8-x162",
+      "staff": 0,
+      "x": 913,
+      "y": 489,
+      "nx": 80.796,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s0-p8-x162",
+      "staff": 0,
+      "x": 913,
+      "y": 491,
+      "nx": 80.796,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    "after_nearest_label": {
+      "id": "s0-p8-x162",
+      "staff": 0,
+      "x": 913,
+      "y": 491,
+      "nx": 80.796,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    }
+  },
+  {
+    "dx": 0.5,
+    "truth": {
+      "cx": 875.5,
+      "cy": 868.0,
+      "pitch": "G3"
+    },
+    "before": {
+      "id": "s3-p6-x152",
+      "staff": 3,
+      "x": 873,
+      "y": 870,
+      "nx": 75.913,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    "before_nearest_label": {
+      "id": "s3-p6-x152",
+      "staff": 3,
+      "x": 873,
+      "y": 870,
+      "nx": 75.913,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s3-p6-x152",
+      "staff": 3,
+      "x": 873,
+      "y": 870,
+      "nx": 75.913,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    "after_nearest_label": {
+      "id": "s3-p6-x152",
+      "staff": 3,
+      "x": 873,
+      "y": 870,
+      "nx": 75.913,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    }
+  },
+  {
+    "dx": 0.5,
+    "truth": {
+      "cx": 875.5,
+      "cy": 1416.0,
+      "pitch": "F2"
+    },
+    "before": {
+      "id": "s7-p-1-x156",
+      "staff": 7,
+      "x": 876,
+      "y": 1416,
+      "nx": 78.214,
+      "pitch": "F2",
+      "step": -1,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "before_nearest_label": {
+      "id": "s7-p-1-x156",
+      "staff": 7,
+      "x": 876,
+      "y": 1416,
+      "nx": 78.214,
+      "pitch": "F2",
+      "step": -1,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s7-p-1-x156",
+      "staff": 7,
+      "x": 876,
+      "y": 1416,
+      "nx": 78.214,
+      "pitch": "F2",
+      "step": -1,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "after_nearest_label": {
+      "id": "s7-p-1-x156",
+      "staff": 7,
+      "x": 876,
+      "y": 1416,
+      "nx": 78.214,
+      "pitch": "F2",
+      "step": -1,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    }
+  }
+]

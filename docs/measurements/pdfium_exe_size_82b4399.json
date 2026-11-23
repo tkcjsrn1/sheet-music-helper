@@ -1,0 +1,24 @@
+{
+  "commit": "82b43996fab76907697160899d22eb6e6accd1d4",
+  "variants": [
+    {
+      "kind": "base",
+      "bytes": 118597326,
+      "sha256": "8beee7439cbab990faaceffe256efc4b8a8bf1def15ee23989bb458a244f4184",
+      "pdfium_dll": [],
+      "license_files": 0
+    },
+    {
+      "kind": "pdfium",
+      "bytes": 122517214,
+      "sha256": "7c55876a5d137510394e644b24efc3ba82841613b0c9ae9c088e0938038a74b5",
+      "pdfium_dll": [
+        "pypdfium2_raw/pdfium.dll"
+      ],
+      "license_files": 19
+    }
+  ],
+  "complete": true,
+  "delta_bytes": 3919888,
+  "trial_only": true
+}

@@ -1,0 +1,34 @@
+{
+  "name": "계측기 확인",
+  "command": [
+    "C:\\Users\\user\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-I",
+    "-B",
+    "-c",
+    "import subprocess,sys; a=bytearray(32*1024**2); subprocess.check_call([sys.executable,\"-I\",\"-B\",\"-c\",'import time; a=bytearray(32*1024**2); time.sleep(1)'])"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\codex-memory-20261023",
+  "started": "2026-10-23T18:57:54.629325+09:00",
+  "initial": {
+    "available": 3800842240,
+    "commit_headroom": 12519161856,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 128909312,
+  "peak_sampled_private": 94179328,
+  "peak_job_commit": 94232576,
+  "min_available": 3700252672,
+  "min_commit_headroom": 12410781696,
+  "max_processes": 7,
+  "samples": 11,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 2.063,
+  "finished": "2026-10-23T18:57:56.693238+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

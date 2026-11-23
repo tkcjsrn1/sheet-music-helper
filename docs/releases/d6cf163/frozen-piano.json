@@ -1,0 +1,16 @@
+{
+  "exe": "F:\\sheet-music-helper-codex-night-20261004\\dist\\d6cf163eea02-20261007-160020-688938\\악보헬퍼.exe",
+  "frozen_piano_code_present": true,
+  "frozen_piano_api_success": true,
+  "winmm_not_bundled": true,
+  "additional_sample_files": false,
+  "exe_gui_playback_verified": false,
+  "speaker_verified": false,
+  "previous_exe_bytes": 118677381,
+  "exe_bytes": 118659162,
+  "exe_size_delta_bytes": -18219,
+  "archive_added": [],
+  "archive_removed": [
+    "winsound.pyd"
+  ]
+}

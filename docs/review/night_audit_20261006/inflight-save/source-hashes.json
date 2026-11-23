@@ -1,0 +1,10 @@
+{
+  "files": {
+    "gui.py": "7c009412a848940c4dd0a3cdd9ba525a87cc844bda5ca65011910d8bb5a293bb",
+    "tests/test_gui_snapshot.py": "f76f6cdf7028554013f4d88f810ea78b36374cfd83644f54eb18ed6b07e444b3",
+    "tests/test_feedback_bundle.py": "0dbdbc5b81d5a92650e4fef1198cb8abae1d5ee0dfc5388a6e82dfabbfdf9e3e",
+    "tests/run_all.py": "97b69a9c0e44002167bbc204c1cfec950f8fd064f5c95818d1eb69490a56b732"
+  },
+  "baseline": "17e8f57ba6ec64d5e128497ddabe4206e728c2b6",
+  "end_matches_start": true
+}

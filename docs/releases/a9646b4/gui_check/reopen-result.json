@@ -1,0 +1,30 @@
+{
+  "before_gui_pid": 32268,
+  "after_gui_pid": 30912,
+  "labels": 327,
+  "edits": 1,
+  "exported_json_equal": true,
+  "changes_equal": true,
+  "pixels_equal": true,
+  "saved_files_unchanged": true,
+  "edited_index": 88,
+  "edited_label": {
+    "id": "s4-p6-x59",
+    "staff": 4,
+    "x": 338,
+    "y": 810,
+    "nx": 29.391,
+    "pitch": "D5",
+    "step": 6,
+    "accidental": null,
+    "text": "레#",
+    "confidence": "caution",
+    "flags": [
+      "vertical_blocked"
+    ],
+    "edited": true
+  },
+  "settings_unchanged_except_folder": true,
+  "exe_sha256": "A7671CAF5505F70AEC3E8C2EA92118C6438B554CEE67B340B2679ED226C5339F",
+  "native_helper_sha256": "a64a37c0b6390a66ab38e3e441cbe130f09ff33f6177ea140948721d37446170"
+}

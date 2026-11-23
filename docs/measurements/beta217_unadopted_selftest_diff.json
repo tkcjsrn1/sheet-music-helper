@@ -1,0 +1,104 @@
+[
+  {
+    "case": "aoharu_p1",
+    "before_labels": 226,
+    "after_labels": 226,
+    "added": [],
+    "deleted": [],
+    "changed": []
+  },
+  {
+    "case": "chopin_Db_p1",
+    "before_labels": 254,
+    "after_labels": 255,
+    "added": [
+      {
+        "id": "s6-p4-x243",
+        "staff": 6,
+        "x": 2332,
+        "y": 2838,
+        "nx": 121.458,
+        "pitch": "B4",
+        "step": 4,
+        "accidental": "b",
+        "text": "시b",
+        "confidence": "check",
+        "flags": [
+          "vertical_blocked",
+          "accidental_unstable"
+        ],
+        "edited": false
+      }
+    ],
+    "deleted": [],
+    "changed": [
+      {
+        "before": {
+          "id": "s6-p5-x243",
+          "staff": 6,
+          "x": 2335,
+          "y": 2828,
+          "nx": 121.615,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": "#",
+          "text": "도#",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "accidental_candidate",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        },
+        "after": {
+          "id": "s6-p5-x243",
+          "staff": 6,
+          "x": 2335,
+          "y": 2828,
+          "nx": 121.615,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": "#",
+          "text": "도#",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "chord_rescue_added"
+          ],
+          "edited": false
+        }
+      },
+      {
+        "before": {
+          "id": "s6-p3-x245",
+          "staff": 6,
+          "x": 2352,
+          "y": 2850,
+          "nx": 122.5,
+          "pitch": "A4",
+          "step": 3,
+          "accidental": "b",
+          "text": "라b",
+          "confidence": "certain",
+          "flags": [],
+          "edited": false
+        },
+        "after": {
+          "id": "s6-p3-x245",
+          "staff": 6,
+          "x": 2352,
+          "y": 2850,
+          "nx": 122.5,
+          "pitch": "A4",
+          "step": 3,
+          "accidental": null,
+          "text": "라b",
+          "confidence": "certain",
+          "flags": [],
+          "edited": false
+        }
+      }
+    ]
+  }
+]

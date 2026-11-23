@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_windows_ime_process_key_keeps_input_and_ignores_late_text (__main__.ReviewNavigationTests.test_windows_ime_process_key_keeps_input_and_ignores_late_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 228, in test_windows_ime_process_key_keeps_input_and_ignores_late_text
+    app._review_shortcut(event);self.assertEqual(app._review_index,1)
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 1
+
+----------------------------------------------------------------------
+Ran 1 test in 3.803s
+
+FAILED (failures=1)

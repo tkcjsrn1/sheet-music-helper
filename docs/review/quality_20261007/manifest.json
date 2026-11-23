@@ -1,0 +1,12 @@
+{
+  "base_commit": "52af96a09bc08e38aafa84023aceaafab7d12168",
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "opencv": "5.0.0",
+  "raw_errors_sha256": "0e9ababc51ac94c63878d9847577062e5cf7bb3cc0b19715bbb6812e8c2c23ab",
+  "gzip_errors_sha256": "ca1f0948499eff4a64c37c903fd3b12b46868c43e288b2846ce164e6283468d4",
+  "gzip_bytes": 126921,
+  "source_script": "tools/measure_quality_profile.py",
+  "product_files_changed": 0,
+  "baseline_tests": "39/39 fail0 skip0",
+  "final_tests": "39/39 fail0 skip0"
+}

@@ -1,0 +1,67 @@
+{
+  "numlock_before": true,
+  "ime_before": 1,
+  "input_scope": "Aoharu p1 + Chopin Db p1 실제 GUI 선택·변환",
+  "build": "d69a025a063f9beb7797b4966509d18c7de5f3c4",
+  "launcher_pid": 21920,
+  "gui_pid": 3700,
+  "select_click": {
+    "x": 240,
+    "y": 250,
+    "actual_xy": [
+      240,
+      250
+    ],
+    "expected_root": 7408500,
+    "hit_root": 7408500,
+    "pid": 3700
+  },
+  "convert_click": {
+    "x": 240,
+    "y": 310,
+    "actual_xy": [
+      240,
+      310
+    ],
+    "expected_root": 7408500,
+    "hit_root": 7408500,
+    "pid": 3700
+  },
+  "completed": true,
+  "files": [
+    "F:\\akbo-data\\tmp\\merge-beta-20261023\\gui-new-output\\app\\output\\chopin_Db_p1_p2_계이름.png",
+    "F:\\akbo-data\\tmp\\merge-beta-20261023\\gui-new-output\\app\\output\\KakaoTalk_20260731_162400402_p1_계이름.png",
+    "F:\\akbo-data\\tmp\\merge-beta-20261023\\gui-new-output\\app\\output\\chopin_Db_p1_p2_라벨.json",
+    "F:\\akbo-data\\tmp\\merge-beta-20261023\\gui-new-output\\app\\output\\KakaoTalk_20260731_162400402_p1_라벨.json"
+  ],
+  "next_click": {
+    "x": 1147,
+    "y": 97,
+    "actual_xy": [
+      1147,
+      97
+    ],
+    "expected_root": 7408500,
+    "hit_root": 7408500,
+    "pid": 3700
+  },
+  "stage": "converted; actual next-page input and screenshots",
+  "app_ime_before": 0,
+  "korean_ime_observed": 1,
+  "f1_new_window": {
+    "hwnd": 15469898,
+    "title": "단축키 도움말",
+    "pid": 3700,
+    "rect": [
+      64,
+      64,
+      657,
+      461
+    ],
+    "cls": "TkTopLevel",
+    "visible": true
+  },
+  "f1_numlock_off": true,
+  "ime_restored": true,
+  "numlock_unchanged": true
+}

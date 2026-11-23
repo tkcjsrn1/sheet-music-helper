@@ -1,0 +1,10 @@
+{
+  "report_not_saved_while_converting": true,
+  "report_dialog_not_opened": true,
+  "export_not_saved_while_converting": true,
+  "export_dialog_not_opened": true,
+  "completed_report_has_current_png": true,
+  "completed_report_has_current_json": true,
+  "completed_export_matches_current_png": true,
+  "inputs_unchanged": true
+}

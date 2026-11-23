@@ -1,0 +1,33 @@
+{
+  "name": "#431+#412 통합 all",
+  "command": [
+    "C:\\Users\\user\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:\\akbo-data\\tmp\\merge-beta-20261023\\stages.py",
+    "all"
+  ],
+  "cwd": "F:\\sheet-music-helper-beta-cf4dd44-20261019",
+  "started": "2026-10-23T19:44:46.533465+09:00",
+  "initial": {
+    "available": 3898859520,
+    "commit_headroom": 12506431488,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 617914368,
+  "peak_sampled_private": 534962176,
+  "peak_job_commit": 553717760,
+  "min_available": 2818490368,
+  "min_commit_headroom": 11639341056,
+  "max_processes": 11,
+  "samples": 4541,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 913.42,
+  "finished": "2026-10-23T19:59:59.954254+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

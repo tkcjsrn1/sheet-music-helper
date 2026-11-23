@@ -1,0 +1,34 @@
+{
+  "name": "practice-widget",
+  "command": [
+    "C:\\Users\\user\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "tests/test_gui_piano_widget.py",
+    "--capture",
+    "F:/akbo-data/tmp/unattended-20261026/practice-captures"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\practice-controls-20261026",
+  "started": "2026-10-26T11:50:23.669937+09:00",
+  "initial": {
+    "available": 4474531840,
+    "commit_headroom": 12509450240,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 196739072,
+  "peak_sampled_private": 134434816,
+  "peak_job_commit": 149024768,
+  "min_available": 4252807168,
+  "min_commit_headroom": 12345085952,
+  "max_processes": 5,
+  "samples": 35,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 6.836,
+  "finished": "2026-10-26T11:50:30.505958+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

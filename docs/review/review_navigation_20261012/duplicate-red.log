@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_identical_labels_select_their_own_placement (__main__.ReviewNavigationTests.test_identical_labels_select_their_own_placement)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 103, in test_identical_labels_select_their_own_placement
+    self.assertIs(app._selected_preview_box(),matches[1],'둘째 라벨도 첫 상자로 이동함')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: {'note': PitchedNote(x=1300, y=1700, note_name='E', octave=4, staff_index=0), 'text': '미', 'x': 1292, 'y': 1718, 'w': 16, 'h': 15, 'gap': 18, 'side': 'below', 'want': 'below'} is not {'note': PitchedNote(x=1300, y=1700, note_name='E', octave=4, staff_index=0), 'text': '미', 'x': 1292, 'y': 1667, 'w': 16, 'h': 15, 'gap': 18, 'side': 'above', 'want': 'below'} : 둘째 라벨도 첫 상자로 이동함
+
+----------------------------------------------------------------------
+Ran 1 test in 5.529s
+
+FAILED (failures=1)

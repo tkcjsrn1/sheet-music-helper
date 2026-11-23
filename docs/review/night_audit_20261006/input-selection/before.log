@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_snapshot.py", line 54, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_snapshot.py", line 26, in main
+    assert (app.input_path,app.input_paths,app.file_label.cget('text'),app._run_request)==before_selection, '변환 중 입력 선택이 섞였습니다'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 변환 중 입력 선택이 섞였습니다

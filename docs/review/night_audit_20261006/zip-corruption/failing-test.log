@@ -1,0 +1,30 @@
+.E..
+======================================================================
+ERROR: test_bad_compression_does_not_stop_other_reports (__main__.ReplayTests.test_bad_compression_does_not_stop_other_reports)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_replay_report.py", line 89, in test_bad_compression_does_not_stop_other_reports
+    with self.assertRaises(ValueError):unpack_report(archive,root/name)
+                                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tools\replay_report.py", line 30, in unpack_report
+    old=json.loads(z.read('labels.json'))
+                   ~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\zipfile\__init__.py", line 1668, in read
+    with self.open(name, "r", pwd) as fp:
+         ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\zipfile\__init__.py", line 1777, in open
+    return ZipExtFile(zef_file, mode + 'b', zinfo, pwd, True)
+  File "C:\Python314\Lib\zipfile\__init__.py", line 958, in __init__
+    self._decompressor = _get_decompressor(self._compress_type)
+                         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\zipfile\__init__.py", line 852, in _get_decompressor
+    _check_compression(compress_type)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\zipfile\__init__.py", line 830, in _check_compression
+    raise NotImplementedError("That compression method is not supported")
+NotImplementedError: That compression method is not supported
+
+----------------------------------------------------------------------
+Ran 4 tests in 2.360s
+
+FAILED (errors=1)

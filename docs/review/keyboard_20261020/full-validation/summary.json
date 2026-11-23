@@ -1,0 +1,21 @@
+{
+  "files": 52,
+  "failed": 0,
+  "skipped": 0,
+  "golden_labels": 711,
+  "pdf_snapshot_pages": 17,
+  "snapshot_changes": 0,
+  "default_png_json_bytes_equal": 6,
+  "golden_pool": {
+    "pid": 6068,
+    "script": "F:\\sheet-music-helper-keyboard-20261020\\tests\\test_golden_regression.py",
+    "kind": "golden_pool",
+    "requested": 4,
+    "effective": 1
+  },
+  "opencv_threads": 1,
+  "min_available_bytes": 2136952832,
+  "min_available_commit": 11686158336,
+  "worker_test_sha256": "44ab0d272ab0833cce118d7f3e19b1e7f3edbc75404f5ecb3ea7f54753c0a027",
+  "feature_merge": false
+}

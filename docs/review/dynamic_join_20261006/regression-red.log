@@ -1,0 +1,52 @@
+test_subpixel_shift_does_not_reopen_the_symbol_region (__main__.HeaderSymbols.test_subpixel_shift_does_not_reopen_the_symbol_region) ... 
+  test_subpixel_shift_does_not_reopen_the_symbol_region (__main__.HeaderSymbols.test_subpixel_shift_does_not_reopen_the_symbol_region) (dx=0.5, dy=0) ... FAIL
+  test_subpixel_shift_does_not_reopen_the_symbol_region (__main__.HeaderSymbols.test_subpixel_shift_does_not_reopen_the_symbol_region) (dx=0.75, dy=0) ... FAIL
+
+======================================================================
+FAIL: test_subpixel_shift_does_not_reopen_the_symbol_region (__main__.HeaderSymbols.test_subpixel_shift_does_not_reopen_the_symbol_region) (dx=0.5, dy=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_header_symbols.py", line 71, in test_subpixel_shift_does_not_reopen_the_symbol_region
+    self.assertEqual([(r["pitch"], r["text"]) for r in first], [("F4", "파")],
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     "재표본화 뒤 첫 음의 음고·계이름이 달라졌습니다")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('E4', '미')] != [('F4', '파')]
+
+First differing element 0:
+('E4', '미')
+('F4', '파')
+
+- [('E4', '미')]
+?    ^     ^
+
++ [('F4', '파')]
+?    ^     ^
+ : 재표본화 뒤 첫 음의 음고·계이름이 달라졌습니다
+
+======================================================================
+FAIL: test_subpixel_shift_does_not_reopen_the_symbol_region (__main__.HeaderSymbols.test_subpixel_shift_does_not_reopen_the_symbol_region) (dx=0.75, dy=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_header_symbols.py", line 71, in test_subpixel_shift_does_not_reopen_the_symbol_region
+    self.assertEqual([(r["pitch"], r["text"]) for r in first], [("F4", "파")],
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                     "재표본화 뒤 첫 음의 음고·계이름이 달라졌습니다")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('E4', '미')] != [('F4', '파')]
+
+First differing element 0:
+('E4', '미')
+('F4', '파')
+
+- [('E4', '미')]
+?    ^     ^
+
++ [('F4', '파')]
+?    ^     ^
+ : 재표본화 뒤 첫 음의 음고·계이름이 달라졌습니다
+
+----------------------------------------------------------------------
+Ran 1 test in 59.207s
+
+FAILED (failures=2)

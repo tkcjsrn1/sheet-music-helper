@@ -1,0 +1,8 @@
+aoharu_p1 {'certain': 225, 'caution': 1} 소스/exe/재렌더링 픽셀과 JSON 일치
+chopin_Db_p1 {'certain': 208, 'check': 12, 'caution': 34} 소스/exe/재렌더링 픽셀과 JSON 일치
+bach_p1 {'certain': 172, 'check': 10, 'caution': 2} 소스/exe/재렌더링 픽셀과 JSON 일치
+새 폴더·settings 없음·Python 없는 PATH·exe 옆 output·ZIP5개 통과
+Traceback (most recent call last):
+  File "C:\Users\user\.codex\worktrees\pdfium-investigation\악보헬퍼\output\verify_beta_a25.py", line 74, in <module>
+    from modules.label_edits import apply_edits
+ModuleNotFoundError: No module named 'modules'

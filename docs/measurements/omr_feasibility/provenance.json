@@ -1,0 +1,37 @@
+{
+  "date": "2026-09-22",
+  "tool": "Audiveris",
+  "version": "5.11.0",
+  "installer_sha256": "5f1b4e96a12c53c7da426814b76e599363c4181e291855996e0a6878dda95f71",
+  "installer_bytes": 85062430,
+  "command": "Audiveris.exe -batch -transcribe -export -save -output <results> -- <aoharu_p1.png> <chopin_Db_p1.png>",
+  "exit_code": 1,
+  "ocr_languages": [],
+  "source_checkout_commit": "75968eec65fc92460e42041d5fb8fb82f7ff218a",
+  "source_sha256": {
+    "sample_images/KakaoTalk_20260731_162400402.png": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "test_scores/chopin_nocturne_Db_6-8.pdf": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af"
+  },
+  "inputs": [
+    {
+      "file": "aoharu_p1.png",
+      "sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "width": 1640,
+      "height": 2360
+    },
+    {
+      "file": "chopin_Db_p1.png",
+      "sha256": "6f950871295286bc2a9eee26ec996d42666f5d591d7aac3b7394673577b6e332",
+      "width": 2481,
+      "height": 3508
+    }
+  ],
+  "extractor_sha256": "556f43eeda6fa81485decce0daab77863806c8b588f05a5034e109c3543459df",
+  "files_sha256": {
+    "chopin_Db_p1.mxl": "e16728b3b50be0a534e5a368a7d8fb4d3a8db4e847ff42fd0797896e17fd9cf9",
+    "heads.tsv": "d79792d0ac66fdd65f434a385c9992658eaa19e6f3ce36d2e12a2c95acfcca32",
+    "notes.tsv": "1e4f883b8dc574106d0f38c7e8e48bb7c5212eecd0d252340f854365c9d9b0e7",
+    "run.log": "3741fa5727838cb3337e55b018b18baa2d634b7a501d2034a523d87024bd72db"
+  },
+  "scope": "실행·출력 형식 확인만. 음고 정확도/목록 매칭/OMR 좌표 변환은 미검증."
+}

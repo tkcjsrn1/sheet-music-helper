@@ -1,0 +1,17 @@
+MpCmdRun: Command Line: "C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26080.4-0\MpCmdRun.exe" -Scan -ScanType 3 -File F:\sheet-music-helper-codex-night-20261004\dist\60a854257331-20261005-002723-961638\악보헬퍼.exe
+ Start Time: ‎월 ‎10 ‎05 ‎2026 00:32:27
+
+MpEnsureProcessMitigationPolicy(0x5): hr = 0x1
+MpEnsureProcessRedirectionTrustPolicy: hr = 0
+Starting RunCommandScan.
+INFO: ScheduleJob is not set. Skipping signature update.
+Scanning path as file: F:\sheet-music-helper-codex-night-20261004\dist\60a854257331-20261005-002723-961638\악보헬퍼.exe.
+Start: MpScan(MP_FEATURE_SUPPORTED, dwOptions=1073758209, path F:\sheet-music-helper-codex-night-20261004\dist\60a854257331-20261005-002723-961638\악보헬퍼.exe, DisableRemediation = 0, BootSectorScan = 0, Timeout in days = 1)
+MpScan() started
+MpScan() was completed
+Finish: MpScanStart(MP_FEATURE_SUPPORTED, dwOptions=1073758209)
+Finish: MpScan(MP_FEATURE_SUPPORTED, dwOptions=1073758209, path F:\sheet-music-helper-codex-night-20261004\dist\60a854257331-20261005-002723-961638\악보헬퍼.exe, DisableRemediation = 0, BootSectorScan = 0, Timeout in days = 1)
+No immediate remediation is required for the found threat.Scanning F:\sheet-music-helper-codex-night-20261004\dist\60a854257331-20261005-002723-961638\악보헬퍼.exe found no threats.
+MpScan() has detected 0 threats.
+MpCmdRun: End Time: ‎월 ‎10 ‎05 ‎2026 00:32:27
+-------------------------------------------------------------------------------------

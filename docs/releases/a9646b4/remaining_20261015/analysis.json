@@ -1,0 +1,120 @@
+[
+  {
+    "name": "a964_piano",
+    "file_sha256": "52630193fa41fb807167f535db81194d937803bfe5bca1af2681767d81fc53b8",
+    "rate": 48000,
+    "channels": 2,
+    "seconds": 3.56,
+    "onset_seconds": 0.24,
+    "spectral_peaks": [
+      {
+        "hz": 1175.0,
+        "relative_to_fundamental": 1.0
+      },
+      {
+        "hz": 2355.0,
+        "relative_to_fundamental": 0.11794969894526762
+      },
+      {
+        "hz": 3575.0,
+        "relative_to_fundamental": 0.06578268913646126
+      },
+      {
+        "hz": 4815.0,
+        "relative_to_fundamental": 0.047054689146256955
+      },
+      {
+        "hz": 240.0,
+        "relative_to_fundamental": 0.02686978222784887
+      },
+      {
+        "hz": 195.0,
+        "relative_to_fundamental": 0.0258017905975335
+      },
+      {
+        "hz": 280.0,
+        "relative_to_fundamental": 0.021730416981942637
+      },
+      {
+        "hz": 265.0,
+        "relative_to_fundamental": 0.02061817160090646
+      },
+      {
+        "hz": 1240.0,
+        "relative_to_fundamental": 0.020338778718073006
+      },
+      {
+        "hz": 175.0,
+        "relative_to_fundamental": 0.018615745078124565
+      },
+      {
+        "hz": 1320.0,
+        "relative_to_fundamental": 0.01690401641787703
+      },
+      {
+        "hz": 3565.0,
+        "relative_to_fundamental": 0.01662997399572366
+      }
+    ],
+    "normalizer": "100Hz~12kHz 구간의 가장 큰 국소 피크"
+  },
+  {
+    "name": "previous_sine_control",
+    "file_sha256": "ce8ec4b8659ad5358cad65b60d0012367239ce2522a5c39fd9acfde76bab08ad",
+    "rate": 48000,
+    "channels": 2,
+    "seconds": 0.69,
+    "onset_seconds": 0.03,
+    "spectral_peaks": [
+      {
+        "hz": 1175.0,
+        "relative_to_fundamental": 1.0
+      },
+      {
+        "hz": 1230.0,
+        "relative_to_fundamental": 6.560219377741826e-05
+      },
+      {
+        "hz": 1120.0,
+        "relative_to_fundamental": 6.199304306706614e-05
+      },
+      {
+        "hz": 285.0,
+        "relative_to_fundamental": 5.1372295097173106e-05
+      },
+      {
+        "hz": 7680.0,
+        "relative_to_fundamental": 4.003287302991458e-05
+      },
+      {
+        "hz": 2900.0,
+        "relative_to_fundamental": 3.820742502798428e-05
+      },
+      {
+        "hz": 10935.0,
+        "relative_to_fundamental": 3.7271400390932936e-05
+      },
+      {
+        "hz": 160.0,
+        "relative_to_fundamental": 3.70946089015015e-05
+      },
+      {
+        "hz": 8295.0,
+        "relative_to_fundamental": 3.622300412813093e-05
+      },
+      {
+        "hz": 11665.0,
+        "relative_to_fundamental": 3.5637135341291476e-05
+      },
+      {
+        "hz": 2015.0,
+        "relative_to_fundamental": 3.5569221014183284e-05
+      },
+      {
+        "hz": 8690.0,
+        "relative_to_fundamental": 3.5285580037955606e-05
+      }
+    ],
+    "normalizer": "100Hz~12kHz 구간의 가장 큰 국소 피크"
+  }
+]

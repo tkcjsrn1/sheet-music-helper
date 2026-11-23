@@ -1,0 +1,213 @@
+{
+  "case": "phase-0.5-0",
+  "condition": "첫 실제 음표는 staff 0/1 각각 F4·파 1개",
+  "status": "실패",
+  "assertion": "AssertionError: ('phase-0.5-0', [], [0, 1])",
+  "music": {
+    "key_symbol": "♭",
+    "key_count": 1,
+    "key_letters": [
+      "B"
+    ],
+    "tonic": "",
+    "minor": false,
+    "notation": "solfege"
+  },
+  "labels": 227,
+  "header_symbol_labels": [],
+  "source_exe_json_equal": true,
+  "source_exe_png_bytes_equal": true,
+  "source_exe_pixels_equal": true,
+  "source_json_sha256": "e7c4411254ae4ec212acb3d535524327abcc4eb8155958023f8e6e593f1aa81a",
+  "exe_json_sha256": "e7c4411254ae4ec212acb3d535524327abcc4eb8155958023f8e6e593f1aa81a",
+  "targets": [
+    {
+      "case": "beethoven_op18no1_bravura_p1",
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "staff0": {
+        "id": 0,
+        "clef": "treble",
+        "line_ys": [
+          176.0,
+          194.0,
+          212.0,
+          230.0,
+          248.0
+        ],
+        "spacing": 18.0,
+        "top": 176.0,
+        "bottom": 248.0,
+        "bottom_fit": 248.0
+      },
+      "labels": [
+        {
+          "id": "s0-p1-x45",
+          "staff": 0,
+          "x": 406,
+          "y": 243,
+          "nx": 22.556,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p1-x45",
+          "staff": 1,
+          "x": 407,
+          "y": 419,
+          "nx": 22.611,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "certain",
+          "flags": [],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "case": "phase-0.25-0",
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "staff0": {
+        "id": 0,
+        "clef": "treble",
+        "line_ys": [
+          176.0,
+          194.0,
+          212.0,
+          230.0,
+          248.0
+        ],
+        "spacing": 18.0,
+        "top": 176.0,
+        "bottom": 248.0,
+        "bottom_fit": 248.0
+      },
+      "labels": [
+        {
+          "id": "s0-p1-x45",
+          "staff": 0,
+          "x": 407,
+          "y": 243,
+          "nx": 22.611,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p1-x45",
+          "staff": 1,
+          "x": 407,
+          "y": 419,
+          "nx": 22.611,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "certain",
+          "flags": [],
+          "edited": false
+        }
+      ]
+    },
+    {
+      "case": "phase-0.5-0",
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "staff0": {
+        "id": 0,
+        "clef": "treble",
+        "line_ys": [
+          176.0,
+          194.0,
+          212.0,
+          230.0,
+          248.0
+        ],
+        "spacing": 18.0,
+        "top": 176.0,
+        "bottom": 248.0,
+        "bottom_fit": 248.0
+      },
+      "labels": [
+        {
+          "id": "s0-p0-x45",
+          "staff": 0,
+          "x": 407,
+          "y": 244,
+          "nx": 22.611,
+          "pitch": "E4",
+          "step": 0,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked",
+            "snap_residual"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p1-x45",
+          "staff": 1,
+          "x": 408,
+          "y": 419,
+          "nx": 22.667,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "certain",
+          "flags": [],
+          "edited": false
+        }
+      ]
+    }
+  ],
+  "not_run": [
+    "phase-0.75-0",
+    "phase-0-0.5",
+    "phase-0.5-0.5"
+  ]
+}

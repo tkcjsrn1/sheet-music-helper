@@ -1,0 +1,13 @@
+{
+  "red_reproduced": true,
+  "green": true,
+  "full": true,
+  "min_available_bytes": 3670917120,
+  "tested_base": "0542270bd8a62662327a141de6fc8f393a969c70",
+  "joined_main": "253d368178ee1b89476ab18745e6f5279c8f508e",
+  "full_summary": "48개 중 통과 48 · 건너뜀 0 · 실패 0",
+  "test_sha256": "adf806d61f62b397f6766538bc322a226ba6a047191d54ae1c2052c8658fb188",
+  "runtime": "test_golden_regression.py의 ThreadPoolExecutor만 워커1로 제한; 검사 목록·assert 수정0",
+  "product_changed": false,
+  "review": "읽기 전용 review_progress_wait: 중요지적0"
+}

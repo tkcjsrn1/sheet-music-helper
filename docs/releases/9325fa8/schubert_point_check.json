@@ -1,0 +1,21 @@
+{
+  "build_commit": "9325fa885ece138a5e6c4e995a761162c33557d7",
+  "exe_sha256": "0BF07478A6C1C56C942894461E00082FB45957F16B2B4DF9A8E60A46780FC830",
+  "labels_sha256": "26cdad1447604e26544a494b04d437eed6d7e132f54407a3f3f66d61f4941422",
+  "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+  "label": {
+    "id": "s6-p0-x67",
+    "staff": 6,
+    "x": 606,
+    "y": 1522,
+    "nx": 33.667,
+    "pitch": "E4",
+    "step": 0,
+    "accidental": null,
+    "text": "미",
+    "confidence": "certain",
+    "flags": [],
+    "edited": false
+  },
+  "description": "해당 빌드 실제 exe selftest 결과 JSON의 좌표 검사. GUI 직접 클릭은 미시도."
+}

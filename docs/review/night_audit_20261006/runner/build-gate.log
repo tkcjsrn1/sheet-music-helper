@@ -1,0 +1,12 @@
+test_package_contains_user_docs_but_not_personal_settings (__main__.DistributionPackageTests.test_package_contains_user_docs_but_not_personal_settings) ... ok
+test_packaged_file_picker_excludes_pdf_and_all_files (__main__.DistributionPackageTests.test_packaged_file_picker_excludes_pdf_and_all_files) ... ok
+test_missing_exclusion_assets_or_version_stops_before_build (__main__.SpecGateTests.test_missing_exclusion_assets_or_version_stops_before_build) ... ok
+test_static_check_does_not_execute_spec (__main__.SpecGateTests.test_static_check_does_not_execute_spec) ... ok
+test_accepts_variable_nonzero_test_counts (__main__.TestResultGateTests.test_accepts_variable_nonzero_test_counts) ... ok
+test_rejects_failure_empty_or_inconsistent_summary (__main__.TestResultGateTests.test_rejects_failure_empty_or_inconsistent_summary) ... ok
+test_rejects_skip_even_when_runner_exits_zero (__main__.TestResultGateTests.test_rejects_skip_even_when_runner_exits_zero) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.049s
+
+OK

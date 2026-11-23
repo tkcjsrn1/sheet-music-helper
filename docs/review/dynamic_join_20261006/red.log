@@ -1,0 +1,26 @@
+test_dynamic_below_first_note_does_not_change_F4_to_E4 (__main__.PhasePitch.test_dynamic_below_first_note_does_not_change_F4_to_E4) ... FAIL
+
+======================================================================
+FAIL: test_dynamic_below_first_note_does_not_change_F4_to_E4 (__main__.PhasePitch.test_dynamic_below_first_note_does_not_change_F4_to_E4)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\dynamic-join-fix-20261006\test_phase_pitch.py", line 22, in test_dynamic_below_first_note_does_not_change_F4_to_E4
+    self.assertEqual([(r['pitch'],r['text']) for r in first],[('F4','파')],first)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [('E4', '미')] != [('F4', '파')]
+
+First differing element 0:
+('E4', '미')
+('F4', '파')
+
+- [('E4', '미')]
+?    ^     ^
+
++ [('F4', '파')]
+?    ^     ^
+ : [{'id': 's0-p0-x45', 'staff': 0, 'x': 407, 'y': 244, 'nx': 22.611, 'pitch': 'E4', 'step': 0, 'accidental': None, 'text': '미', 'confidence': 'caution', 'flags': ['vertical_blocked', 'snap_residual'], 'edited': False}]
+
+----------------------------------------------------------------------
+Ran 1 test in 38.603s
+
+FAILED (failures=1)

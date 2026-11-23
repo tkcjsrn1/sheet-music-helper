@@ -1,0 +1,20 @@
+{
+  "case": "schubert_restored",
+  "source": "실제 새 exe JSON 전체행",
+  "labels": [
+    {
+      "id": "s6-p0-x67",
+      "staff": 6,
+      "x": 606,
+      "y": 1522,
+      "nx": 33.667,
+      "pitch": "E4",
+      "step": 0,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  ]
+}

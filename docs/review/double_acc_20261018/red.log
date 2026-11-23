@@ -1,0 +1,365 @@
+test_batch_consumes_final_values_without_propagating_or_mutating (__main__.DoubleAccidentalTests.test_batch_consumes_final_values_without_propagating_or_mutating) ... FAIL
+test_check_exclusion_still_applies_and_user_confirmation_can_override (__main__.DoubleAccidentalTests.test_check_exclusion_still_applies_and_user_confirmation_can_override) ... FAIL
+test_double_flag_alone_never_promotes_a_single_or_a_missing_value (__main__.DoubleAccidentalTests.test_double_flag_alone_never_promotes_a_single_or_a_missing_value) ... ok
+test_edited_text_wins_without_destroying_original_double_or_grade (__main__.DoubleAccidentalTests.test_edited_text_wins_without_destroying_original_double_or_grade) ... ERROR
+test_explicit_double_replaces_the_key_signature (__main__.DoubleAccidentalTests.test_explicit_double_replaces_the_key_signature) ... FAIL
+test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) ...
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='D', acc='bb', notation='solfege') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='D', acc='bb', notation='solfege-fixed') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='D', acc='bb', notation='letter') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='F', acc='##', notation='solfege') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='F', acc='##', notation='solfege-fixed') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='F', acc='##', notation='letter') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='B', acc='##', notation='solfege') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='B', acc='##', notation='solfege-fixed') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='B', acc='##', notation='letter') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='C', acc='bb', notation='solfege') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='C', acc='bb', notation='solfege-fixed') ... FAIL
+  test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='C', acc='bb', notation='letter') ... FAIL
+test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) ...
+  test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='D4', acc='bb') ... ERROR
+  test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='F4', acc='##') ... ERROR
+  test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='B4', acc='##') ... ERROR
+  test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='C4', acc='bb') ... ERROR
+  test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='C0', acc='bb') ... ERROR
+  test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='F9', acc='##') ... ERROR
+test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) ...
+  test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='D', acc='bb', tonic='C') ... FAIL
+  test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='F', acc='##', tonic='C') ... FAIL
+  test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='F', acc='##', tonic='G') ... FAIL
+  test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='B', acc='##', tonic='D') ... FAIL
+test_single_natural_and_missing_values_keep_existing_spelling (__main__.DoubleAccidentalTests.test_single_natural_and_missing_values_keep_existing_spelling) ... ok
+test_unconfirmed_aliases_remain_rejected_by_audio (__main__.DoubleAccidentalTests.test_unconfirmed_aliases_remain_rejected_by_audio) ... ok
+
+======================================================================
+ERROR: test_edited_text_wins_without_destroying_original_double_or_grade (__main__.DoubleAccidentalTests.test_edited_text_wins_without_destroying_original_double_or_grade)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 59, in test_edited_text_wins_without_destroying_original_double_or_grade
+    self.assertEqual(pitch_to_midi(edited,{}),67)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+ERROR: test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='D4', acc='bb')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 54, in test_midi_preserves_octave_crossings_and_double_semitones
+    self.assertEqual(pitch_to_midi(label(pitch,acc),{}),want)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+ERROR: test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='F4', acc='##')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 54, in test_midi_preserves_octave_crossings_and_double_semitones
+    self.assertEqual(pitch_to_midi(label(pitch,acc),{}),want)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+ERROR: test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='B4', acc='##')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 54, in test_midi_preserves_octave_crossings_and_double_semitones
+    self.assertEqual(pitch_to_midi(label(pitch,acc),{}),want)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+ERROR: test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='C4', acc='bb')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 54, in test_midi_preserves_octave_crossings_and_double_semitones
+    self.assertEqual(pitch_to_midi(label(pitch,acc),{}),want)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+ERROR: test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='C0', acc='bb')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 54, in test_midi_preserves_octave_crossings_and_double_semitones
+    self.assertEqual(pitch_to_midi(label(pitch,acc),{}),want)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+ERROR: test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) (pitch='F9', acc='##')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 54, in test_midi_preserves_octave_crossings_and_double_semitones
+    self.assertEqual(pitch_to_midi(label(pitch,acc),{}),want)
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\label_audio.py", line 28, in pitch_to_midi
+    elif acc:raise ValueError('지원하지 않는 임시표입니다.')
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: 지원하지 않는 임시표입니다.
+
+======================================================================
+FAIL: test_batch_consumes_final_values_without_propagating_or_mutating (__main__.DoubleAccidentalTests.test_batch_consumes_final_values_without_propagating_or_mutating)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 46, in test_batch_consumes_final_values_without_propagating_or_mutating
+    self.assertEqual([text for _,text in named],["레bb","레","레b","파##"])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: ['레', '레', '레b', '파'] != ['레bb', '레', '레b', '파##']
+
+First differing element 0:
+'레'
+'레bb'
+
+- ['레', '레', '레b', '파']
++ ['레bb', '레', '레b', '파##']
+
+======================================================================
+FAIL: test_check_exclusion_still_applies_and_user_confirmation_can_override (__main__.DoubleAccidentalTests.test_check_exclusion_still_applies_and_user_confirmation_can_override)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 69, in test_check_exclusion_still_applies_and_user_confirmation_can_override
+    self.assertEqual(audio_groups(doc,False),([[60],[67],[60]],[]))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: ([[], [], [60]], [{'label': {'staff': 0, 'x'[345 chars].'}]) != ([[60], [67], [60]], [])
+
+First differing element 0:
+[[], [], [60]]
+[[60], [67], [60]]
+
+Diff is 709 characters long. Set self.maxDiff to None to see it.
+
+======================================================================
+FAIL: test_explicit_double_replaces_the_key_signature (__main__.DoubleAccidentalTests.test_explicit_double_replaces_the_key_signature)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 30, in test_explicit_double_replaces_the_key_signature
+    self.assertEqual(to_solfege(note("D"),("B","E","A","D"),"♭","bb"),"레bb")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '레b' != '레bb'
+- 레b
++ 레bb
+?   +
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='D', acc='bb', notation='solfege')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '레' != '레bb'
+- 레
++ 레bb
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='D', acc='bb', notation='solfege-fixed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '레' != '레bb'
+- 레
++ 레bb
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='D', acc='bb', notation='letter')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'D' != 'Dbb'
+- D
++ Dbb
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='F', acc='##', notation='solfege')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '파' != '파##'
+- 파
++ 파##
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='F', acc='##', notation='solfege-fixed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '파' != '파##'
+- 파
++ 파##
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='F', acc='##', notation='letter')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'F' != 'F##'
+- F
++ F##
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='B', acc='##', notation='solfege')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '시' != '시##'
+- 시
++ 시##
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='B', acc='##', notation='solfege-fixed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '시' != '시##'
+- 시
++ 시##
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='B', acc='##', notation='letter')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'B' != 'B##'
+- B
++ B##
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='C', acc='bb', notation='solfege')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '도' != '도bb'
+- 도
++ 도bb
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='C', acc='bb', notation='solfege-fixed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '도' != '도bb'
+- 도
++ 도bb
+
+
+======================================================================
+FAIL: test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) (letter='C', acc='bb', notation='letter')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 27, in test_fixed_and_letter_keep_original_name_and_two_marks
+    self.assertEqual(to_solfege(note(letter),accidental=acc,notation=notation),want)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'C' != 'Cbb'
+- C
++ Cbb
+
+
+======================================================================
+FAIL: test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='D', acc='bb', tonic='C')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 39, in test_movable_uses_actual_pitch_instead_of_fixed_spelling
+    self.assertEqual(to_solfege(note(letter),accidental=acc,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               notation="solfege-movable",tonic=tonic),want)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '레' != '도'
+- 레
++ 도
+
+
+======================================================================
+FAIL: test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='F', acc='##', tonic='C')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 39, in test_movable_uses_actual_pitch_instead_of_fixed_spelling
+    self.assertEqual(to_solfege(note(letter),accidental=acc,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               notation="solfege-movable",tonic=tonic),want)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '파' != '솔'
+- 파
++ 솔
+
+
+======================================================================
+FAIL: test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='F', acc='##', tonic='G')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 39, in test_movable_uses_actual_pitch_instead_of_fixed_spelling
+    self.assertEqual(to_solfege(note(letter),accidental=acc,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               notation="solfege-movable",tonic=tonic),want)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '시b' != '도'
+- 시b
++ 도
+
+
+======================================================================
+FAIL: test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) (letter='B', acc='##', tonic='D')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 39, in test_movable_uses_actual_pitch_instead_of_fixed_spelling
+    self.assertEqual(to_solfege(note(letter),accidental=acc,
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                               notation="solfege-movable",tonic=tonic),want)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '라' != '시'
+- 라
++ 시
+
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.032s
+
+FAILED (failures=19, errors=7)

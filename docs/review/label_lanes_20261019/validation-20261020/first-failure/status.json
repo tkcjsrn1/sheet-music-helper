@@ -1,0 +1,16 @@
+{
+  "status": "not_complete_memory_limit",
+  "full_suite": {
+    "files": 50,
+    "passed": 49,
+    "skipped": 0,
+    "failed": [
+      "test_labels_cli.py"
+    ]
+  },
+  "cause": "테스트용 GUI 객체 placement_menu 누락",
+  "correction": "누락 필드 보완 뒤 해당 mock 검사1개(사진ON/OFF 두 하위조건) 통과",
+  "rerun": "가용 메모리2.5GiB 미달로10분 기다린 뒤 전체검사 실행0",
+  "product_changes_after_default_bytes": 0,
+  "feature_merge": false
+}

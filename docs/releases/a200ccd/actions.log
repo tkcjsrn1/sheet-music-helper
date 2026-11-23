@@ -1,0 +1,495 @@
+selftest	Set up job	﻿2026-10-05T16:13:37.7505425Z Current runner version: '2.337.0'
+selftest	Set up job	2026-10-05T16:13:37.7580489Z ##[group]Runner Image Provisioner
+selftest	Set up job	2026-10-05T16:13:37.7582530Z Hosted Compute Agent
+selftest	Set up job	2026-10-05T16:13:37.7583391Z Version: 20260901.588
+selftest	Set up job	2026-10-05T16:13:37.7584272Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+selftest	Set up job	2026-10-05T16:13:37.7585440Z Build Date: 2026-09-01T19:56:44Z
+selftest	Set up job	2026-10-05T16:13:37.7586415Z Worker ID: {323d0565-5215-4f74-b6e7-3c6bcdb88f09}
+selftest	Set up job	2026-10-05T16:13:37.7588088Z Azure Region: westus3
+selftest	Set up job	2026-10-05T16:13:37.7589117Z ##[endgroup]
+selftest	Set up job	2026-10-05T16:13:37.7591897Z ##[group]Operating System
+selftest	Set up job	2026-10-05T16:13:37.7592903Z Microsoft Windows Server 2025
+selftest	Set up job	2026-10-05T16:13:37.7594208Z 10.0.26100
+selftest	Set up job	2026-10-05T16:13:37.7595009Z Datacenter
+selftest	Set up job	2026-10-05T16:13:37.7595870Z ##[endgroup]
+selftest	Set up job	2026-10-05T16:13:37.7596676Z ##[group]Runner Image
+selftest	Set up job	2026-10-05T16:13:37.7597757Z Image: windows-2025-vs2026
+selftest	Set up job	2026-10-05T16:13:37.7598620Z Version: 20260925.250.1
+selftest	Set up job	2026-10-05T16:13:37.7600864Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260925.250/images/windows/Windows2025-VS2026-Readme.md
+selftest	Set up job	2026-10-05T16:13:37.7604561Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260925.250
+selftest	Set up job	2026-10-05T16:13:37.7606214Z ##[endgroup]
+selftest	Set up job	2026-10-05T16:13:37.7608237Z ##[group]GITHUB_TOKEN Permissions
+selftest	Set up job	2026-10-05T16:13:37.7611856Z Contents: read
+selftest	Set up job	2026-10-05T16:13:37.7612709Z Metadata: read
+selftest	Set up job	2026-10-05T16:13:37.7614002Z ##[endgroup]
+selftest	Set up job	2026-10-05T16:13:37.7617908Z Secret source: Actions
+selftest	Set up job	2026-10-05T16:13:37.7619278Z Cache mode: write
+selftest	Set up job	2026-10-05T16:13:37.7620375Z Prepare workflow directory
+selftest	Set up job	2026-10-05T16:13:37.8798006Z Prepare all required actions
+selftest	Set up job	2026-10-05T16:13:37.8950247Z Getting action download info
+selftest	Set up job	2026-10-05T16:13:38.2829847Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+selftest	Set up job	2026-10-05T16:13:38.5611318Z Download action repository 'actions/setup-python@v6' (SHA:ece7cb06caefa5fff74198d8649806c4678c61a1)
+selftest	Set up job	2026-10-05T16:13:39.0031211Z Complete job name: selftest
+selftest	Run actions/checkout@v6	﻿2026-10-05T16:13:39.2919973Z ##[group]Run actions/checkout@v6
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2924237Z with:
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2925472Z   repository: tkcjsrn1/sheet-music-helper
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2936690Z   token: ***
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2937665Z   ssh-strict: true
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2938571Z   ssh-user: git
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2939372Z   persist-credentials: true
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2940314Z   clean: true
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2941140Z   sparse-checkout-cone-mode: true
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2942038Z   fetch-depth: 1
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2943736Z   fetch-tags: false
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2944542Z   show-progress: true
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2945368Z   lfs: false
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2946143Z   submodules: false
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2947096Z   set-safe-directory: true
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2948073Z   allow-unsafe-pr-checkout: false
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2949714Z env:
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2950505Z   PYTHONIOENCODING: utf-8
+selftest	Run actions/checkout@v6	2026-10-05T16:13:39.2951387Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4393836Z Syncing repository: tkcjsrn1/sheet-music-helper
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4580444Z ##[group]Getting Git version info
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4583193Z Working directory is 'D:\a\sheet-music-helper\sheet-music-helper'
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4587173Z [command]"C:\Program Files\Git\bin\git.exe" version
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4589518Z git version 2.55.0.windows.5
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4595512Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4613166Z Temporarily overriding HOME='D:\a\_temp\31eb9b78-63ec-4a70-8d92-07233f386604' before making global git config changes
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4617658Z Adding repository directory to the temporary git global config as a safe directory
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4622314Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\sheet-music-helper\sheet-music-helper
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4632537Z Deleting the contents of 'D:\a\sheet-music-helper\sheet-music-helper'
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4636662Z ##[group]Determining repository object format
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4639920Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4645840Z ##[group]Initializing the repository
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4649132Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\sheet-music-helper\sheet-music-helper
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4653428Z Initialized empty Git repository in D:/a/sheet-music-helper/sheet-music-helper/.git/
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4660409Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/tkcjsrn1/sheet-music-helper
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4666479Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4668869Z ##[group]Disabling automatic garbage collection
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4671803Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4685397Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4687708Z ##[group]Setting up auth
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4689739Z Removing SSH command configuration
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4693210Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+selftest	Run actions/checkout@v6	2026-10-05T16:13:42.4702530Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+selftest	Run actions/checkout@v6	2026-10-05T16:13:43.2058056Z Removing HTTP extra header
+selftest	Run actions/checkout@v6	2026-10-05T16:13:43.2084763Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+selftest	Run actions/checkout@v6	2026-10-05T16:13:43.2666521Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+selftest	Run actions/checkout@v6	2026-10-05T16:13:44.2530436Z Removing includeIf entries pointing to credentials config files
+selftest	Run actions/checkout@v6	2026-10-05T16:13:44.2542588Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+selftest	Run actions/checkout@v6	2026-10-05T16:13:44.3164601Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.5583409Z [command]"C:\Program Files\Git\bin\git.exe" config --file D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.6140790Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.6629370Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.7306855Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.7888069Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.8615721Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.8616396Z ##[group]Fetching the repository
+selftest	Run actions/checkout@v6	2026-10-05T16:13:45.8618333Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +a200ccd2c80b3d11b124bde7e7194687ab9a98df:refs/remotes/origin/main
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.4190290Z From https://github.com/tkcjsrn1/sheet-music-helper
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.4248745Z  * [new ref]         a200ccd2c80b3d11b124bde7e7194687ab9a98df -> origin/main
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.4440438Z [command]"C:\Program Files\Git\bin\git.exe" branch --list --remote origin/main
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.5396669Z   origin/main
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.5669700Z [command]"C:\Program Files\Git\bin\git.exe" rev-parse refs/remotes/origin/main
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.6133411Z a200ccd2c80b3d11b124bde7e7194687ab9a98df
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.6205660Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.6206483Z ##[group]Determining the checkout info
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.6207278Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.6223639Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.7177093Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.7624874Z ##[group]Checking out the ref
+selftest	Run actions/checkout@v6	2026-10-05T16:13:50.7636421Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.8611389Z Updating files:  64% (774/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.8613960Z Updating files:  65% (780/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.8949766Z Updating files:  66% (792/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.9024342Z Updating files:  67% (804/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.9356870Z Updating files:  68% (816/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.9564547Z Updating files:  69% (828/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.9787938Z Updating files:  70% (840/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:51.9967677Z Updating files:  71% (852/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.0299195Z Updating files:  72% (864/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.0840932Z Updating files:  73% (876/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.0995323Z Updating files:  74% (888/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1294697Z Updating files:  75% (900/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1295908Z Updating files:  76% (912/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1423120Z Updating files:  77% (924/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1477879Z Updating files:  78% (936/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1512885Z Updating files:  79% (948/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1704549Z Updating files:  80% (960/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.1906829Z Updating files:  81% (972/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2380119Z Updating files:  82% (984/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2508986Z Updating files:  83% (996/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2533271Z Updating files:  84% (1008/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2534757Z Updating files:  85% (1020/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2536192Z Updating files:  86% (1032/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2558107Z Updating files:  87% (1044/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2728343Z Updating files:  88% (1056/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2730563Z Updating files:  89% (1068/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2731552Z Updating files:  90% (1080/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2732017Z Updating files:  91% (1092/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2732565Z Updating files:  92% (1104/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2733189Z Updating files:  93% (1116/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2733706Z Updating files:  94% (1128/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2734225Z Updating files:  95% (1140/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2734749Z Updating files:  96% (1152/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2735274Z Updating files:  97% (1164/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2755119Z Updating files:  98% (1176/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2796420Z Updating files:  99% (1188/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2798541Z Updating files: 100% (1200/1200)
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.2798962Z Updating files: 100% (1200/1200), done.
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.3445854Z Switched to a new branch 'main'
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.3466122Z branch 'main' set up to track 'origin/main'.
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.3721921Z ##[endgroup]
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.6487466Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+selftest	Run actions/checkout@v6	2026-10-05T16:13:52.7665400Z a200ccd2c80b3d11b124bde7e7194687ab9a98df
+selftest	Run actions/setup-python@v6	﻿2026-10-05T16:13:52.8685435Z ##[group]Run actions/setup-python@v6
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8686108Z with:
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8686473Z   python-version: 3.14.0
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8689973Z   check-latest: false
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8694637Z   token: ***
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8695033Z   update-environment: true
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8695449Z   allow-prereleases: false
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8695817Z   freethreaded: false
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8696140Z env:
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8696434Z   PYTHONIOENCODING: utf-8
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:52.8697155Z ##[endgroup]
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:53.1663608Z ##[group]Installed versions
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:53.1776146Z Version 3.14.0 was not found in the local cache
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:54.3523827Z Version 3.14.0 is available for downloading
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:54.3525085Z Download from "https://github.com/actions/python-versions/releases/download/3.14.0-18313368925/python-3.14.0-win32-x64.zip"
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:56.6851017Z Extract downloaded archive
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:56.6860689Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command "$ErrorActionPreference = 'Stop' ; try { Add-Type -AssemblyName System.IO.Compression.ZipFile } catch { } ; try { [System.IO.Compression.ZipFile]::ExtractToDirectory('D:\a\_temp\python-3.14.0-win32-x64.zip', 'D:\a\_temp\893ad176-8dce-40eb-88cd-c9a2001b9c04', $true) } catch { if (($_.Exception.GetType().FullName -eq 'System.Management.Automation.MethodException') -or ($_.Exception.GetType().FullName -eq 'System.Management.Automation.RuntimeException') ){ Expand-Archive -LiteralPath 'D:\a\_temp\python-3.14.0-win32-x64.zip' -DestinationPath 'D:\a\_temp\893ad176-8dce-40eb-88cd-c9a2001b9c04' -Force } else { throw $_ } } ;"
+selftest	Run actions/setup-python@v6	2026-10-05T16:13:56.6863774Z Execute installation script
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.7565369Z Check if Python hostedtoolcache folder exist...
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.7568113Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.7729123Z Check if current Python version is installed...
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.7729858Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.7875698Z Python3.14 (x64) was found in C:\hostedtoolcache\windows\Python...
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.7876681Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.8257572Z Deleting C:\hostedtoolcache\windows\Python\3.14.7\x64...
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:05.8258426Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.3403583Z VERBOSE: Performing the operation "Remove File" on target "C:\hostedtoolcache\windows\Python\3.14.7\x64.complete".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.3404697Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.3416953Z Remove registry entries for Python 3.14(x64)...
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.3417382Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7438326Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7439752Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4A74AA6611FA4AE41B603
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7440791Z 2208F1395A2".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7441201Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7459951Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7461420Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\553D36C37EB45E0498DA5
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7462600Z 84FB3930D1F".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7462971Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7484052Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7485396Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\7ED03295AC2617C46B8F8
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7486435Z F2CE6A729D7".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7486796Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7509268Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7510543Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\ABDA378FE12E7494788B2
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7511532Z 8151415BF4F".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7511871Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7531935Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7533177Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\AE0E3349BB6F0F047BF4C
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7534184Z 2733DEB37B0".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7538780Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7547801Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7549517Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\B25B1AB7748DCA342BEE8
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7550639Z 2DF132F9AB9".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7550999Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7574005Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7575311Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EA3E6CF4BDEDC594E9D45
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7576402Z 61F384D266D".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7576745Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7594323Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7596033Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\ED6D42486A04DDE4EAD7E
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7597112Z 8B00D7780F1".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.7597439Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8057676Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8059375Z HKEY_CLASSES_ROOT\Installer\Products\4A74AA6611FA4AE41B6032208F1395A2".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8064221Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8127097Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8128610Z HKEY_CLASSES_ROOT\Installer\Products\553D36C37EB45E0498DA584FB3930D1F".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8129805Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8291118Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8292211Z HKEY_CLASSES_ROOT\Installer\Products\7ED03295AC2617C46B8F8F2CE6A729D7".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8292934Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8521238Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8523044Z HKEY_CLASSES_ROOT\Installer\Products\ABDA378FE12E7494788B28151415BF4F".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8524025Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8568445Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8569962Z HKEY_CLASSES_ROOT\Installer\Products\AE0E3349BB6F0F047BF4C2733DEB37B0".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8571142Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8618708Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8620211Z HKEY_CLASSES_ROOT\Installer\Products\B25B1AB7748DCA342BEE82DF132F9AB9".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.8621313Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9137426Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9138804Z HKEY_CLASSES_ROOT\Installer\Products\EA3E6CF4BDEDC594E9D4561F384D266D".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9139844Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9183842Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9185070Z HKEY_CLASSES_ROOT\Installer\Products\ED6D42486A04DDE4EAD7E8B00D7780F1".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9242703Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9412312Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9413915Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Miniconda3 py314_26.7.1-1 (Python 3.14.7 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9415329Z 64-bit)".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9665720Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9718093Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9719314Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{3C63D355-4BE7-40E5-89AD-85F43B39D0F1}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9720253Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9795877Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9797102Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{4FC6E3AE-DEDB-495C-9E4D-65F183D462D6}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9798025Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9832470Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9833679Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{59230DE7-62CA-4C71-B6F8-F8C26E7A927D}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9834656Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9867265Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9868719Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{66AA47A4-AF11-4EA4-B106-2302F831592A}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:10.9871178Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0090673Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0094130Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{7BA1B52B-D847-43AC-B2EE-28FD31F2A99B}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0108244Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0169063Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0170168Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{8424D6DE-40A6-4EDD-AE7D-8E0BD077081F}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0171115Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0207799Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0208931Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9433E0EA-F6BB-40F0-B74F-2C37D3BE730B}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0211424Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0407322Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0408790Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{F873ADBA-E21E-4947-87B8-82514151FBF4}".
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0409718Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0797389Z Create Python 3.14.0 folder in C:\hostedtoolcache\windows\Python
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0798119Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0843907Z Copy Python binaries to C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.0844751Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.1059350Z Install Python 3.14.0 in C:\hostedtoolcache\windows\Python...
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:11.1092686Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:45.9564106Z Create python3 symlink
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:45.9564765Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0007330Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0007690Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0047092Z Directory: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0047955Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0048174Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0048318Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0048659Z Mode                 LastWriteTime         Length Name
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0104513Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0134151Z ----                 -------------         ------ ----
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0160217Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0220198Z -a---l         10/5/2026   4:14 PM              0 python3.exe
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0269483Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0294519Z Install and upgrade Pip
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:46.0319097Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:49.5267862Z Looking in links: c:\Users\RUNNER~1\AppData\Local\Temp\tmpatdyn_02
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:49.5275875Z Requirement already satisfied: pip in c:\hostedtoolcache\windows\python\3.14.0\x64\lib\site-packages (25.2)
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.1854948Z Collecting pip
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.2331290Z Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.2768514Z Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.3513296Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.3514227Z ---------------------------------------- 1.8/1.8 MB 32.3 MB/s  0:00:00
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.3514901Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.4068594Z Installing collected packages: pip
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.4071329Z Attempting uninstall: pip
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.4148810Z Found existing installation: pip 25.2
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.4376917Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.4925280Z Uninstalling pip-25.2:
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:51.5239916Z Successfully uninstalled pip-25.2
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:54.1423753Z Successfully installed pip-26.2.1
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:54.3356268Z Create complete file
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:54.3356930Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:54.3373295Z 
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:54.4171740Z Successfully set up CPython (3.14.0)
+selftest	Run actions/setup-python@v6	2026-10-05T16:14:54.4173179Z ##[endgroup]
+selftest	빌드 의존성 설치	﻿2026-10-05T16:14:54.4501822Z ##[group]Run python -m pip install opencv-python==5.0.0.93 numpy==2.5.1 scipy==1.18.0 Pillow==12.3.0 customtkinter==6.0.0 pyinstaller==6.21.0 PyMuPDF==1.28.0
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4502974Z ^[[36;1mpython -m pip install opencv-python==5.0.0.93 numpy==2.5.1 scipy==1.18.0 Pillow==12.3.0 customtkinter==6.0.0 pyinstaller==6.21.0 PyMuPDF==1.28.0^[[0m
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4658293Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4658682Z env:
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4658892Z   PYTHONIOENCODING: utf-8
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4659203Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4659658Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.14.0\x64/lib/pkgconfig
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4660097Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4660509Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4660903Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	빌드 의존성 설치	2026-10-05T16:14:54.4661303Z ##[endgroup]
+selftest	빌드 의존성 설치	2026-10-05T16:14:56.6152234Z Collecting opencv-python==5.0.0.93
+selftest	빌드 의존성 설치	2026-10-05T16:14:56.8306702Z   Downloading opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.1606827Z Collecting numpy==2.5.1
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.1744317Z   Downloading numpy-2.5.1-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.3658657Z Collecting scipy==1.18.0
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.3941275Z   Downloading scipy-1.18.0-cp314-cp314-win_amd64.whl.metadata (61 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.6558785Z Collecting Pillow==12.3.0
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.6681809Z   Downloading pillow-12.3.0-cp314-cp314-win_amd64.whl.metadata (9.3 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.7300904Z Collecting customtkinter==6.0.0
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.7431414Z   Downloading customtkinter-6.0.0-py3-none-any.whl.metadata (698 bytes)
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.8347537Z Collecting pyinstaller==6.21.0
+selftest	빌드 의존성 설치	2026-10-05T16:14:57.8473638Z   Downloading pyinstaller-6.21.0-py3-none-win_amd64.whl.metadata (8.5 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.0326525Z Collecting PyMuPDF==1.28.0
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.0452989Z   Downloading pymupdf-1.28.0-cp310-abi3-win_amd64.whl.metadata (26 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.1034265Z Collecting darkdetect (from customtkinter==6.0.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.1161626Z   Downloading darkdetect-0.8.0-py3-none-any.whl.metadata (3.6 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.1689416Z Collecting packaging (from customtkinter==6.0.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.1813367Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.2495433Z Collecting altgraph (from pyinstaller==6.21.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.2626375Z   Downloading altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.3223762Z Collecting pefile>=2022.5.30 (from pyinstaller==6.21.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.3348078Z   Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.3999953Z Collecting pyinstaller-hooks-contrib>=2026.6 (from pyinstaller==6.21.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.4131539Z   Downloading pyinstaller_hooks_contrib-2026.8-py3-none-any.whl.metadata (16 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.4678927Z Collecting pywin32-ctypes>=0.2.1 (from pyinstaller==6.21.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.4799916Z   Downloading pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.6023074Z Collecting setuptools>=42.0.0 (from pyinstaller==6.21.0)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.6145957Z   Downloading setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:58.6559678Z Downloading opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl (44.0 MB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:59.7059516Z    ---------------------------------------- 44.0/44.0 MB 43.1 MB/s  0:00:01
+selftest	빌드 의존성 설치	2026-10-05T16:14:59.7197519Z Downloading numpy-2.5.1-cp314-cp314-win_amd64.whl (12.6 MB)
+selftest	빌드 의존성 설치	2026-10-05T16:14:59.8139570Z    ---------------------------------------- 12.6/12.6 MB 135.8 MB/s  0:00:00
+selftest	빌드 의존성 설치	2026-10-05T16:14:59.8270514Z Downloading scipy-1.18.0-cp314-cp314-win_amd64.whl (37.3 MB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.4884553Z    ---------------------------------------- 37.3/37.3 MB 56.3 MB/s  0:00:00
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.5022756Z Downloading pillow-12.3.0-cp314-cp314-win_amd64.whl (7.2 MB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.5659401Z    ---------------------------------------- 7.2/7.2 MB 115.1 MB/s  0:00:00
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.5788334Z Downloading customtkinter-6.0.0-py3-none-any.whl (302 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.6106408Z Downloading pyinstaller-6.21.0-py3-none-win_amd64.whl (1.4 MB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.6450132Z    ---------------------------------------- 1.4/1.4 MB 36.5 MB/s  0:00:00
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.6582867Z Downloading pymupdf-1.28.0-cp310-abi3-win_amd64.whl (19.8 MB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.8571091Z    ---------------------------------------- 19.8/19.8 MB 99.9 MB/s  0:00:00
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.8690396Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.9014872Z Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.9370063Z Downloading pyinstaller_hooks_contrib-2026.8-py3-none-any.whl (462 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:00.9704570Z Downloading pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:01.0037322Z Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:01.0444933Z    ---------------------------------------- 818.2/818.2 kB 14.7 MB/s  0:00:00
+selftest	빌드 의존성 설치	2026-10-05T16:15:01.0569403Z Downloading altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:01.0925079Z Downloading darkdetect-0.8.0-py3-none-any.whl (9.0 kB)
+selftest	빌드 의존성 설치	2026-10-05T16:15:01.4835092Z Installing collected packages: altgraph, setuptools, pywin32-ctypes, PyMuPDF, Pillow, pefile, packaging, numpy, darkdetect, scipy, pyinstaller-hooks-contrib, opencv-python, customtkinter, pyinstaller
+selftest	빌드 의존성 설치	2026-10-05T16:15:25.1529135Z 
+selftest	빌드 의존성 설치	2026-10-05T16:15:25.1554894Z Successfully installed Pillow-12.3.0 PyMuPDF-1.28.0 altgraph-0.17.5 customtkinter-6.0.0 darkdetect-0.8.0 numpy-2.5.1 opencv-python-5.0.0.93 packaging-26.3 pefile-2024.8.26 pyinstaller-6.21.0 pyinstaller-hooks-contrib-2026.8 pywin32-ctypes-0.2.3 scipy-1.18.0 setuptools-84.0.0
+selftest	소스에서 exe 빌드	﻿2026-10-05T16:15:25.5406971Z ##[group]Run python tests/fixtures/beams/build_fixture.py --check
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5407699Z ^[[36;1mpython tests/fixtures/beams/build_fixture.py --check^[[0m
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5408356Z ^[[36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }^[[0m
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5408697Z ^[[36;1mpython build.py^[[0m
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5482241Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5482631Z env:
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5482852Z   PYTHONIOENCODING: utf-8
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5483177Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5483618Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.14.0\x64/lib/pkgconfig
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5484068Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5484465Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5484859Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	소스에서 exe 빌드	2026-10-05T16:15:25.5485172Z ##[endgroup]
+selftest	소스에서 exe 빌드	2026-10-05T16:15:26.2239541Z 음표 104개 · 빔 묶음 16개 · 소스/PDF 대응 확인
+selftest	소스에서 exe 빌드	2026-10-05T16:15:26.9755445Z 원본 spec으로 빌드 중: a200ccd2c80b-20261005-161526-974321
+selftest	소스에서 exe 빌드	2026-10-05T16:16:22.5268147Z 빌드 후 전체 테스트 실행
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7945517Z   [통과] test_accidentals.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7946654Z   [통과] test_beam_fixture.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7947320Z   [통과] test_beta_changes.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7948088Z   [통과] test_build.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7948652Z   [통과] test_chord_rescue.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7949245Z   [통과] test_chord_wiring.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7949888Z   [통과] test_clef_start.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7950548Z   [통과] test_feedback_bundle.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7951224Z   [통과] test_feedback_intake.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7951795Z   [통과] test_font_sp.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7952384Z   [통과] test_golden_regression.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7953034Z   [통과] test_gui_all_pages.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7953642Z   [통과] test_gui_compact.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7954260Z   [통과] test_gui_label_edits.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7955377Z   [통과] test_gui_page_navigation.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7956084Z   [통과] test_gui_region.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7956671Z   [통과] test_gui_reopen_edits.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7957259Z   [통과] test_gui_snapshot.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7957854Z   [통과] test_header_symbols.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7958489Z   [통과] test_hollow_fixture_resources.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7959201Z   [통과] test_keysig_and_timesig.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7959845Z   [통과] test_keysig_subpixel.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7960517Z   [통과] test_keysig_subpixel_controls.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7961174Z   [통과] test_label_audio.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7961772Z   [통과] test_label_edits.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7962349Z   [통과] test_label_region.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7962963Z   [통과] test_labels_cli.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7963539Z   [통과] test_labels_io.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7964149Z   [통과] test_naturals_real.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7964793Z   [통과] test_notation_options.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7965386Z   [통과] test_photo_correct.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7966016Z   [통과] test_pipeline_advanced.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7966617Z   [통과] test_preprocess.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7968894Z   [통과] test_replay_report.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7969654Z   [통과] test_result_legend.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7994903Z   [통과] test_unsupported_scores_xfail.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7996295Z   [통과] test_verify_units.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7997443Z   [통과] test_verovio_truth.py
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7997837Z 
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7998338Z 38개 중 통과 38 · 건너뜀 0 · 실패 0
+selftest	소스에서 exe 빌드	2026-10-05T16:25:16.7998714Z 
+selftest	소스에서 exe 빌드	2026-10-05T16:25:19.1110116Z 검증 완료: D:\a\sheet-music-helper\sheet-music-helper\dist\a200ccd2c80b-20261005-161526-974321\악보헬퍼.exe
+selftest	소스에서 exe 빌드	2026-10-05T16:25:19.1116896Z 커밋 정보: D:\a\sheet-music-helper\sheet-music-helper\dist\a200ccd2c80b-20261005-161526-974321\build-info.json
+selftest	소스에서 exe 빌드	2026-10-05T16:25:19.1120349Z 패키지: D:\a\sheet-music-helper\sheet-music-helper\dist\악보헬퍼-a200ccd2c80b-20261005-161526-974321.zip
+selftest	소스에서 exe 빌드	2026-10-05T16:25:19.1121853Z SHA-256: 9D40547F6E1821EFCC0017F258468029E6B88561BA927807D6234C18A53CC1AD
+selftest	Python 없는 PATH에서 exe 자체 점검	﻿2026-10-05T16:25:19.2822303Z ##[group]Run $exe = (Get-ChildItem dist -Recurse -File -Filter '악보헬퍼.exe' | Select-Object -First 1).FullName
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2823352Z ^[[36;1m$exe = (Get-ChildItem dist -Recurse -File -Filter '악보헬퍼.exe' | Select-Object -First 1).FullName^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2823872Z ^[[36;1mif (-not $exe) { throw '빌드된 exe가 없습니다.' }^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2824262Z ^[[36;1m$env:PATH = "$env:SystemRoot\System32;$env:SystemRoot"^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2824751Z ^[[36;1mif (Get-Command python -ErrorAction SilentlyContinue) { throw 'Python이 PATH에 남았습니다.' }^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2825212Z ^[[36;1m$cases = @(^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2825645Z ^[[36;1m  @('aoharu_p1', 'sample_images/KakaoTalk_20260731_162400402.png', 'KakaoTalk_20260731_162400402'),^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2826264Z ^[[36;1m  @('chopin_Db_p1', 'tests/fixtures/selftest/chopin_Db_p1.png', 'chopin_Db_p1')^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2826688Z ^[[36;1m)^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2826942Z ^[[36;1mforeach ($case in $cases) {^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2827301Z ^[[36;1m  $name, $inputFile, $baseName = $case^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2827759Z ^[[36;1m  $out = "output/ci-selftest/$name"^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2828329Z ^[[36;1m  $run = Start-Process -FilePath $exe -ArgumentList @('--selftest', $inputFile, $out) -Wait -PassThru -WindowStyle Hidden^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2829279Z ^[[36;1m  if ($run.ExitCode -ne 0) { throw "$name selftest 종료 코드 $($run.ExitCode)" }^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2829763Z ^[[36;1m  $png = Join-Path $out "${baseName}_계이름.png"^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2830153Z ^[[36;1m  $json = Join-Path $out "${baseName}_라벨.json"^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2830665Z ^[[36;1m  if (-not (Test-Path $png) -or -not (Test-Path $json)) { throw "$name PNG/JSON 누락" }^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2831154Z ^[[36;1m  $baseline = "tests/fixtures/selftest/$name.json"^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2831686Z ^[[36;1m  $actualText = (Get-Content -LiteralPath $json -Raw -Encoding utf8).Replace("`r`n", "`n")^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2832345Z ^[[36;1m  $baselineText = (Get-Content -LiteralPath $baseline -Raw -Encoding utf8).Replace("`r`n", "`n")^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2833010Z ^[[36;1m  if (-not [string]::Equals($actualText, $baselineText, [StringComparison]::Ordinal)) {^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2833516Z ^[[36;1m    throw "$name 라벨 JSON이 현재 selftest 기준과 다릅니다."^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2833891Z ^[[36;1m  }^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2834330Z ^[[36;1m  Write-Output "$name JSON 기준 일치"^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2834647Z ^[[36;1m}^[[0m
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2918346Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2918814Z env:
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2919084Z   PYTHONIOENCODING: utf-8
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2919455Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2919949Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.14.0\x64/lib/pkgconfig
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2920443Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2920887Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2921316Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:19.2921701Z ##[endgroup]
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:34.6930933Z aoharu_p1 JSON 기준 일치
+selftest	Python 없는 PATH에서 exe 자체 점검	2026-10-05T16:25:55.0424095Z chopin_Db_p1 JSON 기준 일치
+selftest	Post Run actions/setup-python@v6	﻿2026-10-05T16:25:55.1036562Z Post job cleanup.
+selftest	Post Run actions/checkout@v6	﻿2026-10-05T16:25:55.3322736Z Post job cleanup.
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.5643568Z [command]"C:\Program Files\Git\bin\git.exe" version
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.5944159Z git version 2.55.0.windows.5
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.6033810Z Temporarily overriding HOME='D:\a\_temp\1025c27c-0dbc-431b-932f-d8836b4bc4ad' before making global git config changes
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.6036289Z Adding repository directory to the temporary git global config as a safe directory
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.6046185Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\sheet-music-helper\sheet-music-helper
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.6377473Z Removing SSH command configuration
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.6390718Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:55.6739326Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:56.5029367Z Removing HTTP extra header
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:56.5042149Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:56.5376728Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1387100Z Removing includeIf entries pointing to credentials config files
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1401312Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1693437Z includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1694821Z includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1695940Z includeif.gitdir:/github/workspace/.git.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1696962Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.1746786Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.2086713Z D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.2141805Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.2489614Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.2787272Z D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.2841480Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.3206092Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.3506321Z /github/runner_temp/git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.3554754Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.3891173Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.4178596Z /github/runner_temp/git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.4230130Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:57.4558684Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+selftest	Post Run actions/checkout@v6	2026-10-05T16:25:58.1004802Z Removing credentials config 'D:\a\_temp\git-credentials-fabdeeec-1277-49f2-9469-d00274fd3ff3.config'
+selftest	Complete job	﻿2026-10-05T16:25:58.1275304Z Cleaning up orphan processes

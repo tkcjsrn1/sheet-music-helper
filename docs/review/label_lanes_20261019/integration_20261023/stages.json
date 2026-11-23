@@ -1,0 +1,30 @@
+[
+  {
+    "stage": "test_build",
+    "exit": 0
+  },
+  {
+    "stage": "test_gui_placement_mode",
+    "exit": 0
+  },
+  {
+    "stage": "test_gui_piano_widget",
+    "exit": 0
+  },
+  {
+    "stage": "test_gui_label_edits",
+    "exit": 0
+  },
+  {
+    "stage": "test_gui_input_folder",
+    "exit": 0
+  },
+  {
+    "stage": "test_labels_cli",
+    "exit": 0
+  },
+  {
+    "stage": "test_gui_piano_events",
+    "exit": 0
+  }
+]

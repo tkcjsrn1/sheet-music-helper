@@ -1,0 +1,23 @@
+[
+  {
+    "case": "aoharu_p1",
+    "clean_cwd": true,
+    "pythonpath_empty": true,
+    "json_equal": true,
+    "pixels_equal": true
+  },
+  {
+    "case": "chopin_Db_p1",
+    "clean_cwd": true,
+    "pythonpath_empty": true,
+    "json_equal": true,
+    "pixels_equal": true
+  },
+  {
+    "case": "alto_beethoven1",
+    "clean_cwd": true,
+    "pythonpath_empty": true,
+    "json_equal": true,
+    "pixels_equal": true
+  }
+]

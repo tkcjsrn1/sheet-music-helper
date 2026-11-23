@@ -1,0 +1,50 @@
+FFFFF
+======================================================================
+FAIL: test_invalid_folder_types_and_stale_path (__main__.HeadlessFolderTests.test_invalid_folder_types_and_stale_path) (value=123)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_input_folder.py", line 100, in test_invalid_folder_types_and_stale_path
+    self.assertEqual(gui.SheetHelperApp._load_settings(SimpleNamespace(settings_path=str(path))).get('last_input_dir'),'')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_invalid_folder_types_and_stale_path (__main__.HeadlessFolderTests.test_invalid_folder_types_and_stale_path) (value=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_input_folder.py", line 100, in test_invalid_folder_types_and_stale_path
+    self.assertEqual(gui.SheetHelperApp._load_settings(SimpleNamespace(settings_path=str(path))).get('last_input_dir'),'')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_invalid_folder_types_and_stale_path (__main__.HeadlessFolderTests.test_invalid_folder_types_and_stale_path) (value={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_input_folder.py", line 100, in test_invalid_folder_types_and_stale_path
+    self.assertEqual(gui.SheetHelperApp._load_settings(SimpleNamespace(settings_path=str(path))).get('last_input_dir'),'')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_invalid_folder_types_and_stale_path (__main__.HeadlessFolderTests.test_invalid_folder_types_and_stale_path) (value='없는폴더')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_input_folder.py", line 100, in test_invalid_folder_types_and_stale_path
+    self.assertEqual(gui.SheetHelperApp._load_settings(SimpleNamespace(settings_path=str(path))).get('last_input_dir'),'')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != ''
+
+======================================================================
+FAIL: test_only_folder_changes_after_select (__main__.HeadlessFolderTests.test_only_folder_changes_after_select)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_input_folder.py", line 82, in test_only_folder_changes_after_select
+    self.assertEqual(app.settings.get('last_input_dir'),str(folder))
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 'C:\\Users\\user\\AppData\\Local\\Temp\\tmpwcw4axi9\\악보'
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.134s
+
+FAILED (failures=5)

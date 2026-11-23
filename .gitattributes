@@ -1,0 +1,2 @@
+# 정답에서 바이트 해시를 확인하는 LilyPond 소스는 Windows에서도 LF로 보존한다.
+*.ly text eol=lf

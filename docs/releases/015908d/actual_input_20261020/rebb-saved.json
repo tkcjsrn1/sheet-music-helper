@@ -1,0 +1,27 @@
+[
+  {
+    "folder": "사용자수정-90d59efd706e4cba9e2cc7fe76217049",
+    "label": {
+      "id": "s0-p8-x122",
+      "staff": 0,
+      "x": 1178,
+      "y": 516,
+      "nx": 61.036,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "레bb",
+      "confidence": "certain",
+      "flags": [],
+      "edited": true
+    },
+    "source": {
+      "file": "chopin_Db_p1.png",
+      "page": 0,
+      "width": 2481,
+      "height": 3508,
+      "dpi": 300,
+      "sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2"
+    }
+  }
+]

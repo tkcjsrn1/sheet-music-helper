@@ -1,0 +1,347 @@
+{
+  "commit": "444b3c4af78e832f6fcde60d9826b0f081ade1ea",
+  "source": {
+    "file": "beethoven_op18no1_bravura_p1.png",
+    "page": 0,
+    "width": 2100,
+    "height": 2970,
+    "dpi": 300,
+    "sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46"
+  },
+  "key_vote": [
+    1,
+    "♭",
+    288.4
+  ],
+  "headers": [
+    {
+      "staff": 0,
+      "clef_end": 285,
+      "header_end": 288,
+      "timesig_end": 365,
+      "spacing": 18.0
+    },
+    {
+      "staff": 1,
+      "clef_end": 285,
+      "header_end": 288,
+      "timesig_end": 365,
+      "spacing": 18.0
+    },
+    {
+      "staff": 2,
+      "clef_end": 288,
+      "header_end": 288,
+      "timesig_end": 365,
+      "spacing": 18.0
+    },
+    {
+      "staff": 3,
+      "clef_end": 286,
+      "header_end": 288,
+      "timesig_end": 365,
+      "spacing": 17.8
+    }
+  ],
+  "remaining_header_labels": [
+    {
+      "id": "s0-p4-x35",
+      "staff": 0,
+      "x": 313,
+      "y": 212,
+      "nx": 17.389,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "glyph_shape"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s0-p7-x40",
+      "staff": 0,
+      "x": 356,
+      "y": 186,
+      "nx": 19.778,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s0-p5-x40",
+      "staff": 0,
+      "x": 356,
+      "y": 202,
+      "nx": 19.778,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s0-p1-x40",
+      "staff": 0,
+      "x": 356,
+      "y": 241,
+      "nx": 19.778,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p4-x35",
+      "staff": 1,
+      "x": 313,
+      "y": 392,
+      "nx": 17.389,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "glyph_shape"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p7-x40",
+      "staff": 1,
+      "x": 356,
+      "y": 366,
+      "nx": 19.778,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p5-x40",
+      "staff": 1,
+      "x": 356,
+      "y": 382,
+      "nx": 19.778,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p1-x40",
+      "staff": 1,
+      "x": 356,
+      "y": 421,
+      "nx": 19.778,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p3-x35",
+      "staff": 2,
+      "x": 313,
+      "y": 581,
+      "nx": 17.389,
+      "pitch": "C3",
+      "step": 3,
+      "accidental": null,
+      "text": "도",
+      "confidence": "check",
+      "flags": [
+        "glyph_shape",
+        "clef_alto"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p7-x40",
+      "staff": 2,
+      "x": 356,
+      "y": 546,
+      "nx": 19.778,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔",
+      "confidence": "check",
+      "flags": [
+        "vertical_blocked",
+        "clef_alto"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p5-x40",
+      "staff": 2,
+      "x": 356,
+      "y": 562,
+      "nx": 19.778,
+      "pitch": "E3",
+      "step": 5,
+      "accidental": null,
+      "text": "미",
+      "confidence": "check",
+      "flags": [
+        "vertical_blocked",
+        "clef_alto"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p1-x40",
+      "staff": 2,
+      "x": 356,
+      "y": 601,
+      "nx": 19.778,
+      "pitch": "A2",
+      "step": 1,
+      "accidental": null,
+      "text": "라",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked",
+        "clef_alto"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p2-x35",
+      "staff": 3,
+      "x": 313,
+      "y": 770,
+      "nx": 17.584,
+      "pitch": "G4",
+      "step": 2,
+      "accidental": null,
+      "text": "솔",
+      "confidence": "check",
+      "flags": [
+        "glyph_shape"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p7-x40",
+      "staff": 3,
+      "x": 356,
+      "y": 726,
+      "nx": 20.0,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p5-x40",
+      "staff": 3,
+      "x": 356,
+      "y": 742,
+      "nx": 20.0,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p1-x40",
+      "staff": 3,
+      "x": 356,
+      "y": 782,
+      "nx": 20.0,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    }
+  ],
+  "first_real_notes": [
+    {
+      "id": "s0-p1-x45",
+      "staff": 0,
+      "x": 406,
+      "y": 243,
+      "nx": 22.556,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p1-x45",
+      "staff": 1,
+      "x": 407,
+      "y": 419,
+      "nx": 22.611,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  ],
+  "fixed": false
+}

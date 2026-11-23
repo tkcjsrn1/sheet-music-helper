@@ -1,0 +1,14 @@
+{
+  "piano": {
+    "raw_sha256": "b293db9ae4788b86b4f143030c04034a3e7994b7056ab66e13409b3030d78b0a",
+    "gzip_sha256": "92f6679eeee88ed501b895cbe17dceaaf9fdb37ee46b377b822e0d6d493f0d3d",
+    "pcm16_sha256": "4b3f445299165cb6a1bd8af702d375b64eb64d58fb3ab4e9865fc8134c793f77",
+    "pcm16_bytes": 526124
+  },
+  "beep_control": {
+    "raw_sha256": "adad4f1183b5e139e839eaa014380b007a80299231d3f65f8d8b1c05344b8e68",
+    "gzip_sha256": "717cd35fd7c653ea63a9e6f6aaba5a7069979b7172eb6515f14385f397f0fa35",
+    "pcm16_sha256": "f92088476d5e665cfbedd374b8c5697fecb3c83f2a19c541e87ad150e76791e0",
+    "pcm16_bytes": 501164
+  }
+}

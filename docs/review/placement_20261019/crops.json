@@ -1,0 +1,95 @@
+[
+  {
+    "file": "01_irregular.png",
+    "case": "chopin_Db_p1",
+    "crop": [
+      980,
+      1290,
+      1980,
+      1660
+    ],
+    "scale": 1
+  },
+  {
+    "file": "02_chord.png",
+    "case": "chopin_Db_p1",
+    "crop": [
+      500,
+      2670,
+      1190,
+      2930
+    ],
+    "scale": 1
+  },
+  {
+    "file": "03_dense.png",
+    "case": "chopin_Db_p1",
+    "crop": [
+      1420,
+      2650,
+      2420,
+      2950
+    ],
+    "scale": 1
+  },
+  {
+    "file": "04_ink_tradeoff.png",
+    "case": "chopin_Db_p1",
+    "crop": [
+      300,
+      2040,
+      1140,
+      2390
+    ],
+    "scale": 1
+  },
+  {
+    "file": "05_aoharu_column.png",
+    "case": "aoharu_p2",
+    "crop": [
+      470,
+      1470,
+      910,
+      1640
+    ],
+    "scale": 1
+  },
+  {
+    "file": "06_control.png",
+    "case": "aoharu_p3",
+    "crop": [
+      200,
+      430,
+      1150,
+      560
+    ],
+    "scale": 1
+  },
+  {
+    "file": "07_rejected_guard.png",
+    "case": "schubert_bravura",
+    "crop": [
+      1150,
+      1040,
+      1810,
+      1370
+    ],
+    "scale": 1
+  },
+  {
+    "file": "09_fingering_zoom.png",
+    "case": "chopin_Db_p1",
+    "crop": [
+      550,
+      2700,
+      1205,
+      2815
+    ],
+    "scale": 2,
+    "panels": [
+      "source",
+      "before",
+      "after"
+    ]
+  }
+]

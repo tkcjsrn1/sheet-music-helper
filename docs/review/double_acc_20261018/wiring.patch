@@ -1,0 +1,32 @@
+diff --git a/main.py b/main.py
+--- a/main.py
++++ b/main.py
+@@ -571,6 +571,12 @@
+     if added or deleted:
+         print(f"[붙은 화음] 라벨 {added}개 추가 · 가운데 유령 {deleted}개 제외")
+     from modules.chord_rescue import apply_chord_middles; pitched_notes, accidentals, notes_with_solfege, diag_rows, _mid = apply_chord_middles(result, contexts, clef_arg, key_letters, key_symbol, args.notation, tonic, pitched_notes, accidentals, notes_with_solfege, diag_rows, rare_warnings, enable=not getattr(args, "photo", False))  # [claude 2026-10-13] 3도 쌓기 화음 가운데 머리 추가
++    from modules.accidental_detect import double_acc_kinds
++    from modules.note_namer import apply_double_accidentals
++    double_kinds = {} if getattr(args, "photo", False) else double_acc_kinds(result, contexts, pitched_notes)
++    accidentals, notes_with_solfege = apply_double_accidentals(
++        pitched_notes, accidentals, notes_with_solfege, double_kinds, key_letters, key_symbol, args.notation, tonic)
++    diag_rows = mark_accidental_candidates(diag_rows, [pitched_notes[i] for i in double_kinds], "double_acc")
+     from modules.clef_keysig import apply_key_changes; notes_with_solfege, label_keys = apply_key_changes(result, contexts, pitched_notes, accidentals, notes_with_solfege, args.notation, tonic, keep_tonic=bool(str(args.key or "").strip()))  # [claude 2026-10-16] 확인된 곡 중간 조바꿈 뒤를 새 조로(§1-43 초안)
+     from modules.accidental_detect import double_acc_suspects; diag_rows = mark_accidental_candidates(diag_rows, double_acc_suspects(result, contexts, pitched_notes), "double_acc")  # [claude 2026-10-15] 겹임시표 ♭♭ · 𝄪 머리 · 같은 마디 같은 음 → check(가운데 머리 추가 뒤라 그 판정을 막지 않음)
+     from modules.verify import text_row_suspects; diag_rows = mark_accidental_candidates(diag_rows, text_row_suspects(result, pitched_notes), "text_row")  # [claude 2026-10-15] 오선 밖 글자 줄(나타냄말 · 셈여림) → check
+diff --git a/gui.py b/gui.py
+--- a/gui.py
++++ b/gui.py
+@@ -1108,6 +1108,12 @@
+         if added or deleted:
+             self.log(f"    붙은 화음: 라벨 {added}개 추가 · 가운데 유령 {deleted}개 제외")
+         from modules.chord_rescue import apply_chord_middles; pitched, accidentals, named, diag_rows, _mid = apply_chord_middles(result, contexts, clef_arg, key_letters, key_symbol, notation, tonic, pitched, accidentals, named, diag_rows, rare_warnings, enable=not photo)  # [claude 2026-10-13] 3도 쌓기 화음 가운데 머리 추가
++        from modules.accidental_detect import double_acc_kinds
++        from modules.note_namer import apply_double_accidentals
++        double_kinds = {} if photo else double_acc_kinds(result, contexts, pitched)
++        accidentals, named = apply_double_accidentals(
++            pitched, accidentals, named, double_kinds, key_letters, key_symbol, notation, tonic)
++        diag_rows = mark_accidental_candidates(diag_rows, [pitched[i] for i in double_kinds], "double_acc")
+         from modules.clef_keysig import apply_key_changes; named, label_keys = apply_key_changes(result, contexts, pitched, accidentals, named, notation, tonic, keep_tonic=bool(key_override))  # [claude 2026-10-16] 확인된 곡 중간 조바꿈 뒤를 새 조로(§1-43 초안)
+         from modules.accidental_detect import double_acc_suspects; diag_rows = mark_accidental_candidates(diag_rows, double_acc_suspects(result, contexts, pitched), "double_acc")  # [claude 2026-10-15] 겹임시표 ♭♭ · 𝄪 머리 · 같은 마디 같은 음 → check(가운데 머리 추가 뒤라 그 판정을 막지 않음)
+         from modules.verify import text_row_suspects; diag_rows = mark_accidental_candidates(diag_rows, text_row_suspects(result, pitched), "text_row")  # [claude 2026-10-15] 오선 밖 글자 줄(나타냄말 · 셈여림) → check

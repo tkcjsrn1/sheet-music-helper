@@ -1,0 +1,184 @@
+[
+  {
+    "kind": "label",
+    "key": [
+      6,
+      1132,
+      2834
+    ],
+    "before": [
+      {
+        "id": "s6-p5-x118",
+        "staff": 6,
+        "x": 1132,
+        "y": 2834,
+        "nx": 58.958,
+        "pitch": "C5",
+        "step": 5,
+        "accidental": "b",
+        "text": "도b",
+        "confidence": "caution",
+        "flags": [
+          "vertical_blocked",
+          "snap_residual"
+        ],
+        "edited": false
+      }
+    ],
+    "after": [
+      {
+        "id": "s6-p5-x118",
+        "staff": 6,
+        "x": 1132,
+        "y": 2834,
+        "nx": 58.958,
+        "pitch": "C5",
+        "step": 5,
+        "accidental": null,
+        "text": "도",
+        "confidence": "caution",
+        "flags": [
+          "vertical_blocked",
+          "snap_residual"
+        ],
+        "edited": false
+      }
+    ]
+  },
+  {
+    "kind": "label",
+    "key": [
+      6,
+      1209,
+      2830
+    ],
+    "before": [
+      {
+        "id": "s6-p5-x126",
+        "staff": 6,
+        "x": 1209,
+        "y": 2830,
+        "nx": 62.969,
+        "pitch": "C5",
+        "step": 5,
+        "accidental": "b",
+        "text": "도b",
+        "confidence": "check",
+        "flags": [
+          "accidental_unstable"
+        ],
+        "edited": false
+      }
+    ],
+    "after": [
+      {
+        "id": "s6-p5-x126",
+        "staff": 6,
+        "x": 1209,
+        "y": 2830,
+        "nx": 62.969,
+        "pitch": "C5",
+        "step": 5,
+        "accidental": null,
+        "text": "도",
+        "confidence": "check",
+        "flags": [
+          "accidental_unstable"
+        ],
+        "edited": false
+      }
+    ]
+  },
+  {
+    "kind": "label",
+    "key": [
+      6,
+      1511,
+      2830
+    ],
+    "before": [
+      {
+        "id": "s6-p5-x157",
+        "staff": 6,
+        "x": 1511,
+        "y": 2830,
+        "nx": 78.698,
+        "pitch": "C5",
+        "step": 5,
+        "accidental": "b",
+        "text": "도b",
+        "confidence": "check",
+        "flags": [
+          "accidental_unstable"
+        ],
+        "edited": false
+      }
+    ],
+    "after": [
+      {
+        "id": "s6-p5-x157",
+        "staff": 6,
+        "x": 1511,
+        "y": 2830,
+        "nx": 78.698,
+        "pitch": "C5",
+        "step": 5,
+        "accidental": null,
+        "text": "도",
+        "confidence": "check",
+        "flags": [
+          "accidental_unstable"
+        ],
+        "edited": false
+      }
+    ]
+  },
+  {
+    "kind": "label",
+    "key": [
+      6,
+      1586,
+      2815
+    ],
+    "before": [
+      {
+        "id": "s6-p7-x165",
+        "staff": 6,
+        "x": 1586,
+        "y": 2815,
+        "nx": 82.604,
+        "pitch": "E5",
+        "step": 7,
+        "accidental": "b",
+        "text": "미b",
+        "confidence": "check",
+        "flags": [
+          "snap_residual",
+          "accidental_unstable",
+          "chord_rescue_added"
+        ],
+        "edited": false
+      }
+    ],
+    "after": [
+      {
+        "id": "s6-p7-x165",
+        "staff": 6,
+        "x": 1586,
+        "y": 2815,
+        "nx": 82.604,
+        "pitch": "E5",
+        "step": 7,
+        "accidental": null,
+        "text": "미b",
+        "confidence": "check",
+        "flags": [
+          "snap_residual",
+          "accidental_unstable",
+          "chord_rescue_added"
+        ],
+        "edited": false
+      }
+    ]
+  }
+]

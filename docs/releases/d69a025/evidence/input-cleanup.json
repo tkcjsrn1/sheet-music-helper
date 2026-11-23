@@ -1,0 +1,16 @@
+{
+  "before": {
+    "foreground": 263510,
+    "ime": 460094,
+    "conversion": 1,
+    "numlock": true
+  },
+  "after": {
+    "foreground": 263510,
+    "ime": 460094,
+    "conversion": 1,
+    "numlock": true
+  },
+  "numlock_restored": true,
+  "ime_restored": true
+}

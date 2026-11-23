@@ -1,0 +1,209 @@
+INFO  []                      Main 259  | Running in batch mode
+INFO  []              TesseractOCR 137  | Creating OCR folder C:\Users\user\AppData\Roaming\AudiverisLtd\audiveris\config\tessdata
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 2 task(s) in sequence:
+    Input "C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\inputs\aoharu_p1.png"
+    Input "C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\inputs\chopin_Db_p1.png"
+INFO  [aoharu_p1]                      Book 560  | 1 sheet in C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\inputs\aoharu_p1.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\results\aoharu_p1.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [aoharu_p1]            StepMonitoring 98   | LOAD
+INFO  [aoharu_p1]                 SheetStub 1278 | Loaded image #1 1640x2360 from C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\inputs\aoharu_p1.png
+INFO  [aoharu_p1]                 ImageUtil 152  | Converting max RGB to gray
+INFO  [aoharu_p1]                      Book 2565 | Stored /book.xml
+INFO  [aoharu_p1]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [aoharu_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [aoharu_p1]            StepMonitoring 98   | BINARY
+INFO  [aoharu_p1]                      Book 2565 | Stored /book.xml
+INFO  [aoharu_p1]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [aoharu_p1]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [aoharu_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [aoharu_p1]            StepMonitoring 98   | SCALE
+WARN  [aoharu_p1]                 SheetStub 411  | aoharu_p1
+
+ With a too low interline value of 2 pixels,
+ either this sheet contains no multi-line staves,
+ or the picture resolution is too low (try 300 DPI).
+
+ This interline value is NOT RELIABLE!
+INFO  [aoharu_p1]                      Book 543  | Created scores: []
+INFO  [aoharu_p1]                 SheetStub 1194 | Sheet aoharu_p1 flagged as invalid.
+WARN  [aoharu_p1]                      Book 2044 | Error processing stub org.audiveris.omr.step.StepException: Sheet ignored
+java.util.concurrent.ExecutionException: org.audiveris.omr.step.StepException: Sheet ignored
+	at java.base/java.util.concurrent.FutureTask.report(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.get(Unknown Source)
+	at org.audiveris.omr.sheet.SheetStub.doOneStep(SheetStub.java:519)
+	at org.audiveris.omr.sheet.SheetStub.reachStep(SheetStub.java:1405)
+	at org.audiveris.omr.sheet.Book.reachBookStep(Book.java:2035)
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:885)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+Caused by: org.audiveris.omr.step.StepException: Sheet ignored
+	at org.audiveris.omr.sheet.SheetStub.decideOnRemoval(SheetStub.java:425)
+	at org.audiveris.omr.sheet.ScaleBuilder.checkResolution(ScaleBuilder.java:187)
+	at org.audiveris.omr.sheet.ScaleBuilder.doRetrieveScale(ScaleBuilder.java:380)
+	at org.audiveris.omr.sheet.ScaleBuilder.retrieveScale(ScaleBuilder.java:445)
+	at org.audiveris.omr.step.ScaleStep.doit(ScaleStep.java:64)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+INFO  [aoharu_p1]                      Book 2584 | Book{aoharu_p1} storing
+INFO  [aoharu_p1]                      Book 2565 | Stored /book.xml
+INFO  [aoharu_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [aoharu_p1]                      Book 2525 | Book stored as C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\results\aoharu_p1.omr
+INFO  [aoharu_p1]                 SheetStub 1655 | Sheet disposed
+INFO  [aoharu_p1]                      Book 2050 | End of Stub#1
+INFO  [aoharu_p1]                      Book 2057 | End of Book{aoharu_p1}
+WARN  [aoharu_p1]                       CLI 956  | Exception occurred java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+WARN  []                      Main 373  | Exception on aoharu_p1, java.lang.Exception: Error in reaching step PAGE
+java.lang.Exception: Error in reaching step PAGE
+	at org.audiveris.omr.CLI$ProcessingTask.processBook(CLI.java:893)
+	at org.audiveris.omr.CLI$CliTask.call(CLI.java:513)
+	at org.audiveris.omr.Main.runBatchTasks(Main.java:370)
+	at org.audiveris.omr.Main.main(Main.java:272)
+	at Audiveris.main(Audiveris.java:50)
+INFO  [chopin_Db_p1]                      Book 560  | 1 sheet in C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\inputs\chopin_Db_p1.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\results\chopin_Db_p1.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [chopin_Db_p1]            StepMonitoring 98   | LOAD
+INFO  [chopin_Db_p1]                 SheetStub 1278 | Loaded image #1 2481x3508 from C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\inputs\chopin_Db_p1.png
+INFO  [chopin_Db_p1]                 ImageUtil 152  | Converting max RGB to gray
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | BINARY
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [chopin_Db_p1]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | SCALE
+INFO  [chopin_Db_p1]              ScaleBuilder 254  | Beam  guessed height: 11 -- 0.25 of [9..18] range
+INFO  [chopin_Db_p1]              ScaleBuilder 271  | Beam measured height: 10 -- 0.11 of [9..18] range at 938% of needed quorum
+INFO  [chopin_Db_p1]              ScaleBuilder 401  | Normalized black jitter: 10.53 %
+INFO  [chopin_Db_p1]                 ScaleStep 65   | Scale{ interline(18,19,20) line(2,3,4) beam(10)}
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | GRID
+INFO  [chopin_Db_p1]            LinesRetriever 1508 | Global slope: 0.00000
+INFO  [chopin_Db_p1]         ClustersRetriever 326  | Retrieved raw line clusters: 8 of sizes [5] with interline(18,19,20)
+INFO  [chopin_Db_p1]                 PeakGraph 310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+INFO  [chopin_Db_p1]             SystemManager 134  | Indentation detected for system #1
+INFO  [chopin_Db_p1]             SystemManager 800  | 1 part along 4 systems
+INFO  [chopin_Db_p1]                      Book 543  | Created scores: [{Score 1}]
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | HEADERS
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | STEM_SEEDS
+INFO  [chopin_Db_p1]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | BEAMS
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | LEDGERS
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | HEADS
+INFO  [chopin_Db_p1]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.3]}
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | STEMS
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | REDUCTION
+INFO  [chopin_Db_p1]             ReductionStep 105  | Stems free length median value: 68 pixels, 3.6 interlines
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | CUE_BEAMS
+INFO  [chopin_Db_p1]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | TEXTS
+WARN  [chopin_Db_p1]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [chopin_Db_p1]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | MEASURES
+INFO  [chopin_Db_p1]                      Page 307  | 12 raw measures: [3 in system#1, 3 in system#2, 3 in system#3, 3 in system#4]
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | CHORDS
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | CURVES
+INFO  [chopin_Db_p1]              SlursBuilder 240  | Slurs: 20
+INFO  [chopin_Db_p1]           SegmentsBuilder 155  | Segments: 61
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | SYMBOLS
+WARN  [chopin_Db_p1]            SymbolsBuilder 231  | Error in glyph evaluation java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+java.lang.NullPointerException: Cannot invoke "org.audiveris.omr.sheet.Staff.getPart()" because "this.staff" is null
+	at org.audiveris.omr.sig.inter.SmallChordInter.lookupLink(SmallChordInter.java:164)
+	at org.audiveris.omr.sig.inter.GraceChordInter.createValidAdded(GraceChordInter.java:299)
+	at org.audiveris.omr.sheet.symbol.InterFactory.doCreate(InterFactory.java:464)
+	at org.audiveris.omr.sheet.symbol.InterFactory.create(InterFactory.java:213)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.evaluateGlyph(SymbolsBuilder.java:220)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder$SymbolAdapter.evaluateGlyph(SymbolsBuilder.java:479)
+	at org.audiveris.omr.glyph.GlyphCluster.process(GlyphCluster.java:161)
+	at org.audiveris.omr.glyph.GlyphCluster.decompose(GlyphCluster.java:102)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.processClusters(SymbolsBuilder.java:346)
+	at org.audiveris.omr.sheet.symbol.SymbolsBuilder.buildSymbols(SymbolsBuilder.java:173)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:124)
+	at org.audiveris.omr.sheet.symbol.SymbolsStep.doSystem(SymbolsStep.java:51)
+	at org.audiveris.omr.step.AbstractSystemStep.lambda$doitPerSystem$0(AbstractSystemStep.java:158)
+	at org.audiveris.omr.step.AbstractSystemStep.doitPerSystem(AbstractSystemStep.java:178)
+	at org.audiveris.omr.step.AbstractSystemStep.doit(AbstractSystemStep.java:125)
+	at org.audiveris.omr.step.OmrStep.doit(OmrStep.java:138)
+	at org.audiveris.omr.sheet.SheetStub.lambda$doOneStep$0(SheetStub.java:503)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | LINKS
+INFO  [chopin_Db_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#7928{(0.141) staff:1 QUINDICESIMA BASSA} at java.awt.Point[x=1208,y=619]
+INFO  [chopin_Db_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#7951{(0.189) staff:1 OTTAVA ALTA} at java.awt.Point[x=1192,y=104]
+INFO  [chopin_Db_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#8042{(0.667) staff:1 OTTAVA ALTA} at java.awt.Point[x=2289,y=180]
+INFO  [chopin_Db_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#8046{(0.667) staff:1 OTTAVA ALTA} at java.awt.Point[x=2181,y=180]
+INFO  [chopin_Db_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#8348{(0.134) staff:7 OTTAVA ALTA} at java.awt.Point[x=462,y=2659]
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | RHYTHMS
+INFO  [chopin_Db_p1]                     Voice 257  | Measure{#8} Voice{#3 excess:3/16} too long
+INFO  [chopin_Db_p1]                     Voice 257  | Measure{#8} Voice{#6 excess:3/16} too long
+INFO  [chopin_Db_p1]               StackRhythm 224  | S3 MeasureStack#8 no correct rhythm
+INFO  [chopin_Db_p1]             MeasureRhythm 1276 | Measure{#12} Time inconsistency in {15/32=[HeadChordInter#6512{(0.965/0.965) staff:7 slot#10 off:15/32 dur:1/24}], 1/2=[HeadChordInter#6549{(0.966/0.966) staff:8 slot#10 off:1/2 dur:1/16}]}
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]            StepMonitoring 98   | PAGE
+INFO  [chopin_Db_p1]                     Voice 257  | Measure{#8} Voice{#3 excess:3/16} too long
+INFO  [chopin_Db_p1]                     Voice 257  | Measure{#8} Voice{#6 excess:3/16} too long
+INFO  [chopin_Db_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Db_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]                 SheetStub 1655 | Sheet disposed
+INFO  [chopin_Db_p1]                      Book 2050 | End of Stub#1
+INFO  [chopin_Db_p1]                      Book 2057 | End of Book{chopin_Db_p1}
+INFO  [chopin_Db_p1]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [chopin_Db_p1]           PartwiseBuilder 2707 | Exporting sheet(s): [#1]
+INFO  [chopin_Db_p1]             ScoreExporter 164  | Score chopin_Db_p1 exported to C:\Users\user\Desktop\악보헬퍼\output\worktrees\accidental-source-census\output\omr-comparison\results\chopin_Db_p1.mxl
+INFO  [chopin_Db_p1]                     Score 181  | Closing {Score 1}
+WARN  []                      Main 307  | Exit forced. Failure

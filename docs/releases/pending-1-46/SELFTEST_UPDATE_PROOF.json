@@ -1,0 +1,127 @@
+{
+  "base_commit": "2ce6a92ec4e6670605d4f40a165c38f8ad1ade12",
+  "approval_file": "docs/releases/pending-1-46/SELFTEST_DB_CHANGES.json",
+  "approval_sha256": "caadfe9c0d335c073bb6eb913377d427889d675d4b7ef8e117293bf36f494367",
+  "labels_before": 262,
+  "labels_after": 262,
+  "schema_before": 2,
+  "schema_after": 2,
+  "changed_rows": 5,
+  "coordinate_pitch_confidence_flags_changes": 0,
+  "other_document_changes": 0,
+  "fixture_git_lf_sha256_before": "e2e51ae57985c07e148e048e59c7d5db21bd2bc1fa1bc19ee73a14599aa4c74a",
+  "fixture_git_lf_sha256_after": "d9f9e6f277a4913382d0a9c6a2c59f4f5065fb22fdbc26df8f9cde76aa39c4f8",
+  "source_selftest_lf_sha256": "d9f9e6f277a4913382d0a9c6a2c59f4f5065fb22fdbc26df8f9cde76aa39c4f8",
+  "aoharu_raw_fixture_sha256": "5c640b06e68496149c8bda8c6807921b97e640ca4d7868e668a77e6fc7037a15",
+  "aoharu_fixture_bytes_unchanged": true,
+  "changes": [
+    {
+      "key": [
+        4,
+        1235,
+        2024
+      ],
+      "pitch": "B5",
+      "old_accidental": "bb",
+      "new_accidental": "b",
+      "old_text": "시bb",
+      "new_text": "시b",
+      "confidence": "check"
+    },
+    {
+      "key": [
+        6,
+        2352,
+        2850
+      ],
+      "pitch": "A4",
+      "old_accidental": "bb",
+      "new_accidental": null,
+      "old_text": "라bb",
+      "new_text": "라b",
+      "confidence": "check"
+    },
+    {
+      "key": [
+        7,
+        1098,
+        2996
+      ],
+      "pitch": "F4",
+      "old_accidental": "##",
+      "new_accidental": null,
+      "old_text": "파##",
+      "new_text": "파",
+      "confidence": "check"
+    },
+    {
+      "key": [
+        7,
+        1340,
+        2996
+      ],
+      "pitch": "F4",
+      "old_accidental": "##",
+      "new_accidental": null,
+      "old_text": "파##",
+      "new_text": "파",
+      "confidence": "check"
+    },
+    {
+      "key": [
+        7,
+        1447,
+        2996
+      ],
+      "pitch": "F4",
+      "old_accidental": "##",
+      "new_accidental": null,
+      "old_text": "파##",
+      "new_text": "파",
+      "confidence": "check"
+    }
+  ],
+  "full_suite_status": "passed",
+  "snapshot_workers": 1,
+  "test_files_modified": false,
+  "product_code_modified": false,
+  "source_selftest_before_update": [
+    {
+      "case": "chopin_Db_p1",
+      "labels": 262,
+      "source_exit": 0,
+      "fixture_before_sha256": "58e462ac69503fc39046c8bd659906faf1f8c35441182c3a51aba7dda2d1ae76",
+      "actual_sha256": "24033f938654667f251ed4856b59671f1a602333ecf471f6532d3b896b316037",
+      "byte_equal": false,
+      "lf_equal": false,
+      "actual": "output\\selftest-397-20261019\\chopin_Db_p1\\chopin_Db_p1_라벨.json"
+    },
+    {
+      "case": "aoharu_p1",
+      "labels": 226,
+      "source_exit": 0,
+      "fixture_before_sha256": "5c640b06e68496149c8bda8c6807921b97e640ca4d7868e668a77e6fc7037a15",
+      "actual_sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+      "byte_equal": false,
+      "lf_equal": true,
+      "actual": "output\\selftest-397-20261019\\aoharu_p1\\KakaoTalk_20260731_162400402_라벨.json"
+    }
+  ],
+  "updated_fixture_matches_source_lf": true,
+  "aoharu_source_matches_fixture_lf": true,
+  "full_suite": {
+    "total": 47,
+    "passed": 47,
+    "skipped": 0,
+    "failed": 0,
+    "exit": 0,
+    "log": "SELFTEST_UPDATE_TESTS.log.gz",
+    "golden_labels": 711,
+    "pdf_snapshot_pages": 17,
+    "snapshot_workers": 1,
+    "note": "검사/판정 소스 불변, 해당 프로세스의 ThreadPool 실행 수만 임시 1 제한"
+  },
+  "pre_record_pull": "1ba4ac3831541c6caeee57e80d1073b96456f03f",
+  "post_test_main_changes": "WORKLOG.md 추가19행뿐, 제품/검사 변경0",
+  "independent_review": "Critical/Important 없음, 승인된5행/소스2쪽/런타임제한을 읽기 전용 독립 대조"
+}

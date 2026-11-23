@@ -1,0 +1,243 @@
+[
+  {
+    "stem": "weber_concertino_piano_bravura_p1",
+    "score": "weber_concertino_piano",
+    "source": "weber/concertino_clarinet.mxl",
+    "piano_part": "P2",
+    "page": 1,
+    "font": "Bravura",
+    "pages_in_source": 9,
+    "notes_on_page": 456,
+    "grace": 1,
+    "staves": 10,
+    "keys": [
+      "3f"
+    ],
+    "boxes": {
+      "dynam": 8,
+      "beam": 71,
+      "accid": 129
+    }
+  },
+  {
+    "stem": "weber_concertino_piano_leipzig_p2",
+    "score": "weber_concertino_piano",
+    "source": "weber/concertino_clarinet.mxl",
+    "piano_part": "P2",
+    "page": 2,
+    "font": "Leipzig",
+    "pages_in_source": 9,
+    "notes_on_page": 338,
+    "grace": 0,
+    "staves": 12,
+    "keys": [
+      "3f"
+    ],
+    "boxes": {
+      "dynam": 3,
+      "beam": 79,
+      "accid": 181
+    }
+  },
+  {
+    "stem": "clara_trio_op17_3_piano_leipzig_p1",
+    "score": "clara_trio_op17_3_piano",
+    "source": "schumann_clara/opus17/movement3.xml",
+    "piano_part": "P3",
+    "page": 1,
+    "font": "Leipzig",
+    "pages_in_source": 4,
+    "notes_on_page": 585,
+    "grace": 0,
+    "staves": 12,
+    "keys": [
+      "1s"
+    ],
+    "boxes": {
+      "dynam": 1,
+      "beam": 68,
+      "accid": 114
+    }
+  },
+  {
+    "stem": "clara_trio_op17_3_piano_bravura_p2",
+    "score": "clara_trio_op17_3_piano",
+    "source": "schumann_clara/opus17/movement3.xml",
+    "piano_part": "P3",
+    "page": 2,
+    "font": "Bravura",
+    "pages_in_source": 3,
+    "notes_on_page": 586,
+    "grace": 0,
+    "staves": 12,
+    "keys": [
+      "1s"
+    ],
+    "boxes": {
+      "dynam": 0,
+      "beam": 66,
+      "accid": 140
+    }
+  },
+  {
+    "stem": "handel_lascia_piano_bravura_p1",
+    "score": "handel_lascia_piano",
+    "source": "handel/rinaldo/Lascia_chio_pianga.mxl",
+    "piano_part": "P2",
+    "page": 1,
+    "font": "Bravura",
+    "pages_in_source": 2,
+    "notes_on_page": 363,
+    "grace": 0,
+    "staves": 12,
+    "keys": [
+      "2s",
+      "3s"
+    ],
+    "boxes": {
+      "dynam": 10,
+      "beam": 17,
+      "accid": 116
+    }
+  },
+  {
+    "stem": "verdi_donna_mobile_leipzig_p1",
+    "score": "verdi_donna_mobile",
+    "source": "verdi/laDonnaEMobile.mxl",
+    "piano_part": null,
+    "page": 1,
+    "font": "Leipzig",
+    "pages_in_source": 1,
+    "notes_on_page": 370,
+    "grace": 6,
+    "staves": 8,
+    "keys": [
+      "2f"
+    ],
+    "boxes": {
+      "dynam": 8,
+      "beam": 60,
+      "accid": 110
+    }
+  },
+  {
+    "stem": "schoenberg_op19_2_bravura_p1",
+    "score": "schoenberg_op19_2",
+    "source": "schoenberg/opus19/movement2.mxl",
+    "piano_part": null,
+    "page": 1,
+    "font": "Bravura",
+    "pages_in_source": 1,
+    "notes_on_page": 102,
+    "grace": 0,
+    "staves": 6,
+    "keys": [
+      "0"
+    ],
+    "boxes": {
+      "dynam": 6,
+      "beam": 10,
+      "accid": 43
+    }
+  },
+  {
+    "stem": "schoenberg_op19_6_leipzig_p1",
+    "score": "schoenberg_op19_6",
+    "source": "schoenberg/opus19/movement6.mxl",
+    "piano_part": null,
+    "page": 1,
+    "font": "Leipzig",
+    "pages_in_source": 1,
+    "notes_on_page": 88,
+    "grace": 0,
+    "staves": 4,
+    "keys": [
+      "0"
+    ],
+    "boxes": {
+      "dynam": 11,
+      "beam": 6,
+      "accid": 52
+    }
+  },
+  {
+    "stem": "aloha_oe_piano_bravura_p1",
+    "score": "aloha_oe_piano",
+    "source": "liliuokalani/aloha_oe.mxl",
+    "piano_part": "P6",
+    "page": 1,
+    "font": "Bravura",
+    "pages_in_source": 1,
+    "notes_on_page": 269,
+    "grace": 0,
+    "staves": 10,
+    "keys": [
+      "1s"
+    ],
+    "boxes": {
+      "dynam": 1,
+      "beam": 37,
+      "accid": 17
+    }
+  },
+  {
+    "stem": "beach_prayer_piano_leipzig_p1",
+    "score": "beach_prayer_piano",
+    "source": "beach/prayer_of_a_tired_child.musicxml",
+    "piano_part": "P5",
+    "page": 1,
+    "font": "Leipzig",
+    "pages_in_source": 2,
+    "notes_on_page": 632,
+    "grace": 0,
+    "staves": 12,
+    "keys": [
+      "3f"
+    ],
+    "boxes": {
+      "dynam": 4,
+      "beam": 103,
+      "accid": 279
+    }
+  },
+  {
+    "stem": "chopin_mazurka06_2_bravura_p1",
+    "score": "chopin_mazurka06_2",
+    "source": "chopin/mazurka06-2.krn",
+    "piano_part": null,
+    "page": 1,
+    "font": "Bravura",
+    "pages_in_source": 3,
+    "notes_on_page": 359,
+    "grace": 0,
+    "staves": 12,
+    "keys": [
+      "4s"
+    ],
+    "boxes": {
+      "dynam": 8,
+      "beam": 41,
+      "accid": 329
+    }
+  },
+  {
+    "stem": "cpebach_h186_leipzig_p1",
+    "score": "cpebach_h186",
+    "source": "cpebach/h186.mxl",
+    "piano_part": null,
+    "page": 1,
+    "font": "Leipzig",
+    "pages_in_source": 3,
+    "notes_on_page": 354,
+    "grace": 4,
+    "staves": 12,
+    "keys": [
+      "3s"
+    ],
+    "boxes": {
+      "dynam": 9,
+      "beam": 66,
+      "accid": 159
+    }
+  }
+]

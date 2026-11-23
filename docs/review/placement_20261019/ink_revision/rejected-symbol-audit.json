@@ -1,0 +1,92 @@
+[
+  {
+    "name": "finger_1_a",
+    "rect": [
+      572,
+      2770,
+      588,
+      2792
+    ],
+    "rejected_v1_worsened_pixels": 179
+  },
+  {
+    "name": "finger_1_b",
+    "rect": [
+      617,
+      2770,
+      632,
+      2792
+    ],
+    "rejected_v1_worsened_pixels": 187
+  },
+  {
+    "name": "finger_3",
+    "rect": [
+      724,
+      2760,
+      739,
+      2782
+    ],
+    "rejected_v1_worsened_pixels": 93
+  },
+  {
+    "name": "finger_1_c",
+    "rect": [
+      836,
+      2770,
+      851,
+      2792
+    ],
+    "rejected_v1_worsened_pixels": 22
+  },
+  {
+    "name": "finger_2_of_3_2",
+    "rect": [
+      1041,
+      2764,
+      1057,
+      2785
+    ],
+    "rejected_v1_worsened_pixels": 105
+  },
+  {
+    "name": "accent_greater",
+    "rect": [
+      938,
+      2777,
+      972,
+      2797
+    ],
+    "rejected_v1_worsened_pixels": 188
+  },
+  {
+    "name": "finger_1_control",
+    "rect": [
+      947,
+      2735,
+      962,
+      2757
+    ],
+    "rejected_v1_worsened_pixels": 0
+  },
+  {
+    "name": "finger_1_right_control",
+    "rect": [
+      1125,
+      2731,
+      1140,
+      2753
+    ],
+    "rejected_v1_worsened_pixels": 129
+  },
+  {
+    "name": "finger_2_right_control",
+    "rect": [
+      1163,
+      2721,
+      1179,
+      2743
+    ],
+    "rejected_v1_worsened_pixels": 0
+  }
+]

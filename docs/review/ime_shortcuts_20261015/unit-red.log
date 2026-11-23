@@ -1,0 +1,23 @@
+FF
+======================================================================
+FAIL: test_windows_numlock_is_not_alt (__main__.ReviewNavigationTests.test_windows_numlock_is_not_alt)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 217, in test_windows_numlock_is_not_alt
+    self.assertEqual(app._review_index,1)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 1
+
+======================================================================
+FAIL: test_korean_review_characters_respect_input_and_modifiers (__main__.ReviewNavigationTests.test_korean_review_characters_respect_input_and_modifiers)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 227, in test_korean_review_characters_respect_input_and_modifiers
+    app._review_shortcut(event);self.assertEqual(app._review_index,1)
+                                ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 1
+
+----------------------------------------------------------------------
+Ran 2 tests in 13.030s
+
+FAILED (failures=2)

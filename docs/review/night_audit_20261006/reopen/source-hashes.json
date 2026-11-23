@@ -1,0 +1,8 @@
+{
+  "baseline": "6403d7fc50131fe60321b90933f9f490caa128c8",
+  "files": {
+    "gui.py": "2c8e812768e9800a4f7ca64907074d59e78d635fbdece743547005cb5776f535",
+    "tests/test_gui_reopen_edits.py": "7cd541c1aee7e2c3723e2fc23317635f779798a2c9b2e56b5ea2c94b72d2c36e",
+    "tests/run_all.py": "97b69a9c0e44002167bbc204c1cfec950f8fd064f5c95818d1eb69490a56b732"
+  }
+}

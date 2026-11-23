@@ -1,0 +1,22 @@
+[
+  {
+    "file": "01_irregular.png",
+    "sha256": "3f03f74bae15f6f10a04b93dffd03ccf741d51d159e0082011d27087e8b605a0",
+    "equal": true
+  },
+  {
+    "file": "02_chord.png",
+    "sha256": "93b9b026f2b0a069f3dbaab851a958e1ba19733df8dfa6e6dd0c22413e11ee5e",
+    "equal": true
+  },
+  {
+    "file": "05_aoharu_stack.png",
+    "sha256": "5d73bcdb09e30385ee69a622b106f521838aad69db3f742a7f31dcd2db827fdf",
+    "equal": true
+  },
+  {
+    "file": "06_chopin_bars10_12.png",
+    "sha256": "200721e6d8c3255f124f6edd023eca35cac6f4a9bfaea9289be4a3e62d0154f2",
+    "equal": true
+  }
+]

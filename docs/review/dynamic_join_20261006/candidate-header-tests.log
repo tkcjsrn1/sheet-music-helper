@@ -1,0 +1,10 @@
+test_already_covered_timesig_does_not_scan_the_first_note_again (__main__.HeaderSymbols.test_already_covered_timesig_does_not_scan_the_first_note_again) ... ok
+test_boundary_uses_image_coordinates_not_fixed_symbol_box (__main__.HeaderSymbols.test_boundary_uses_image_coordinates_not_fixed_symbol_box) ... ok
+test_quartet_numbers_are_header_and_real_first_notes_survive (__main__.HeaderSymbols.test_quartet_numbers_are_header_and_real_first_notes_survive) ... ok
+test_same_first_chord_in_all_parts_is_not_a_time_signature (__main__.HeaderSymbols.test_same_first_chord_in_all_parts_is_not_a_time_signature) ... ok
+test_subpixel_shift_does_not_reopen_the_symbol_region (__main__.HeaderSymbols.test_subpixel_shift_does_not_reopen_the_symbol_region) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 80.488s
+
+OK

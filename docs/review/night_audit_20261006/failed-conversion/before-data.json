@@ -1,0 +1,10 @@
+{
+  "converting": false,
+  "old_png_selected": true,
+  "new_json_selected": true,
+  "edit_session_missing": true,
+  "old_saved_files_preserved": true,
+  "report_saved_after_all_pages_failed": true,
+  "report_contains_old_edited_png": true,
+  "report_labels_have_user_edits": false
+}

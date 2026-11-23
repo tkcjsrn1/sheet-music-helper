@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-04",
+  "authorization": "최신 사용자 [1]: d3ac44d 산출물도 삭제 허용, dff19b2 및 stash 보존",
+  "before": 449355776,
+  "after": 936349696,
+  "removed": [
+    {
+      "path": "C:\\Users\\user\\Desktop\\악보헬퍼\\dist\\d3ac44d85ac5-20261002-234331-189442",
+      "bytes": 119069406.0
+    },
+    {
+      "path": "C:\\Users\\user\\Desktop\\악보헬퍼\\dist\\악보헬퍼-d3ac44d85ac5-20261002-234331-189442.zip",
+      "bytes": 124615966.0
+    },
+    {
+      "path": "C:\\Users\\user\\.codex\\worktrees\\pdfium-investigation\\악보헬퍼\\dist\\d3ac44d85ac5-20261002-234331-189442",
+      "bytes": 118645364.0
+    },
+    {
+      "path": "C:\\Users\\user\\.codex\\worktrees\\pdfium-investigation\\악보헬퍼\\dist\\악보헬퍼-d3ac44d85ac5-20261002-234331-189442.zip",
+      "bytes": 124615966.0
+    }
+  ],
+  "stash": [
+    "stash@{0}: On claude/a18-sharp-ink: a18 §9 열묶음 WIP (미완, 커밋 안 함)",
+    "stash@{1}: On codex/chord-rescue-wiring: codex chord wiring in progress"
+  ],
+  "protected": "dff19b2"
+}

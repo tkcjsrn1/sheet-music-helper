@@ -1,0 +1,11 @@
+{
+  "source_commit": "6753dcd33b23b9078e7adaef2d3159dc83b95b28",
+  "old_beta_commit": "1ad8323c6155b8ce5f277df1fc9034f38cb86c2c",
+  "build_started": false,
+  "artifact_created": false,
+  "raw_sha256": "b0e4079dfa99ddc7db6723aae5dfa6b23fd1d23f15e04b6383684e01c6f778ff",
+  "compressed_sha256": "8a342902642ef3dbc9ab83e3cbde3759d6a847a0bf5d1f1b7099999ceb4dd843",
+  "raw_bytes": 2807717,
+  "compressed_bytes": 151616,
+  "parked_page_counts_patch_sha256": "2a5c1d31a15a9c7947e639f4a89baa5e6ddcc4fda1fac5087a39601af5932fa9"
+}

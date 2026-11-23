@@ -1,0 +1,71 @@
+FFFFFF
+======================================================================
+FAIL: test_boundary_selection_and_clear_stop_playback_but_keep_speed (__main__.PracticeControls.test_boundary_selection_and_clear_stop_playback_but_keep_speed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 36, in test_boundary_selection_and_clear_stop_playback_but_keep_speed
+    app=self.app();app.practice_speed.value=.5
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 19, in app
+    self.assertTrue(hasattr(gui.SheetHelperApp,method),'연습 제어 GUI가 없음: '+method)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 연습 제어 GUI가 없음: _practice_options
+
+======================================================================
+FAIL: test_default_snapshot_has_no_change_to_legacy_playback_or_doc (__main__.PracticeControls.test_default_snapshot_has_no_change_to_legacy_playback_or_doc)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 32, in test_default_snapshot_has_no_change_to_legacy_playback_or_doc
+    app=self.app();before=copy.deepcopy(app._edit_session['doc'])
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 19, in app
+    self.assertTrue(hasattr(gui.SheetHelperApp,method),'연습 제어 GUI가 없음: '+method)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 연습 제어 GUI가 없음: _practice_options
+
+======================================================================
+FAIL: test_excluded_boundary_reports_failure_without_starting_sound (__main__.PracticeControls.test_excluded_boundary_reports_failure_without_starting_sound)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 77, in test_excluded_boundary_reports_failure_without_starting_sound
+    app=self.app();events=queue.Queue();fake=SimpleNamespace(_audio_events=events,log=Mock())
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 19, in app
+    self.assertTrue(hasattr(gui.SheetHelperApp,method),'연습 제어 GUI가 없음: '+method)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 연습 제어 GUI가 없음: _practice_options
+
+======================================================================
+FAIL: test_missing_selection_and_partial_or_unbounded_repeat_rejected (__main__.PracticeControls.test_missing_selection_and_partial_or_unbounded_repeat_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 53, in test_missing_selection_and_partial_or_unbounded_repeat_rejected
+    app=self.app();app._review_index=None
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 19, in app
+    self.assertTrue(hasattr(gui.SheetHelperApp,method),'연습 제어 GUI가 없음: '+method)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 연습 제어 GUI가 없음: _practice_options
+
+======================================================================
+FAIL: test_page_edit_reopen_or_region_doc_replacement_clears_stale_boundaries (__main__.PracticeControls.test_page_edit_reopen_or_region_doc_replacement_clears_stale_boundaries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 46, in test_page_edit_reopen_or_region_doc_replacement_clears_stale_boundaries
+    app=self.app();app._set_practice_boundary('start');app._review_index=1;app._set_practice_boundary('end');app.practice_repeat.select()
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 19, in app
+    self.assertTrue(hasattr(gui.SheetHelperApp,method),'연습 제어 GUI가 없음: '+method)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 연습 제어 GUI가 없음: _practice_options
+
+======================================================================
+FAIL: test_worker_slices_plan_but_keeps_original_label_indices_and_pitch (__main__.PracticeControls.test_worker_slices_plan_but_keeps_original_label_indices_and_pitch)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 61, in test_worker_slices_plan_but_keeps_original_label_indices_and_pitch
+    app=self.app();events=queue.Queue();fake=SimpleNamespace(_audio_events=events,log=Mock());doc=app._edit_session['doc'];before=copy.deepcopy(doc)
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 19, in app
+    self.assertTrue(hasattr(gui.SheetHelperApp,method),'연습 제어 GUI가 없음: '+method)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 연습 제어 GUI가 없음: _practice_options
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.002s
+
+FAILED (failures=6)

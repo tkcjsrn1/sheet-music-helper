@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\test_gui_reopen_edits.py", line 55, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\output\test_gui_reopen_edits.py", line 15, in main
+    assert callable(load),'수정본 폴더 다시 열기 경로가 없다'
+           ~~~~~~~~^^^^^^
+AssertionError: 수정본 폴더 다시 열기 경로가 없다

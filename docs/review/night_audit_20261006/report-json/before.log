@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_feedback_bundle.py", line 96, in <module>
+    main()
+    ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_feedback_bundle.py", line 86, in main
+    gui.SheetHelperApp.save_feedback(app)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 1644, in save_feedback
+    save_feedback_bundle(session.get('source_path', self.input_path),
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         self.result_path, self.labels_path,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                         session.get('report_settings', self.settings), path, base_dir())
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\modules\feedback_bundle.py", line 22, in save_feedback_bundle
+    sources = [labels.get("source")]
+               ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'

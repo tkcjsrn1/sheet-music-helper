@@ -1,0 +1,82 @@
+test_empty_result_always_disables_hidden_navigation (__main__.PageProgressTests.test_empty_result_always_disables_hidden_navigation) ... FAIL
+test_inputs_all_formats_are_ignored (__main__.PageProgressTests.test_inputs_all_formats_are_ignored) ... invalid command name "2149724478336focus_set"
+    while executing
+"2149724478336focus_set"
+    ("after" script)
+invalid command name "2151331518336update"
+    while executing
+"2151331518336update"
+    ("after" script)
+invalid command name "2149722402240check_dpi_scaling"
+    while executing
+"2149722402240check_dpi_scaling"
+    ("after" script)
+invalid command name "2151778008896_windows_set_titlebar_icon"
+    while executing
+"2151778008896_windows_set_titlebar_icon"
+    ("after" script)
+invalid command name "2149724947200_check_if_scrollbars_needed"
+    while executing
+"2149724947200_check_if_scrollbars_needed"
+    ("after" script)
+FAIL
+test_processing_is_visibly_disabled_and_shows_current_page (__main__.PageProgressTests.test_processing_is_visibly_disabled_and_shows_current_page) ... invalid command name "2149724366336_windows_set_titlebar_icon"
+    while executing
+"2149724366336_windows_set_titlebar_icon"
+    ("after" script)
+invalid command name "2149725188224_check_if_scrollbars_needed"
+    while executing
+"2149725188224_check_if_scrollbars_needed"
+    ("after" script)
+FAIL
+test_thread_start_failure_stops_progress (__main__.PageProgressTests.test_thread_start_failure_stops_progress) ... invalid command name "2149724815744_check_if_scrollbars_needed"
+    while executing
+"2149724815744_check_if_scrollbars_needed"
+    ("after" script)
+ERROR
+
+======================================================================
+ERROR: test_thread_start_failure_stops_progress (__main__.PageProgressTests.test_thread_start_failure_stops_progress)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_page_progress.py", line 52, in test_thread_start_failure_stops_progress
+    self.assertFalse(app.page_progress._loop_running)
+                     ^^^^^^^^^^^^^^^^^
+  File "C:\Python314\Lib\tkinter\__init__.py", line 2560, in __getattr__
+    return getattr(self.tk, attr)
+AttributeError: '_tkinter.tkapp' object has no attribute 'page_progress'
+
+======================================================================
+FAIL: test_empty_result_always_disables_hidden_navigation (__main__.PageProgressTests.test_empty_result_always_disables_hidden_navigation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_page_progress.py", line 21, in test_empty_result_always_disables_hidden_navigation
+    self.assertEqual(app.next_page_btn.cget('state'),'disabled','새 작업에 이전 활성 상태가 남음')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'normal' != 'disabled'
+- normal
++ disabled
+ : 새 작업에 이전 활성 상태가 남음
+
+======================================================================
+FAIL: test_inputs_all_formats_are_ignored (__main__.PageProgressTests.test_inputs_all_formats_are_ignored)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_page_progress.py", line 57, in test_inputs_all_formats_are_ignored
+    self.assertEqual(proc.returncode,0,'inputs의 비이미지 원본도 제외해야 함')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 0 : inputs의 비이미지 원본도 제외해야 함
+
+======================================================================
+FAIL: test_processing_is_visibly_disabled_and_shows_current_page (__main__.PageProgressTests.test_processing_is_visibly_disabled_and_shows_current_page)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_page_progress.py", line 27, in test_processing_is_visibly_disabled_and_shows_current_page
+    self.assertNotEqual(app.next_page_btn.cget('fg_color'),gui.ctk.ThemeManager.theme['CTkButton']['fg_color'],'처리 중 버튼도 활성 색으로 보임')
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ['#2CC985', '#2FA572'] == ['#2CC985', '#2FA572'] : 처리 중 버튼도 활성 색으로 보임
+
+----------------------------------------------------------------------
+Ran 4 tests in 10.776s
+
+FAILED (failures=3, errors=1)

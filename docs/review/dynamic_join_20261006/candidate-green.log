@@ -1,0 +1,6 @@
+test_dynamic_below_first_note_does_not_change_F4_to_E4 (__main__.PhasePitch.test_dynamic_below_first_note_does_not_change_F4_to_E4) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 13.929s
+
+OK

@@ -1,0 +1,479 @@
+{
+  "disabled_observed": true,
+  "ready_observed_seconds": 22.379832200000237,
+  "click_after_ready_observed_ms": 10.896599997067824,
+  "first_click": {
+    "x": 240,
+    "y": 310,
+    "actual_xy": [
+      240,
+      310
+    ],
+    "expected_root": 4588944,
+    "hit_root": 4588944,
+    "pid": 332
+  },
+  "next_click": {
+    "x": 1147,
+    "y": 97,
+    "actual_xy": [
+      1147,
+      97
+    ],
+    "expected_root": 4588944,
+    "hit_root": 4588944,
+    "pid": 332
+  },
+  "frames": [
+    {
+      "seconds": 4.800000169780105e-06,
+      "file": "000.png",
+      "button_rgb": [
+        0,
+        0,
+        0
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 0.5747296000045026,
+      "file": "001.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 1.1108647000000929,
+      "file": "002.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 1.5224938000028487,
+      "file": "003.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 2.0720258000001195,
+      "file": "004.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 2.5098079000017606,
+      "file": "005.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 3.056034200002614,
+      "file": "006.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 3.5925484000035794,
+      "file": "007.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 4.124522800004343,
+      "file": "008.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 4.5372961000030045,
+      "file": "009.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 5.088411800003087,
+      "file": "010.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 5.5249582000033115,
+      "file": "011.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 6.087254700003541,
+      "file": "012.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 6.624505500003579,
+      "file": "013.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 7.02251729999989,
+      "file": "014.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 7.569814700000279,
+      "file": "015.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 8.105263999997987,
+      "file": "016.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 8.514701400003105,
+      "file": "017.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 9.066393400004017,
+      "file": "018.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 9.603890200000023,
+      "file": "019.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 10.015005599998403,
+      "file": "020.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 10.568887900000846,
+      "file": "021.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 11.100827399997797,
+      "file": "022.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 11.518352200000663,
+      "file": "023.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 12.089963999998872,
+      "file": "024.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 12.64859979999892,
+      "file": "025.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 13.051185199998145,
+      "file": "026.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 13.585761000002094,
+      "file": "027.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 14.125448899998446,
+      "file": "028.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 14.538184400000318,
+      "file": "029.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 15.093806600001699,
+      "file": "030.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 15.645050600003742,
+      "file": "031.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 16.047557500001858,
+      "file": "032.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 16.601874100000714,
+      "file": "033.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 17.1397169999982,
+      "file": "034.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 17.556796000004397,
+      "file": "035.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 18.13161360000231,
+      "file": "036.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 18.532382400000643,
+      "file": "037.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 19.081164800001716,
+      "file": "038.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 19.621414900000673,
+      "file": "039.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 20.01813960000436,
+      "file": "040.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 20.58814440000424,
+      "file": "041.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 21.002032600001257,
+      "file": "042.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 21.528636000002734,
+      "file": "043.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    },
+    {
+      "seconds": 22.077346600002784,
+      "file": "044.png",
+      "button_rgb": [
+        191,
+        191,
+        191
+      ],
+      "ready": false
+    }
+  ]
+}

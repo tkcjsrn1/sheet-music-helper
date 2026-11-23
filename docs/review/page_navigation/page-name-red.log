@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\page-name-red.py", line 10, in <module>
+    assert shown.get('text')=='입력2.png',f'2/2쪽인데 현재 파일 이름이 갱신되지 않음: {shown}'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2/2쪽인데 현재 파일 이름이 갱신되지 않음: {}

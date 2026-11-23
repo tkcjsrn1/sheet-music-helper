@@ -1,0 +1,41 @@
+{
+  "name": "중단 가드 주입 검사",
+  "command": [
+    "C:\\Users\\user\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-I",
+    "-B",
+    "-c",
+    "import subprocess,sys,time; subprocess.Popen([sys.executable,\"-I\",\"-B\",\"-c\",'import time;time.sleep(30)']); time.sleep(30)"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\codex-memory-20261023",
+  "started": "2026-10-23T19:24:41.923739+09:00",
+  "initial": {
+    "available": 3738640384,
+    "commit_headroom": 12364873728,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 61472768,
+  "peak_sampled_private": 26632192,
+  "peak_job_commit": 26640384,
+  "min_available": 1073741823,
+  "min_commit_headroom": 12334653440,
+  "max_processes": 7,
+  "samples": 5,
+  "aborted": "가용 메모리/커밋/시간 기준 중단",
+  "exit_code": 77,
+  "seconds": 0.824,
+  "finished": "2026-10-23T19:24:42.747546+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true,
+  "synthetic_low_available": true,
+  "actual_system_after_cleanup": {
+    "available": 3735162880,
+    "commit_headroom": 12360118272,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  }
+}

@@ -1,0 +1,1231 @@
+{
+  "candidate_sha256": "7ccfd0455afb85eb03d162ffbe851e73d710167ed0607f4f5d64fbc5773b54d8",
+  "cases": [
+    {
+      "case": "bach",
+      "kind": "pdf",
+      "old_count": 184,
+      "new_count": 184,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bbm1",
+      "kind": "pdf",
+      "old_count": 280,
+      "new_count": 280,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bbm2",
+      "kind": "pdf",
+      "old_count": 309,
+      "new_count": 309,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bbm3",
+      "kind": "pdf",
+      "old_count": 339,
+      "new_count": 339,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bbm4",
+      "kind": "pdf",
+      "old_count": 343,
+      "new_count": 343,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bbm5",
+      "kind": "pdf",
+      "old_count": 335,
+      "new_count": 335,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bbm6",
+      "kind": "pdf",
+      "old_count": 218,
+      "new_count": 218,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "db1",
+      "kind": "pdf",
+      "old_count": 260,
+      "new_count": 260,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "db2",
+      "kind": "pdf",
+      "old_count": 366,
+      "new_count": 366,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "db3",
+      "kind": "pdf",
+      "old_count": 322,
+      "new_count": 322,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "db4",
+      "kind": "pdf",
+      "old_count": 307,
+      "new_count": 307,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "db5",
+      "kind": "pdf",
+      "old_count": 369,
+      "new_count": 369,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "db6",
+      "kind": "pdf",
+      "old_count": 337,
+      "new_count": 337,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "em1",
+      "kind": "pdf",
+      "old_count": 299,
+      "new_count": 299,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "em2",
+      "kind": "pdf",
+      "old_count": 350,
+      "new_count": 350,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "em3",
+      "kind": "pdf",
+      "old_count": 300,
+      "new_count": 300,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "em4",
+      "kind": "pdf",
+      "old_count": 200,
+      "new_count": 200,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "aoharu1",
+      "kind": "aoharu",
+      "old_count": 226,
+      "new_count": 226,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "aoharu2",
+      "kind": "aoharu",
+      "old_count": 327,
+      "new_count": 327,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "aoharu3",
+      "kind": "aoharu",
+      "old_count": 158,
+      "new_count": 158,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "moon1",
+      "kind": "unseen",
+      "old_count": 216,
+      "new_count": 216,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            1,
+            419,
+            1124
+          ],
+          "before": [
+            {
+              "id": "s1-p-4-x40",
+              "staff": 1,
+              "x": 419,
+              "y": 1124,
+              "nx": 20.144,
+              "pitch": "C2",
+              "step": -4,
+              "accidental": null,
+              "text": "도#",
+              "confidence": "certain",
+              "flags": [
+                "snap_residual",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        },
+        {
+          "kind": "label",
+          "key": [
+            1,
+            419,
+            1128
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s1-p-4-x40",
+              "staff": 1,
+              "x": 419,
+              "y": 1128,
+              "nx": 20.144,
+              "pitch": "C2",
+              "step": -4,
+              "accidental": null,
+              "text": "도#",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s1-p-4-x40",
+            "staff": 1,
+            "x": 419,
+            "y": 1124,
+            "nx": 20.144,
+            "pitch": "C2",
+            "step": -4,
+            "accidental": null,
+            "text": "도#",
+            "confidence": "certain",
+            "flags": [
+              "snap_residual",
+              "off_staff"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s1-p-4-x40",
+            "staff": 1,
+            "x": 419,
+            "y": 1128,
+            "nx": 20.144,
+            "pitch": "C2",
+            "step": -4,
+            "accidental": null,
+            "text": "도#",
+            "confidence": "certain",
+            "flags": [
+              "off_staff"
+            ],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "moon2",
+      "kind": "unseen",
+      "old_count": 293,
+      "new_count": 293,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "moon11",
+      "kind": "unseen",
+      "old_count": 434,
+      "new_count": 434,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "moon18",
+      "kind": "unseen",
+      "old_count": 359,
+      "new_count": 359,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "rain1",
+      "kind": "unseen",
+      "old_count": 379,
+      "new_count": 379,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "rain2",
+      "kind": "unseen",
+      "old_count": 387,
+      "new_count": 387,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "rain3",
+      "kind": "unseen",
+      "old_count": 416,
+      "new_count": 416,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "rain4",
+      "kind": "unseen",
+      "old_count": 343,
+      "new_count": 343,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "organ2",
+      "kind": "unseen",
+      "old_count": 413,
+      "new_count": 413,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            5,
+            532,
+            1104
+          ],
+          "before": [
+            {
+              "id": "s5-p8-x64",
+              "staff": 5,
+              "x": 532,
+              "y": 1104,
+              "nx": 31.856,
+              "pitch": "A3",
+              "step": 8,
+              "accidental": null,
+              "text": "라",
+              "confidence": "caution",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        },
+        {
+          "kind": "label",
+          "key": [
+            5,
+            532,
+            1108
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s5-p7-x64",
+              "staff": 5,
+              "x": 532,
+              "y": 1108,
+              "nx": 31.856,
+              "pitch": "G3",
+              "step": 7,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s5-p8-x64",
+            "staff": 5,
+            "x": 532,
+            "y": 1104,
+            "nx": 31.856,
+            "pitch": "A3",
+            "step": 8,
+            "accidental": null,
+            "text": "라",
+            "confidence": "caution",
+            "flags": [
+              "vertical_blocked",
+              "snap_residual"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s5-p7-x64",
+            "staff": 5,
+            "x": 532,
+            "y": 1108,
+            "nx": 31.856,
+            "pitch": "G3",
+            "step": 7,
+            "accidental": null,
+            "text": "솔",
+            "confidence": "certain",
+            "flags": [],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "bach_bwv846_bravura_p1",
+      "kind": "verovio",
+      "old_count": 337,
+      "new_count": 337,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "bach_bwv846_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 327,
+      "new_count": 327,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "beethoven_op18no1_bravura_p1",
+      "kind": "verovio",
+      "old_count": 223,
+      "new_count": 223,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            0,
+            406,
+            239
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s0-p1-x45",
+              "staff": 0,
+              "x": 406,
+              "y": 239,
+              "nx": 22.556,
+              "pitch": "F4",
+              "step": 1,
+              "accidental": null,
+              "text": "파",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            0,
+            406,
+            243
+          ],
+          "before": [
+            {
+              "id": "s0-p1-x45",
+              "staff": 0,
+              "x": 406,
+              "y": 243,
+              "nx": 22.556,
+              "pitch": "F4",
+              "step": 1,
+              "accidental": null,
+              "text": "파",
+              "confidence": "caution",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s0-p1-x45",
+            "staff": 0,
+            "x": 406,
+            "y": 243,
+            "nx": 22.556,
+            "pitch": "F4",
+            "step": 1,
+            "accidental": null,
+            "text": "파",
+            "confidence": "caution",
+            "flags": [
+              "vertical_blocked",
+              "snap_residual"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s0-p1-x45",
+            "staff": 0,
+            "x": 406,
+            "y": 239,
+            "nx": 22.556,
+            "pitch": "F4",
+            "step": 1,
+            "accidental": null,
+            "text": "파",
+            "confidence": "certain",
+            "flags": [],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "beethoven_op18no1_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 223,
+      "new_count": 223,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            0,
+            402,
+            239
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s0-p1-x45",
+              "staff": 0,
+              "x": 402,
+              "y": 239,
+              "nx": 22.333,
+              "pitch": "F4",
+              "step": 1,
+              "accidental": null,
+              "text": "파",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            0,
+            402,
+            243
+          ],
+          "before": [
+            {
+              "id": "s0-p1-x45",
+              "staff": 0,
+              "x": 402,
+              "y": 243,
+              "nx": 22.333,
+              "pitch": "F4",
+              "step": 1,
+              "accidental": null,
+              "text": "파",
+              "confidence": "caution",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s0-p1-x45",
+            "staff": 0,
+            "x": 402,
+            "y": 243,
+            "nx": 22.333,
+            "pitch": "F4",
+            "step": 1,
+            "accidental": null,
+            "text": "파",
+            "confidence": "caution",
+            "flags": [
+              "vertical_blocked",
+              "snap_residual"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s0-p1-x45",
+            "staff": 0,
+            "x": 402,
+            "y": 239,
+            "nx": 22.333,
+            "pitch": "F4",
+            "step": 1,
+            "accidental": null,
+            "text": "파",
+            "confidence": "certain",
+            "flags": [],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "clara_polonaise_1_bravura_p1",
+      "kind": "verovio",
+      "old_count": 599,
+      "new_count": 599,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "clara_polonaise_1_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 612,
+      "new_count": 612,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "clara_polonaise_2_bravura_p1",
+      "kind": "verovio",
+      "old_count": 548,
+      "new_count": 548,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "clara_polonaise_2_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 546,
+      "new_count": 546,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "clara_polonaise_3_bravura_p1",
+      "kind": "verovio",
+      "old_count": 455,
+      "new_count": 455,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            4,
+            773,
+            1170
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s4-p13-x86",
+              "staff": 4,
+              "x": 773,
+              "y": 1170,
+              "nx": 42.944,
+              "pitch": "D6",
+              "step": 13,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "grace_size",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            4,
+            773,
+            1174
+          ],
+          "before": [
+            {
+              "id": "s4-p13-x86",
+              "staff": 4,
+              "x": 773,
+              "y": 1174,
+              "nx": 42.944,
+              "pitch": "D6",
+              "step": 13,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "snap_residual",
+                "grace_size",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s4-p13-x86",
+            "staff": 4,
+            "x": 773,
+            "y": 1174,
+            "nx": 42.944,
+            "pitch": "D6",
+            "step": 13,
+            "accidental": null,
+            "text": "레",
+            "confidence": "check",
+            "flags": [
+              "weak_side_ink",
+              "snap_residual",
+              "grace_size",
+              "off_staff"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s4-p13-x86",
+            "staff": 4,
+            "x": 773,
+            "y": 1170,
+            "nx": 42.944,
+            "pitch": "D6",
+            "step": 13,
+            "accidental": null,
+            "text": "레",
+            "confidence": "check",
+            "flags": [
+              "grace_size",
+              "off_staff"
+            ],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "clara_polonaise_3_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 461,
+      "new_count": 461,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            4,
+            760,
+            1177
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s4-p13-x84",
+              "staff": 4,
+              "x": 760,
+              "y": 1177,
+              "nx": 42.222,
+              "pitch": "D6",
+              "step": 13,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "grace_size",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            4,
+            760,
+            1180
+          ],
+          "before": [
+            {
+              "id": "s4-p13-x84",
+              "staff": 4,
+              "x": 760,
+              "y": 1180,
+              "nx": 42.222,
+              "pitch": "D6",
+              "step": 13,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "snap_residual",
+                "grace_size",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s4-p13-x84",
+            "staff": 4,
+            "x": 760,
+            "y": 1180,
+            "nx": 42.222,
+            "pitch": "D6",
+            "step": 13,
+            "accidental": null,
+            "text": "레",
+            "confidence": "check",
+            "flags": [
+              "weak_side_ink",
+              "snap_residual",
+              "grace_size",
+              "off_staff"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s4-p13-x84",
+            "staff": 4,
+            "x": 760,
+            "y": 1177,
+            "nx": 42.222,
+            "pitch": "D6",
+            "step": 13,
+            "accidental": null,
+            "text": "레",
+            "confidence": "check",
+            "flags": [
+              "grace_size",
+              "off_staff"
+            ],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "clara_polonaise_4_bravura_p1",
+      "kind": "verovio",
+      "old_count": 396,
+      "new_count": 396,
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            0,
+            377,
+            313
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s0-p0-x42",
+              "staff": 0,
+              "x": 377,
+              "y": 313,
+              "nx": 20.944,
+              "pitch": "E4",
+              "step": 0,
+              "accidental": null,
+              "text": "미",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            0,
+            377,
+            316
+          ],
+          "before": [
+            {
+              "id": "s0-p0-x42",
+              "staff": 0,
+              "x": 377,
+              "y": 316,
+              "nx": 20.944,
+              "pitch": "E4",
+              "step": 0,
+              "accidental": null,
+              "text": "미",
+              "confidence": "certain",
+              "flags": [
+                "snap_residual"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        }
+      ],
+      "context_equal": true,
+      "changes": [
+        {
+          "before": {
+            "id": "s0-p0-x42",
+            "staff": 0,
+            "x": 377,
+            "y": 316,
+            "nx": 20.944,
+            "pitch": "E4",
+            "step": 0,
+            "accidental": null,
+            "text": "미",
+            "confidence": "certain",
+            "flags": [
+              "snap_residual"
+            ],
+            "edited": false
+          },
+          "after": {
+            "id": "s0-p0-x42",
+            "staff": 0,
+            "x": 377,
+            "y": 313,
+            "nx": 20.944,
+            "pitch": "E4",
+            "step": 0,
+            "accidental": null,
+            "text": "미",
+            "confidence": "certain",
+            "flags": [],
+            "edited": false
+          }
+        }
+      ],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": false
+    },
+    {
+      "case": "clara_polonaise_4_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 401,
+      "new_count": 401,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "joplin_maple_leaf_bravura_p1",
+      "kind": "verovio",
+      "old_count": 537,
+      "new_count": 537,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "joplin_maple_leaf_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 502,
+      "new_count": 502,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "mozart_k545_bravura_p1",
+      "kind": "verovio",
+      "old_count": 198,
+      "new_count": 198,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "mozart_k545_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 195,
+      "new_count": 195,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "schubert_lindenbaum_piano_bravura_p1",
+      "kind": "verovio",
+      "old_count": 480,
+      "new_count": 480,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "schubert_lindenbaum_piano_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 481,
+      "new_count": 481,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "schumann_op48no2_piano_bravura_p1",
+      "kind": "verovio",
+      "old_count": 179,
+      "new_count": 179,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    },
+    {
+      "case": "schumann_op48no2_piano_leipzig_p1",
+      "kind": "verovio",
+      "old_count": 195,
+      "new_count": 195,
+      "differences": [],
+      "context_equal": true,
+      "changes": [],
+      "unpaired_before": [],
+      "unpaired_after": [],
+      "png_bytes_equal": true
+    }
+  ]
+}

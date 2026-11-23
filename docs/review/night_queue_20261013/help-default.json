@@ -1,0 +1,26 @@
+[
+  {
+    "name": "aoharu_p1",
+    "input": "F:\\sheet-music-helper-codex-night-20261004\\sample_images\\KakaoTalk_20260731_162400402.png",
+    "png": "F:\\sheet-music-helper-codex-night-20261004\\output\\help-default-20261013\\aoharu_p1\\KakaoTalk_20260731_162400402_계이름.png",
+    "json": "F:\\sheet-music-helper-codex-night-20261004\\output\\help-default-20261013\\aoharu_p1\\KakaoTalk_20260731_162400402_라벨.json",
+    "png_sha256": "a81c6268bf2391f8d298ec793c09f31e8a3373125b6ad6f5525efdb649c3261d",
+    "json_sha256": "aee46e57f697ad39eb2319006fdd43cbd6345c168a6f4b5d8cc25f8e4a699af2"
+  },
+  {
+    "name": "chopin_Db_p1",
+    "input": "F:\\sheet-music-helper-codex-night-20261004\\tests\\fixtures\\selftest\\chopin_Db_p1.png",
+    "png": "F:\\sheet-music-helper-codex-night-20261004\\output\\help-default-20261013\\chopin_Db_p1\\chopin_Db_p1_계이름.png",
+    "json": "F:\\sheet-music-helper-codex-night-20261004\\output\\help-default-20261013\\chopin_Db_p1\\chopin_Db_p1_라벨.json",
+    "png_sha256": "40f502a5806daa58bf3e63088d17404b38bc40bdf653e5b2a8991eaea62a994d",
+    "json_sha256": "c340407732dc882264c7bd5f34442a2e37f6d70f2f2290d3b83515cd8afdc710"
+  },
+  {
+    "name": "bach_p1",
+    "input": "F:\\sheet-music-helper-codex-night-20261004\\output\\night-inputs\\bach_p1.png",
+    "png": "F:\\sheet-music-helper-codex-night-20261004\\output\\help-default-20261013\\bach_p1\\bach_p1_계이름.png",
+    "json": "F:\\sheet-music-helper-codex-night-20261004\\output\\help-default-20261013\\bach_p1\\bach_p1_라벨.json",
+    "png_sha256": "ba44ae9fbe06f03313835856fedb8f8f2182b86698f438c2afca15f49a2f38a3",
+    "json_sha256": "ba3ef6cad28b01d3cd4201742b0a7d0eeb02301201c40035a0bd335e5f8b1624"
+  }
+]

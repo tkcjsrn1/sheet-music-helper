@@ -1,0 +1,103 @@
+{
+  "commit": "70bbab39edc7ab13ef039dfa17e20d452bdd4c3c",
+  "clef_keysig_sha256": "1f1aca828074c0e9826c5614f7a978ac20d90857e393e3006e515a8616d609d5",
+  "source": {
+    "file": "shifted-input.png",
+    "page": 0,
+    "width": 2100,
+    "height": 2970,
+    "dpi": 300,
+    "sha256": "e7e449695871f8a6fb0df35584f25b6c05b98924353decd20b3f997e4621b09c"
+  },
+  "shift_x": 0.5,
+  "first_candidates": [
+    {
+      "id": "s0-p0-x45",
+      "staff": 0,
+      "x": 407,
+      "y": 244,
+      "nx": 22.611,
+      "pitch": "E4",
+      "step": 0,
+      "accidental": null,
+      "text": "미",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p1-x45",
+      "staff": 1,
+      "x": 408,
+      "y": 419,
+      "nx": 22.667,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  ],
+  "key_vote": [
+    1,
+    "♭",
+    288.9
+  ],
+  "headers": [
+    {
+      "staff": 0,
+      "clef_end": 286,
+      "header_end": 366,
+      "timesig_search_from": 286,
+      "timesig_end": 366,
+      "spacing": 18.0
+    },
+    {
+      "staff": 1,
+      "clef_end": 286,
+      "header_end": 366,
+      "timesig_search_from": 286,
+      "timesig_end": 366,
+      "spacing": 18.0
+    },
+    {
+      "staff": 2,
+      "clef_end": 288,
+      "header_end": 366,
+      "timesig_search_from": 288,
+      "timesig_end": 366,
+      "spacing": 18.0
+    },
+    {
+      "staff": 3,
+      "clef_end": 0,
+      "header_end": 366,
+      "timesig_search_from": 0,
+      "timesig_end": 0,
+      "spacing": 17.8
+    }
+  ],
+  "remaining_header_labels": [],
+  "first_real_notes": [
+    {
+      "id": "s1-p1-x45",
+      "staff": 1,
+      "x": 408,
+      "y": 419,
+      "nx": 22.667,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  ],
+  "fixed": false
+}

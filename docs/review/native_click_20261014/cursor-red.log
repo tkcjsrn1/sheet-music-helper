@@ -1,0 +1,32 @@
+FFE
+======================================================================
+ERROR: test_verified_actual_point_sends_click (__main__.NativeClickGuardTests.test_verified_actual_point_sends_click)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_native_click_guard.py", line 30, in test_verified_actual_point_sends_click
+    self.assertEqual(event['actual_xy'],[100,200]);self.assertEqual(api.SendInput.call_count,1)
+                     ~~~~~^^^^^^^^^^^^^
+KeyError: 'actual_xy'
+
+======================================================================
+FAIL: test_clipped_cursor_never_sends_click (__main__.NativeClickGuardTests.test_clipped_cursor_never_sends_click)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_native_click_guard.py", line 19, in test_clipped_cursor_never_sends_click
+    with self.assertRaises(RuntimeError):native.click_at(500,42,100,200)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_failed_move_never_sends_click (__main__.NativeClickGuardTests.test_failed_move_never_sends_click)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_native_click_guard.py", line 24, in test_failed_move_never_sends_click
+    with self.assertRaises(RuntimeError):native.click_at(500,42,100,200)
+         ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.009s
+
+FAILED (failures=2, errors=1)

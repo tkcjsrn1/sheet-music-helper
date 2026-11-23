@@ -1,0 +1,34 @@
+{
+  "source": "1cbc0d8 실제 exe에서 클릭 저장한 수정본",
+  "status": "수정 후 소스 로더 통과, exe 재빌드 검증 아님",
+  "labels": 226,
+  "first_text": "레#",
+  "changes": [
+    {
+      "action": "set_text",
+      "before": {
+        "staff": 0,
+        "x": 421,
+        "y": 461,
+        "pitch": "D6",
+        "text": "레"
+      },
+      "after": {
+        "text": "레#"
+      }
+    }
+  ],
+  "saved_file_sha256": {
+    "결과.png": "92cee09ea2f884ef83ba5219a9ac151838bbbf5b8ac1b1b2f1007aa715c71c14",
+    "라벨.json": "9d2e4c3bb4084df08255865d77bbfeb54482a7f56edc8f5cad684fd915836228",
+    "사용자수정.json": "01a802b27208b08d35761869ac47d039306a01646939d2acfd866c84bf1a9a4f",
+    "인식원본.json": "aee46e57f697ad39eb2319006fdd43cbd6345c168a6f4b5d8cc25f8e4a699af2",
+    "재개정보.json": "ef723c9ebdb2882340fa87848884263704931373a62489966088201c7199f10d",
+    "편집원본.png": "4222bbe01b059e39bc80d28ec029c8dbeb40b5c9bdbb8138db74353a6f9ad279"
+  },
+  "colors": [
+    220,
+    20,
+    20
+  ]
+}

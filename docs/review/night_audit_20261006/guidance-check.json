@@ -1,0 +1,9 @@
+{
+  "baseline": "705875fc56e32cfb01995a3032f092f75fbad205",
+  "status_measurement_sha256": "4a7126907509dc4a5be4eced856ad4aee5a4ad4e6bed1326a3a9538b3b652bac",
+  "status_measurement_bytes_unchanged": true,
+  "product_tests_changed": false,
+  "full_test_log": "docs/review/night_audit_20261006/runner/final-tests.log",
+  "full_test_summary": "39/39 · 실패0 · 건너뜀0",
+  "links_exist": true
+}

@@ -1,0 +1,26 @@
+{
+  "commit": "e141908fca361a85396a59b91bd820b5e1f77ef4",
+  "short": "e141908",
+  "reference_commit": "13d73f669abce51567526f4ae6ba9804612baeac",
+  "fixture_and_docs_only": true,
+  "changed_paths": [
+    "WORKLOG.md",
+    "docs/releases/13d73f6/PREFLIGHT.md",
+    "docs/releases/13d73f6/baseline-update-guide-build-check.log",
+    "docs/releases/13d73f6/baseline-update-run-all.log",
+    "docs/releases/13d73f6/baseline-update.json",
+    "docs/releases/13d73f6/preflight.json",
+    "docs/releases/13d73f6/run-all.log",
+    "docs/releases/13d73f6/selftest-baseline-check.log",
+    "docs/releases/13d73f6/selftest-baseline-diff.json.gz",
+    "docs/releases/13d73f6/selftest-method.py",
+    "docs/releases/13d73f6/verification.json",
+    "tests/fixtures/selftest/README.md",
+    "tests/fixtures/selftest/chopin_Db_p1.json",
+    "먼저 읽어주세요.txt"
+  ],
+  "aoharu_baseline_unchanged": true,
+  "build_started": true,
+  "tag": "e141908fca36-20261018-210718-028242",
+  "actions_run_id": 39125994497
+}

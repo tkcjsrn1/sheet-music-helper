@@ -1,0 +1,110 @@
+test_changing_setting_hides_warning_without_reconverting (__main__.PlacementNotice.test_changing_setting_hides_warning_without_reconverting) ... FAIL
+test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) ... 
+  test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='near', rendered='near') ... FAIL
+  test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='near', rendered='lanes') ... FAIL
+  test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='near', rendered=None) ... FAIL
+  test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='lanes', rendered='near') ... FAIL
+  test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='lanes', rendered=None) ... FAIL
+test_success_and_no_page_have_no_notice (__main__.PlacementNotice.test_success_and_no_page_have_no_notice) ... ok
+test_switching_page_clears_and_restores_only_its_own_warning (__main__.PlacementNotice.test_switching_page_clears_and_restores_only_its_own_warning) ... FAIL
+
+======================================================================
+FAIL: test_changing_setting_hides_warning_without_reconverting (__main__.PlacementNotice.test_changing_setting_hides_warning_without_reconverting)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 52, in test_changing_setting_hides_warning_without_reconverting
+    self.assert_notice(app,False);self.assertEqual(app.settings['placement_mode'],'near')
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 24, in assert_notice
+    self.assertIsNotNone(app.placement_notice.configure.call_args,'안내 갱신이 호출되지 않음')
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: unexpectedly None : 안내 갱신이 호출되지 않음
+
+======================================================================
+FAIL: test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='near', rendered='near')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 33, in test_request_and_current_page_must_both_be_lanes
+    self.update(app);self.assert_notice(app,requested==rendered=='lanes')
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 25, in assert_notice
+    self.assertEqual(app.placement_notice.configure.call_args.kwargs['text'],self.message if shown else '')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '이 쪽은 공간이 부족해 음표 옆으로 표시합니다.' != ''
+- 이 쪽은 공간이 부족해 음표 옆으로 표시합니다.
+
+
+======================================================================
+FAIL: test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='near', rendered='lanes')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 33, in test_request_and_current_page_must_both_be_lanes
+    self.update(app);self.assert_notice(app,requested==rendered=='lanes')
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 25, in assert_notice
+    self.assertEqual(app.placement_notice.configure.call_args.kwargs['text'],self.message if shown else '')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '이 쪽은 공간이 부족해 음표 옆으로 표시합니다.' != ''
+- 이 쪽은 공간이 부족해 음표 옆으로 표시합니다.
+
+
+======================================================================
+FAIL: test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='near', rendered=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 33, in test_request_and_current_page_must_both_be_lanes
+    self.update(app);self.assert_notice(app,requested==rendered=='lanes')
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 25, in assert_notice
+    self.assertEqual(app.placement_notice.configure.call_args.kwargs['text'],self.message if shown else '')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '이 쪽은 공간이 부족해 음표 옆으로 표시합니다.' != ''
+- 이 쪽은 공간이 부족해 음표 옆으로 표시합니다.
+
+
+======================================================================
+FAIL: test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='lanes', rendered='near')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 33, in test_request_and_current_page_must_both_be_lanes
+    self.update(app);self.assert_notice(app,requested==rendered=='lanes')
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 25, in assert_notice
+    self.assertEqual(app.placement_notice.configure.call_args.kwargs['text'],self.message if shown else '')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '이 쪽은 공간이 부족해 음표 옆으로 표시합니다.' != ''
+- 이 쪽은 공간이 부족해 음표 옆으로 표시합니다.
+
+
+======================================================================
+FAIL: test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) (requested='lanes', rendered=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 33, in test_request_and_current_page_must_both_be_lanes
+    self.update(app);self.assert_notice(app,requested==rendered=='lanes')
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 25, in assert_notice
+    self.assertEqual(app.placement_notice.configure.call_args.kwargs['text'],self.message if shown else '')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '이 쪽은 공간이 부족해 음표 옆으로 표시합니다.' != ''
+- 이 쪽은 공간이 부족해 음표 옆으로 표시합니다.
+
+
+======================================================================
+FAIL: test_switching_page_clears_and_restores_only_its_own_warning (__main__.PlacementNotice.test_switching_page_clears_and_restores_only_its_own_warning)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 42, in test_switching_page_clears_and_restores_only_its_own_warning
+    self.update(app);self.assert_notice(app,False)
+                     ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_placement_notice.py", line 25, in assert_notice
+    self.assertEqual(app.placement_notice.configure.call_args.kwargs['text'],self.message if shown else '')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '이 쪽은 공간이 부족해 음표 옆으로 표시합니다.' != ''
+- 이 쪽은 공간이 부족해 음표 옆으로 표시합니다.
+
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.017s
+
+FAILED (failures=7)

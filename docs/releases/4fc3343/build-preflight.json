@@ -1,0 +1,15 @@
+{
+  "cli_python": 0,
+  "disk": [
+    {
+      "Name": "C",
+      "Free": 4374163456
+    },
+    {
+      "Name": "F",
+      "Free": 229230772224
+    }
+  ],
+  "commit": "4fc33430b8cd17009390fafc18f6cacd00db2293",
+  "free_memory_kib": 3325416
+}

@@ -1,0 +1,13 @@
+{
+  "pr": 387,
+  "baseline": "origin/claude/key-change-audio",
+  "legacy_document_bytes_equal": true,
+  "no_region_document_equal": true,
+  "region_key_precedence": true,
+  "explicit_accidental_precedence": true,
+  "edited_movable_region_tonic": true,
+  "save_load_preserves_key": true,
+  "consumer_double_composition": true,
+  "recognition_run": false,
+  "product_files_changed": false
+}

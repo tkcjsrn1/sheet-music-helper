@@ -1,0 +1,44 @@
+key n state 0x0 widget Canvas focus Canvas before None
+after 1 return break
+key N state 0x1 widget Canvas focus Canvas before 1
+after 2 return break
+key p state 0x0 widget Canvas focus Canvas before 2
+after 1 return break
+key n state 0x4 widget Canvas focus Canvas before 1
+after 1 return None
+key n state 0x20000 widget Canvas focus Canvas before 1
+after 1 return None
+key n state 0x0 widget Entry focus Entry before 1
+after 1 return None
+key n state 0x0 widget Entry focus Entry before 1
+after 1 return None
+key n state 0x0 widget Text focus Text before 1
+after 1 return None
+key n state 0x0 widget Text focus Text before 1
+after 1 return None
+test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor) ... FAIL
+
+======================================================================
+FAIL: test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 106, in test_shortcuts_respect_input_focus_and_editor
+    press(app._edit_list,'<KeyPress-n>');self.assertEqual(app._edit_list.curselection(),(2,))
+                                         ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (1,) != (2,)
+
+First differing element 0:
+1
+2
+
+- (1,)
+?  ^
+
++ (2,)
+?  ^
+
+
+----------------------------------------------------------------------
+Ran 1 test in 5.537s
+
+FAILED (failures=1)

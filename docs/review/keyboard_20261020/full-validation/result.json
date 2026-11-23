@@ -1,0 +1,29 @@
+{
+  "job": "keyboard",
+  "scope": "full",
+  "passed": true,
+  "full_suite_passed": true,
+  "stages": [
+    {
+      "name": "keyboard-widget",
+      "exit": 0,
+      "seconds": 7.527975399978459
+    },
+    {
+      "name": "default-bytes-lowmem",
+      "exit": 0,
+      "seconds": 46.12726370000746
+    },
+    {
+      "name": "run-all",
+      "exit": 0,
+      "seconds": 920.52120930003
+    }
+  ],
+  "min_available_bytes": 2136952832,
+  "cleanup": {
+    "numlock_before": true,
+    "numlock_after": true,
+    "numlock_restored": true
+  }
+}

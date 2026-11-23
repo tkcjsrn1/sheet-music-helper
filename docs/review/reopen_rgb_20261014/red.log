@@ -1,0 +1,79 @@
+EE
+======================================================================
+ERROR: test_rgb_save_reopen_resave_and_undo (__main__.ReopenColorTests.test_rgb_save_reopen_resave_and_undo) (color=(220, 20, 20))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 246, in _load_edit_version
+    session['original_placements'] = _render_edit_document(session, original, original_png)
+                                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 136, in _render_edit_document
+    placements = render_solfege_on_image(session['image'], document_notes(doc), png,
+        confidences=display_confidences(doc), **session['render_options'])
+  File "F:\sheet-music-helper-codex-night-20261004\modules\renderer.py", line 537, in render_solfege_on_image
+    draw.text(
+    ~~~~~~~~~^
+        (target_x - off_x, chosen - off_y), text, font=font, fill=fill,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        stroke_width=stroke_w, stroke_fill=(255, 255, 255),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageDraw.py", line 569, in text
+    ink = getink(fill)
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageDraw.py", line 563, in getink
+    ink, fill_ink = self._getink(fill)
+                    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageDraw.py", line 151, in _getink
+    result_ink = self.draw.draw_ink(ink)
+TypeError: color must be int or tuple
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_colors.py", line 26, in test_rgb_save_reopen_resave_and_undo
+    reopened=gui._load_edit_version(str(folder),str(source),str(root))
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 259, in _load_edit_version
+    raise ValueError(f'수정본 정보가 손상됐습니다: {exc}') from exc
+ValueError: 수정본 정보가 손상됐습니다: color must be int or tuple
+
+======================================================================
+ERROR: test_rgb_save_reopen_resave_and_undo (__main__.ReopenColorTests.test_rgb_save_reopen_resave_and_undo) (color=(12, 34, 56))
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 246, in _load_edit_version
+    session['original_placements'] = _render_edit_document(session, original, original_png)
+                                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 136, in _render_edit_document
+    placements = render_solfege_on_image(session['image'], document_notes(doc), png,
+        confidences=display_confidences(doc), **session['render_options'])
+  File "F:\sheet-music-helper-codex-night-20261004\modules\renderer.py", line 537, in render_solfege_on_image
+    draw.text(
+    ~~~~~~~~~^
+        (target_x - off_x, chosen - off_y), text, font=font, fill=fill,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        stroke_width=stroke_w, stroke_fill=(255, 255, 255),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageDraw.py", line 569, in text
+    ink = getink(fill)
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageDraw.py", line 563, in getink
+    ink, fill_ink = self._getink(fill)
+                    ~~~~~~~~~~~~^^^^^^
+  File "C:\Users\user\Desktop\악보헬퍼\venv\Lib\site-packages\PIL\ImageDraw.py", line 151, in _getink
+    result_ink = self.draw.draw_ink(ink)
+TypeError: color must be int or tuple
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_colors.py", line 26, in test_rgb_save_reopen_resave_and_undo
+    reopened=gui._load_edit_version(str(folder),str(source),str(root))
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 259, in _load_edit_version
+    raise ValueError(f'수정본 정보가 손상됐습니다: {exc}') from exc
+ValueError: 수정본 정보가 손상됐습니다: color must be int or tuple
+
+----------------------------------------------------------------------
+Ran 1 test in 0.168s
+
+FAILED (errors=2)

@@ -1,0 +1,1268 @@
+{
+  "baseline": "38274707a3e98ecb2e69cc7443fc002901eb4bdb",
+  "clef_keysig_sha256": "137c268370b6a5a809274ae48ae2f8c4c1ce4cd4b9fc6e84f10d0e95fea6d956",
+  "rows": [
+    {
+      "kind": "pdf",
+      "name": "bach",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 184,
+      "after_count": 184,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "bbm1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 280,
+      "after_count": 280,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "bbm2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 309,
+      "after_count": 309,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "bbm3",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 339,
+      "after_count": 339,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "bbm4",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 343,
+      "after_count": 343,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "bbm5",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 335,
+      "after_count": 335,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "bbm6",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 218,
+      "after_count": 218,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "db1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 260,
+      "after_count": 260,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "db2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 366,
+      "after_count": 366,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "db3",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 322,
+      "after_count": 322,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "db4",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 307,
+      "after_count": 307,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "db5",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 369,
+      "after_count": 369,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "db6",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 337,
+      "after_count": 337,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "em1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 299,
+      "after_count": 299,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "em2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 350,
+      "after_count": 350,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "em3",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 300,
+      "after_count": 300,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "pdf",
+      "name": "em4",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 200,
+      "after_count": 200,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "aoharu",
+      "name": "aoharu1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 226,
+      "after_count": 226,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "aoharu",
+      "name": "aoharu2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 327,
+      "after_count": 327,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "aoharu",
+      "name": "aoharu3",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 158,
+      "after_count": 158,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "moon1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 216,
+      "after_count": 216,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "moon2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 293,
+      "after_count": 293,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "moon11",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 434,
+      "after_count": 434,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "moon18",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 359,
+      "after_count": 359,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "rain1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 379,
+      "after_count": 379,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "rain2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 387,
+      "after_count": 387,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "rain3",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 416,
+      "after_count": 416,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "rain4",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 343,
+      "after_count": 343,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "unseen",
+      "name": "organ2",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 413,
+      "after_count": 413,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "bach_bwv846_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 337,
+      "after_count": 337,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "bach_bwv846_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 327,
+      "after_count": 327,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "beethoven_op18no1_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 239,
+      "after_count": 223,
+      "added": [],
+      "removed": [
+        {
+          "id": "s2-p5-x40",
+          "staff": 2,
+          "x": 356,
+          "y": 562,
+          "nx": 19.778,
+          "pitch": "E3",
+          "step": 5,
+          "accidental": null,
+          "text": "미",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p7-x40",
+          "staff": 1,
+          "x": 356,
+          "y": 366,
+          "nx": 19.778,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s3-p7-x40",
+          "staff": 3,
+          "x": 356,
+          "y": 726,
+          "nx": 20.0,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p7-x40",
+          "staff": 0,
+          "x": 356,
+          "y": 186,
+          "nx": 19.778,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s2-p3-x35",
+          "staff": 2,
+          "x": 313,
+          "y": 581,
+          "nx": 17.389,
+          "pitch": "C3",
+          "step": 3,
+          "accidental": null,
+          "text": "도",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape",
+            "clef_alto"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p1-x40",
+          "staff": 1,
+          "x": 356,
+          "y": 421,
+          "nx": 19.778,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s3-p1-x40",
+          "staff": 3,
+          "x": 356,
+          "y": 782,
+          "nx": 20.0,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked",
+            "snap_residual"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s2-p7-x40",
+          "staff": 2,
+          "x": 356,
+          "y": 546,
+          "nx": 19.778,
+          "pitch": "G3",
+          "step": 7,
+          "accidental": null,
+          "text": "솔",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s2-p1-x40",
+          "staff": 2,
+          "x": 356,
+          "y": 601,
+          "nx": 19.778,
+          "pitch": "A2",
+          "step": 1,
+          "accidental": null,
+          "text": "라",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p4-x35",
+          "staff": 1,
+          "x": 313,
+          "y": 392,
+          "nx": 17.389,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": null,
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p4-x35",
+          "staff": 0,
+          "x": 313,
+          "y": 212,
+          "nx": 17.389,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": null,
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s3-p5-x40",
+          "staff": 3,
+          "x": 356,
+          "y": 742,
+          "nx": 20.0,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p5-x40",
+          "staff": 1,
+          "x": 356,
+          "y": 382,
+          "nx": 19.778,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p1-x40",
+          "staff": 0,
+          "x": 356,
+          "y": 241,
+          "nx": 19.778,
+          "pitch": "F4",
+          "step": 1,
+          "accidental": null,
+          "text": "파",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink",
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p5-x40",
+          "staff": 0,
+          "x": 356,
+          "y": 202,
+          "nx": 19.778,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s3-p2-x35",
+          "staff": 3,
+          "x": 313,
+          "y": 770,
+          "nx": 17.584,
+          "pitch": "G4",
+          "step": 2,
+          "accidental": null,
+          "text": "솔",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        }
+      ],
+      "retained_value_changes": [],
+      "json_equal": false,
+      "png_equal": false,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "beethoven_op18no1_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 233,
+      "after_count": 223,
+      "added": [],
+      "removed": [
+        {
+          "id": "s3-p7-x40",
+          "staff": 3,
+          "x": 352,
+          "y": 726,
+          "nx": 19.775,
+          "pitch": "G3",
+          "step": 7,
+          "accidental": null,
+          "text": "솔",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p7-x39",
+          "staff": 0,
+          "x": 352,
+          "y": 186,
+          "nx": 19.556,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s3-p5-x40",
+          "staff": 3,
+          "x": 352,
+          "y": 742,
+          "nx": 19.775,
+          "pitch": "E3",
+          "step": 5,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p4-x34",
+          "staff": 1,
+          "x": 310,
+          "y": 392,
+          "nx": 17.222,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": null,
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s2-p7-x39",
+          "staff": 2,
+          "x": 352,
+          "y": 546,
+          "nx": 19.556,
+          "pitch": "G3",
+          "step": 7,
+          "accidental": null,
+          "text": "솔",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p5-x39",
+          "staff": 0,
+          "x": 352,
+          "y": 202,
+          "nx": 19.556,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p5-x39",
+          "staff": 1,
+          "x": 352,
+          "y": 382,
+          "nx": 19.556,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": null,
+          "text": "도",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s1-p7-x39",
+          "staff": 1,
+          "x": 352,
+          "y": 366,
+          "nx": 19.556,
+          "pitch": "E5",
+          "step": 7,
+          "accidental": null,
+          "text": "미",
+          "confidence": "caution",
+          "flags": [
+            "vertical_blocked"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s0-p4-x34",
+          "staff": 0,
+          "x": 310,
+          "y": 212,
+          "nx": 17.222,
+          "pitch": "B4",
+          "step": 4,
+          "accidental": null,
+          "text": "시b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        },
+        {
+          "id": "s2-p5-x39",
+          "staff": 2,
+          "x": 352,
+          "y": 562,
+          "nx": 19.556,
+          "pitch": "E3",
+          "step": 5,
+          "accidental": null,
+          "text": "미",
+          "confidence": "check",
+          "flags": [
+            "vertical_blocked",
+            "clef_alto"
+          ],
+          "edited": false
+        }
+      ],
+      "retained_value_changes": [],
+      "json_equal": false,
+      "png_equal": false,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_1_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 599,
+      "after_count": 599,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_1_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 612,
+      "after_count": 612,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_2_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 548,
+      "after_count": 548,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_2_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 546,
+      "after_count": 546,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_3_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 455,
+      "after_count": 455,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_3_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 461,
+      "after_count": 461,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_4_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 396,
+      "after_count": 396,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "clara_polonaise_4_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 401,
+      "after_count": 401,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "joplin_maple_leaf_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 537,
+      "after_count": 537,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "joplin_maple_leaf_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 502,
+      "after_count": 502,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "mozart_k545_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 198,
+      "after_count": 198,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "mozart_k545_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 195,
+      "after_count": 195,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "schubert_lindenbaum_piano_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 480,
+      "after_count": 480,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "schubert_lindenbaum_piano_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 481,
+      "after_count": 481,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "schumann_op48no2_piano_bravura_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 179,
+      "after_count": 179,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "verovio",
+      "name": "schumann_op48no2_piano_leipzig_p1",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 195,
+      "after_count": 195,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    }
+  ]
+}

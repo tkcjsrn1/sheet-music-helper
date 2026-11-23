@@ -1,0 +1,101 @@
+[
+  {
+    "case": "aoharu_p1",
+    "before": 226,
+    "after": 226,
+    "middle_added": 0,
+    "second_pair_added": 0,
+    "approved_moved": []
+  },
+  {
+    "case": "aoharu_p2",
+    "before": 327,
+    "after": 327,
+    "middle_added": 0,
+    "second_pair_added": 0,
+    "approved_moved": []
+  },
+  {
+    "case": "aoharu_p3",
+    "before": 158,
+    "after": 158,
+    "middle_added": 0,
+    "second_pair_added": 0,
+    "approved_moved": []
+  },
+  {
+    "case": "chopin_Db_p1",
+    "before": 260,
+    "after": 262,
+    "middle_added": 0,
+    "second_pair_added": 2,
+    "approved_moved": []
+  },
+  {
+    "case": "bach_p1",
+    "before": 184,
+    "after": 184,
+    "middle_added": 0,
+    "second_pair_added": 0,
+    "approved_moved": []
+  },
+  {
+    "case": "clef_change_clara1",
+    "before": 599,
+    "after": 600,
+    "middle_added": 1,
+    "second_pair_added": 0,
+    "approved_moved": []
+  },
+  {
+    "case": "alto_beethoven1",
+    "before": 223,
+    "after": 223,
+    "middle_added": 0,
+    "second_pair_added": 0,
+    "approved_moved": []
+  },
+  {
+    "case": "schubert_restored",
+    "before": 481,
+    "after": 492,
+    "middle_added": 2,
+    "second_pair_added": 9,
+    "approved_moved": [
+      {
+        "before": {
+          "id": "s2-p0-x220",
+          "staff": 2,
+          "x": 1983,
+          "y": 716,
+          "nx": 110.167,
+          "pitch": "E4",
+          "step": 0,
+          "accidental": "#",
+          "text": "미#",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        },
+        "after": {
+          "id": "s2-p0-x223",
+          "staff": 2,
+          "x": 2010,
+          "y": 717,
+          "nx": 111.667,
+          "pitch": "E4",
+          "step": 0,
+          "accidental": "#",
+          "text": "미#",
+          "confidence": "check",
+          "flags": [
+            "weak_side_ink"
+          ],
+          "edited": false
+        }
+      }
+    ]
+  }
+]

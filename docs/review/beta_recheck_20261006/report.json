@@ -1,0 +1,1853 @@
+{
+  "build_commit": "87de5d51201bf49c313f78ecf34ea48c37847836",
+  "exe_sha256": "20E3776E3067A17D3B236601756189C685836B62F6DA43D00E44F0AF82B9CFE6",
+  "cases": [
+    {
+      "index": 1,
+      "kind": "pdf",
+      "case": "bach",
+      "original_file": "bach_minuet_Am.pdf",
+      "page": 0,
+      "original_sha256": "86435e170268a04201966492e120371348abbc7d77712221e362b91d97832eeb",
+      "raster_sha256": "82bccf63fc3a9acd4e0dec1e9d1cefa4a4f3097486927524ef6ea011f46286e2",
+      "staves": 8,
+      "labels": 184,
+      "confidence": {
+        "certain": 171,
+        "check": 12,
+        "caution": 1
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "cd71a832f9983812b3d4dddcc026dc3966ea9cc58b3024e7cfe8a8f660569038",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 2,
+      "kind": "pdf",
+      "case": "bbm1",
+      "original_file": "chopin_nocturne_Bbm.pdf",
+      "page": 0,
+      "original_sha256": "dc22a8b6fb0e972487ccb13a3a24bcf31fc0b78427548eb11eac93845a63cf57",
+      "raster_sha256": "2b20d599f6f999003ebc865092b476f3b887c4b447f26e2ce3bc9265711d6d3d",
+      "staves": 8,
+      "labels": 280,
+      "confidence": {
+        "certain": 258,
+        "check": 19,
+        "caution": 3
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "dad434de8af0013443971b5ecd3112d18e41407d6676a3c7bb4b69496c9f666e",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 3,
+      "kind": "pdf",
+      "case": "bbm2",
+      "original_file": "chopin_nocturne_Bbm.pdf",
+      "page": 1,
+      "original_sha256": "dc22a8b6fb0e972487ccb13a3a24bcf31fc0b78427548eb11eac93845a63cf57",
+      "raster_sha256": "00ef821bfb1d6c7d936e87211b42dfcfef4e8876861068d8326c87ac7b4e1027",
+      "staves": 10,
+      "labels": 309,
+      "confidence": {
+        "certain": 273,
+        "check": 30,
+        "caution": 6
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "a932430840fef2457246d77423edf53e85e910c03d4c0bfb5f3254ede976cb7b",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 4,
+      "kind": "pdf",
+      "case": "bbm3",
+      "original_file": "chopin_nocturne_Bbm.pdf",
+      "page": 2,
+      "original_sha256": "dc22a8b6fb0e972487ccb13a3a24bcf31fc0b78427548eb11eac93845a63cf57",
+      "raster_sha256": "3f1d169db9fc9ca217952802b1053adb8dfb390eeac15316a024ce5ed7c8cfba",
+      "staves": 10,
+      "labels": 339,
+      "confidence": {
+        "certain": 293,
+        "check": 33,
+        "caution": 13
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "ad6abf42df145f9e93f8a192fbbe434cc9c6b392a185f9b7ea01112a119fc647",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 5,
+      "kind": "pdf",
+      "case": "bbm4",
+      "original_file": "chopin_nocturne_Bbm.pdf",
+      "page": 3,
+      "original_sha256": "dc22a8b6fb0e972487ccb13a3a24bcf31fc0b78427548eb11eac93845a63cf57",
+      "raster_sha256": "79a7a535c07bc5781f577541d18d0bdbec4b89bc05acfec2f3356a0449d55c1f",
+      "staves": 10,
+      "labels": 343,
+      "confidence": {
+        "certain": 282,
+        "check": 31,
+        "caution": 30
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "8a27920b87c01a011352d0e52ffaa21c793fe5b265aa786a78d494794c508079",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 6,
+      "kind": "pdf",
+      "case": "bbm5",
+      "original_file": "chopin_nocturne_Bbm.pdf",
+      "page": 4,
+      "original_sha256": "dc22a8b6fb0e972487ccb13a3a24bcf31fc0b78427548eb11eac93845a63cf57",
+      "raster_sha256": "029a071d7067a07f11e55d6244c1b9f1520d4f594082d6931129c0dcc710b2e1",
+      "staves": 12,
+      "labels": 335,
+      "confidence": {
+        "check": 18,
+        "caution": 41,
+        "certain": 276
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "b5cc54458667277500ae28455070eb861abb2ff403e0bfe39bc5d353e9c6e6d4",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 7,
+      "kind": "pdf",
+      "case": "bbm6",
+      "original_file": "chopin_nocturne_Bbm.pdf",
+      "page": 5,
+      "original_sha256": "dc22a8b6fb0e972487ccb13a3a24bcf31fc0b78427548eb11eac93845a63cf57",
+      "raster_sha256": "6ee442fb695fb2d491d9b5e53b5a3b118bd7258fdd4388830e1aedbff0bc0251",
+      "staves": 6,
+      "labels": 218,
+      "confidence": {
+        "certain": 158,
+        "check": 33,
+        "caution": 27
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "845870927741633a8516a032e737033135558ef7efbb5d9cb32580e21b2210f4",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 8,
+      "kind": "pdf",
+      "case": "db1",
+      "original_file": "chopin_nocturne_Db_6-8.pdf",
+      "page": 0,
+      "original_sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af",
+      "raster_sha256": "6f950871295286bc2a9eee26ec996d42666f5d591d7aac3b7394673577b6e332",
+      "staves": 8,
+      "labels": 260,
+      "confidence": {
+        "certain": 197,
+        "check": 25,
+        "caution": 38
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "e939aee812f9876958ae1419b084af6c885fdf15958733d39e1555ec358c7b9c",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 9,
+      "kind": "pdf",
+      "case": "db2",
+      "original_file": "chopin_nocturne_Db_6-8.pdf",
+      "page": 1,
+      "original_sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af",
+      "raster_sha256": "96d4165c20f7332fe72d91877064e6e9b384b0d1286c77caf699198d39a85f5a",
+      "staves": 10,
+      "labels": 366,
+      "confidence": {
+        "certain": 266,
+        "caution": 77,
+        "check": 23
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "c0b88a0e340b516a60aa8c3be63117da103ac5d2659bd23fd30c580441849649",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 10,
+      "kind": "pdf",
+      "case": "db3",
+      "original_file": "chopin_nocturne_Db_6-8.pdf",
+      "page": 2,
+      "original_sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af",
+      "raster_sha256": "557fdb6eb7d080f19fa2f4c42a632d0a185106242990e6d1d63194134101a948",
+      "staves": 10,
+      "labels": 322,
+      "confidence": {
+        "certain": 254,
+        "check": 40,
+        "caution": 28
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "12f4351249d153c146a7d9a10e8f0f568070abe5761ca93617299add1119e10d",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 11,
+      "kind": "pdf",
+      "case": "db4",
+      "original_file": "chopin_nocturne_Db_6-8.pdf",
+      "page": 3,
+      "original_sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af",
+      "raster_sha256": "924e7fdad8ad6de752c1cbac02364ef5300829c5f490eaaa52cd5cc4f93c6e54",
+      "staves": 10,
+      "labels": 307,
+      "confidence": {
+        "check": 30,
+        "certain": 238,
+        "caution": 39
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "b8e852dd85308d3ea657cdd8e7f2e06d78de482ad897aa333c9cd8d810846839",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 12,
+      "kind": "pdf",
+      "case": "db5",
+      "original_file": "chopin_nocturne_Db_6-8.pdf",
+      "page": 4,
+      "original_sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af",
+      "raster_sha256": "85f2420b00f008869515c96584d0c99af231739721dd9218d395dbd8be289a26",
+      "staves": 10,
+      "labels": 369,
+      "confidence": {
+        "certain": 206,
+        "check": 108,
+        "caution": 55
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "b7a3bac4ea116d0fd3787e3e0379d58b8cf9306a6b97fa4901238c9b2188ba68",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 13,
+      "kind": "pdf",
+      "case": "db6",
+      "original_file": "chopin_nocturne_Db_6-8.pdf",
+      "page": 5,
+      "original_sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af",
+      "raster_sha256": "f9b1cf33e956350852f8b3291e889c3cc1c6c05d870e2fb3e0994f3844be0d7a",
+      "staves": 10,
+      "labels": 337,
+      "confidence": {
+        "certain": 306,
+        "check": 27,
+        "caution": 4
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "f574fb9e606225d9c3456e582ef4c9f921c7a4a009ce6922273526a3b1c89577",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 14,
+      "kind": "pdf",
+      "case": "em1",
+      "original_file": "chopin_nocturne_Em.pdf",
+      "page": 0,
+      "original_sha256": "2e4b303cc730e575c7393ebb1691f7943d37f4b7bcac15eb48757ba581bfbc0d",
+      "raster_sha256": "0927fb98e54265837a6969b1ec955ae38e5f65b56fa588b222d2c04586a43a44",
+      "staves": 10,
+      "labels": 299,
+      "confidence": {
+        "certain": 250,
+        "check": 21,
+        "caution": 28
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 1,
+        "key_letters": [
+          "F"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "62a0e6224977e74d163879959e281f947e48c88f2c38cab2ee41618a5c28bb79",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 15,
+      "kind": "pdf",
+      "case": "em2",
+      "original_file": "chopin_nocturne_Em.pdf",
+      "page": 1,
+      "original_sha256": "2e4b303cc730e575c7393ebb1691f7943d37f4b7bcac15eb48757ba581bfbc0d",
+      "raster_sha256": "11da6d253d8cc2cb696041b88cb30f9a926703df2c2c15c80793b12a82f7a926",
+      "staves": 12,
+      "labels": 350,
+      "confidence": {
+        "certain": 278,
+        "caution": 45,
+        "check": 27
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 1,
+        "key_letters": [
+          "F"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "968bb4e1b0407babd647e6e9bee71f1474bce643cd880be3c346a16af99fe522",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 16,
+      "kind": "pdf",
+      "case": "em3",
+      "original_file": "chopin_nocturne_Em.pdf",
+      "page": 2,
+      "original_sha256": "2e4b303cc730e575c7393ebb1691f7943d37f4b7bcac15eb48757ba581bfbc0d",
+      "raster_sha256": "e0ffe17091eb5c8aa4d1e8dd8fb99bd6e3f45986be7d9e544b4f5263cde1ea85",
+      "staves": 10,
+      "labels": 300,
+      "confidence": {
+        "check": 27,
+        "certain": 252,
+        "caution": 21
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 1,
+        "key_letters": [
+          "F"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "082cc4c72cf311db67dc4c1034ac44d056465fcf21867152b4d0c01e393f006a",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 17,
+      "kind": "pdf",
+      "case": "em4",
+      "original_file": "chopin_nocturne_Em.pdf",
+      "page": 3,
+      "original_sha256": "2e4b303cc730e575c7393ebb1691f7943d37f4b7bcac15eb48757ba581bfbc0d",
+      "raster_sha256": "7cde813119433679b511d51f0403f6c5ab11bf097f7a65d89d0584394e6efc06",
+      "staves": 6,
+      "labels": 200,
+      "confidence": {
+        "certain": 136,
+        "check": 19,
+        "caution": 45
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 1,
+        "key_letters": [
+          "F"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "d2d65b7930bbaa7af8f91f80f2e9a05b9c1cf4a7159e73959f717f3c744f9651",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 18,
+      "kind": "aoharu",
+      "case": "aoharu1",
+      "original_file": "KakaoTalk_20260731_162400402.png",
+      "page": 0,
+      "original_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "raster_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "staves": 12,
+      "labels": 226,
+      "confidence": {
+        "certain": 225,
+        "caution": 1
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "39769a7303e4074ab5994075469c05681a23204c3c381a1076d2e4dc2e4efa30",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 19,
+      "kind": "aoharu",
+      "case": "aoharu2",
+      "original_file": "KakaoTalk_20260731_162400402_01.png",
+      "page": 0,
+      "original_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+      "raster_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+      "staves": 14,
+      "labels": 327,
+      "confidence": {
+        "certain": 296,
+        "caution": 28,
+        "check": 3
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "81e80edad4ae93c954da78fa116e9ccbc36ce67d973c34a27869157c8b91aa57",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 20,
+      "kind": "aoharu",
+      "case": "aoharu3",
+      "original_file": "KakaoTalk_20260731_162400402_02.png",
+      "page": 0,
+      "original_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+      "raster_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+      "staves": 8,
+      "labels": 158,
+      "confidence": {
+        "caution": 10,
+        "certain": 147,
+        "check": 1
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "92a5e72e6a96e26854610d9de0935f817fdf351e6dbf19f13da25f054884b0ea",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 21,
+      "kind": "unseen",
+      "case": "moon1",
+      "original_file": "moonlight-a4.pdf",
+      "page": 0,
+      "original_sha256": "e62c8888eccf8071e4193e95e5a646fb74ea513d638dd34605bb5d74142a4fb8",
+      "raster_sha256": "da0981e73b8efa01970d790555a160cfb3749ffe54f76a46d9fdd346e802df51",
+      "staves": 8,
+      "labels": 216,
+      "confidence": {
+        "certain": 185,
+        "check": 29,
+        "caution": 2
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "eddd52e16e08f66e6d378e07e6532e5b960aa9b53f89d535318479319577d111",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 22,
+      "kind": "unseen",
+      "case": "moon2",
+      "original_file": "moonlight-a4.pdf",
+      "page": 1,
+      "original_sha256": "e62c8888eccf8071e4193e95e5a646fb74ea513d638dd34605bb5d74142a4fb8",
+      "raster_sha256": "98ada92b06c582e604f3fea0df741bfa4be9ec1a9d457117f353b2d8af8de5d5",
+      "staves": 10,
+      "labels": 293,
+      "confidence": {
+        "check": 35,
+        "certain": 253,
+        "caution": 5
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "d563c1da6be6597206cf3dd4f25dd3828931635844bc1806563b60c78a1634c2",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 23,
+      "kind": "unseen",
+      "case": "moon11",
+      "original_file": "moonlight-a4.pdf",
+      "page": 10,
+      "original_sha256": "e62c8888eccf8071e4193e95e5a646fb74ea513d638dd34605bb5d74142a4fb8",
+      "raster_sha256": "344332ae348caead49dcea08dac4bc964db522e6b18e87e7d2cb8caf0c42b6b1",
+      "staves": 10,
+      "labels": 434,
+      "confidence": {
+        "certain": 251,
+        "check": 53,
+        "caution": 130
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "9f49d26bd2ff6c9775a8710b73e33d332e42e00779172134b8d635fa74205a6a",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 24,
+      "kind": "unseen",
+      "case": "moon18",
+      "original_file": "moonlight-a4.pdf",
+      "page": 17,
+      "original_sha256": "e62c8888eccf8071e4193e95e5a646fb74ea513d638dd34605bb5d74142a4fb8",
+      "raster_sha256": "b8ee528fc872c81a5fcbd7f523801d8983d1b41a7b1486aa061129dea732bfc7",
+      "staves": 10,
+      "labels": 359,
+      "confidence": {
+        "certain": 188,
+        "caution": 88,
+        "check": 83
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "fd408f5c5c320ba281b7811ff1ef47d2428395dc919494df77452d11d45a2a22",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 25,
+      "kind": "unseen",
+      "case": "rain1",
+      "original_file": "Chop-28-15-a4.pdf",
+      "page": 0,
+      "original_sha256": "211785415e4e2e38333c34d2148151b5846806311b10cb64e3545ad82ae436db",
+      "raster_sha256": "9904c34b0e12d6465dd3fa9aa97d9a75a6a5c7ff860adff57b8b666fb2763dbb",
+      "staves": 10,
+      "labels": 379,
+      "confidence": {
+        "certain": 285,
+        "check": 25,
+        "caution": 69
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "11f3de9da8cc11bbbaef83f362b9a18a5f4aa17b535f7d666927e2592c9ff2a3",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 26,
+      "kind": "unseen",
+      "case": "rain2",
+      "original_file": "Chop-28-15-a4.pdf",
+      "page": 1,
+      "original_sha256": "211785415e4e2e38333c34d2148151b5846806311b10cb64e3545ad82ae436db",
+      "raster_sha256": "ad467999eba729d9f3729f5f0a8d5fbac466532956b0561549d629217b86ec5c",
+      "staves": 10,
+      "labels": 387,
+      "confidence": {
+        "certain": 321,
+        "check": 35,
+        "caution": 31
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "bfe777aa9a65f85cc7b2bf425ef3af39674a325113a67a5cbae23364ded78a18",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 27,
+      "kind": "unseen",
+      "case": "rain3",
+      "original_file": "Chop-28-15-a4.pdf",
+      "page": 2,
+      "original_sha256": "211785415e4e2e38333c34d2148151b5846806311b10cb64e3545ad82ae436db",
+      "raster_sha256": "e8dab015f9bf4f45860befe9f0aef16288e4035fb3f4b5fde092962ac49462cd",
+      "staves": 10,
+      "labels": 416,
+      "confidence": {
+        "certain": 303,
+        "caution": 52,
+        "check": 61
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "d8daf3a9a34bbe1a0a3a419bbe9d34d23d9e77c4142f8545cc16a9986b4c0927",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 28,
+      "kind": "unseen",
+      "case": "rain4",
+      "original_file": "Chop-28-15-a4.pdf",
+      "page": 3,
+      "original_sha256": "211785415e4e2e38333c34d2148151b5846806311b10cb64e3545ad82ae436db",
+      "raster_sha256": "a925db7d637690239f7b884a18aef72c3be5e9783b23bc7f8fa6b65ac6f69f49",
+      "staves": 10,
+      "labels": 343,
+      "confidence": {
+        "certain": 219,
+        "caution": 60,
+        "check": 64
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "aa8a78644bb760de6bfdbab6d05839da21e4fd9cffb61146a2d2a045e9b282e9",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 29,
+      "kind": "unseen",
+      "case": "organ2",
+      "original_file": "Ich_ruf_zu_dir2-a4.pdf",
+      "page": 1,
+      "original_sha256": "ad4acbb1fd7676b9721245cf788d6a5d12bf1872c6653d04bb3283fd7dd9a206",
+      "raster_sha256": "33622450c7574af194ed1a8604c8931a9a579a62eac8161d348213c134c1db8f",
+      "staves": 12,
+      "labels": 413,
+      "confidence": {
+        "certain": 358,
+        "check": 40,
+        "caution": 15
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "5f6b2e9e9659429900a385e9300230ee10c399264111f01a073e7d53a2e2a7c2",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 30,
+      "kind": "verovio",
+      "case": "bach_bwv846_bravura_p1",
+      "original_file": "bach_bwv846_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "268f90461e0cd73ecec82b669c1f245c0fc10522320d6b749409bba7a351c5b7",
+      "raster_sha256": "268f90461e0cd73ecec82b669c1f245c0fc10522320d6b749409bba7a351c5b7",
+      "staves": 12,
+      "labels": 337,
+      "confidence": {
+        "caution": 1,
+        "certain": 316,
+        "check": 20
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "e53d663b2316226c00969949da09e879d12b515ee8b6d3e4bf234c502218fe56",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 31,
+      "kind": "verovio",
+      "case": "bach_bwv846_leipzig_p1",
+      "original_file": "bach_bwv846_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "113488ac16100b80bbdc4370cf0c3d600f638cd028c476961ad132302a56b49b",
+      "raster_sha256": "113488ac16100b80bbdc4370cf0c3d600f638cd028c476961ad132302a56b49b",
+      "staves": 12,
+      "labels": 327,
+      "confidence": {
+        "caution": 1,
+        "certain": 312,
+        "check": 14
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "4f73dea9382bcb7091acff7cf38478791fa93dbae9415a0ffc19c4475070022a",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 32,
+      "kind": "verovio",
+      "case": "beethoven_op18no1_bravura_p1",
+      "original_file": "beethoven_op18no1_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+      "raster_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+      "staves": 12,
+      "labels": 223,
+      "confidence": {
+        "caution": 1,
+        "certain": 146,
+        "check": 76
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "6e12115cab659c56c2e68c83024a1e4e842d946d8069e6022d5a0dc2b877549f",
+      "baseline_png_bytes_equal": true,
+      "header_symbol_labels": [],
+      "first_F4_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "index": 33,
+      "kind": "verovio",
+      "case": "beethoven_op18no1_leipzig_p1",
+      "original_file": "beethoven_op18no1_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+      "raster_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+      "staves": 12,
+      "labels": 223,
+      "confidence": {
+        "caution": 1,
+        "certain": 136,
+        "check": 86
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "da236b323031f4bebf5c88499e1518967db84ccee4bf8ededa3fc48d0295cf0a",
+      "baseline_png_bytes_equal": true,
+      "header_symbol_labels": [],
+      "first_F4_counts": [
+        1,
+        1
+      ]
+    },
+    {
+      "index": 34,
+      "kind": "verovio",
+      "case": "clara_polonaise_1_bravura_p1",
+      "original_file": "clara_polonaise_1_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+      "raster_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+      "staves": 12,
+      "labels": 599,
+      "confidence": {
+        "caution": 67,
+        "certain": 355,
+        "check": 177
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 3,
+        "key_letters": [
+          "B",
+          "E",
+          "A"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "518e2bde54a1dac657617c4b16b79f4b16b09e9e12f2faa6543303a5e698c47d",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 35,
+      "kind": "verovio",
+      "case": "clara_polonaise_1_leipzig_p1",
+      "original_file": "clara_polonaise_1_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "42a494da27842044be275e83df5967faffed1c545a78858cc0672b9af55be4d6",
+      "raster_sha256": "42a494da27842044be275e83df5967faffed1c545a78858cc0672b9af55be4d6",
+      "staves": 12,
+      "labels": 612,
+      "confidence": {
+        "caution": 65,
+        "certain": 352,
+        "check": 195
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 3,
+        "key_letters": [
+          "B",
+          "E",
+          "A"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "5a9702d1369cce9110431f9337d005100e0ecc9c6d0bd5c89bb5a35f321c86ec",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 36,
+      "kind": "verovio",
+      "case": "clara_polonaise_2_bravura_p1",
+      "original_file": "clara_polonaise_2_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+      "raster_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+      "staves": 12,
+      "labels": 548,
+      "confidence": {
+        "certain": 325,
+        "check": 41,
+        "caution": 182
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "893a529863de7d811536dd50ba3c659d9f0261c3508690feaf1c5723f8534d80",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 37,
+      "kind": "verovio",
+      "case": "clara_polonaise_2_leipzig_p1",
+      "original_file": "clara_polonaise_2_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+      "raster_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+      "staves": 12,
+      "labels": 546,
+      "confidence": {
+        "certain": 307,
+        "caution": 193,
+        "check": 46
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "563e823d6ae3f09f57d0d25e6ed0f86ef33cdab3e5581b11dca0b284a76680aa",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 38,
+      "kind": "verovio",
+      "case": "clara_polonaise_3_bravura_p1",
+      "original_file": "clara_polonaise_3_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "b4172f5a0cfeed2fb51d1ea33de1591511e299ab560e46c7acb52dd2aa0d3560",
+      "raster_sha256": "b4172f5a0cfeed2fb51d1ea33de1591511e299ab560e46c7acb52dd2aa0d3560",
+      "staves": 10,
+      "labels": 455,
+      "confidence": {
+        "certain": 256,
+        "check": 54,
+        "caution": 145
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "8ce09b5fc5607734bb7bb2d0e4676f98afc4b7b76d2e0a4b23e1bef9a4238261",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 39,
+      "kind": "verovio",
+      "case": "clara_polonaise_3_leipzig_p1",
+      "original_file": "clara_polonaise_3_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "23648a6e1a58ae342884d7193c96952bb6b5c99db9f7c8edc2370fba0666f4df",
+      "raster_sha256": "23648a6e1a58ae342884d7193c96952bb6b5c99db9f7c8edc2370fba0666f4df",
+      "staves": 10,
+      "labels": 461,
+      "confidence": {
+        "certain": 251,
+        "check": 72,
+        "caution": 138
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "600014e6e5bba7b57b69efc1873454972d421519252db2fa06f3f468ae52aac9",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 40,
+      "kind": "verovio",
+      "case": "clara_polonaise_4_bravura_p1",
+      "original_file": "clara_polonaise_4_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "ed544d3f1384db6818b3d33079a1c8b10385370cdda7882e20fb7bf6a29b992b",
+      "raster_sha256": "ed544d3f1384db6818b3d33079a1c8b10385370cdda7882e20fb7bf6a29b992b",
+      "staves": 10,
+      "labels": 396,
+      "confidence": {
+        "check": 52,
+        "certain": 243,
+        "caution": 101
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "45fda222799aee3bba05cd36e6b4c9e627fdb8894c21592a0064bd51a46a0ffd",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 41,
+      "kind": "verovio",
+      "case": "clara_polonaise_4_leipzig_p1",
+      "original_file": "clara_polonaise_4_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "cf6fb4341d5be4534d2ff7bf100324a2258cba70c7b1318c248df3f4513063b9",
+      "raster_sha256": "cf6fb4341d5be4534d2ff7bf100324a2258cba70c7b1318c248df3f4513063b9",
+      "staves": 10,
+      "labels": 401,
+      "confidence": {
+        "check": 67,
+        "certain": 239,
+        "caution": 95
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "0cd6b4d0884013b1ee666ebee6cbaa4481de08f2dba4d1a92e62e52016b6c84e",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 42,
+      "kind": "verovio",
+      "case": "joplin_maple_leaf_bravura_p1",
+      "original_file": "joplin_maple_leaf_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "1f2c6025c1b15b73713e5e77b12ab0bfe549d90b6772ee1b85e262dc0f68ae7e",
+      "raster_sha256": "1f2c6025c1b15b73713e5e77b12ab0bfe549d90b6772ee1b85e262dc0f68ae7e",
+      "staves": 10,
+      "labels": 537,
+      "confidence": {
+        "certain": 369,
+        "check": 92,
+        "caution": 76
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 4,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "98432ccf67475a436a119c427aae26745ba664569e259dced4508fd7bcb7978f",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 43,
+      "kind": "verovio",
+      "case": "joplin_maple_leaf_leipzig_p1",
+      "original_file": "joplin_maple_leaf_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "810f192ae9b1bd98f18c63b39727f2a387839d4772ceb25c400efe6ce97838b6",
+      "raster_sha256": "810f192ae9b1bd98f18c63b39727f2a387839d4772ceb25c400efe6ce97838b6",
+      "staves": 10,
+      "labels": 502,
+      "confidence": {
+        "certain": 349,
+        "check": 77,
+        "caution": 76
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 4,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "5e8c94fce07c3182a2d1a7deb2059e8edf6c72cf1c7f9cfbc30508dded3a1902",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 44,
+      "kind": "verovio",
+      "case": "mozart_k545_bravura_p1",
+      "original_file": "mozart_k545_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "bbccc648e7fb65e416521681c90ffe1afd880be21db6982be871aa7ea15787ce",
+      "raster_sha256": "bbccc648e7fb65e416521681c90ffe1afd880be21db6982be871aa7ea15787ce",
+      "staves": 6,
+      "labels": 198,
+      "confidence": {
+        "certain": 171,
+        "caution": 5,
+        "check": 22
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "213fe5d323cbcd548b76918d0302baae729bc7dba325444a4c51abf9c3c994aa",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 45,
+      "kind": "verovio",
+      "case": "mozart_k545_leipzig_p1",
+      "original_file": "mozart_k545_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "d6f1a3fbbc56cd90bfafb2fd3da6f1797cbb9bb5d3caf29c1b0a7e770fc51aa2",
+      "raster_sha256": "d6f1a3fbbc56cd90bfafb2fd3da6f1797cbb9bb5d3caf29c1b0a7e770fc51aa2",
+      "staves": 8,
+      "labels": 195,
+      "confidence": {
+        "certain": 177,
+        "caution": 7,
+        "check": 11
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "9e079f8d99e05f99900a0a30a21975d377f0d479ce0f6e2759de866dbe5aead4",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 46,
+      "kind": "verovio",
+      "case": "schubert_lindenbaum_piano_bravura_p1",
+      "original_file": "schubert_lindenbaum_piano_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+      "raster_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+      "staves": 12,
+      "labels": 480,
+      "confidence": {
+        "caution": 150,
+        "check": 26,
+        "certain": 304
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "e2087753f08eb1f1fc0c32a2fb01b3dc85d4fed6cb6f1e497bb45be92ae73457",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 47,
+      "kind": "verovio",
+      "case": "schubert_lindenbaum_piano_leipzig_p1",
+      "original_file": "schubert_lindenbaum_piano_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+      "raster_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+      "staves": 12,
+      "labels": 481,
+      "confidence": {
+        "caution": 160,
+        "certain": 295,
+        "check": 26
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "66caae6c1d51d74507ce7d3160b4c3891aafc5a3a0cefc36465a053020a078cc",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 48,
+      "kind": "verovio",
+      "case": "schumann_op48no2_piano_bravura_p1",
+      "original_file": "schumann_op48no2_piano_bravura_p1.png",
+      "page": 0,
+      "original_sha256": "8c506080500e8620cdb60bc8d8bd9eac0e98dae76cbcff16ca6f0c2b3408b8df",
+      "raster_sha256": "8c506080500e8620cdb60bc8d8bd9eac0e98dae76cbcff16ca6f0c2b3408b8df",
+      "staves": 4,
+      "labels": 179,
+      "confidence": {
+        "caution": 57,
+        "certain": 58,
+        "check": 64
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 3,
+        "key_letters": [
+          "F",
+          "C",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "f09611a4720512515836947df28b7f59f2c781d5a8b7d23b87064d037665af79",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 49,
+      "kind": "verovio",
+      "case": "schumann_op48no2_piano_leipzig_p1",
+      "original_file": "schumann_op48no2_piano_leipzig_p1.png",
+      "page": 0,
+      "original_sha256": "104795054ba0ff508c751fa84f6ee514b798c473e7755117d19070ecf25a757f",
+      "raster_sha256": "104795054ba0ff508c751fa84f6ee514b798c473e7755117d19070ecf25a757f",
+      "staves": 6,
+      "labels": 195,
+      "confidence": {
+        "caution": 59,
+        "certain": 53,
+        "check": 83
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 3,
+        "key_letters": [
+          "F",
+          "C",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "baseline_json_equal": true,
+      "baseline_differences": [],
+      "baseline_json_sha256": "cfa31a8858ccf36ded81926b9d4e2328d1bf2ce6b624e0d5508d6cca9425f244",
+      "baseline_png_bytes_equal": true
+    },
+    {
+      "index": 50,
+      "kind": "phase",
+      "case": "phase-0.25-0",
+      "original_file": "phase-0.25-0.png",
+      "page": 0,
+      "original_sha256": "d4706591c2918b4e8294b8fa7c5bb35bf205ce0e94fb7f3b7820fc17f38ebd45",
+      "raster_sha256": "d4706591c2918b4e8294b8fa7c5bb35bf205ce0e94fb7f3b7820fc17f38ebd45",
+      "staves": 12,
+      "labels": 223,
+      "confidence": {
+        "caution": 1,
+        "certain": 127,
+        "check": 95
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "exe_exit": 0,
+      "source_exe_json_equal": true,
+      "source_exe_png_bytes_equal": true,
+      "source_exe_differences": [],
+      "source_exe_pixels_equal": true,
+      "header_symbol_labels": [],
+      "first_F4_counts": [
+        1,
+        1
+      ]
+    }
+  ],
+  "status": "50조건 통과 뒤 51번째 음고 보존 실패",
+  "planned": 54,
+  "passed": 50,
+  "failed": "phase-0.5-0",
+  "not_run": [
+    "phase-0.75-0",
+    "phase-0-0.5",
+    "phase-0.5-0.5"
+  ]
+}

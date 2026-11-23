@@ -1,0 +1,42 @@
+[
+  {
+    "text": "레bb",
+    "x": 71,
+    "y": 187,
+    "w": 48,
+    "h": 21,
+    "gap": 27,
+    "side": "below",
+    "want": "below"
+  },
+  {
+    "text": "레",
+    "x": 219,
+    "y": 187,
+    "w": 22,
+    "h": 21,
+    "gap": 27,
+    "side": "below",
+    "want": "below"
+  },
+  {
+    "text": "레b",
+    "x": 348,
+    "y": 187,
+    "w": 35,
+    "h": 21,
+    "gap": 27,
+    "side": "below",
+    "want": "below"
+  },
+  {
+    "text": "파##",
+    "x": 476,
+    "y": 167,
+    "w": 48,
+    "h": 21,
+    "gap": 27,
+    "side": "below",
+    "want": "below"
+  }
+]

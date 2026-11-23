@@ -1,0 +1,26 @@
+[
+  {
+    "case": "double",
+    "text": "확인 필요: 겹임시표(bb/##)는 아직 정확히 읽지 못해요. / 내림표가 뒤 음에 잘못 이어졌을 수 있어요.",
+    "window": [
+      49,
+      78,
+      699,
+      728
+    ],
+    "reason_height": 38,
+    "text_required_height": 38
+  },
+  {
+    "case": "beam",
+    "text": "확인 필요: 빔 위나 빔 사이에 있어 음표가 아닐 수 있어요. / 악보 밖 글자 줄에 있어 음표가 아닐 수 있어요.",
+    "window": [
+      49,
+      78,
+      699,
+      728
+    ],
+    "reason_height": 38,
+    "text_required_height": 38
+  }
+]

@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\measure-five-gui-pages-painted-20261013.py", line 38, in <module>
+    result[phase]=measure(inputs,folder/phase,instrument)
+                  ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tools\measure_gui_page_latency.py", line 73, in measure
+    app.after(50,poll)
+        ^^^^^^^^^^
+AssertionError: ['']

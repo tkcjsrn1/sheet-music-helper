@@ -1,0 +1,148 @@
+test_batch_consumes_final_values_without_propagating_or_mutating (__main__.DoubleAccidentalTests.test_batch_consumes_final_values_without_propagating_or_mutating) ... ok
+test_check_exclusion_still_applies_and_user_confirmation_can_override (__main__.DoubleAccidentalTests.test_check_exclusion_still_applies_and_user_confirmation_can_override) ... ok
+test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) ...
+  test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={-1: ('bb', '직접')}) ... FAIL
+  test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={1: ('##', '직접')}) ... FAIL
+  test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={True: ('bb', '직접')}) ... FAIL
+  test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={0: ('?', '직접')}) ... FAIL
+  test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={0: ('x', '직접')}) ... FAIL
+test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) ... FAIL
+test_cli_kind_mapping_updates_only_selected_final_notes (__main__.DoubleAccidentalTests.test_cli_kind_mapping_updates_only_selected_final_notes) ... FAIL
+test_cli_movable_context_is_passed_to_the_existing_namer (__main__.DoubleAccidentalTests.test_cli_movable_context_is_passed_to_the_existing_namer) ... FAIL
+test_cli_no_hits_preserves_exact_array_objects (__main__.DoubleAccidentalTests.test_cli_no_hits_preserves_exact_array_objects) ... FAIL
+test_cli_propagation_is_consumed_without_extending_past_cancellation (__main__.DoubleAccidentalTests.test_cli_propagation_is_consumed_without_extending_past_cancellation) ... FAIL
+test_double_flag_alone_never_promotes_a_single_or_a_missing_value (__main__.DoubleAccidentalTests.test_double_flag_alone_never_promotes_a_single_or_a_missing_value) ... ok
+test_edited_text_wins_without_destroying_original_double_or_grade (__main__.DoubleAccidentalTests.test_edited_text_wins_without_destroying_original_double_or_grade) ... ok
+test_explicit_double_replaces_the_key_signature (__main__.DoubleAccidentalTests.test_explicit_double_replaces_the_key_signature) ... ok
+test_fixed_and_letter_keep_original_name_and_two_marks (__main__.DoubleAccidentalTests.test_fixed_and_letter_keep_original_name_and_two_marks) ... ok
+test_midi_preserves_octave_crossings_and_double_semitones (__main__.DoubleAccidentalTests.test_midi_preserves_octave_crossings_and_double_semitones) ... ok
+test_movable_uses_actual_pitch_instead_of_fixed_spelling (__main__.DoubleAccidentalTests.test_movable_uses_actual_pitch_instead_of_fixed_spelling) ... ok
+test_single_natural_and_missing_values_keep_existing_spelling (__main__.DoubleAccidentalTests.test_single_natural_and_missing_values_keep_existing_spelling) ... ok
+test_unconfirmed_aliases_remain_rejected_by_audio (__main__.DoubleAccidentalTests.test_unconfirmed_aliases_remain_rejected_by_audio) ... ok
+
+======================================================================
+FAIL: test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={-1: ('bb', '직접')})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 66, in test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation
+    self.apply_kinds(notes,acc,named,kinds)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={1: ('##', '직접')})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 66, in test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation
+    self.apply_kinds(notes,acc,named,kinds)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={True: ('bb', '직접')})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 66, in test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation
+    self.apply_kinds(notes,acc,named,kinds)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={0: ('?', '직접')})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 66, in test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation
+    self.apply_kinds(notes,acc,named,kinds)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation) (kinds={0: ('x', '직접')})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 66, in test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation
+    self.apply_kinds(notes,acc,named,kinds)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation (__main__.DoubleAccidentalTests.test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 67, in test_cli_bad_mapping_or_stale_note_order_is_rejected_without_mutation
+    with self.assertRaises(ValueError):self.apply_kinds(notes,[],named,{0:("bb","직접")})
+                                       ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_kind_mapping_updates_only_selected_final_notes (__main__.DoubleAccidentalTests.test_cli_kind_mapping_updates_only_selected_final_notes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 35, in test_cli_kind_mapping_updates_only_selected_final_notes
+    actual_acc,actual_named=self.apply_kinds(notes,acc,named,kinds)
+                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_movable_context_is_passed_to_the_existing_namer (__main__.DoubleAccidentalTests.test_cli_movable_context_is_passed_to_the_existing_namer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 56, in test_cli_movable_context_is_passed_to_the_existing_namer
+    _,actual=self.apply_kinds(notes,acc,named,{0:("##","직접")},
+             ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                              notation="solfege-movable",tonic="G")
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_no_hits_preserves_exact_array_objects (__main__.DoubleAccidentalTests.test_cli_no_hits_preserves_exact_array_objects)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 51, in test_cli_no_hits_preserves_exact_array_objects
+    got_acc,got_named=self.apply_kinds(notes,acc,named,{})
+                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+======================================================================
+FAIL: test_cli_propagation_is_consumed_without_extending_past_cancellation (__main__.DoubleAccidentalTests.test_cli_propagation_is_consumed_without_extending_past_cancellation)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 45, in test_cli_propagation_is_consumed_without_extending_past_cancellation
+    actual_acc,actual_named=self.apply_kinds(notes,acc,named,{0:("bb","직접"),1:("bb","전파")})
+                            ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_double_accidentals.py", line 26, in apply_kinds
+    self.assertTrue(callable(apply), "CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다")
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : CLI 종류 반환값을 소비하는 표기 연결 함수가 없습니다
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.019s
+
+FAILED (failures=10)

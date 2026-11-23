@@ -1,0 +1,25 @@
+{
+  "scanner": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpCmdRun.exe",
+  "versions": {
+    "AMProductVersion": "4.18.26090.9",
+    "AMEngineVersion": "1.1.26090.9",
+    "AntivirusSignatureVersion": "1.461.110.0",
+    "AntivirusSignatureLastUpdated": "/Date(1792426395000)/",
+    "AntivirusEnabled": true,
+    "RealTimeProtectionEnabled": true
+  },
+  "scans": [
+    {
+      "kind": "exe",
+      "path": "F:\\sheet-music-helper-progress-test-20261020\\dist\\015908d67789-20261020-074306-711821\\악보헬퍼.exe",
+      "exit": 0,
+      "sha256": "EF06C1BBA718B683FC5DA52233F71846774968182B99A7E0BC5CFA564348B74B"
+    },
+    {
+      "kind": "zip",
+      "path": "F:\\sheet-music-helper-progress-test-20261020\\dist\\악보헬퍼-015908d67789-20261020-074306-711821.zip",
+      "exit": 0,
+      "sha256": "1FEAB8A4CC6324D237867C0ECC90278732F9B2AA64F3A79C4EEAA838B6939355"
+    }
+  ]
+}

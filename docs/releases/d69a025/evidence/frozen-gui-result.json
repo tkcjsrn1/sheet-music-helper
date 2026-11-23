@@ -1,0 +1,32 @@
+{
+  "name": "frozen-gui",
+  "command": [
+    "C:\\Users\\user\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:/akbo-data/tmp/merge-beta-20261023/gui-new.py"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\beta-features-20261023",
+  "started": "2026-10-26T09:42:58.681481+09:00",
+  "initial": {
+    "available": 4062892032,
+    "commit_headroom": 11831574528,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 534044672,
+  "peak_sampled_private": 412291072,
+  "peak_job_commit": 447619072,
+  "min_available": 3509391360,
+  "min_commit_headroom": 11385954304,
+  "max_processes": 7,
+  "samples": 1338,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 269.293,
+  "finished": "2026-10-26T09:47:27.974432+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

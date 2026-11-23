@@ -1,0 +1,12 @@
+[
+  {
+    "stream": "stdout",
+    "exit_code": 0,
+    "expected_exit_code": 1
+  },
+  {
+    "stream": "stderr",
+    "exit_code": 0,
+    "expected_exit_code": 1
+  }
+]

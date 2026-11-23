@@ -1,0 +1,120 @@
+{
+  "source_sha256": "0ba98905c4af8019d87c1f0ed258d8b0a5cfae78f8e0b2af63046b525ee8c7fa",
+  "pdf_sha256": "8bc8e9c85bfb66e9b4c9e0994c876a8660241947a304c35345dae0ea235bc78c",
+  "module_sha256": {
+    "accidental_detect.py": "96a62dd3e4e6d4cb8ce903e72d2c105dd9df667c45aeda18c8b05ee3ccae65a3",
+    "clef_keysig.py": "9a33a65528ca8e1e14a3cf3309f5522a5f0ab966ec5f31e881007041037a7fd9",
+    "labels_io.py": "8a1f95acd5bd7bfdc3f6b66b7b3d621858a0817e62a72f1997359e06aba031d6",
+    "notehead_detect.py": "15f889b2fe919964916a2085bf8ec3c31a65ef296c1c9c7c16eb1b6b5e848bfe",
+    "note_namer.py": "2d54852ae4d47e0c3a938a07972e495da85524e4b9a789d20210f01833e2c268",
+    "pitch_calculator.py": "61c1331e0c42bc9cafe077eca26f04cd6e141a91a9e284c06acd0710ae1c0522",
+    "preprocess.py": "f9197eecc217543b297e9c9905c5270c36f4cca8a98744dcd61c1a7870f748ff",
+    "renderer.py": "0ca89ca707ae98e026522eead207dbd077771b52cb4667a93017b07d87a6dff8",
+    "verify.py": "d30a36e13472de1d9dc5d228d132639e399fe56f66e03bcb36b13746f9cf56ce",
+    "__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  "truth_notes": 104,
+  "duration_counts": {
+    "8": 32,
+    "16": 64,
+    "2": 8
+  },
+  "beam_groups": 16,
+  "staves": 6,
+  "detected_filled": 98,
+  "stages": {
+    "detected": {
+      "count": 107,
+      "matched": 104,
+      "missing": [],
+      "duplicates": [],
+      "wrong_pitch": [],
+      "extra": [
+        {
+          "x": 769,
+          "y": 340,
+          "staff": 0
+        },
+        {
+          "x": 821,
+          "y": 348,
+          "staff": 0
+        },
+        {
+          "x": 492,
+          "y": 1081,
+          "staff": 2
+        }
+      ]
+    },
+    "after_beam": {
+      "count": 106,
+      "matched": 104,
+      "missing": [],
+      "duplicates": [],
+      "wrong_pitch": [],
+      "extra": [
+        {
+          "x": 821,
+          "y": 348,
+          "staff": 0
+        },
+        {
+          "x": 492,
+          "y": 1081,
+          "staff": 2
+        }
+      ]
+    },
+    "after_offstaff": {
+      "count": 105,
+      "matched": 104,
+      "missing": [],
+      "duplicates": [],
+      "wrong_pitch": [],
+      "extra": [
+        {
+          "x": 492,
+          "y": 1081,
+          "staff": 2
+        }
+      ]
+    },
+    "final": {
+      "count": 105,
+      "matched": 104,
+      "missing": [],
+      "duplicates": [],
+      "wrong_pitch": [],
+      "extra": [
+        {
+          "x": 492,
+          "y": 1081,
+          "staff": 2
+        }
+      ]
+    }
+  },
+  "natural_beam_filter_reasons": {
+    "좌우에 잉크 없음": 1
+  },
+  "natural_beam_drops": [
+    {
+      "x": 769,
+      "y": 340,
+      "staff": 0,
+      "reason": "좌우에 잉크 없음",
+      "weak": 0.239
+    }
+  ],
+  "offstaff_drops": [
+    {
+      "x": 821,
+      "y": 348,
+      "staff": 0,
+      "reason": "오선 밖인데 덧줄 없음",
+      "off_sp": -2.85
+    }
+  ],
+  "final_accidentals": []
+}

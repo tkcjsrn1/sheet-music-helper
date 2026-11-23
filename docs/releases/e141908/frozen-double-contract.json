@@ -1,0 +1,57 @@
+{
+  "build_commit": "e141908fca361a85396a59b91bd820b5e1f77ef4",
+  "exe_sha256": "79A64676E093540CAF91FB12598F0B915306673C895E3C7A5E02AF6E9D7E7EFF",
+  "method": "PYZ 실제 frozen 함수 추출 · 명시적 fixture 입력",
+  "not_an_optical_recognition_or_gui_sound_test": true,
+  "fixtures": [
+    {
+      "input": {
+        "staff": 0,
+        "x": 100,
+        "pitch": "D4",
+        "accidental": "bb",
+        "text": "레bb",
+        "confidence": "check",
+        "flags": [
+          "double_acc"
+        ]
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_letters": [
+          "F"
+        ],
+        "notation": "solfege"
+      },
+      "midi": 60,
+      "hz": 261.6255653005986,
+      "check_kept": true,
+      "skip_option_respected": true
+    },
+    {
+      "input": {
+        "staff": 0,
+        "x": 100,
+        "pitch": "F4",
+        "accidental": "##",
+        "text": "파##",
+        "confidence": "check",
+        "flags": [
+          "double_acc"
+        ]
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_letters": [
+          "F"
+        ],
+        "notation": "solfege"
+      },
+      "midi": 67,
+      "hz": 391.99543598174927,
+      "check_kept": true,
+      "skip_option_respected": true
+    }
+  ],
+  "modulation_D5_Db_midi": 73
+}

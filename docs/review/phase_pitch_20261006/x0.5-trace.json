@@ -1,0 +1,954 @@
+[
+  {
+    "stage": "_refine_y",
+    "staff": 0,
+    "band_top": 77,
+    "return_y_band": 166.5,
+    "inputs": {
+      "x": 407.0261437908497,
+      "y_band": 166.16557734204792,
+      "y_lo": 153.0,
+      "y_hi": 183.0,
+      "x0": 397.0,
+      "x1": 417.0,
+      "y0": 153.0,
+      "y1": 181.0
+    },
+    "row_ink_counts": [
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      18,
+      19,
+      19,
+      19,
+      19,
+      19,
+      18,
+      17,
+      16,
+      16,
+      17,
+      17,
+      14,
+      14,
+      14,
+      14,
+      16,
+      17,
+      17,
+      15,
+      15
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "opened_bbox": [
+      398,
+      153,
+      21,
+      31,
+      459
+    ],
+    "opening_centroid": [
+      407.0261437908497,
+      166.16557734204792
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 407,
+        "y": 244,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 1,
+    "band_top": 288,
+    "return_y_band": 131.0,
+    "inputs": {
+      "x": 407.5352564102564,
+      "y_band": 130.52243589743588,
+      "y_lo": 122.0,
+      "y_hi": 140.0,
+      "x0": 397.0,
+      "x1": 418.0,
+      "y0": 122.0,
+      "y1": 141.0
+    },
+    "row_ink_counts": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      19,
+      20,
+      20,
+      20,
+      19,
+      18,
+      17,
+      17,
+      16,
+      16,
+      17,
+      16
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "opened_bbox": [
+      398,
+      122,
+      21,
+      19,
+      312
+    ],
+    "opening_centroid": [
+      407.5352564102564,
+      130.52243589743588
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 408,
+        "y": 419,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "detect_noteheads",
+    "notes": [
+      {
+        "x": 407,
+        "y": 244,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      },
+      {
+        "x": 408,
+        "y": 419,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 407,
+      "y": 244,
+      "staff_index": 0,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 248.0,
+    "spacing": 18.0,
+    "raw_steps": 0.4444444444444444,
+    "step": 0,
+    "clef": "treble",
+    "note": {
+      "x": 407,
+      "y": 244,
+      "note_name": "E",
+      "octave": 4,
+      "staff_index": 0
+    }
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 408,
+      "y": 419,
+      "staff_index": 1,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 428.0,
+    "spacing": 18.0,
+    "raw_steps": 1.0,
+    "step": 1,
+    "clef": "treble",
+    "note": {
+      "x": 408,
+      "y": 419,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 1
+    }
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 0,
+    "band_top": 77,
+    "return_y_band": 163.5,
+    "inputs": {
+      "x": 407.38810198300285,
+      "y_band": 162.3626062322946,
+      "y_lo": 153.0,
+      "y_hi": 174.0,
+      "x0": 397.0,
+      "x1": 418.0,
+      "y0": 153.0,
+      "y1": 175.0
+    },
+    "row_ink_counts": [
+      19,
+      21,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      19,
+      19,
+      18,
+      17,
+      16,
+      16,
+      17,
+      16,
+      13,
+      13
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "opened_bbox": [
+      398,
+      153,
+      21,
+      22,
+      353
+    ],
+    "opening_centroid": [
+      407.38810198300285,
+      162.3626062322946
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 407,
+        "y": 240,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 1,
+    "band_top": 288,
+    "return_y_band": 131.5,
+    "inputs": {
+      "x": 407.72206303724926,
+      "y_band": 131.0859598853868,
+      "y_lo": 122.0,
+      "y_hi": 141.0,
+      "x0": 397.0,
+      "x1": 418.0,
+      "y0": 122.0,
+      "y1": 142.0
+    },
+    "row_ink_counts": [
+      19,
+      21,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      15
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "opened_bbox": [
+      398,
+      122,
+      21,
+      20,
+      349
+    ],
+    "opening_centroid": [
+      407.72206303724926,
+      131.0859598853868
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 408,
+        "y": 420,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "detect_noteheads",
+    "notes": [
+      {
+        "x": 407,
+        "y": 240,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      },
+      {
+        "x": 408,
+        "y": 420,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 407,
+      "y": 240,
+      "staff_index": 0,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 248.0,
+    "spacing": 18.0,
+    "raw_steps": 0.8888888888888888,
+    "step": 1,
+    "clef": "treble",
+    "note": {
+      "x": 407,
+      "y": 240,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 0
+    }
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 408,
+      "y": 420,
+      "staff_index": 1,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 428.0,
+    "spacing": 18.0,
+    "raw_steps": 0.8888888888888888,
+    "step": 1,
+    "clef": "treble",
+    "note": {
+      "x": 408,
+      "y": 420,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 1
+    }
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 0,
+    "band_top": 77,
+    "return_y_band": 166.5,
+    "inputs": {
+      "x": 407.0261437908497,
+      "y_band": 166.16557734204792,
+      "y_lo": 153.0,
+      "y_hi": 183.0,
+      "x0": 397.0,
+      "x1": 417.0,
+      "y0": 153.0,
+      "y1": 181.0
+    },
+    "row_ink_counts": [
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      17,
+      18,
+      19,
+      19,
+      19,
+      19,
+      19,
+      18,
+      17,
+      16,
+      16,
+      17,
+      17,
+      14,
+      14,
+      14,
+      14,
+      16,
+      17,
+      17,
+      15,
+      15
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27
+    ],
+    "opened_bbox": [
+      398,
+      153,
+      21,
+      31,
+      459
+    ],
+    "opening_centroid": [
+      407.0261437908497,
+      166.16557734204792
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 407,
+        "y": 244,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 1,
+    "band_top": 288,
+    "return_y_band": 131.0,
+    "inputs": {
+      "x": 407.5352564102564,
+      "y_band": 130.52243589743588,
+      "y_lo": 122.0,
+      "y_hi": 140.0,
+      "x0": 397.0,
+      "x1": 418.0,
+      "y0": 122.0,
+      "y1": 141.0
+    },
+    "row_ink_counts": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      19,
+      20,
+      20,
+      20,
+      19,
+      18,
+      17,
+      17,
+      16,
+      16,
+      17,
+      16
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "opened_bbox": [
+      398,
+      122,
+      21,
+      19,
+      312
+    ],
+    "opening_centroid": [
+      407.5352564102564,
+      130.52243589743588
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 408,
+        "y": 419,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "detect_noteheads",
+    "notes": [
+      {
+        "x": 407,
+        "y": 244,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      },
+      {
+        "x": 408,
+        "y": 419,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 407,
+      "y": 244,
+      "staff_index": 0,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 248.0,
+    "spacing": 18.0,
+    "raw_steps": 0.4444444444444444,
+    "step": 0,
+    "clef": "treble",
+    "note": {
+      "x": 407,
+      "y": 244,
+      "note_name": "E",
+      "octave": 4,
+      "staff_index": 0
+    }
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 408,
+      "y": 419,
+      "staff_index": 1,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 428.0,
+    "spacing": 18.0,
+    "raw_steps": 1.0,
+    "step": 1,
+    "clef": "treble",
+    "note": {
+      "x": 408,
+      "y": 419,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 1
+    }
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 0,
+    "band_top": 77,
+    "return_y_band": 163.5,
+    "inputs": {
+      "x": 407.38810198300285,
+      "y_band": 162.3626062322946,
+      "y_lo": 153.0,
+      "y_hi": 174.0,
+      "x0": 397.0,
+      "x1": 418.0,
+      "y0": 153.0,
+      "y1": 175.0
+    },
+    "row_ink_counts": [
+      19,
+      21,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      19,
+      19,
+      18,
+      17,
+      16,
+      16,
+      17,
+      16,
+      13,
+      13
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ],
+    "opened_bbox": [
+      398,
+      153,
+      21,
+      22,
+      353
+    ],
+    "opening_centroid": [
+      407.38810198300285,
+      162.3626062322946
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 407,
+        "y": 240,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "_refine_y",
+    "staff": 1,
+    "band_top": 288,
+    "return_y_band": 131.5,
+    "inputs": {
+      "x": 407.72206303724926,
+      "y_band": 131.0859598853868,
+      "y_lo": 122.0,
+      "y_hi": 141.0,
+      "x0": 397.0,
+      "x1": 418.0,
+      "y0": 122.0,
+      "y1": 142.0
+    },
+    "row_ink_counts": [
+      19,
+      21,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      20,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      15
+    ],
+    "dense": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19
+    ],
+    "opened_bbox": [
+      398,
+      122,
+      21,
+      20,
+      349
+    ],
+    "opening_centroid": [
+      407.72206303724926,
+      131.0859598853868
+    ]
+  },
+  {
+    "stage": "_detect_noteheads_in_band",
+    "notes": [
+      {
+        "x": 408,
+        "y": 420,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "detect_noteheads",
+    "notes": [
+      {
+        "x": 407,
+        "y": 240,
+        "staff_index": 0,
+        "filled": true,
+        "ring_kept": false
+      },
+      {
+        "x": 408,
+        "y": 420,
+        "staff_index": 1,
+        "filled": true,
+        "ring_kept": false
+      }
+    ]
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 407,
+      "y": 240,
+      "staff_index": 0,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 248.0,
+    "spacing": 18.0,
+    "raw_steps": 0.8888888888888888,
+    "step": 1,
+    "clef": "treble",
+    "note": {
+      "x": 407,
+      "y": 240,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 0
+    }
+  },
+  {
+    "stage": "calculate_pitch",
+    "head": {
+      "x": 408,
+      "y": 420,
+      "staff_index": 1,
+      "filled": true,
+      "ring_kept": false
+    },
+    "bottom": 428.0,
+    "spacing": 18.0,
+    "raw_steps": 0.8888888888888888,
+    "step": 1,
+    "clef": "treble",
+    "note": {
+      "x": 408,
+      "y": 420,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 1
+    }
+  }
+]

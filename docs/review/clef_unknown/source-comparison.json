@@ -1,0 +1,17 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels": 226,
+    "complete_json_equal": true
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels": 255,
+    "complete_json_equal": true
+  },
+  {
+    "case": "alto_beethoven1",
+    "labels": 239,
+    "complete_json_equal": true
+  }
+]

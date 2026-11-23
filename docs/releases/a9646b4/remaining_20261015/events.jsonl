@@ -1,0 +1,53 @@
+{"action": "launch", "pid": 34408, "sha256": "a7671caf5505f70aec3e8c2ea92118c6438b554cee67b340b2679ed226c5339f", "utc": "2026-10-14T19:38:52Z"}
+{"action": "focus", "ok": 1, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:39:21Z"}
+{"action": "click", "x": 250, "y": 198, "actual_xy": [250, 198], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:39:33Z"}
+{"action": "top", "window": {"hwnd": 4525002, "title": "악보 파일 선택", "pid": 45664, "rect": [594, 384, 1307, 560], "cls": "#32770", "visible": true}, "utc": "2026-10-14T19:40:15Z"}
+{"action": "top", "window": {"hwnd": 2429598, "title": "악보 파일 선택", "pid": 45664, "rect": [29, 58, 989, 658], "cls": "#32770", "visible": true}, "utc": "2026-10-14T19:40:16Z"}
+{"action": "click", "x": 483, "y": 574, "actual_xy": [483, 574], "expected_root": 2429598, "hit_root": 2429598, "pid": 45664, "utc": "2026-10-14T19:40:16Z"}
+{"action": "top", "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:40:27Z"}
+{"action": "top", "window": {"hwnd": 2429598, "title": "악보 파일 선택", "pid": 45664, "rect": [29, 58, 989, 658], "cls": "#32770", "visible": true}, "utc": "2026-10-14T19:40:42Z"}
+{"action": "click", "x": 777, "y": 610, "actual_xy": [777, 610], "expected_root": 2429598, "hit_root": 2429598, "pid": 45664, "utc": "2026-10-14T19:40:42Z"}
+{"action": "top", "window": {"hwnd": 14485974, "title": "악보 파일 선택", "pid": 45664, "rect": [594, 384, 1307, 560], "cls": "#32770", "visible": true}, "utc": "2026-10-14T19:41:16Z"}
+{"action": "click", "x": 1242, "y": 525, "actual_xy": [1242, 525], "expected_root": 14485974, "hit_root": 14485974, "pid": 45664, "utc": "2026-10-14T19:41:17Z"}
+{"action": "click", "x": 487, "y": 574, "actual_xy": [487, 574], "expected_root": 2429598, "hit_root": 2429598, "pid": 45664, "utc": "2026-10-14T19:41:17Z"}
+{"action": "click", "x": 777, "y": 610, "actual_xy": [777, 610], "expected_root": 2429598, "hit_root": 2429598, "pid": 45664, "utc": "2026-10-14T19:41:18Z"}
+{"action": "click", "x": 250, "y": 313, "actual_xy": [250, 313], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:41:33Z"}
+{"action": "key", "vk": 78, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:42:05Z"}
+{"action": "key", "vk": 78, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:42:06Z"}
+{"action": "key", "vk": 80, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:42:07Z"}
+{"action": "key", "vk": 112, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:42:08Z"}
+{"action": "click", "x": 830, "y": 127, "actual_xy": [830, 127], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:42:40Z"}
+{"action": "key", "vk": 112, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:42:40Z"}
+{"action": "scan", "vk": 112, "scan": 59, "utc": "2026-10-14T19:43:07Z"}
+{"action": "click", "x": 210, "y": 597, "actual_xy": [210, 597], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:43:23Z"}
+{"action": "scan", "vk": 112, "scan": 59, "utc": "2026-10-14T19:43:23Z"}
+{"action": "scroll", "xy": [300, 744], "expected": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "hit_top": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:43:24Z"}
+{"action": "click", "x": 150, "y": 605, "actual_xy": [150, 605], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:43:44Z"}
+{"action": "scan", "vk": 78, "scan": 49, "utc": "2026-10-14T19:43:44Z"}
+{"action": "key", "vk": 8, "window": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:43:45Z"}
+{"action": "scroll", "xy": [300, 744], "expected": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "hit_top": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:43:45Z"}
+{"action": "scroll", "xy": [290, 740], "expected": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "hit_top": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:44:00Z"}
+{"action": "scroll", "xy": [290, 744], "expected": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "hit_top": {"hwnd": 33688292, "title": "악보헬퍼 - 계이름 자동 표기", "pid": 45664, "rect": [20, 20, 1238, 867], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:44:12Z"}
+{"action": "click", "x": 250, "y": 774, "actual_xy": [250, 774], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:44:25Z"}
+{"action": "click", "x": 250, "y": 818, "actual_xy": [250, 818], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:44:28Z"}
+{"action": "click", "x": 1100, "y": 160, "actual_xy": [1100, 160], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:44:54Z"}
+{"action": "scan", "vk": 78, "scan": 49, "utc": "2026-10-14T19:44:55Z"}
+{"action": "scan", "vk": 112, "scan": 59, "utc": "2026-10-14T19:44:55Z"}
+{"action": "click", "x": 250, "y": 198, "actual_xy": [250, 198], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:45:14Z"}
+{"action": "click", "x": 490, "y": 574, "actual_xy": [490, 574], "expected_root": 13504962, "hit_root": 13504962, "pid": 45664, "utc": "2026-10-14T19:45:31Z"}
+{"action": "click", "x": 777, "y": 610, "actual_xy": [777, 610], "expected_root": 13504962, "hit_root": 13504962, "pid": 45664, "utc": "2026-10-14T19:45:32Z"}
+{"action": "click", "x": 250, "y": 313, "actual_xy": [250, 313], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:45:33Z"}
+{"action": "click", "x": 250, "y": 420, "actual_xy": [250, 420], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:45:50Z"}
+{"action": "scan", "vk": 9, "scan": 15, "utc": "2026-10-14T19:46:18Z"}
+{"action": "scan", "vk": 112, "scan": 59, "utc": "2026-10-14T19:46:18Z"}
+{"action": "scan", "vk": 78, "scan": 49, "utc": "2026-10-14T19:46:20Z"}
+{"action": "release_control", "utc": "2026-10-14T19:46:45Z"}
+{"action": "click", "x": 250, "y": 525, "actual_xy": [250, 525], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:46:45Z"}
+{"action": "scan", "vk": 112, "scan": 59, "utc": "2026-10-14T19:46:46Z"}
+{"action": "top", "window": {"hwnd": 17369334, "title": "라벨 수정 / 삭제", "pid": 45664, "rect": [128, 128, 796, 750], "cls": "TkTopLevel", "visible": true}, "utc": "2026-10-14T19:47:15Z"}
+{"action": "scan", "vk": 27, "scan": 1, "utc": "2026-10-14T19:47:15Z"}
+{"action": "click", "x": 355, "y": 310, "actual_xy": [355, 310], "expected_root": 17369334, "hit_root": 17369334, "pid": 45664, "utc": "2026-10-14T19:47:32Z"}
+{"action": "scan", "vk": 112, "scan": 59, "utc": "2026-10-14T19:47:33Z"}
+{"action": "scan", "vk": 78, "scan": 49, "utc": "2026-10-14T19:47:34Z"}
+{"action": "click", "x": 766, "y": 148, "actual_xy": [766, 148], "expected_root": 17369334, "hit_root": 17369334, "pid": 45664, "utc": "2026-10-14T19:47:55Z"}
+{"action": "click_relative", "rect": [20, 20, 1238, 867], "x": 1199, "y": 40, "actual_xy": [1199, 40], "expected_root": 33688292, "hit_root": 33688292, "pid": 45664, "utc": "2026-10-14T19:47:55Z"}

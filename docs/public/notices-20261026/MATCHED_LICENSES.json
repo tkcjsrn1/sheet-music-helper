@@ -1,0 +1,1708 @@
+{
+  "schema": 1,
+  "beta_commit": "d69a025a063f9beb7797b4966509d18c7de5f3c4",
+  "draft_sha256": "9c214f3e438f0a75639a9bd7072714df93bd070e0dbd88395af2ca015ea17e29",
+  "packages": [
+    {
+      "name": "certifi",
+      "version": "2026.7.22",
+      "status": "원문 확인",
+      "source_ids": [
+        "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+        "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "cffi",
+      "version": "2.1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "status": "원문 확인",
+      "source_ids": [
+        "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.3.3",
+      "status": "원문 확인",
+      "source_ids": [
+        "34170979fc64f4f5e6dfa66ef27dec314ffffc5852000c60f4836ec1dfbf156e"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "customtkinter",
+      "version": "6.0.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d"
+      ],
+      "version_in_actual_binary": "빌드 기록 버전 일치"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "darkdetect",
+      "version": "0.8.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "defusedxml",
+      "version": "0.7.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.63.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+        "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491",
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "more-itertools",
+      "version": "11.1.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "numpy",
+      "version": "2.5.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+        "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+        "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+        "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+        "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+        "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+        "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+        "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+        "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+        "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+        "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+        "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+        "dc97d59562c75c04557f1e9a68f3eae326699eb119d569cd4ed6a4eafe5f9abb",
+        "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+        "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+        "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec"
+      ],
+      "version_in_actual_binary": "빌드 기록 버전 일치"
+    },
+    {
+      "name": "packaging",
+      "version": "26.2",
+      "status": "원문 확인",
+      "source_ids": [
+        "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+        "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "51ed379cf673c9676b7fa7e1bedbfc5d4ad63caac4f6f99eeec5ccab50c3e0ef"
+      ],
+      "version_in_actual_binary": "빌드 기록 버전 일치"
+    },
+    {
+      "name": "pycparser",
+      "version": "3.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.2",
+      "status": "원문 확인",
+      "source_ids": [
+        "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "status": "원문 확인",
+      "source_ids": [
+        "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "scipy",
+      "version": "1.18.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+        "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+        "c803fb373fe0f3b038f3f841bf706d63e076ffc554ec889cdeb258e5b29802bb",
+        "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+        "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357"
+      ],
+      "version_in_actual_binary": "빌드 기록 버전 일치"
+    },
+    {
+      "name": "setuptools",
+      "version": "83.0.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+        "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+        "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+        "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+        "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+        "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+        "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+        "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+        "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+        "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+        "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+        "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+        "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    },
+    {
+      "name": "six",
+      "version": "1.17.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+      ],
+      "version_in_actual_binary": "미확인(설치본 대응 후보)"
+    }
+  ],
+  "fonts": [
+    {
+      "entry": "customtkinter/assets/fonts/CustomTkinter_shapes_font.otf",
+      "sha256": "fad67e2b060c318b6c8646d087fbd3add938b6676243f14b0c52623179641274",
+      "family": "CustomTkinter shapes",
+      "license": "미확인",
+      "status": "미확인",
+      "source_ids": [],
+      "copyright_source": null,
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf",
+      "sha256": "4ac8e03606ffa4c37f61a6510a2080f1f37a7054f4726c214887d3b23f72e369",
+      "family": "Roboto",
+      "license": "Apache-2.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      ],
+      "copyright_source": "48133474d1a2371d22b7a2b10c92431998e0cb7cf121895003e17902fc346031",
+      "embedded_license": [
+        "Licensed under the Apache License, Version 2.0"
+      ]
+    },
+    {
+      "entry": "customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf",
+      "sha256": "319cff6e7a31f0f2a41c475dca42890aa5d19fe16017e2290f8c1d4e14f76481",
+      "family": "Roboto",
+      "license": "Apache-2.0",
+      "status": "원문 확인",
+      "source_ids": [
+        "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+      ],
+      "copyright_source": "48133474d1a2371d22b7a2b10c92431998e0cb7cf121895003e17902fc346031",
+      "embedded_license": [
+        "Licensed under the Apache License, Version 2.0"
+      ]
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+      "sha256": "b184b89e3c1075f22f6b71575b6fc20d4972b3cfd3b23322ca6fd596dcaef167",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf",
+      "sha256": "6edf0283160186af451cbee71e7b845f2e4cabf264bb992ce668c83c25465e6f",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf",
+      "sha256": "ccdf74b350f11fd3dd5774de50e5e6346a1a5da1f5b7d5fb83590665e97a5213",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+      "sha256": "3fdf69cabf06049ea70a00b5919340e2ce1e6d02b0cc3c4b44fb6801bd1e0d22",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf",
+      "sha256": "82099dcfba5aa868cdfc27451989525fe3292f737fb3c9e0328ce9cef59652f6",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf",
+      "sha256": "baada9a5172fe20886251aff0433fc38461912d5daf07287e7bee56620a8da96",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf",
+      "sha256": "a69081c15c76c827e0a27a5a7f5c74b6135c843499955495ffa8c20d3a98288b",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf",
+      "sha256": "28052813f7a709fc89f52d192dc995ef4f0fdc5c3d7b73a49d6849b1916d0cd0",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf",
+      "sha256": "602ec86b8948cfcd956482fe64f94c36c867770149ef2f791d4613f443bcecb3",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf",
+      "sha256": "c3753f2ed6bc673f15846dc45addbeb3b9c872f32fb18fd53a21f1bef1ed7676",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf",
+      "sha256": "d93efec7a9d2e826768d1a2ee95b95870e15e29599a84f3484af1de1cec2e181",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf",
+      "sha256": "3e7994fbc54fa10ce3352a42d548fadd7d9cadb69cb1109bc9d960f6dac57f04",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf",
+      "sha256": "107244956e9962b9e96faccdc551825e0ae0898ae13737133e1b921a2fd35ffa",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf",
+      "sha256": "2914f32e47c777c27be5677afae7db4de79f9e45de6fc9097d9949c23c14f7d5",
+      "family": "DejaVu",
+      "license": "Bitstream Vera + Arev",
+      "status": "원문 확인",
+      "source_ids": [
+        "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+      ],
+      "copyright_source": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/LastResortHE-Regular.ttf",
+      "sha256": "60c48abfc05e9f2ba33599c4dcba40105d1ece71d3761f0b26f75a38b5b17895",
+      "family": "LastResort",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "6b5ede10ab820e2cf73ddfba0db6618c5ac0e942d522720bea580257527b6a3c",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf",
+      "sha256": "167378031e2dddc6216d67819c9260e9a06ffc4c478e4e23cb98a6fd44b183c2",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf",
+      "sha256": "e8533dc7083fa346bda1933d60ea4a83b67d0945bceaf1b3541f82b4a0e2c6a0",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf",
+      "sha256": "98788fd4ba48dfbb2bd026c0e20a247a8b06c7372879628b7a6bb0d5bb09736c",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf",
+      "sha256": "6cfcb333d22b7c3c623bdfd40174f14c85c3d6731ca6166c1edc80140eae8527",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf",
+      "sha256": "5256f7e021335ac4854d180f0e8bf198964ec2fc820176276e16aabc6537bb57",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf",
+      "sha256": "5d106a5b78d1ffc30174553439b86257bfa45f088120cb3b4150a51dc4f9b60b",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf",
+      "sha256": "a5bdb60e76c37f6c90aa2ce8b5cdf0043a85182fe0dbb61c086262bc7f7e2def",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf",
+      "sha256": "04cafda56881bf660865dab4e17e1cdc280be8d3cb50fae5eb8695d4de30f548",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf",
+      "sha256": "c18b87d60614a42baeb2a22d447e647fda7fb3a9940fef57dcbe51bd1b4a4b1b",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf",
+      "sha256": "c8d76f8d4a129ac64250b983ed256af4769b9dd1bd3f874f85ba0bd49a407f4b",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf",
+      "sha256": "fbdc553182f8ff5adc3bc16208aac27d1e0f69298ab40e3675d2c6ab0b5e8b5c",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf",
+      "sha256": "7187b1ca8f2b65c76a325a5af5f345e5ad88a172d44d9b88be1d090f5429d22e",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf",
+      "sha256": "d256c7ce99ddcc998ef12e369a5921b33e4d6ef24b402687e4c71ced06510f37",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf",
+      "sha256": "dde05cf95b586e1414dc19f18b2a5f3ba780cc4bbc05d0efb4825215b912da86",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf",
+      "sha256": "5c548a0a9b5b11233cbb11ed5054805767326f0c614a377c756541caae9fdf0d",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf",
+      "sha256": "3140981eb03466a162484fcf8c81a525980cbafefd694810a84ec3b6ede4ba8d",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf",
+      "sha256": "fec7710ee130043b400e9bbd0b221743157bb08a80d93655042522523ab95029",
+      "family": "STIX",
+      "license": "OFL-1.1",
+      "status": "원문 확인",
+      "source_ids": [
+        "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmb10.ttf",
+      "sha256": "074497b50c43ea57597181591f9893d38fc12a87e95104f5657fc2481f61a23a",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmex10.ttf",
+      "sha256": "af28f0c170723ac776a71bfa595aca09e98d15ae5c3d54ce19afd5619c96a905",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmmi10.ttf",
+      "sha256": "3092965b8811fd6a6765799664845181fc1dd1330b937f915808c485d316234d",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmr10.ttf",
+      "sha256": "4dd9761b058c009db9b2145f55ee6617d093c273dd3d6c5b3e43ff6110fa9bf6",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmss10.ttf",
+      "sha256": "7df91a83d05b2e471ec638cb0b435a360a3c792b09fc42a7da67e91f2e79115a",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmsy10.ttf",
+      "sha256": "bb226ed932f3f100cd0e52f5e4912ee553b41b69e7bfdb8d3854db0eb6605232",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmti10.ttf",
+      "sha256": "f9f1f9f654308ae82f7be4441ae89b080896b34cc220bbea173c5e9adcfe3ef7",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    },
+    {
+      "entry": "matplotlib/mpl-data/fonts/ttf/cmtt10.ttf",
+      "sha256": "6211f09ae93599991afda970c24669dad1a77e253d915624fbf212f702f071d7",
+      "family": "BaKoMa",
+      "license": "BaKoMa Fonts Licence",
+      "status": "원문 확인",
+      "source_ids": [
+        "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+      ],
+      "copyright_source": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "embedded_license": "name-table 확인, 원문은 source_ids 참조"
+    }
+  ],
+  "sources": [
+    {
+      "id": "210d4b03dc57a7d0e341e3bc1a801e27ede491e5c3cd8aa2aa37baef89010644",
+      "origins": [
+        {
+          "path": "repository:THIRD_PARTY_NOTICES.txt",
+          "raw_sha256": "210d4b03dc57a7d0e341e3bc1a801e27ede491e5c3cd8aa2aa37baef89010644"
+        }
+      ],
+      "normalized_sha256": "210d4b03dc57a7d0e341e3bc1a801e27ede491e5c3cd8aa2aa37baef89010644",
+      "offset": 6851,
+      "length": 420978
+    },
+    {
+      "id": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "origins": [
+        {
+          "path": "certifi-2026.7.22.dist-info/licenses/LICENSE",
+          "raw_sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7"
+        }
+      ],
+      "normalized_sha256": "e93716da6b9c0d5a4a1df60fe695b370f0695603d21f6f83f053e42cfc10caf7",
+      "offset": 427915,
+      "length": 989
+    },
+    {
+      "id": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+      "origins": [
+        {
+          "path": "cffi-2.1.1.dist-info/licenses/LICENSE",
+          "raw_sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63"
+        }
+      ],
+      "normalized_sha256": "5ba24ddc57067f9249add644c3afc41a5d6dc37e23433ef759d95df370b0af63",
+      "offset": 428990,
+      "length": 1123
+    },
+    {
+      "id": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887",
+      "origins": [
+        {
+          "path": "charset_normalizer-3.5.2.dist-info/licenses/LICENSE",
+          "raw_sha256": "18577485d3704f1a479ded8e573c0976cfed315fd2fd17983fa988da4c2f70d1"
+        }
+      ],
+      "normalized_sha256": "6d0d41bfe170ac6c7dc248c9a63e254d0fb45a60d50a8257d0af92c6e249b887",
+      "offset": 430199,
+      "length": 1071
+    },
+    {
+      "id": "34170979fc64f4f5e6dfa66ef27dec314ffffc5852000c60f4836ec1dfbf156e",
+      "origins": [
+        {
+          "path": "contourpy-1.3.3.dist-info/LICENSE",
+          "raw_sha256": "8553102e03001dd966278098cc027d0683c412b34ea141351b060be4330f39a9"
+        }
+      ],
+      "normalized_sha256": "34170979fc64f4f5e6dfa66ef27dec314ffffc5852000c60f4836ec1dfbf156e",
+      "offset": 431356,
+      "length": 1534
+    },
+    {
+      "id": "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d",
+      "origins": [
+        {
+          "path": "customtkinter-6.0.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d"
+        }
+      ],
+      "normalized_sha256": "c973b8600e620159cb0473eb9b08783143e0d9ed5333f350fc933368d94d9e0d",
+      "offset": 392010,
+      "length": 1071
+    },
+    {
+      "id": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408",
+      "origins": [
+        {
+          "path": "cycler-0.12.1.dist-info/LICENSE",
+          "raw_sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408"
+        }
+      ],
+      "normalized_sha256": "f1218143d766da3fea66f13396b7f15df46a83303f29bf96ba6e98eb4d42f408",
+      "offset": 432976,
+      "length": 1497
+    },
+    {
+      "id": "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe",
+      "origins": [
+        {
+          "path": "darkdetect-0.8.0.dist-info/LICENSE",
+          "raw_sha256": "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe"
+        }
+      ],
+      "normalized_sha256": "69bb84664eff933addcb271c866d67622d9c2c53a5bda31b1a7523569c250afe",
+      "offset": 434559,
+      "length": 1495
+    },
+    {
+      "id": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+      "origins": [
+        {
+          "path": "defusedxml-0.7.1.dist-info/LICENSE",
+          "raw_sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8"
+        }
+      ],
+      "normalized_sha256": "b80ce9da8c42a1f91079627fbbe2bf27210ae108a0ffe5f077d5b08e076c24c8",
+      "offset": 436140,
+      "length": 2409
+    },
+    {
+      "id": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+      "origins": [
+        {
+          "path": "fonttools-4.63.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99"
+        }
+      ],
+      "normalized_sha256": "6787208f83f659ccbc2223b2fde952ffa6f7e8aca62f1a8a2bf5bc51bb1b2383",
+      "offset": 438635,
+      "length": 1072
+    },
+    {
+      "id": "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69",
+      "origins": [
+        {
+          "path": "fonttools-4.63.0.dist-info/licenses/LICENSE.external",
+          "raw_sha256": "b082a5f86775b2641f01bccb8b9c82908481de5f502bb254b1e13bfc2a9f303d"
+        }
+      ],
+      "normalized_sha256": "94a83aaee0729a0f302d34acc4acecbd9d58366f262429075fe557e4a54b2e69",
+      "offset": 439793,
+      "length": 20022
+    },
+    {
+      "id": "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61",
+      "origins": [
+        {
+          "path": "kiwisolver-1.5.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "b24c2bf6185f31a124ad6bacccae3071bdc7ad7882de00b00110aa62abb76a15"
+        }
+      ],
+      "normalized_sha256": "529c40e5f67f2f88904657a9f7879ae2f8dc76bc9bfef9cb10d988b48804ed61",
+      "offset": 459901,
+      "length": 3289
+    },
+    {
+      "id": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491",
+      "origins": [
+        {
+          "path": "matplotlib-3.11.2.dist-info/LICENSE",
+          "raw_sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491"
+        }
+      ],
+      "normalized_sha256": "822e8e528147569a41975592aee19c11992ab667ba50451cd929031d5fc74491",
+      "offset": 463276,
+      "length": 63442
+    },
+    {
+      "id": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "origins": [
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_DEJAVU",
+          "raw_sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e"
+        }
+      ],
+      "normalized_sha256": "d75938dec098f06f0ac3c00853065d94f020be1c3c62ef1dc2975ba15b4d9b0e",
+      "offset": 526804,
+      "length": 4816
+    },
+    {
+      "id": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+      "origins": [
+        {
+          "path": "matplotlib/mpl-data/fonts/ttf/LICENSE_STIX",
+          "raw_sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959"
+        }
+      ],
+      "normalized_sha256": "bab3d31dfef07f483624f2f65f2711e76065b8e7273278b1c071ede1041c9959",
+      "offset": 531706,
+      "length": 5476
+    },
+    {
+      "id": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "origins": [
+        {
+          "path": "more_itertools-11.1.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+        },
+        {
+          "path": "setuptools/_vendor/more_itertools-10.8.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46"
+        }
+      ],
+      "normalized_sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "offset": 537268,
+      "length": 1053
+    },
+    {
+      "id": "dc97d59562c75c04557f1e9a68f3eae326699eb119d569cd4ed6a4eafe5f9abb",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/LICENSE.txt",
+          "raw_sha256": "a804dff0ead9fadc5293456410bcbfc32bf024be9c4513459663fb7b442d2341"
+        }
+      ],
+      "normalized_sha256": "dc97d59562c75c04557f1e9a68f3eae326699eb119d569cd4ed6a4eafe5f9abb",
+      "offset": 223449,
+      "length": 45801
+    },
+    {
+      "id": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/_core/include/numpy/libdivide/LICENSE.txt",
+          "raw_sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        },
+        {
+          "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "raw_sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150"
+        }
+      ],
+      "normalized_sha256": "fbc539f47d0cf83bc61378080fb873d5c14630126cacbfe754035c3926daa5ec",
+      "offset": 538407,
+      "length": 1018
+    },
+    {
+      "id": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/_core/src/common/pythoncapi-compat/COPYING",
+          "raw_sha256": "aea41976c720f91bd19725c16916a1ace40eb1ea42620d340e587a5de4bbcea0"
+        }
+      ],
+      "normalized_sha256": "3f2c1ffa76383a55ae0aac01c9737cd70050dff63e1f026694fbe9d662573c98",
+      "offset": 539511,
+      "length": 690
+    },
+    {
+      "id": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/_core/src/highway/LICENSE",
+          "raw_sha256": "d208152e2777ffd0126eacc1bd21c0320d69e4e6b622d21a2a12a47e8ef73763"
+        }
+      ],
+      "normalized_sha256": "e340270d4f64384569a91d546acb5b094d69ce47f0c015db77abb74dc6f815af",
+      "offset": 540287,
+      "length": 20785
+    },
+    {
+      "id": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/_core/src/npysort/x86-simd-sort/LICENSE.md",
+          "raw_sha256": "a732977853530066790c42817087f4829b518dd98d340c916acbfd227e39d3cb"
+        }
+      ],
+      "normalized_sha256": "211e7d737d6179a08f791ebb0a99897ce7cd2457410c542876d125576edfe910",
+      "offset": 561158,
+      "length": 1514
+    },
+    {
+      "id": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/_core/src/umath/svml/LICENSE",
+          "raw_sha256": "585483905b13d4b42f800c55ba99e89d6e2e33ccd5f503e201c07531d148ff41"
+        }
+      ],
+      "normalized_sha256": "c17011467b4fe6e20fbfbeda4df09e58c2bca5480a063e55735a4000a379aad9",
+      "offset": 562758,
+      "length": 1543
+    },
+    {
+      "id": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/fft/pocketfft/LICENSE.md",
+          "raw_sha256": "8db000e158c162e7249787852d8c69764706502ccee725c06641b31c1e95c8af"
+        }
+      ],
+      "normalized_sha256": "a85ca13fdf90160b64a0698215868c13b74d835ad0a4e2ba44713b8c5058a056",
+      "offset": 564387,
+      "length": 1498
+    },
+    {
+      "id": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/linalg/lapack_lite/LICENSE.txt",
+          "raw_sha256": "19060ef465e1797d682ee0fc3081bd25ab1395e995e43d25c9d13c95d9a3cd6b"
+        }
+      ],
+      "normalized_sha256": "a14cc25e10d40a3aa705b7de2fb764a6535d8ee9b2db4e1724900585457dfd55",
+      "offset": 565971,
+      "length": 2266
+    },
+    {
+      "id": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/ma/LICENSE",
+          "raw_sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        },
+        {
+          "path": "numpy/ma/LICENSE",
+          "raw_sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7"
+        }
+      ],
+      "normalized_sha256": "05f3b88351988ecfad10abe92c0c50e5875c6452d5009a0084cc291551ffcca6",
+      "offset": 568323,
+      "length": 1593
+    },
+    {
+      "id": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/LICENSE.md",
+          "raw_sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        },
+        {
+          "path": "numpy/random/LICENSE.md",
+          "raw_sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a"
+        }
+      ],
+      "normalized_sha256": "103166b62b80443afb9eb3488e052ea06be0cff566b908f199e561fde49af19f",
+      "offset": 570002,
+      "length": 3511
+    },
+    {
+      "id": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/src/distributions/LICENSE.md",
+          "raw_sha256": "cf5619f25b112d5ce7c896efffc8e610bcb345dfadcc19f2c1460aa48fff2c9e"
+        }
+      ],
+      "normalized_sha256": "469778be8f33d54e1bcaab28c281cc472916d2d273f835e55bc487d30503face",
+      "offset": 573599,
+      "length": 2745
+    },
+    {
+      "id": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/src/mt19937/LICENSE.md",
+          "raw_sha256": "92c10699884321f1c2947fe2a70ab23b0fbf1507f756d89dd08f38c61fc3d4fa"
+        }
+      ],
+      "normalized_sha256": "0e111337b25494a773106695f0e799f642b8567aaacca4f116a74a8177179156",
+      "offset": 576430,
+      "length": 2926
+    },
+    {
+      "id": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/src/pcg64/LICENSE.md",
+          "raw_sha256": "41190663b77bee5302386495a07b7eabfbfa571aa0ae2f11da6764162062fc4f"
+        }
+      ],
+      "normalized_sha256": "e7d4f4fb20358f314210a892ae17351e04993813646f697ec387385ca2a36918",
+      "offset": 579442,
+      "length": 1154
+    },
+    {
+      "id": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/src/philox/LICENSE.md",
+          "raw_sha256": "322ac46d870c8aeead6c53adcccc839296fb3c8e456eae155081297daf7f8013"
+        }
+      ],
+      "normalized_sha256": "6f5828a57223d4cc7f8ea505a2623e7b978b242752c1515e355f46ba2cec1800",
+      "offset": 580682,
+      "length": 1509
+    },
+    {
+      "id": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/src/sfc64/LICENSE.md",
+          "raw_sha256": "28cad82ce1379dc529df30da78ec012d7d0d1d576b03ddcb93388aee53659f59"
+        }
+      ],
+      "normalized_sha256": "9d4098846018319cd68e228ee6220361787f73bccbf00237a85e4fc9621b998f",
+      "offset": 582277,
+      "length": 1226
+    },
+    {
+      "id": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "origins": [
+        {
+          "path": "numpy-2.5.1.dist-info/licenses/numpy/random/src/splitmix64/LICENSE.md",
+          "raw_sha256": "454ec7350e478e037061850b67395753b425b1cb0a34bbc26290b020bf89d763"
+        }
+      ],
+      "normalized_sha256": "268b0ca06759d31ea3ca68dd35f20e877916e927b1c2a835e4592a3c4354b1f9",
+      "offset": 583589,
+      "length": 332
+    },
+    {
+      "id": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "origins": [
+        {
+          "path": "packaging-26.2.dist-info/licenses/LICENSE",
+          "raw_sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        }
+      ],
+      "normalized_sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48",
+      "offset": 584007,
+      "length": 197
+    },
+    {
+      "id": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "origins": [
+        {
+          "path": "packaging-26.2.dist-info/licenses/LICENSE.APACHE",
+          "raw_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.APACHE",
+          "raw_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        }
+      ],
+      "normalized_sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+      "offset": 43767,
+      "length": 10174
+    },
+    {
+      "id": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "origins": [
+        {
+          "path": "packaging-26.2.dist-info/licenses/LICENSE.BSD",
+          "raw_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        },
+        {
+          "path": "setuptools/_vendor/packaging-26.0.dist-info/licenses/LICENSE.BSD",
+          "raw_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ],
+      "normalized_sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5",
+      "offset": 584290,
+      "length": 1344
+    },
+    {
+      "id": "51ed379cf673c9676b7fa7e1bedbfc5d4ad63caac4f6f99eeec5ccab50c3e0ef",
+      "origins": [
+        {
+          "path": "pillow-12.3.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+        }
+      ],
+      "normalized_sha256": "51ed379cf673c9676b7fa7e1bedbfc5d4ad63caac4f6f99eeec5ccab50c3e0ef",
+      "offset": 585720,
+      "length": 76435
+    },
+    {
+      "id": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1",
+      "origins": [
+        {
+          "path": "pycparser-3.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1"
+        }
+      ],
+      "normalized_sha256": "0c846399369ea76ddd7b5c44fe6d16497415fcf015f5cbb508c24bf98b81c5b1",
+      "offset": 662241,
+      "length": 1543
+    },
+    {
+      "id": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e",
+      "origins": [
+        {
+          "path": "pyparsing-3.3.2.dist-info/licenses/LICENSE",
+          "raw_sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e"
+        }
+      ],
+      "normalized_sha256": "a5425f9dc14ac74d4c5f0b679e941f2442e32cca7452a4418d5b1a49893ebe4e",
+      "offset": 663870,
+      "length": 1062
+    },
+    {
+      "id": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+      "origins": [
+        {
+          "path": "python_dateutil-2.9.0.post0.dist-info/LICENSE",
+          "raw_sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e"
+        }
+      ],
+      "normalized_sha256": "ba00f51a0d92823b5a1cde27d8b5b9d2321e67ed8da9bc163eff96d5e17e577e",
+      "offset": 665018,
+      "length": 2889
+    },
+    {
+      "id": "c803fb373fe0f3b038f3f841bf706d63e076ffc554ec889cdeb258e5b29802bb",
+      "origins": [
+        {
+          "path": "scipy-1.18.0.dist-info/LICENSE.txt",
+          "raw_sha256": "f0f5c56b298ec9795df1199edc328a987242716d14a1bde6813112e22dc15f99"
+        }
+      ],
+      "normalized_sha256": "c803fb373fe0f3b038f3f841bf706d63e076ffc554ec889cdeb258e5b29802bb",
+      "offset": 667993,
+      "length": 45851
+    },
+    {
+      "id": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+      "origins": [
+        {
+          "path": "scipy/_lib/_uarray/LICENSE",
+          "raw_sha256": "e4c4acc31e8287066d7c995d26e3ef902ca1977ee187b260b11c278366503811"
+        }
+      ],
+      "normalized_sha256": "c80c39b5fce06ba4897e14e0b0a88b54458334d951eb1361402ffad2cfb863b4",
+      "offset": 713930,
+      "length": 1514
+    },
+    {
+      "id": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+      "origins": [
+        {
+          "path": "scipy/fft/_duccfft/LICENSE.md",
+          "raw_sha256": "c04661685cff9d8035fe1c4c3ab357e7f7633cafc06a73e9d90c3c5fede8a86a"
+        }
+      ],
+      "normalized_sha256": "c254b2b5fd30ae3c89d36ba061730563b9760fca04f1b746a1b2c3157da2c789",
+      "offset": 715530,
+      "length": 1498
+    },
+    {
+      "id": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357",
+      "origins": [
+        {
+          "path": "scipy/integrate/LICENSE_DOP",
+          "raw_sha256": "6cc2ed6e35b8f376ff3d8f86aeef4e0c34c2309bd6f4a0565936d577839ba023"
+        }
+      ],
+      "normalized_sha256": "ed9bf58c6d74d3fad9d92d1d67d9bff8141d8ab60de784516b0711364fd43357",
+      "offset": 717114,
+      "length": 3572
+    },
+    {
+      "id": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+      "origins": [
+        {
+          "path": "scipy/spatial/qhull_src/COPYING_QHULL.txt",
+          "raw_sha256": "2a6ebb495e26dd5f88cbc40c593733da6edb27b64936f70409cd5a1acafb1c32"
+        }
+      ],
+      "normalized_sha256": "106d55c931fd6a84822e5345d900273d059f1c27310d02567ccb313c5d18c55d",
+      "offset": 720772,
+      "length": 1720
+    },
+    {
+      "id": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "origins": [
+        {
+          "path": "setuptools-83.0.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "setuptools/_vendor/backports.tarfile-1.2.0.dist-info/LICENSE",
+          "raw_sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        },
+        {
+          "path": "setuptools/_vendor/jaraco.text-4.0.0.dist-info/LICENSE",
+          "raw_sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        }
+      ],
+      "normalized_sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741",
+      "offset": 722578,
+      "length": 1023
+    },
+    {
+      "id": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/autocommand-2.2.2.dist-info/LICENSE",
+          "raw_sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d"
+        }
+      ],
+      "normalized_sha256": "ade78d04982d69972d444a8e14a94f87a2334dd3855cc80348ea8e240aa0df2d",
+      "offset": 723687,
+      "length": 7634
+    },
+    {
+      "id": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/importlib_metadata-8.7.1.dist-info/licenses/LICENSE",
+          "raw_sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04"
+        }
+      ],
+      "normalized_sha256": "458502e12d97bbf64438606a20044aa85eb05fb0a8a807bb35dbec253fd1fc04",
+      "offset": 731407,
+      "length": 10278
+    },
+    {
+      "id": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/jaraco_context-6.1.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683"
+        }
+      ],
+      "normalized_sha256": "9755a18519666e5f0f4cae3daad3d7012bcae48a600b31237d75e9fe134e6683",
+      "offset": 741771,
+      "length": 1076
+    },
+    {
+      "id": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/jaraco_functools-4.4.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        },
+        {
+          "path": "setuptools/_vendor/zipp-3.23.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d"
+        }
+      ],
+      "normalized_sha256": "5a57cb4db85e2a2dd88c290628908add57e3451449e0a9a71fdfb38776fd759d",
+      "offset": 742933,
+      "length": 1076
+    },
+    {
+      "id": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/platformdirs-4.4.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6"
+        }
+      ],
+      "normalized_sha256": "29e0fd62e929850e86eb28c3fdccf0cefdf4fa94879011cffb3d0d4bed6d4db6",
+      "offset": 744095,
+      "length": 1089
+    },
+    {
+      "id": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/tomli-2.4.0.dist-info/licenses/LICENSE",
+          "raw_sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe"
+        }
+      ],
+      "normalized_sha256": "b80816b0d530b8accb4c2211783790984a6e3b61922c2b5ee92f3372ab2742fe",
+      "offset": 745270,
+      "length": 1072
+    },
+    {
+      "id": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "origins": [
+        {
+          "path": "setuptools/_vendor/wheel-0.46.3.dist-info/licenses/LICENSE.txt",
+          "raw_sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654"
+        }
+      ],
+      "normalized_sha256": "30c23618679108f3e8ea1d2a658c7ca417bdfc891c98ef1a89fa4ff0c9828654",
+      "offset": 746428,
+      "length": 1107
+    },
+    {
+      "id": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+      "origins": [
+        {
+          "path": "setuptools/config/NOTICE",
+          "raw_sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8"
+        }
+      ],
+      "normalized_sha256": "2dddf08818297a3b89d43d95ff659d8da85741108c9136dfa3a4d856c0623bd8",
+      "offset": 747621,
+      "length": 493
+    },
+    {
+      "id": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+      "origins": [
+        {
+          "path": "setuptools/config/_validate_pyproject/NOTICE",
+          "raw_sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7"
+        }
+      ],
+      "normalized_sha256": "09c9bcea95ca086f8bc5bed174e40bc835b297d40fb5f86bbbb570fe0a5581a7",
+      "offset": 748200,
+      "length": 18737
+    },
+    {
+      "id": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "origins": [
+        {
+          "path": "six-1.17.0.dist-info/LICENSE",
+          "raw_sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0"
+        }
+      ],
+      "normalized_sha256": "4375ba20e2b9c6c4e7cad2940a628fd90e95cc3d50ee92aae755715d8ba1fbd0",
+      "offset": 767023,
+      "length": 1066
+    },
+    {
+      "id": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+      "origins": [
+        {
+          "path": "https://www.mozilla.org/media/MPL/2.0/index.815ca599c9df.txt",
+          "raw_sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85"
+        }
+      ],
+      "normalized_sha256": "fab3dd6bdab226f1c08630b1dd917e11fcb4ec5e1e020e2c16f83a0a13863e85",
+      "offset": 768175,
+      "length": 16726
+    },
+    {
+      "id": "48133474d1a2371d22b7a2b10c92431998e0cb7cf121895003e17902fc346031",
+      "origins": [
+        {
+          "path": "font-name0:customtkinter/assets/fonts/Roboto/Roboto-Medium.ttf",
+          "raw_sha256": "48133474d1a2371d22b7a2b10c92431998e0cb7cf121895003e17902fc346031"
+        },
+        {
+          "path": "font-name0:customtkinter/assets/fonts/Roboto/Roboto-Regular.ttf",
+          "raw_sha256": "48133474d1a2371d22b7a2b10c92431998e0cb7cf121895003e17902fc346031"
+        }
+      ],
+      "normalized_sha256": "48133474d1a2371d22b7a2b10c92431998e0cb7cf121895003e17902fc346031",
+      "offset": 784987,
+      "length": 47
+    },
+    {
+      "id": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "origins": [
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf",
+          "raw_sha256": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf",
+          "raw_sha256": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf",
+          "raw_sha256": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf",
+          "raw_sha256": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf",
+          "raw_sha256": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d"
+        }
+      ],
+      "normalized_sha256": "35397e5e2ff231cc777b97c3e18756cc21f4a451f5ade9bf315d552a9a74d25d",
+      "offset": 785120,
+      "length": 152
+    },
+    {
+      "id": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "origins": [
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf",
+          "raw_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1"
+        }
+      ],
+      "normalized_sha256": "458af666de62463f3a30fcc2bdaee5efaa18704a05a91166f98488d86c945de1",
+      "offset": 785358,
+      "length": 95
+    },
+    {
+      "id": "6b5ede10ab820e2cf73ddfba0db6618c5ac0e942d522720bea580257527b6a3c",
+      "origins": [
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/LastResortHE-Regular.ttf",
+          "raw_sha256": "6b5ede10ab820e2cf73ddfba0db6618c5ac0e942d522720bea580257527b6a3c"
+        }
+      ],
+      "normalized_sha256": "6b5ede10ab820e2cf73ddfba0db6618c5ac0e942d522720bea580257527b6a3c",
+      "offset": 785539,
+      "length": 28
+    },
+    {
+      "id": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "origins": [
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf",
+          "raw_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90"
+        }
+      ],
+      "normalized_sha256": "03336ae5a8d74d563ccf18840a6af1cbe0309b8f4a556e505d8344590ad7ac90",
+      "offset": 785653,
+      "length": 394
+    },
+    {
+      "id": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "origins": [
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmb10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmex10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmmi10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmr10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmss10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmsy10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmti10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        },
+        {
+          "path": "font-name0:matplotlib/mpl-data/fonts/ttf/cmtt10.ttf",
+          "raw_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d"
+        }
+      ],
+      "normalized_sha256": "ebe59b419d6082a05fde72a75e9b1802d511a9a3ea44339b7db86b14ab88d45d",
+      "offset": 786133,
+      "length": 95
+    }
+  ],
+  "unconfirmed": [
+    "CustomTkinter shapes 개별 적용 범위",
+    "빌드 기록에 없는 후보17개 배포판의 실제 binary 버전",
+    "MPL 소스 제공/수정 대응의 배포 절차",
+    "native DLL/시스템 구성요소 전체 완결성"
+  ],
+  "generated_from": "설치본 license 원문과 #443 actual archive 목차/해시, exe 실행0"
+}

@@ -1,0 +1,192 @@
+{
+  "case": "schubert_restored",
+  "before_count": 483,
+  "after_count": 492,
+  "context_same": true,
+  "removed_or_changed": [
+    {
+      "accidental": "#",
+      "confidence": "check",
+      "edited": false,
+      "flags": [
+        "glyph_shape"
+      ],
+      "id": "s2-p0-x220",
+      "nx": 110.167,
+      "pitch": "E4",
+      "staff": 2,
+      "step": 0,
+      "text": "미#",
+      "x": 1983,
+      "y": 716
+    }
+  ],
+  "added_or_changed": [
+    {
+      "accidental": "#",
+      "confidence": "check",
+      "edited": false,
+      "flags": [
+        "weak_side_ink"
+      ],
+      "id": "s2-p0-x223",
+      "nx": 111.667,
+      "pitch": "E4",
+      "staff": 2,
+      "step": 0,
+      "text": "미#",
+      "x": 2010,
+      "y": 717
+    },
+    {
+      "accidental": null,
+      "confidence": "certain",
+      "edited": false,
+      "flags": [],
+      "id": "s2-p1-x225",
+      "nx": 112.333,
+      "pitch": "F4",
+      "staff": 2,
+      "step": 1,
+      "text": "파#",
+      "x": 2022,
+      "y": 705
+    },
+    {
+      "accidental": "natural",
+      "confidence": "certain",
+      "edited": false,
+      "flags": [],
+      "id": "s7-p1-x133",
+      "nx": 66.667,
+      "pitch": "A2",
+      "staff": 7,
+      "step": 1,
+      "text": "라",
+      "x": 1220,
+      "y": 1727
+    },
+    {
+      "accidental": null,
+      "confidence": "certain",
+      "edited": false,
+      "flags": [],
+      "id": "s7-p2-x135",
+      "nx": 67.377,
+      "pitch": "B2",
+      "staff": 7,
+      "step": 2,
+      "text": "시",
+      "x": 1233,
+      "y": 1714
+    },
+    {
+      "accidental": "natural",
+      "confidence": "check",
+      "edited": false,
+      "flags": [
+        "weak_side_ink"
+      ],
+      "id": "s7-p1-x139",
+      "nx": 69.29,
+      "pitch": "A2",
+      "staff": 7,
+      "step": 1,
+      "text": "라",
+      "x": 1268,
+      "y": 1727
+    },
+    {
+      "accidental": null,
+      "confidence": "certain",
+      "edited": false,
+      "flags": [],
+      "id": "s7-p2-x140",
+      "nx": 69.945,
+      "pitch": "B2",
+      "staff": 7,
+      "step": 2,
+      "text": "시",
+      "x": 1280,
+      "y": 1714
+    },
+    {
+      "accidental": "natural",
+      "confidence": "check",
+      "edited": false,
+      "flags": [
+        "weak_side_ink",
+        "snap_residual"
+      ],
+      "id": "s9-p1-x58",
+      "nx": 29.111,
+      "pitch": "A2",
+      "staff": 9,
+      "step": 1,
+      "text": "라",
+      "x": 524,
+      "y": 2142
+    },
+    {
+      "accidental": null,
+      "confidence": "certain",
+      "edited": false,
+      "flags": [],
+      "id": "s9-p2-x60",
+      "nx": 29.778,
+      "pitch": "B2",
+      "staff": 9,
+      "step": 2,
+      "text": "시",
+      "x": 536,
+      "y": 2129
+    },
+    {
+      "accidental": "natural",
+      "confidence": "check",
+      "edited": false,
+      "flags": [
+        "weak_side_ink",
+        "snap_residual"
+      ],
+      "id": "s9-p1-x64",
+      "nx": 31.833,
+      "pitch": "A2",
+      "staff": 9,
+      "step": 1,
+      "text": "라",
+      "x": 573,
+      "y": 2142
+    },
+    {
+      "accidental": null,
+      "confidence": "certain",
+      "edited": false,
+      "flags": [],
+      "id": "s9-p2-x65",
+      "nx": 32.5,
+      "pitch": "B2",
+      "staff": 9,
+      "step": 2,
+      "text": "시",
+      "x": 585,
+      "y": 2129
+    }
+  ],
+  "restored_217": [
+    {
+      "id": "s6-p0-x67",
+      "staff": 6,
+      "x": 606,
+      "y": 1522,
+      "nx": 33.667,
+      "pitch": "E4",
+      "step": 0,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  ]
+}

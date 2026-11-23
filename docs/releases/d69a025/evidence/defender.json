@@ -1,0 +1,29 @@
+{
+  "scanner": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpCmdRun.exe",
+  "versions": {
+    "AMProductVersion": "4.18.26090.9",
+    "AMEngineVersion": "1.1.26090.9",
+    "AntivirusSignatureVersion": "1.461.161.0",
+    "AntivirusSignatureLastUpdated": "/Date(1792718434000)/",
+    "AntivirusEnabled": true,
+    "RealTimeProtectionEnabled": true
+  },
+  "scans": [
+    {
+      "kind": "exe",
+      "path": "F:\\akbo-data\\tmp\\beta-features-20261023\\dist\\d69a025a063f-20261023-200643-946483\\악보헬퍼.exe",
+      "exit": 0,
+      "sha256": "ADFFEAAD334C794750DD2F24E376110A7FDD89E7528C74D1D601D0F5BD4AD2F1",
+      "detections": [],
+      "threats": []
+    },
+    {
+      "kind": "zip",
+      "path": "F:\\akbo-data\\tmp\\beta-features-20261023\\dist\\악보헬퍼-d69a025a063f-20261023-200643-946483.zip",
+      "exit": 0,
+      "sha256": "301741853B9114AF06F6915270BC11B1735681308B689A5B890F7B7F570FD61B",
+      "detections": [],
+      "threats": []
+    }
+  ]
+}

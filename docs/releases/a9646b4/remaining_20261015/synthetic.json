@@ -1,0 +1,19 @@
+{
+  "generator": "tests.test_photo_correct.page/rotate",
+  "dimensions": [
+    1800,
+    2400
+  ],
+  "spacing": 20,
+  "staves_expected": 6,
+  "rotation_deg": 4,
+  "interpolation": "cv2.INTER_LINEAR",
+  "border": "white constant",
+  "input_sha256": "5c91083f16cc71a76bde9cf2d70864914e5c8e0ff4343b84dfb0a9b1d2e2d50d",
+  "normal_result": "거부·사진 모드로 다시 표시",
+  "retry_actual_click_utc": "2026-10-14T19:45:50Z",
+  "photo_settings": true,
+  "output_staves": 6,
+  "output_labels": 48,
+  "note": "합성 보표 검사. 음자리표 글리프 없음; 음고 정답 검증 아님"
+}

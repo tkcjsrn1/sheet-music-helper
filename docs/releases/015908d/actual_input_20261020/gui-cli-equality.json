@@ -1,0 +1,26 @@
+[
+  {
+    "case": "chopin_Db_p1",
+    "raw_json_equal": false,
+    "full_document_equal": false,
+    "labels_staves_source_equal": true,
+    "existing_notation_alias_difference": {
+      "gui": "solfege-fixed",
+      "cli": "solfege"
+    },
+    "labels": 262,
+    "sha256": "39ddd27784ebf8ae94b5473218a832eba0669cf04e063b8abcae1801792aae25"
+  },
+  {
+    "case": "clara2_bravura",
+    "raw_json_equal": false,
+    "full_document_equal": false,
+    "labels_staves_source_equal": true,
+    "existing_notation_alias_difference": {
+      "gui": "solfege-fixed",
+      "cli": "solfege"
+    },
+    "labels": 619,
+    "sha256": "c8dedaf840db38a71765e267486118726939f917b618517495facf429813809b"
+  }
+]

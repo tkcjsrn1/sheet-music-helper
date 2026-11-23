@@ -1,0 +1,50 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels": 226,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "aoharu_p2",
+    "labels": 327,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "aoharu_p3",
+    "labels": 158,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels": 262,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "bach_p1",
+    "labels": 184,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "clef_change_clara1",
+    "labels": 600,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "alto_beethoven1",
+    "labels": 223,
+    "changed": 0,
+    "allowed": true
+  },
+  {
+    "case": "schubert_restored",
+    "labels": 492,
+    "changed": 0,
+    "allowed": true
+  }
+]

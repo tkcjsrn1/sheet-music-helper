@@ -1,0 +1,26 @@
+[
+  {
+    "field": "font_path",
+    "value": "{}",
+    "error": "AttributeError",
+    "message": "'dict' object has no attribute 'read'"
+  },
+  {
+    "field": "font_size",
+    "value": "inf",
+    "error": "RendererError",
+    "message": "폰트를 불러오지 못했습니다: C:/Windows/Fonts/malgun.ttf (invalid argument)"
+  },
+  {
+    "field": "text_offset_y",
+    "value": "inf",
+    "error": "OverflowError",
+    "message": "cannot convert float infinity to integer"
+  },
+  {
+    "field": "text_color",
+    "value": "[inf, 20, 20]",
+    "error": "ValueError",
+    "message": "수정본 정보가 손상됐습니다: color must be int or tuple"
+  }
+]

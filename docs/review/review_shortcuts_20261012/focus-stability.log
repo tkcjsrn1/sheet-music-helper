@@ -1,0 +1,10 @@
+test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor) ... ok
+test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor) ... ok
+test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor) ... ok
+test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor) ... ok
+test_shortcuts_respect_input_focus_and_editor (navigation_tests.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 21.093s
+
+OK

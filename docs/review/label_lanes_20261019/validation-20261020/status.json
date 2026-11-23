@@ -1,0 +1,22 @@
+{
+  "status": "full_suite_passed",
+  "files": 50,
+  "failed": 0,
+  "skipped": 0,
+  "golden_labels": 711,
+  "pdf_snapshot_pages": 17,
+  "snapshot_changes": 0,
+  "golden_pool": {
+    "pid": 25004,
+    "script": "F:\\sheet-music-helper-beta-cf4dd44-20261019\\tests\\test_golden_regression.py",
+    "kind": "golden_pool",
+    "requested": 4,
+    "effective": 1
+  },
+  "opencv_threads": 1,
+  "min_available_bytes": 2226536448,
+  "min_available_commit": 12086984704,
+  "default_png_json_bytes_equal": 6,
+  "default_proof": "기존 스레드1 대조 재사용: 제품코드 변경0",
+  "merge": false
+}

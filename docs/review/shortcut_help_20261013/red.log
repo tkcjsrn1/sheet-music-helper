@@ -1,0 +1,5 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 191, in <module>
+    assert callable(getattr(gui.SheetHelperApp,'_help_shortcut',None)), '단축키 도움말 경로가 없다'
+           ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 단축키 도움말 경로가 없다

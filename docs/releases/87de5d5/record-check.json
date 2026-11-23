@@ -1,0 +1,10 @@
+{
+  "build_commit": "87de5d51201bf49c313f78ecf34ea48c37847836",
+  "protected_since_a200ccd_changed": [],
+  "product_since_build_changed": [],
+  "verification_cases": 10,
+  "clean_cwd_cases": 3,
+  "actions_run": 37386710035,
+  "actions_conclusion": "success",
+  "golden_and_pdf_snapshot_baselines_changed": false
+}

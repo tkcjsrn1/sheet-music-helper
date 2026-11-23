@@ -1,0 +1,10 @@
+{
+  "reference": "015908d actual exe JSON",
+  "before_renderer": "6ecc797^1",
+  "recognition_rerun": 0,
+  "default_reference": "015908d actual exe PNG bytes",
+  "page_policy": "one staff failure => whole page near",
+  "original_ink": "nonwhite source pixels, including backing/dashes protected",
+  "captures": "same crop and scale across before / #407 / lanes",
+  "whole_suite": "10-23 50/50, 실패0·건너뜀0, 골든711/PDF17 변화0"
+}

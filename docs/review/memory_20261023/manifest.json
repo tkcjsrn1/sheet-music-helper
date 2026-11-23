@@ -1,0 +1,20 @@
+{
+  "full": {
+    "workspace": "F:/sheet-music-helper-keyboard-20261020",
+    "head": "379212615313cb3c2ddf8d323a9cad0ff90f83a2",
+    "product_diff": ""
+  },
+  "render": {
+    "workspace": "F:/sheet-music-helper-beta-cf4dd44-20261019",
+    "head": "ef1b0f8dfc219b1bbee1e91c0644c8a0ba656f79",
+    "product_diff": ""
+  },
+  "exe": {
+    "workspace": "F:/sheet-music-helper-progress-test-20261020",
+    "head": "015908d6778945b3d0676b657f0cd83378aebc27",
+    "product_diff": "",
+    "path": "F:\\sheet-music-helper-progress-test-20261020\\dist\\015908d67789-20261020-074306-711821\\악보헬퍼.exe",
+    "sha256": "ef06c1bba718b683fc5da52233f71846774968182b99a7e0bc5cfa564348b74b",
+    "bytes": 118716668
+  }
+}

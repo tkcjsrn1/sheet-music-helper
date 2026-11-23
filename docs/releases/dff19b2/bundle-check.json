@@ -1,0 +1,10 @@
+{
+  "required_modules": [
+    "modules.label_edits",
+    "modules.accidental_detect",
+    "modules.result_legend",
+    "modules.photo_correct"
+  ],
+  "required_present": true,
+  "forbidden_pdf_modules": []
+}

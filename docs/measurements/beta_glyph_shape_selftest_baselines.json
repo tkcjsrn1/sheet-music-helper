@@ -1,0 +1,92 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels": 226,
+    "changes": []
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels": 254,
+    "changes": [
+      {
+        "x": 416,
+        "y": 2792,
+        "keys": [
+          "flags",
+          "confidence"
+        ],
+        "before": {
+          "id": "s6-p9-x43",
+          "staff": 6,
+          "x": 416,
+          "y": 2792,
+          "nx": 21.667,
+          "pitch": "G5",
+          "step": 9,
+          "accidental": null,
+          "text": "솔b",
+          "confidence": "certain",
+          "flags": [
+            "off_staff"
+          ],
+          "edited": false
+        },
+        "after": {
+          "id": "s6-p9-x43",
+          "staff": 6,
+          "x": 416,
+          "y": 2792,
+          "nx": 21.667,
+          "pitch": "G5",
+          "step": 9,
+          "accidental": null,
+          "text": "솔b",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape",
+            "off_staff"
+          ],
+          "edited": false
+        }
+      },
+      {
+        "x": 2296,
+        "y": 2831,
+        "keys": [
+          "flags",
+          "confidence"
+        ],
+        "before": {
+          "id": "s6-p5-x239",
+          "staff": 6,
+          "x": 2296,
+          "y": 2831,
+          "nx": 119.583,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": "#",
+          "text": "도#",
+          "confidence": "certain",
+          "flags": [],
+          "edited": false
+        },
+        "after": {
+          "id": "s6-p5-x239",
+          "staff": 6,
+          "x": 2296,
+          "y": 2831,
+          "nx": 119.583,
+          "pitch": "C5",
+          "step": 5,
+          "accidental": "#",
+          "text": "도#",
+          "confidence": "check",
+          "flags": [
+            "glyph_shape"
+          ],
+          "edited": false
+        }
+      }
+    ]
+  }
+]
