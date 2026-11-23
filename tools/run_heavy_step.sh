@@ -40,3 +40,4 @@ while kill -0 $JOB 2>/dev/null; do
   if [ $NOW -ge $NEXT ]; then say "PROGRESS $(date +%T) +$(((NOW-S)/60))m mem=$C lines=$(wc -l < $LOG) last=$(tail -1 $LOG | cut -c1-120)"; NEXT=$((NOW+600)); fi
 done
 say "EXIT $NAME=$(cat $L/$NAME.rc 2>/dev/null) $(date +%T) +$((($(date +%s)-S)/60))m minmem=$MIN"; tail -3 $LOG
+RC=$(cat $L/$NAME.rc 2>/dev/null); exit ${RC:-1}     # 단계 종료 코드를 그대로 돌려준다(전에는 tail의 0 — 큐의 실패 멈춤이 안 걸렸다)
