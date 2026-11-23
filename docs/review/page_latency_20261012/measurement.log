@@ -1,0 +1,3 @@
+timed {'page_count': 2, 'switches': [{'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.22343780001392588}, {'index': 0, 'accepted': True, 'actual_index': 0, 'seconds': 0.18480129999807104}, {'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.21908409998286515}], 'pending_disabled_seen': True, 'elapsed': 22.109257799980696}
+control {'page_count': 2, 'switches': [{'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.2500702999532223}, {'index': 0, 'accepted': True, 'actual_index': 0, 'seconds': 0.1731335999793373}, {'index': 1, 'accepted': True, 'actual_index': 1, 'seconds': 0.2142251000041142}], 'pending_disabled_seen': True, 'elapsed': 21.96475680003641}
+PNG/JSON 4파일 바이트 무변경

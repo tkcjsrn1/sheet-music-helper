@@ -1,0 +1,8 @@
+a-unsupported.zip: failed
+....
+b-damaged.zip: failed
+c-valid.zip: success
+----------------------------------------------------------------------
+Ran 4 tests in 2.255s
+
+OK

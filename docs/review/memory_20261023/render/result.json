@@ -1,0 +1,32 @@
+{
+  "name": "고정3쪽×3배치+비교그림",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:\\akbo-data\\tmp\\codex-memory-20261023\\render-case.py"
+  ],
+  "cwd": "F:\\sheet-music-helper-beta-cf4dd44-20261019",
+  "started": "2026-10-23T18:57:56.723816+09:00",
+  "initial": {
+    "available": 3790983168,
+    "commit_headroom": 12511408128,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 443801600,
+  "peak_sampled_private": 400236544,
+  "peak_job_commit": 415797248,
+  "min_available": 3322216448,
+  "min_commit_headroom": 11873972224,
+  "max_processes": 7,
+  "samples": 224,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 45.143,
+  "finished": "2026-10-23T18:58:41.867910+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

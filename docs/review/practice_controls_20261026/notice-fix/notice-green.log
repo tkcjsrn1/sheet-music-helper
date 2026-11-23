@@ -1,0 +1,9 @@
+test_changing_setting_hides_warning_without_reconverting (__main__.PlacementNotice.test_changing_setting_hides_warning_without_reconverting) ... ok
+test_request_and_current_page_must_both_be_lanes (__main__.PlacementNotice.test_request_and_current_page_must_both_be_lanes) ... ok
+test_success_and_no_page_have_no_notice (__main__.PlacementNotice.test_success_and_no_page_have_no_notice) ... ok
+test_switching_page_clears_and_restores_only_its_own_warning (__main__.PlacementNotice.test_switching_page_clears_and_restores_only_its_own_warning) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.009s
+
+OK

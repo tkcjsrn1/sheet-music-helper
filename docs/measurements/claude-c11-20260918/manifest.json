@@ -1,0 +1,21 @@
+{
+  "source": "사용자 제공 Drive handoff ZIP, Claude 2026-09-18 측정. Codex 재측정 아님.",
+  "files": {
+    "c11-원인-막대수-dpi분포.txt": {
+      "bytes": 3444,
+      "sha256": "17bc5bcc8ddc4abbcc215508b0edc6032ea2b2c0330fd93b5d65e832bfd5426b"
+    },
+    "c11-전체조표-dpi실험-결과.txt": {
+      "bytes": 3178,
+      "sha256": "dd995736f79722ff3755a6c05a493467bd0302e5aa4fbafd9a3dd382d3d9747d"
+    },
+    "c11-fine-grid-결과.txt": {
+      "bytes": 2445,
+      "sha256": "98c9a3ca421caf511a4323f6c91b1014d95cbe10288101803e6a5476220231e6"
+    },
+    "02-C11-원인확정-결함은-플랫-전체.md": {
+      "bytes": 5872,
+      "sha256": "33f91028348d04fe2e8d0983689b506e1d4cde133487c386965d2caba5d1d5ca"
+    }
+  }
+}

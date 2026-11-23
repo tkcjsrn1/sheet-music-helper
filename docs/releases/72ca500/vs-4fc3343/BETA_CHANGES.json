@@ -1,0 +1,685 @@
+{
+  "old_commit": "4fc33430b8cd17009390fafc18f6cacd00db2293",
+  "new_commit": "72ca500692f162e61046d9a9bd79fc5dfecd15c6",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "old_labels": 226,
+      "new_labels": 226,
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "json_sha256": [
+        "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+        "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "aoharu_p2",
+      "old_labels": 327,
+      "new_labels": 327,
+      "input_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+      "json_sha256": [
+        "81e80edad4ae93c954da78fa116e9ccbc36ce67d973c34a27869157c8b91aa57",
+        "81e80edad4ae93c954da78fa116e9ccbc36ce67d973c34a27869157c8b91aa57"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "aoharu_p3",
+      "old_labels": 158,
+      "new_labels": 158,
+      "input_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+      "json_sha256": [
+        "92a5e72e6a96e26854610d9de0935f817fdf351e6dbf19f13da25f054884b0ea",
+        "92a5e72e6a96e26854610d9de0935f817fdf351e6dbf19f13da25f054884b0ea"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "chopin_Db_p1",
+      "old_labels": 262,
+      "new_labels": 262,
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "json_sha256": [
+        "1d564a35f589160b72adcee35c067a67dda5bb0212e200aeac3573cb596e6d50",
+        "1d564a35f589160b72adcee35c067a67dda5bb0212e200aeac3573cb596e6d50"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "bach_p1",
+      "old_labels": 182,
+      "new_labels": 182,
+      "input_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+      "json_sha256": [
+        "b03127a06d03b2170043aeb9e973ca90cc54e3a694b43998db01f88ef5ffcf6c",
+        "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            2,
+            1870,
+            986
+          ],
+          "before": [
+            {
+              "id": "s2-p-1-x178",
+              "staff": 2,
+              "x": 1870,
+              "y": 986,
+              "nx": 89.048,
+              "pitch": "D4",
+              "step": -1,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "beam_adjacent",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s2-p-1-x178",
+              "staff": 2,
+              "x": 1870,
+              "y": 986,
+              "nx": 89.048,
+              "pitch": "D4",
+              "step": -1,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "beam_adjacent",
+                "beam_sloped",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "clara_p1",
+      "old_labels": 601,
+      "new_labels": 601,
+      "input_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+      "json_sha256": [
+        "ce37cac26837f151c91df38bb1a2e87f7e83aac6f23285192f11dab687eebf7d",
+        "29a84906e21c16c610a74df2ebf20527ae9855db59e89352e08f4f9eb4fba22a"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 10,
+        "confidence_changed": 2
+      },
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            8,
+            1184,
+            2033
+          ],
+          "before": [
+            {
+              "id": "s8-p6-x132",
+              "staff": 8,
+              "x": 1184,
+              "y": 2033,
+              "nx": 65.778,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s8-p6-x132",
+              "staff": 8,
+              "x": 1184,
+              "y": 2033,
+              "nx": 65.778,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            8,
+            1284,
+            1992
+          ],
+          "before": [
+            {
+              "id": "s8-p11-x143",
+              "staff": 8,
+              "x": 1284,
+              "y": 1992,
+              "nx": 71.333,
+              "pitch": "B5",
+              "step": 11,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "certain",
+              "flags": [
+                "snap_residual",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s8-p11-x143",
+              "staff": 8,
+              "x": 1284,
+              "y": 1992,
+              "nx": 71.333,
+              "pitch": "B5",
+              "step": 11,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "snap_residual",
+                "text_row",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            9,
+            1082,
+            2194
+          ],
+          "before": [
+            {
+              "id": "s9-p11-x120",
+              "staff": 9,
+              "x": 1082,
+              "y": 2194,
+              "nx": 60.111,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s9-p11-x120",
+              "staff": 9,
+              "x": 1082,
+              "y": 2194,
+              "nx": 60.111,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "text_row",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            9,
+            1184,
+            2258
+          ],
+          "before": [
+            {
+              "id": "s9-p4-x132",
+              "staff": 9,
+              "x": 1184,
+              "y": 2258,
+              "nx": 65.778,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s9-p4-x132",
+              "staff": 9,
+              "x": 1184,
+              "y": 2258,
+              "nx": 65.778,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            9,
+            1726,
+            2196
+          ],
+          "before": [
+            {
+              "id": "s9-p11-x192",
+              "staff": 9,
+              "x": 1726,
+              "y": 2196,
+              "nx": 95.889,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s9-p11-x192",
+              "staff": 9,
+              "x": 1726,
+              "y": 2196,
+              "nx": 95.889,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            9,
+            1871,
+            2196
+          ],
+          "before": [
+            {
+              "id": "s9-p11-x208",
+              "staff": 9,
+              "x": 1871,
+              "y": 2196,
+              "nx": 103.944,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s9-p11-x208",
+              "staff": 9,
+              "x": 1871,
+              "y": 2196,
+              "nx": 103.944,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            9,
+            1965,
+            2196
+          ],
+          "before": [
+            {
+              "id": "s9-p11-x218",
+              "staff": 9,
+              "x": 1965,
+              "y": 2196,
+              "nx": 109.167,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s9-p11-x218",
+              "staff": 9,
+              "x": 1965,
+              "y": 2196,
+              "nx": 109.167,
+              "pitch": "D4",
+              "step": 11,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            10,
+            196,
+            2464
+          ],
+          "before": [
+            {
+              "id": "s10-p6-x22",
+              "staff": 10,
+              "x": 196,
+              "y": 2464,
+              "nx": 10.889,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s10-p6-x22",
+              "staff": 10,
+              "x": 196,
+              "y": 2464,
+              "nx": 10.889,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            10,
+            1217,
+            2464
+          ],
+          "before": [
+            {
+              "id": "s10-p6-x135",
+              "staff": 10,
+              "x": 1217,
+              "y": 2464,
+              "nx": 67.611,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s10-p6-x135",
+              "staff": 10,
+              "x": 1217,
+              "y": 2464,
+              "nx": 67.611,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            10,
+            1688,
+            2464
+          ],
+          "before": [
+            {
+              "id": "s10-p6-x188",
+              "staff": 10,
+              "x": 1688,
+              "y": 2464,
+              "nx": 93.778,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s10-p6-x188",
+              "staff": 10,
+              "x": 1688,
+              "y": 2464,
+              "nx": 93.778,
+              "pitch": "D5",
+              "step": 6,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            11,
+            196,
+            2662
+          ],
+          "before": [
+            {
+              "id": "s11-p4-x22",
+              "staff": 11,
+              "x": 196,
+              "y": 2662,
+              "nx": 10.889,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s11-p4-x22",
+              "staff": 11,
+              "x": 196,
+              "y": 2662,
+              "nx": 10.889,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            11,
+            980,
+            2724
+          ],
+          "before": [
+            {
+              "id": "s11-p-3-x109",
+              "staff": 11,
+              "x": 980,
+              "y": 2724,
+              "nx": 54.444,
+              "pitch": "D2",
+              "step": -3,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "clef_changed",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s11-p-3-x109",
+              "staff": 11,
+              "x": 980,
+              "y": 2724,
+              "nx": 54.444,
+              "pitch": "D2",
+              "step": -3,
+              "accidental": null,
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "clef_changed",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

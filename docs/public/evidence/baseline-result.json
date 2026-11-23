@@ -1,0 +1,32 @@
+{
+  "name": "baseline-full",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "tests/run_all.py"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\public-prep-20261026",
+  "started": "2026-10-26T10:37:47.245840+09:00",
+  "initial": {
+    "available": 4560150528,
+    "commit_headroom": 12448706560,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 573964288,
+  "peak_sampled_private": 510562304,
+  "peak_job_commit": 530059264,
+  "min_available": 3881050112,
+  "min_commit_headroom": 11862847488,
+  "max_processes": 9,
+  "samples": 3869,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 777.655,
+  "finished": "2026-10-26T10:50:44.900975+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

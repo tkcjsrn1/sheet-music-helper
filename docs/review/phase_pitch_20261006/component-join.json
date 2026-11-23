@@ -1,0 +1,66 @@
+[
+  {
+    "case": "original",
+    "crop_xyxy": [
+      385,
+      220,
+      435,
+      275
+    ],
+    "head_xy": [
+      406,
+      239
+    ],
+    "p_xy": [
+      408,
+      256
+    ],
+    "no_staff": {
+      "head_component": 1,
+      "p_component": 7,
+      "joined": false
+    },
+    "patched": {
+      "head_component": 1,
+      "p_component": 1,
+      "joined": true
+    },
+    "opened": {
+      "head_component": 1,
+      "p_component": 1,
+      "joined": true
+    }
+  },
+  {
+    "case": "x0.5",
+    "crop_xyxy": [
+      385,
+      220,
+      435,
+      275
+    ],
+    "head_xy": [
+      406,
+      239
+    ],
+    "p_xy": [
+      408,
+      256
+    ],
+    "no_staff": {
+      "head_component": 1,
+      "p_component": 7,
+      "joined": false
+    },
+    "patched": {
+      "head_component": 1,
+      "p_component": 1,
+      "joined": true
+    },
+    "opened": {
+      "head_component": 1,
+      "p_component": 1,
+      "joined": true
+    }
+  }
+]

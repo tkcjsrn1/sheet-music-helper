@@ -1,0 +1,165 @@
+invalid command name "2130815345856focus_set"
+    while executing
+"2130815345856focus_set"
+    ("after" script)
+invalid command name "2131351720384update"
+    while executing
+"2131351720384update"
+    ("after" script)
+invalid command name "2131351110208check_dpi_scaling"
+    while executing
+"2131351110208check_dpi_scaling"
+    ("after" script)
+invalid command name "2131353286528_windows_set_titlebar_icon"
+    while executing
+"2131353286528_windows_set_titlebar_icon"
+    ("after" script)
+invalid command name "2131354582848_check_if_scrollbars_needed"
+    while executing
+"2131354582848_check_if_scrollbars_needed"
+    ("after" script)
+invalid command name "2131354980032_append"
+    while executing
+"2131354980032_append"
+    ("after" script)
+invalid command name "2131355013952_fit_zoom"
+    while executing
+"2131355013952_fit_zoom"
+    ("after" script)
+invalid command name "2131355153728_append"
+    while executing
+"2131355153728_append"
+    ("after" script)
+invalid command name "2131355153792_append"
+    while executing
+"2131355153792_append"
+    ("after" script)
+invalid command name "2131355153920_append"
+    while executing
+"2131355153920_append"
+    ("after" script)
+invalid command name "2131355153984_append"
+    while executing
+"2131355153984_append"
+    ("after" script)
+invalid command name "2131355154048_append"
+    while executing
+"2131355154048_append"
+    ("after" script)
+invalid command name "2131355154112_append"
+    while executing
+"2131355154112_append"
+    ("after" script)
+invalid command name "2131355155456_append"
+    while executing
+"2131355155456_append"
+    ("after" script)
+invalid command name "2131355155328_append"
+    while executing
+"2131355155328_append"
+    ("after" script)
+invalid command name "2131355155520_append"
+    while executing
+"2131355155520_append"
+    ("after" script)
+invalid command name "2131355155584_append"
+    while executing
+"2131355155584_append"
+    ("after" script)
+invalid command name "2131358729344_append"
+    while executing
+"2131358729344_append"
+    ("after" script)
+invalid command name "2131358729408_append"
+    while executing
+"2131358729408_append"
+    ("after" script)
+invalid command name "2131358729728_append"
+    while executing
+"2131358729728_append"
+    ("after" script)
+invalid command name "2131358729856_append"
+    while executing
+"2131358729856_append"
+    ("after" script)
+invalid command name "2131358729920_append"
+    while executing
+"2131358729920_append"
+    ("after" script)
+invalid command name "2131358729984_append"
+    while executing
+"2131358729984_append"
+    ("after" script)
+invalid command name "2131352332544_append"
+    while executing
+"2131352332544_append"
+    ("after" script)
+invalid command name "2131358976192_append"
+    while executing
+"2131358976192_append"
+    ("after" script)
+invalid command name "2131358981056_append"
+    while executing
+"2131358981056_append"
+    ("after" script)
+invalid command name "2131358987840_append"
+    while executing
+"2131358987840_append"
+    ("after" script)
+invalid command name "2131358988288_append"
+    while executing
+"2131358988288_append"
+    ("after" script)
+invalid command name "2131327489152_append"
+    while executing
+"2131327489152_append"
+    ("after" script)
+invalid command name "2131359039680_append"
+    while executing
+"2131359039680_append"
+    ("after" script)
+invalid command name "2131363850624_append"
+    while executing
+"2131363850624_append"
+    ("after" script)
+invalid command name "2131359037312_append"
+    while executing
+"2131359037312_append"
+    ("after" script)
+invalid command name "2131359123136_append"
+    while executing
+"2131359123136_append"
+    ("after" script)
+invalid command name "2131353788032_append"
+    while executing
+"2131353788032_append"
+    ("after" script)
+invalid command name "2131082342208_fit_zoom"
+    while executing
+"2131082342208_fit_zoom"
+    ("after" script)
+invalid command name "2131327484608_append"
+    while executing
+"2131327484608_append"
+    ("after" script)
+invalid command name "2131330206976_append"
+    while executing
+"2131330206976_append"
+    ("after" script)
+invalid command name "2131359166016_fit_zoom"
+    while executing
+"2131359166016_fit_zoom"
+    ("after" script)
+invalid command name "2131359163904_append"
+    while executing
+"2131359163904_append"
+    ("after" script)
+변환 원본·설정 고정, PNG/JSON 바이트 동일: 통과
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_snapshot.py", line 113, in <module>
+    check_failed_conversion()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_snapshot.py", line 94, in check_failed_conversion
+    assert app.result_path is None and app.labels_path is None, '실패 뒤 이전 PNG와 새 JSON이 남았습니다'
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 실패 뒤 이전 PNG와 새 JSON이 남았습니다

@@ -1,0 +1,25 @@
+{
+  "device": "Microsoft GS Wavetable Synth",
+  "program": 0,
+  "rows": [
+    {
+      "case": "complete",
+      "success": true,
+      "seconds": 1.3024624999961816,
+      "cancelled": false
+    },
+    {
+      "case": "cancel",
+      "success": true,
+      "seconds": 0.6333616000047186,
+      "cancelled": true
+    },
+    {
+      "case": "cancel_during_note",
+      "success": true,
+      "seconds": 0.9052529999898979,
+      "cancelled": true
+    }
+  ],
+  "speaker_verified": false
+}

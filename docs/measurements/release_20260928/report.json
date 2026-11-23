@@ -1,0 +1,47 @@
+[
+  {
+    "sample": "aoharu_p1",
+    "labels": 226,
+    "staves": 12,
+    "confidence": {
+      "certain": 225,
+      "caution": 1,
+      "check": 0
+    },
+    "accidental_checks": 0,
+    "pixels_equal": true,
+    "json_equal": true,
+    "relabel_equal": true,
+    "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8"
+  },
+  {
+    "sample": "chopin_Db_p1",
+    "labels": 240,
+    "staves": 8,
+    "confidence": {
+      "certain": 210,
+      "caution": 23,
+      "check": 7
+    },
+    "accidental_checks": 0,
+    "pixels_equal": true,
+    "json_equal": true,
+    "relabel_equal": true,
+    "input_sha256": "6f950871295286bc2a9eee26ec996d42666f5d591d7aac3b7394673577b6e332"
+  },
+  {
+    "sample": "bbm2",
+    "labels": 310,
+    "staves": 10,
+    "confidence": {
+      "certain": 286,
+      "caution": 8,
+      "check": 16
+    },
+    "accidental_checks": 4,
+    "pixels_equal": true,
+    "json_equal": true,
+    "relabel_equal": true,
+    "input_sha256": "00ef821bfb1d6c7d936e87211b42dfcfef4e8876861068d8326c87ac7b4e1027"
+  }
+]

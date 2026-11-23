@@ -1,0 +1,32 @@
+{
+  "name": "input-boundary-bytes-and-hostile-20261104",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:\\akbo-data\\tmp\\candidate-gui-8df72c9-20261028\\input-validation-20261104\\verify_inputs.py"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\input-errors-20261104",
+  "started": "2026-11-04T14:10:11.732038+09:00",
+  "initial": {
+    "available": 4701478912,
+    "commit_headroom": 15833194496,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 465317888,
+  "peak_sampled_private": 413392896,
+  "peak_job_commit": 413446144,
+  "min_available": 3584323584,
+  "min_commit_headroom": 15180619776,
+  "max_processes": 7,
+  "samples": 649,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 130.362,
+  "finished": "2026-11-04T14:12:22.094151+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

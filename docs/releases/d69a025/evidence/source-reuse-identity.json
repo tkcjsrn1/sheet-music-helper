@@ -1,0 +1,127 @@
+[
+  {
+    "path": "modules\\accidental_detect.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\chord_rescue.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\clef_keysig.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\feedback_bundle.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\labels_io.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\label_audio.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\label_edits.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\label_region.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\notehead_detect.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\note_namer.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\photo_correct.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\piano_keyboard.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\pitch_calculator.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\preprocess.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\renderer.py",
+    "raw_equal": false,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\result_legend.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\verify.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "modules\\__init__.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "main.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "gui.py",
+    "raw_equal": false,
+    "lf_equal": true
+  },
+  {
+    "path": "user_messages.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "assets\\icon.ico",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "assets\\icon.png",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "assets\\make_icon.py",
+    "raw_equal": true,
+    "lf_equal": true
+  },
+  {
+    "path": "assets\\version_info.txt",
+    "raw_equal": true,
+    "lf_equal": true
+  }
+]

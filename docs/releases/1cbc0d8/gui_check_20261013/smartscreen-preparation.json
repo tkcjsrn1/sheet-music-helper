@@ -1,0 +1,13 @@
+{
+  "zip": "F:\\sheet-music-helper-codex-night-20261004\\output\\gui-human-1cbc0d8-20261013\\download-marked.zip",
+  "zip_sha256": "86A0070A3ADE4D508ACDD90A6AEC574DCED1ACE6971D1A9BBB708355E30D4404",
+  "exe": "F:\\sheet-music-helper-codex-night-20261004\\output\\gui-human-1cbc0d8-20261013\\explorer-extracted\\악보헬퍼.exe",
+  "exe_sha256": "2667ECFADBDDB2ADB50E60166B8510C0BB031B41A8A5417A062968E41CF54BDE",
+  "exe_zone": [
+    "[ZoneTransfer]",
+    "ZoneId=3",
+    "ReferrerUrl=F:\\sheet-music-helper-codex-night-20261004\\output\\gui-human-1cbc0d8-20261013\\download-marked.zip\u0000"
+  ],
+  "method": "Windows ZIP Shell CopyHere",
+  "launched": false
+}

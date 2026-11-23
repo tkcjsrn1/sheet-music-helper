@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "original_foreground": 394592,
+    "original_focus": 198026,
+    "original_numlock": false,
+    "original_ime_hwnd": 656854,
+    "original_ime_conversion": 1
+  },
+  "numlock_restored": true,
+  "ime_restored": true,
+  "remaining_process_query": "",
+  "closed_own_copies": true,
+  "finished_at": "2026-10-20T01:00:35Z"
+}

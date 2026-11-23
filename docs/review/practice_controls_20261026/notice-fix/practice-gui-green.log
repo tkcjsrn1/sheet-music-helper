@@ -1,0 +1,12 @@
+test_boundary_selection_and_clear_stop_playback_but_keep_speed (__main__.PracticeControls.test_boundary_selection_and_clear_stop_playback_but_keep_speed) ... ok
+test_default_snapshot_has_no_change_to_legacy_playback_or_doc (__main__.PracticeControls.test_default_snapshot_has_no_change_to_legacy_playback_or_doc) ... ok
+test_excluded_boundary_reports_failure_without_starting_sound (__main__.PracticeControls.test_excluded_boundary_reports_failure_without_starting_sound) ... ok
+test_missing_selection_and_partial_or_unbounded_repeat_rejected (__main__.PracticeControls.test_missing_selection_and_partial_or_unbounded_repeat_rejected) ... ok
+test_page_edit_reopen_or_region_doc_replacement_clears_stale_boundaries (__main__.PracticeControls.test_page_edit_reopen_or_region_doc_replacement_clears_stale_boundaries) ... ok
+test_two_page_sessions_sharing_a_doc_still_clear_boundaries (__main__.PracticeControls.test_two_page_sessions_sharing_a_doc_still_clear_boundaries) ... ok
+test_worker_slices_plan_but_keeps_original_label_indices_and_pitch (__main__.PracticeControls.test_worker_slices_plan_but_keeps_original_label_indices_and_pitch) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.014s
+
+OK

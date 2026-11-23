@@ -1,0 +1,1582 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels": 226,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+    "source_image_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 226,
+      "dx": {
+        "median": 0.0,
+        "p95": 0.44247787610619466,
+        "maximum": 2.0353982300884956
+      },
+      "gap": {
+        "median": 1.7391304347826086,
+        "p95": 1.7857142857142858,
+        "maximum": 7.350427350427351
+      },
+      "centered": 192,
+      "wrong_direction": 39,
+      "far": 4,
+      "exact_x_columns": 27,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 0.47863247863247815,
+        "maximum": 1.623931623931624
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          85,
+          459
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 226,
+      "dx": {
+        "median": 0.0,
+        "p95": 0.44247787610619466,
+        "maximum": 2.0353982300884956
+      },
+      "gap": {
+        "median": 1.7391304347826086,
+        "p95": 1.7857142857142858,
+        "maximum": 7.350427350427351
+      },
+      "centered": 192,
+      "wrong_direction": 39,
+      "far": 4,
+      "exact_x_columns": 27,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 0.47863247863247815,
+        "maximum": 1.623931623931624
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          85,
+          459
+        ]
+      ]
+    }
+  },
+  {
+    "case": "aoharu_p2",
+    "labels": 327,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "81e80edad4ae93c954da78fa116e9ccbc36ce67d973c34a27869157c8b91aa57",
+    "source_image_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 327,
+      "dx": {
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 3.217391304347826
+      },
+      "gap": {
+        "median": 1.7094017094017095,
+        "p95": 1.7391304347826086,
+        "maximum": 1.7391304347826086
+      },
+      "centered": 315,
+      "wrong_direction": 34,
+      "far": 0,
+      "exact_x_columns": 37,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 3.217391304347826,
+        "maximum": 3.217391304347826
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": []
+    },
+    "after_metrics": {
+      "labels": 327,
+      "dx": {
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 3.217391304347826
+      },
+      "gap": {
+        "median": 1.7094017094017095,
+        "p95": 1.7391304347826086,
+        "maximum": 1.7391304347826086
+      },
+      "centered": 315,
+      "wrong_direction": 34,
+      "far": 0,
+      "exact_x_columns": 37,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 3.217391304347826,
+        "maximum": 3.217391304347826
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": []
+    }
+  },
+  {
+    "case": "aoharu_p3",
+    "labels": 158,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "92a5e72e6a96e26854610d9de0935f817fdf351e6dbf19f13da25f054884b0ea",
+    "source_image_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 158,
+      "dx": {
+        "median": 0.0,
+        "p95": 1.2173913043478262,
+        "maximum": 2.0
+      },
+      "gap": {
+        "median": 1.7391304347826086,
+        "p95": 1.7857142857142858,
+        "maximum": 1.7857142857142858
+      },
+      "centered": 131,
+      "wrong_direction": 2,
+      "far": 0,
+      "exact_x_columns": 21,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": []
+    },
+    "after_metrics": {
+      "labels": 158,
+      "dx": {
+        "median": 0.0,
+        "p95": 1.2173913043478262,
+        "maximum": 2.0
+      },
+      "gap": {
+        "median": 1.7391304347826086,
+        "p95": 1.7857142857142858,
+        "maximum": 1.7857142857142858
+      },
+      "centered": 131,
+      "wrong_direction": 2,
+      "far": 0,
+      "exact_x_columns": 21,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 0.0,
+        "maximum": 0.0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": []
+    }
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels": 262,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "58e462ac69503fc39046c8bd659906faf1f8c35441182c3a51aba7dda2d1ae76",
+    "source_image_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 262,
+      "dx": {
+        "median": 0.026041666666666668,
+        "p95": 2.0207253886010363,
+        "maximum": 3.203125
+      },
+      "gap": {
+        "median": 1.3541666666666667,
+        "p95": 1.3612565445026177,
+        "maximum": 4.583333333333334
+      },
+      "centered": 143,
+      "wrong_direction": 53,
+      "far": 6,
+      "exact_x_columns": 18,
+      "column_spread": {
+        "median": 1.0026041666666667,
+        "p95": 2.032552083333333,
+        "maximum": 2.1875
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          72,
+          996
+        ],
+        [
+          101,
+          909
+        ],
+        [
+          113,
+          1639
+        ],
+        [
+          144,
+          1639
+        ],
+        [
+          160,
+          917
+        ],
+        [
+          249,
+          1631
+        ],
+        [
+          225,
+          1631
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 262,
+      "dx": {
+        "median": 0.026041666666666668,
+        "p95": 2.0207253886010363,
+        "maximum": 3.203125
+      },
+      "gap": {
+        "median": 1.3541666666666667,
+        "p95": 1.3612565445026177,
+        "maximum": 4.583333333333334
+      },
+      "centered": 143,
+      "wrong_direction": 53,
+      "far": 6,
+      "exact_x_columns": 18,
+      "column_spread": {
+        "median": 1.0026041666666667,
+        "p95": 2.032552083333333,
+        "maximum": 2.1875
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          72,
+          996
+        ],
+        [
+          101,
+          909
+        ],
+        [
+          113,
+          1639
+        ],
+        [
+          144,
+          1639
+        ],
+        [
+          160,
+          917
+        ],
+        [
+          249,
+          1631
+        ],
+        [
+          225,
+          1631
+        ]
+      ]
+    },
+    "symbols": [
+      {
+        "name": "finger_1_a",
+        "rect": [
+          572,
+          2770,
+          588,
+          2792
+        ],
+        "rejected_v1_worsened_pixels": 179,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_1_b",
+        "rect": [
+          617,
+          2770,
+          632,
+          2792
+        ],
+        "rejected_v1_worsened_pixels": 187,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_3",
+        "rect": [
+          724,
+          2760,
+          739,
+          2782
+        ],
+        "rejected_v1_worsened_pixels": 93,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_1_c",
+        "rect": [
+          836,
+          2770,
+          851,
+          2792
+        ],
+        "rejected_v1_worsened_pixels": 22,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_2_of_3_2",
+        "rect": [
+          1041,
+          2764,
+          1057,
+          2785
+        ],
+        "rejected_v1_worsened_pixels": 105,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "accent_greater",
+        "rect": [
+          938,
+          2777,
+          972,
+          2797
+        ],
+        "rejected_v1_worsened_pixels": 188,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_1_control",
+        "rect": [
+          947,
+          2735,
+          962,
+          2757
+        ],
+        "rejected_v1_worsened_pixels": 0,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_1_right_control",
+        "rect": [
+          1125,
+          2731,
+          1140,
+          2753
+        ],
+        "rejected_v1_worsened_pixels": 129,
+        "revised_worsened_pixels": 0
+      },
+      {
+        "name": "finger_2_right_control",
+        "rect": [
+          1163,
+          2721,
+          1179,
+          2743
+        ],
+        "rejected_v1_worsened_pixels": 0,
+        "revised_worsened_pixels": 0
+      }
+    ],
+    "audited_symbol_regions": 9,
+    "newly_hidden_audited_symbols": 0
+  },
+  {
+    "case": "bach_p1",
+    "labels": 182,
+    "changed": 1,
+    "changed_indices": [
+      12
+    ],
+    "source_json_sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4",
+    "source_image_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 182,
+      "dx": {
+        "median": 0.024154589371980676,
+        "p95": 0.024154589371980676,
+        "maximum": 1.9951923076923077
+      },
+      "gap": {
+        "median": 1.3526570048309179,
+        "p95": 1.3526570048309179,
+        "maximum": 1.3526570048309179
+      },
+      "centered": 173,
+      "wrong_direction": 14,
+      "far": 0,
+      "exact_x_columns": 4,
+      "column_spread": {
+        "median": 0.33816425120772947,
+        "p95": 0.8719806763285023,
+        "maximum": 0.9661835748792271
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": []
+    },
+    "after_metrics": {
+      "labels": 182,
+      "dx": {
+        "median": 0.024154589371980676,
+        "p95": 0.024154589371980676,
+        "maximum": 1.9951923076923077
+      },
+      "gap": {
+        "median": 1.3526570048309179,
+        "p95": 1.3526570048309179,
+        "maximum": 1.3526570048309179
+      },
+      "centered": 173,
+      "wrong_direction": 14,
+      "far": 0,
+      "exact_x_columns": 4,
+      "column_spread": {
+        "median": 0.33816425120772947,
+        "p95": 0.8719806763285023,
+        "maximum": 0.9661835748792271
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": []
+    }
+  },
+  {
+    "case": "clef_change_clara1",
+    "labels": 601,
+    "changed": 1,
+    "changed_indices": [
+      386
+    ],
+    "source_json_sha256": "22e55c7e08e2fa67d546f2eafdf1b16cd6e1f62bb4559ea8b8db22d8269ad640",
+    "source_image_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 601,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.388888888888889,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 3.1666666666666665,
+        "maximum": 6.833333333333333
+      },
+      "centered": 367,
+      "wrong_direction": 60,
+      "far": 49,
+      "exact_x_columns": 148,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 4.314316239316241,
+        "maximum": 6.373626373626374
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          75,
+          681
+        ],
+        [
+          95,
+          1627
+        ],
+        [
+          189,
+          557
+        ],
+        [
+          223,
+          1755
+        ],
+        [
+          248,
+          557
+        ],
+        [
+          264,
+          947
+        ],
+        [
+          265,
+          947
+        ],
+        [
+          274,
+          1341
+        ],
+        [
+          277,
+          1341
+        ],
+        [
+          313,
+          1585
+        ],
+        [
+          415,
+          683
+        ],
+        [
+          425,
+          1106
+        ],
+        [
+          488,
+          1106
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 601,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.388888888888889,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 3.1666666666666665,
+        "maximum": 6.833333333333333
+      },
+      "centered": 366,
+      "wrong_direction": 60,
+      "far": 49,
+      "exact_x_columns": 148,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 4.314316239316241,
+        "maximum": 6.373626373626374
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          75,
+          681
+        ],
+        [
+          95,
+          1627
+        ],
+        [
+          189,
+          557
+        ],
+        [
+          223,
+          1755
+        ],
+        [
+          248,
+          557
+        ],
+        [
+          264,
+          947
+        ],
+        [
+          265,
+          947
+        ],
+        [
+          274,
+          1341
+        ],
+        [
+          277,
+          1341
+        ],
+        [
+          313,
+          1585
+        ],
+        [
+          415,
+          683
+        ],
+        [
+          425,
+          1106
+        ],
+        [
+          488,
+          1106
+        ]
+      ]
+    }
+  },
+  {
+    "case": "alto_beethoven1",
+    "labels": 223,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "ccd92e3bce8a96fc340896f22d42cb49a31b239a08ca446ee2247c8f93167ddb",
+    "source_image_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 223,
+      "dx": {
+        "median": 0.0,
+        "p95": 0.6172908863920098,
+        "maximum": 2.0
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 1.348314606741573,
+        "maximum": 3.1666666666666665
+      },
+      "centered": 195,
+      "wrong_direction": 9,
+      "far": 1,
+      "exact_x_columns": 0,
+      "column_spread": {
+        "median": 0,
+        "p95": 0,
+        "maximum": 0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          51,
+          1264
+        ],
+        [
+          74,
+          533
+        ],
+        [
+          202,
+          1819
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 223,
+      "dx": {
+        "median": 0.0,
+        "p95": 0.6172908863920098,
+        "maximum": 2.0
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 1.348314606741573,
+        "maximum": 3.1666666666666665
+      },
+      "centered": 195,
+      "wrong_direction": 9,
+      "far": 1,
+      "exact_x_columns": 0,
+      "column_spread": {
+        "median": 0,
+        "p95": 0,
+        "maximum": 0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          51,
+          1264
+        ],
+        [
+          74,
+          533
+        ],
+        [
+          202,
+          1819
+        ]
+      ]
+    }
+  },
+  {
+    "case": "schubert_restored",
+    "labels": 493,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "a06edb3059f7f504dfaa8cdf435d14c1e7a188ac21fb317389e87b5f24d93c9f",
+    "source_image_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 493,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9444444444444446,
+        "maximum": 4.555555555555555
+      },
+      "centered": 353,
+      "wrong_direction": 31,
+      "far": 6,
+      "exact_x_columns": 114,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 2.9444444444444446
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          19,
+          1055
+        ],
+        [
+          155,
+          1087
+        ],
+        [
+          180,
+          1790
+        ],
+        [
+          257,
+          1303
+        ],
+        [
+          310,
+          1303
+        ],
+        [
+          398,
+          609
+        ],
+        [
+          399,
+          609
+        ],
+        [
+          410,
+          850
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 493,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9444444444444446,
+        "maximum": 4.555555555555555
+      },
+      "centered": 353,
+      "wrong_direction": 31,
+      "far": 6,
+      "exact_x_columns": 114,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 2.9444444444444446
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          19,
+          1055
+        ],
+        [
+          155,
+          1087
+        ],
+        [
+          180,
+          1790
+        ],
+        [
+          257,
+          1303
+        ],
+        [
+          310,
+          1303
+        ],
+        [
+          398,
+          609
+        ],
+        [
+          399,
+          609
+        ],
+        [
+          410,
+          850
+        ]
+      ]
+    }
+  },
+  {
+    "case": "clara1_leipzig",
+    "labels": 610,
+    "changed": 0,
+    "changed_indices": [],
+    "source_json_sha256": "78b5c7e1a4e720d2f023125d7d15fd49f5b0175ee230584415f4902271909b98",
+    "source_image_sha256": "42a494da27842044be275e83df5967faffed1c545a78858cc0672b9af55be4d6",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 610,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.388888888888889,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 3.1666666666666665,
+        "maximum": 5.0
+      },
+      "centered": 372,
+      "wrong_direction": 47,
+      "far": 44,
+      "exact_x_columns": 142,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 4.008379888268154,
+        "maximum": 5.611111111111111
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          77,
+          679
+        ],
+        [
+          97,
+          1626
+        ],
+        [
+          195,
+          555
+        ],
+        [
+          226,
+          1764
+        ],
+        [
+          255,
+          555
+        ],
+        [
+          256,
+          555
+        ],
+        [
+          271,
+          949
+        ],
+        [
+          272,
+          949
+        ],
+        [
+          282,
+          1346
+        ],
+        [
+          284,
+          1346
+        ],
+        [
+          320,
+          1572
+        ],
+        [
+          438,
+          1123
+        ],
+        [
+          498,
+          1123
+        ],
+        [
+          535,
+          713
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 610,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.388888888888889,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 3.1666666666666665,
+        "maximum": 5.0
+      },
+      "centered": 372,
+      "wrong_direction": 47,
+      "far": 44,
+      "exact_x_columns": 142,
+      "column_spread": {
+        "median": 0.0,
+        "p95": 4.008379888268154,
+        "maximum": 5.611111111111111
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          77,
+          679
+        ],
+        [
+          97,
+          1626
+        ],
+        [
+          195,
+          555
+        ],
+        [
+          226,
+          1764
+        ],
+        [
+          255,
+          555
+        ],
+        [
+          256,
+          555
+        ],
+        [
+          271,
+          949
+        ],
+        [
+          272,
+          949
+        ],
+        [
+          282,
+          1346
+        ],
+        [
+          284,
+          1346
+        ],
+        [
+          320,
+          1572
+        ],
+        [
+          438,
+          1123
+        ],
+        [
+          498,
+          1123
+        ],
+        [
+          535,
+          713
+        ]
+      ]
+    }
+  },
+  {
+    "case": "clara2_bravura",
+    "labels": 578,
+    "changed": 4,
+    "changed_indices": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "source_json_sha256": "72fba802a414add560237e311146d09f8e8aa959b4f314fc61d5f9978bf4dbb8",
+    "source_image_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 578,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9444444444444446,
+        "maximum": 4.555555555555555
+      },
+      "centered": 382,
+      "wrong_direction": 31,
+      "far": 9,
+      "exact_x_columns": 112,
+      "column_spread": {
+        "median": 0.9444444444444444,
+        "p95": 2.124999999999997,
+        "maximum": 4.0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          85,
+          1589
+        ],
+        [
+          319,
+          863
+        ],
+        [
+          363,
+          539
+        ],
+        [
+          380,
+          1261
+        ],
+        [
+          402,
+          542
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 578,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9444444444444446,
+        "maximum": 4.555555555555555
+      },
+      "centered": 379,
+      "wrong_direction": 31,
+      "far": 9,
+      "exact_x_columns": 112,
+      "column_spread": {
+        "median": 0.9444444444444444,
+        "p95": 2.124999999999997,
+        "maximum": 4.0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          85,
+          1589
+        ],
+        [
+          319,
+          863
+        ],
+        [
+          363,
+          539
+        ],
+        [
+          380,
+          1261
+        ],
+        [
+          402,
+          542
+        ]
+      ]
+    }
+  },
+  {
+    "case": "clara2_leipzig",
+    "labels": 569,
+    "changed": 4,
+    "changed_indices": [
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_json_sha256": "17498c4329345f907accbfd2669e7aef3ded28e2423320712c8f1278f0d9ec78",
+    "source_image_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 569,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9444444444444446,
+        "maximum": 4.555555555555555
+      },
+      "centered": 404,
+      "wrong_direction": 37,
+      "far": 1,
+      "exact_x_columns": 110,
+      "column_spread": {
+        "median": 0.4722222222222222,
+        "p95": 2.9444444444444446,
+        "maximum": 4.0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          86,
+          1593
+        ],
+        [
+          120,
+          1168
+        ],
+        [
+          217,
+          1668
+        ],
+        [
+          267,
+          920
+        ],
+        [
+          327,
+          865
+        ],
+        [
+          340,
+          1265
+        ],
+        [
+          389,
+          1265
+        ],
+        [
+          410,
+          655
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 569,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9444444444444446,
+        "maximum": 4.555555555555555
+      },
+      "centered": 400,
+      "wrong_direction": 37,
+      "far": 1,
+      "exact_x_columns": 110,
+      "column_spread": {
+        "median": 0.4722222222222222,
+        "p95": 2.9444444444444446,
+        "maximum": 4.0
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          86,
+          1593
+        ],
+        [
+          120,
+          1168
+        ],
+        [
+          217,
+          1668
+        ],
+        [
+          267,
+          920
+        ],
+        [
+          327,
+          865
+        ],
+        [
+          340,
+          1265
+        ],
+        [
+          389,
+          1265
+        ],
+        [
+          410,
+          655
+        ]
+      ]
+    }
+  },
+  {
+    "case": "schubert_bravura",
+    "labels": 492,
+    "changed": 2,
+    "changed_indices": [
+      317,
+      318
+    ],
+    "source_json_sha256": "786879af32aabd7dd69a216dc726a7579f309ce60492db7997ec821b00741ebe",
+    "source_image_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "increased_source_ink_labels": 0,
+    "body_increase_indices": [],
+    "increased_ink_with_decoration_labels": 0,
+    "decoration_increase_indices": [],
+    "newly_hidden_source_pixels": 0,
+    "worsened_nonstaff_source_pixels": 0,
+    "newly_hidden_symbols": 0,
+    "symbol_count_basis": "비오선 원본 비흰 화소 악화0으로 신규 가림0 확인. 글리프를 자동 인식/계수한 것은 아님.",
+    "before_metrics": {
+      "labels": 492,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9281767955801103,
+        "maximum": 6.166666666666667
+      },
+      "centered": 329,
+      "wrong_direction": 38,
+      "far": 8,
+      "exact_x_columns": 110,
+      "column_spread": {
+        "median": 0.3333333333333333,
+        "p95": 2.3566298342541434,
+        "maximum": 5.222222222222222
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [
+        [
+          108,
+          111
+        ],
+        [
+          110,
+          111
+        ],
+        [
+          182,
+          226
+        ],
+        [
+          329,
+          330
+        ]
+      ],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          19,
+          1056
+        ],
+        [
+          102,
+          1818
+        ],
+        [
+          104,
+          1818
+        ],
+        [
+          105,
+          1818
+        ],
+        [
+          157,
+          862
+        ],
+        [
+          195,
+          1812
+        ],
+        [
+          307,
+          1062
+        ],
+        [
+          309,
+          1062
+        ],
+        [
+          319,
+          1289
+        ],
+        [
+          378,
+          1198
+        ],
+        [
+          396,
+          1781
+        ],
+        [
+          431,
+          1198
+        ]
+      ]
+    },
+    "after_metrics": {
+      "labels": 492,
+      "dx": {
+        "median": 0.0,
+        "p95": 2.0,
+        "maximum": 3.2222222222222223
+      },
+      "gap": {
+        "median": 1.3333333333333333,
+        "p95": 2.9281767955801103,
+        "maximum": 6.166666666666667
+      },
+      "centered": 327,
+      "wrong_direction": 38,
+      "far": 8,
+      "exact_x_columns": 110,
+      "column_spread": {
+        "median": 0.3333333333333333,
+        "p95": 2.3566298342541434,
+        "maximum": 5.222222222222222
+      },
+      "order_inversions": [],
+      "head_hits": [],
+      "box_hits": [
+        [
+          108,
+          111
+        ],
+        [
+          110,
+          111
+        ],
+        [
+          182,
+          226
+        ],
+        [
+          329,
+          330
+        ]
+      ],
+      "bar_crossings": [],
+      "bar_edge_projections": [
+        [
+          19,
+          1056
+        ],
+        [
+          102,
+          1818
+        ],
+        [
+          104,
+          1818
+        ],
+        [
+          105,
+          1818
+        ],
+        [
+          157,
+          862
+        ],
+        [
+          195,
+          1812
+        ],
+        [
+          307,
+          1062
+        ],
+        [
+          309,
+          1062
+        ],
+        [
+          319,
+          1289
+        ],
+        [
+          378,
+          1198
+        ],
+        [
+          396,
+          1781
+        ],
+        [
+          431,
+          1198
+        ]
+      ]
+    }
+  }
+]

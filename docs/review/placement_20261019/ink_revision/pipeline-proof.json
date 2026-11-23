@@ -1,0 +1,23 @@
+[
+  {
+    "case": "aoharu_p1",
+    "labels": 226,
+    "equal": true,
+    "before_sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+    "after_sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f"
+  },
+  {
+    "case": "chopin_Db_p1",
+    "labels": 262,
+    "equal": true,
+    "before_sha256": "58e462ac69503fc39046c8bd659906faf1f8c35441182c3a51aba7dda2d1ae76",
+    "after_sha256": "58e462ac69503fc39046c8bd659906faf1f8c35441182c3a51aba7dda2d1ae76"
+  },
+  {
+    "case": "bach_p1",
+    "labels": 182,
+    "equal": true,
+    "before_sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4",
+    "after_sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4"
+  }
+]

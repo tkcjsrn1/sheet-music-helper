@@ -1,0 +1,12 @@
+창 크기/배율 1280 700 1.0 파일 선택·변환 (y,높이): [(94, 40), (182, 48)]
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_compact.py", line 114, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_compact.py", line 74, in main
+    check_settings_wheel(app)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_compact.py", line 29, in check_settings_wheel
+    assert widget.get()==value, f'{name}: 휠로 설정 값이 바뀜'
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: size_slider: 휠로 설정 값이 바뀜

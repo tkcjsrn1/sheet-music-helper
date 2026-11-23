@@ -1,0 +1,12 @@
+{
+  "baseline": "77be4ba",
+  "valid_png": true,
+  "label_source_sha256": "4fac33a03fe914cf2212c9d33dfbab44d15ff9936567a201c01f06807f4ff4de",
+  "current_source_sha256": "4f07bcce3a130f849bd470773be5b737ef9afa472367c2f8bfc397cab7fb63c8",
+  "baseline_saved": true,
+  "baseline_replay_error": "신고 원본의 SHA-256이 라벨 JSON과 다릅니다.",
+  "fixed_save_error": "원본 악보와 라벨 JSON이 일치하지 않습니다. 원본을 다시 변환한 뒤 신고용 파일을 저장해 주세요.",
+  "existing_valid_report_preserved": true,
+  "current_input_preserved": true,
+  "previous_report_replay_valid": true
+}

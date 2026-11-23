@@ -1,0 +1,4077 @@
+{
+  "schema": 1,
+  "generator": "악보헬퍼 0.9.0",
+  "source": {
+    "file": "chopin_Db_p1.png",
+    "page": 0,
+    "width": 2481,
+    "height": 3508,
+    "dpi": 300,
+    "sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2"
+  },
+  "music": {
+    "key_symbol": "♭",
+    "key_count": 5,
+    "key_letters": [
+      "B",
+      "E",
+      "A",
+      "D",
+      "G"
+    ],
+    "tonic": "",
+    "minor": false,
+    "notation": "solfege"
+  },
+  "staves": [
+    {
+      "id": 0,
+      "clef": "treble",
+      "line_ys": [
+        515.0,
+        534.0,
+        553.0,
+        573.0,
+        592.0
+      ],
+      "spacing": 19.3,
+      "top": 515.0,
+      "bottom": 592.0,
+      "bottom_fit": 592.0
+    },
+    {
+      "id": 1,
+      "clef": "bass",
+      "line_ys": [
+        726.0,
+        746.0,
+        765.0,
+        784.0,
+        804.0
+      ],
+      "spacing": 19.4,
+      "top": 726.0,
+      "bottom": 804.0,
+      "bottom_fit": 803.8
+    },
+    {
+      "id": 2,
+      "clef": "treble",
+      "line_ys": [
+        1265.0,
+        1283.0,
+        1303.0,
+        1322.0,
+        1341.0
+      ],
+      "spacing": 19.1,
+      "top": 1265.0,
+      "bottom": 1341.0,
+      "bottom_fit": 1341.0
+    },
+    {
+      "id": 3,
+      "clef": "bass",
+      "line_ys": [
+        1512.0,
+        1531.0,
+        1550.0,
+        1570.0,
+        1589.0
+      ],
+      "spacing": 19.3,
+      "top": 1512.0,
+      "bottom": 1589.0,
+      "bottom_fit": 1589.0
+    },
+    {
+      "id": 4,
+      "clef": "treble",
+      "line_ys": [
+        2050.0,
+        2069.0,
+        2088.0,
+        2107.0,
+        2127.0
+      ],
+      "spacing": 19.2,
+      "top": 2050.0,
+      "bottom": 2127.0,
+      "bottom_fit": 2126.6
+    },
+    {
+      "id": 5,
+      "clef": "bass",
+      "line_ys": [
+        2264.0,
+        2283.0,
+        2302.0,
+        2321.0,
+        2341.0
+      ],
+      "spacing": 19.2,
+      "top": 2264.0,
+      "bottom": 2341.0,
+      "bottom_fit": 2340.6
+    },
+    {
+      "id": 6,
+      "clef": "treble",
+      "line_ys": [
+        2801.0,
+        2821.0,
+        2840.0,
+        2859.0,
+        2878.0
+      ],
+      "spacing": 19.2,
+      "top": 2801.0,
+      "bottom": 2878.0,
+      "bottom_fit": 2878.2000000000003
+    },
+    {
+      "id": 7,
+      "clef": "bass",
+      "line_ys": [
+        3042.0,
+        3061.0,
+        3081.0,
+        3100.0,
+        3119.0
+      ],
+      "spacing": 19.3,
+      "top": 3042.0,
+      "bottom": 3119.0,
+      "bottom_fit": 3119.2
+    }
+  ],
+  "labels": [
+    {
+      "id": "s0-p8-x122",
+      "staff": 0,
+      "x": 1178,
+      "y": 516,
+      "nx": 61.036,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p7-x152",
+      "staff": 0,
+      "x": 1469,
+      "y": 525,
+      "nx": 76.114,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p6-x163",
+      "staff": 0,
+      "x": 1569,
+      "y": 534,
+      "nx": 81.295,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p-3-x176",
+      "staff": 0,
+      "x": 1694,
+      "y": 618,
+      "nx": 87.772,
+      "pitch": "B3",
+      "step": -3,
+      "accidental": null,
+      "text": "미",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": true
+    },
+    {
+      "id": "s0-p1-x178",
+      "staff": 0,
+      "x": 1715,
+      "y": 582,
+      "nx": 88.86,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p3-x185",
+      "staff": 0,
+      "x": 1788,
+      "y": 563,
+      "nx": 92.642,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p3-x215",
+      "staff": 0,
+      "x": 2079,
+      "y": 563,
+      "nx": 107.72,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p6-x226",
+      "staff": 0,
+      "x": 2179,
+      "y": 534,
+      "nx": 112.902,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p8-x236",
+      "staff": 0,
+      "x": 2279,
+      "y": 516,
+      "nx": 118.083,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p-3-x59",
+      "staff": 1,
+      "x": 568,
+      "y": 832,
+      "nx": 29.278,
+      "pitch": "D2",
+      "step": -3,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x64",
+      "staff": 1,
+      "x": 624,
+      "y": 680,
+      "nx": 32.165,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p8-x69",
+      "staff": 1,
+      "x": 668,
+      "y": 726,
+      "nx": 34.433,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x75",
+      "staff": 1,
+      "x": 724,
+      "y": 680,
+      "nx": 37.32,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p11-x79",
+      "staff": 1,
+      "x": 769,
+      "y": 700,
+      "nx": 39.639,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p-3-x82",
+      "staff": 1,
+      "x": 793,
+      "y": 832,
+      "nx": 40.876,
+      "pitch": "D2",
+      "step": -3,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "beam_sloped",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p6-x84",
+      "staff": 1,
+      "x": 814,
+      "y": 746,
+      "nx": 41.959,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p4-x89",
+      "staff": 1,
+      "x": 859,
+      "y": 766,
+      "nx": 44.278,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x94",
+      "staff": 1,
+      "x": 915,
+      "y": 676,
+      "nx": 47.165,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p8-x99",
+      "staff": 1,
+      "x": 959,
+      "y": 726,
+      "nx": 49.433,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x105",
+      "staff": 1,
+      "x": 1015,
+      "y": 676,
+      "nx": 52.32,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p11-x109",
+      "staff": 1,
+      "x": 1060,
+      "y": 700,
+      "nx": 54.639,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p6-x114",
+      "staff": 1,
+      "x": 1105,
+      "y": 746,
+      "nx": 56.959,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p4-x121",
+      "staff": 1,
+      "x": 1178,
+      "y": 766,
+      "nx": 60.722,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x127",
+      "staff": 1,
+      "x": 1234,
+      "y": 680,
+      "nx": 63.608,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p8-x132",
+      "staff": 1,
+      "x": 1278,
+      "y": 726,
+      "nx": 65.876,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x138",
+      "staff": 1,
+      "x": 1334,
+      "y": 680,
+      "nx": 68.763,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p11-x142",
+      "staff": 1,
+      "x": 1379,
+      "y": 700,
+      "nx": 71.082,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p6-x147",
+      "staff": 1,
+      "x": 1424,
+      "y": 746,
+      "nx": 73.402,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p4-x151",
+      "staff": 1,
+      "x": 1469,
+      "y": 766,
+      "nx": 75.722,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x157",
+      "staff": 1,
+      "x": 1525,
+      "y": 680,
+      "nx": 78.608,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p8-x162",
+      "staff": 1,
+      "x": 1569,
+      "y": 727,
+      "nx": 80.876,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x168",
+      "staff": 1,
+      "x": 1625,
+      "y": 680,
+      "nx": 83.763,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p11-x172",
+      "staff": 1,
+      "x": 1671,
+      "y": 700,
+      "nx": 86.134,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p6-x177",
+      "staff": 1,
+      "x": 1715,
+      "y": 746,
+      "nx": 88.402,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p4-x184",
+      "staff": 1,
+      "x": 1788,
+      "y": 766,
+      "nx": 92.165,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x190",
+      "staff": 1,
+      "x": 1844,
+      "y": 680,
+      "nx": 95.052,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p8-x195",
+      "staff": 1,
+      "x": 1888,
+      "y": 726,
+      "nx": 97.32,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x200",
+      "staff": 1,
+      "x": 1944,
+      "y": 680,
+      "nx": 100.206,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p11-x205",
+      "staff": 1,
+      "x": 1989,
+      "y": 700,
+      "nx": 102.526,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p6-x210",
+      "staff": 1,
+      "x": 2033,
+      "y": 747,
+      "nx": 104.794,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p4-x214",
+      "staff": 1,
+      "x": 2079,
+      "y": 766,
+      "nx": 107.165,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x220",
+      "staff": 1,
+      "x": 2135,
+      "y": 680,
+      "nx": 110.052,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p8-x225",
+      "staff": 1,
+      "x": 2179,
+      "y": 726,
+      "nx": 112.32,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s1-p13-x230",
+      "staff": 1,
+      "x": 2235,
+      "y": 680,
+      "nx": 115.206,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p11-x235",
+      "staff": 1,
+      "x": 2280,
+      "y": 700,
+      "nx": 117.526,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s1-p6-x240",
+      "staff": 1,
+      "x": 2324,
+      "y": 747,
+      "nx": 119.794,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p11-x37",
+      "staff": 2,
+      "x": 351,
+      "y": 1237,
+      "nx": 18.377,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p11-x71",
+      "staff": 2,
+      "x": 674,
+      "y": 1237,
+      "nx": 35.288,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p10-x76",
+      "staff": 2,
+      "x": 730,
+      "y": 1246,
+      "nx": 38.22,
+      "pitch": "A5",
+      "step": 10,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p7-x83",
+      "staff": 2,
+      "x": 794,
+      "y": 1274,
+      "nx": 41.571,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": "natural",
+      "text": "미",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p8-x89",
+      "staff": 2,
+      "x": 852,
+      "y": 1264,
+      "nx": 44.607,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p5-x94",
+      "staff": 2,
+      "x": 902,
+      "y": 1293,
+      "nx": 47.225,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p6-x100",
+      "staff": 2,
+      "x": 955,
+      "y": 1284,
+      "nx": 50.0,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p3-x109",
+      "staff": 2,
+      "x": 1042,
+      "y": 1313,
+      "nx": 54.555,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p4-x180",
+      "staff": 2,
+      "x": 1723,
+      "y": 1302,
+      "nx": 90.209,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p12-x220",
+      "staff": 2,
+      "x": 2103,
+      "y": 1226,
+      "nx": 110.105,
+      "pitch": "C6",
+      "step": 12,
+      "accidental": null,
+      "text": "도",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p11-x226",
+      "staff": 2,
+      "x": 2157,
+      "y": 1237,
+      "nx": 112.932,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p8-x232",
+      "staff": 2,
+      "x": 2211,
+      "y": 1264,
+      "nx": 115.759,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s2-p10-x237",
+      "staff": 2,
+      "x": 2267,
+      "y": 1246,
+      "nx": 118.691,
+      "pitch": "A5",
+      "step": 10,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s2-p9-x243",
+      "staff": 2,
+      "x": 2319,
+      "y": 1256,
+      "nx": 121.414,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p4-x36",
+      "staff": 3,
+      "x": 350,
+      "y": 1550,
+      "nx": 18.135,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p13-x43",
+      "staff": 3,
+      "x": 411,
+      "y": 1466,
+      "nx": 21.295,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p8-x48",
+      "staff": 3,
+      "x": 461,
+      "y": 1512,
+      "nx": 23.886,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p13-x54",
+      "staff": 3,
+      "x": 522,
+      "y": 1466,
+      "nx": 27.047,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p11-x59",
+      "staff": 3,
+      "x": 572,
+      "y": 1484,
+      "nx": 29.637,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p6-x64",
+      "staff": 3,
+      "x": 622,
+      "y": 1532,
+      "nx": 32.228,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p4-x70",
+      "staff": 3,
+      "x": 673,
+      "y": 1550,
+      "nx": 34.87,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p13-x76",
+      "staff": 3,
+      "x": 731,
+      "y": 1466,
+      "nx": 37.876,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p8-x82",
+      "staff": 3,
+      "x": 794,
+      "y": 1512,
+      "nx": 41.14,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p13-x88",
+      "staff": 3,
+      "x": 853,
+      "y": 1466,
+      "nx": 44.197,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p11-x94",
+      "staff": 3,
+      "x": 903,
+      "y": 1484,
+      "nx": 46.788,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p6-x99",
+      "staff": 3,
+      "x": 955,
+      "y": 1532,
+      "nx": 49.482,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p-3-x108",
+      "staff": 3,
+      "x": 1040,
+      "y": 1617,
+      "nx": 53.886,
+      "pitch": "D2",
+      "step": -3,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x114",
+      "staff": 3,
+      "x": 1100,
+      "y": 1454,
+      "nx": 56.995,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p8-x121",
+      "staff": 3,
+      "x": 1164,
+      "y": 1512,
+      "nx": 60.311,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x127",
+      "staff": 3,
+      "x": 1224,
+      "y": 1454,
+      "nx": 63.42,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p12-x132",
+      "staff": 3,
+      "x": 1274,
+      "y": 1474,
+      "nx": 66.01,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p7-x137",
+      "staff": 3,
+      "x": 1325,
+      "y": 1522,
+      "nx": 68.653,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p4-x142",
+      "staff": 3,
+      "x": 1375,
+      "y": 1551,
+      "nx": 71.244,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x149",
+      "staff": 3,
+      "x": 1436,
+      "y": 1454,
+      "nx": 74.404,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p8-x154",
+      "staff": 3,
+      "x": 1486,
+      "y": 1512,
+      "nx": 76.995,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x160",
+      "staff": 3,
+      "x": 1546,
+      "y": 1454,
+      "nx": 80.104,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p12-x165",
+      "staff": 3,
+      "x": 1597,
+      "y": 1474,
+      "nx": 82.746,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p7-x171",
+      "staff": 3,
+      "x": 1648,
+      "y": 1522,
+      "nx": 85.389,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p4-x179",
+      "staff": 3,
+      "x": 1723,
+      "y": 1551,
+      "nx": 89.275,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x185",
+      "staff": 3,
+      "x": 1784,
+      "y": 1454,
+      "nx": 92.435,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p9-x190",
+      "staff": 3,
+      "x": 1834,
+      "y": 1504,
+      "nx": 95.026,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x196",
+      "staff": 3,
+      "x": 1894,
+      "y": 1454,
+      "nx": 98.135,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p12-x202",
+      "staff": 3,
+      "x": 1945,
+      "y": 1474,
+      "nx": 100.777,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p7-x207",
+      "staff": 3,
+      "x": 1996,
+      "y": 1522,
+      "nx": 103.42,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p4-x212",
+      "staff": 3,
+      "x": 2046,
+      "y": 1550,
+      "nx": 106.01,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x218",
+      "staff": 3,
+      "x": 2103,
+      "y": 1454,
+      "nx": 108.964,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p9-x223",
+      "staff": 3,
+      "x": 2156,
+      "y": 1504,
+      "nx": 111.71,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p14-x229",
+      "staff": 3,
+      "x": 2211,
+      "y": 1454,
+      "nx": 114.56,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p12-x235",
+      "staff": 3,
+      "x": 2267,
+      "y": 1474,
+      "nx": 117.461,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s3-p7-x240",
+      "staff": 3,
+      "x": 2319,
+      "y": 1522,
+      "nx": 120.155,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p8-x36",
+      "staff": 4,
+      "x": 350,
+      "y": 2050,
+      "nx": 18.229,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p7-x58",
+      "staff": 4,
+      "x": 558,
+      "y": 2060,
+      "nx": 29.062,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p7-x67",
+      "staff": 4,
+      "x": 646,
+      "y": 2060,
+      "nx": 33.646,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p8-x77",
+      "staff": 4,
+      "x": 743,
+      "y": 2050,
+      "nx": 38.698,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p9-x88",
+      "staff": 4,
+      "x": 841,
+      "y": 2042,
+      "nx": 43.802,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p9-x97",
+      "staff": 4,
+      "x": 935,
+      "y": 2040,
+      "nx": 48.698,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p16-x102",
+      "staff": 4,
+      "x": 978,
+      "y": 1974,
+      "nx": 50.938,
+      "pitch": "G6",
+      "step": 16,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p14-x118",
+      "staff": 4,
+      "x": 1135,
+      "y": 1992,
+      "nx": 59.115,
+      "pitch": "E6",
+      "step": 14,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p13-x123",
+      "staff": 4,
+      "x": 1177,
+      "y": 2005,
+      "nx": 61.302,
+      "pitch": "D6",
+      "step": 13,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p11-x129",
+      "staff": 4,
+      "x": 1235,
+      "y": 2024,
+      "nx": 64.323,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p9-x132",
+      "staff": 4,
+      "x": 1264,
+      "y": 2040,
+      "nx": 65.833,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p7-x136",
+      "staff": 4,
+      "x": 1305,
+      "y": 2059,
+      "nx": 67.969,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p5-x140",
+      "staff": 4,
+      "x": 1348,
+      "y": 2078,
+      "nx": 70.208,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p6-x146",
+      "staff": 4,
+      "x": 1400,
+      "y": 2070,
+      "nx": 72.917,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p6-x152",
+      "staff": 4,
+      "x": 1462,
+      "y": 2070,
+      "nx": 76.146,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": "natural",
+      "text": "레",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p7-x158",
+      "staff": 4,
+      "x": 1513,
+      "y": 2060,
+      "nx": 78.802,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p8-x162",
+      "staff": 4,
+      "x": 1559,
+      "y": 2050,
+      "nx": 81.198,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s4-p9-x167",
+      "staff": 4,
+      "x": 1605,
+      "y": 2042,
+      "nx": 83.594,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p9-x175",
+      "staff": 4,
+      "x": 1683,
+      "y": 2042,
+      "nx": 87.656,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": "natural",
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p9-x198",
+      "staff": 4,
+      "x": 1905,
+      "y": 2042,
+      "nx": 99.219,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": "natural",
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p10-x202",
+      "staff": 4,
+      "x": 1944,
+      "y": 2030,
+      "nx": 101.25,
+      "pitch": "A5",
+      "step": 10,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p11-x209",
+      "staff": 4,
+      "x": 2005,
+      "y": 2022,
+      "nx": 104.427,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p10-x213",
+      "staff": 4,
+      "x": 2044,
+      "y": 2030,
+      "nx": 106.458,
+      "pitch": "A5",
+      "step": 10,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s4-p8-x217",
+      "staff": 4,
+      "x": 2087,
+      "y": 2050,
+      "nx": 108.698,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p3-x36",
+      "staff": 5,
+      "x": 350,
+      "y": 2312,
+      "nx": 18.229,
+      "pitch": "C3",
+      "step": 3,
+      "accidental": null,
+      "text": "도",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x42",
+      "staff": 5,
+      "x": 403,
+      "y": 2206,
+      "nx": 20.99,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p8-x48",
+      "staff": 5,
+      "x": 461,
+      "y": 2264,
+      "nx": 24.01,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x54",
+      "staff": 5,
+      "x": 514,
+      "y": 2206,
+      "nx": 26.771,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p12-x58",
+      "staff": 5,
+      "x": 558,
+      "y": 2226,
+      "nx": 29.062,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p7-x63",
+      "staff": 5,
+      "x": 602,
+      "y": 2274,
+      "nx": 31.354,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p2-x67",
+      "staff": 5,
+      "x": 646,
+      "y": 2322,
+      "nx": 33.646,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x73",
+      "staff": 5,
+      "x": 699,
+      "y": 2206,
+      "nx": 36.406,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p9-x77",
+      "staff": 5,
+      "x": 743,
+      "y": 2255,
+      "nx": 38.698,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x83",
+      "staff": 5,
+      "x": 797,
+      "y": 2206,
+      "nx": 41.51,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p12-x88",
+      "staff": 5,
+      "x": 841,
+      "y": 2226,
+      "nx": 43.802,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p7-x92",
+      "staff": 5,
+      "x": 885,
+      "y": 2274,
+      "nx": 46.094,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p2-x102",
+      "staff": 5,
+      "x": 978,
+      "y": 2322,
+      "nx": 50.938,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x107",
+      "staff": 5,
+      "x": 1031,
+      "y": 2206,
+      "nx": 53.698,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p9-x115",
+      "staff": 5,
+      "x": 1106,
+      "y": 2255,
+      "nx": 57.604,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x121",
+      "staff": 5,
+      "x": 1160,
+      "y": 2206,
+      "nx": 60.417,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p11-x129",
+      "staff": 5,
+      "x": 1239,
+      "y": 2236,
+      "nx": 64.531,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p5-x134",
+      "staff": 5,
+      "x": 1287,
+      "y": 2293,
+      "nx": 67.031,
+      "pitch": "E3",
+      "step": 5,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p1-x140",
+      "staff": 5,
+      "x": 1348,
+      "y": 2331,
+      "nx": 70.208,
+      "pitch": "A2",
+      "step": 1,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x146",
+      "staff": 5,
+      "x": 1400,
+      "y": 2206,
+      "nx": 72.917,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p8-x152",
+      "staff": 5,
+      "x": 1462,
+      "y": 2264,
+      "nx": 76.146,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "b",
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p14-x158",
+      "staff": 5,
+      "x": 1513,
+      "y": 2206,
+      "nx": 78.802,
+      "pitch": "G4",
+      "step": 14,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p10-x162",
+      "staff": 5,
+      "x": 1559,
+      "y": 2244,
+      "nx": 81.198,
+      "pitch": "C4",
+      "step": 10,
+      "accidental": null,
+      "text": "도",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p5-x167",
+      "staff": 5,
+      "x": 1605,
+      "y": 2293,
+      "nx": 83.594,
+      "pitch": "E3",
+      "step": 5,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p-3-x175",
+      "staff": 5,
+      "x": 1682,
+      "y": 2369,
+      "nx": 87.604,
+      "pitch": "D2",
+      "step": -3,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p12-x180",
+      "staff": 5,
+      "x": 1732,
+      "y": 2226,
+      "nx": 90.208,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": "natural",
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p7-x186",
+      "staff": 5,
+      "x": 1789,
+      "y": 2274,
+      "nx": 93.177,
+      "pitch": "G3",
+      "step": 7,
+      "accidental": "natural",
+      "text": "솔",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p12-x192",
+      "staff": 5,
+      "x": 1843,
+      "y": 2226,
+      "nx": 95.99,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": "natural",
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p9-x198",
+      "staff": 5,
+      "x": 1905,
+      "y": 2255,
+      "nx": 99.219,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p4-x209",
+      "staff": 5,
+      "x": 2004,
+      "y": 2303,
+      "nx": 104.375,
+      "pitch": "D3",
+      "step": 4,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p-3-x217",
+      "staff": 5,
+      "x": 2086,
+      "y": 2369,
+      "nx": 108.646,
+      "pitch": "D2",
+      "step": -3,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p13-x223",
+      "staff": 5,
+      "x": 2142,
+      "y": 2217,
+      "nx": 111.562,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p8-x228",
+      "staff": 5,
+      "x": 2185,
+      "y": 2264,
+      "nx": 113.802,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s5-p13-x233",
+      "staff": 5,
+      "x": 2239,
+      "y": 2217,
+      "nx": 116.615,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p11-x238",
+      "staff": 5,
+      "x": 2283,
+      "y": 2236,
+      "nx": 118.906,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s5-p6-x242",
+      "staff": 5,
+      "x": 2326,
+      "y": 2284,
+      "nx": 121.146,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p9-x43",
+      "staff": 6,
+      "x": 416,
+      "y": 2792,
+      "nx": 21.667,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x60",
+      "staff": 6,
+      "x": 580,
+      "y": 2818,
+      "nx": 30.208,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x60",
+      "staff": 6,
+      "x": 580,
+      "y": 2844,
+      "nx": 30.208,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x65",
+      "staff": 6,
+      "x": 621,
+      "y": 2818,
+      "nx": 32.344,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x99",
+      "staff": 6,
+      "x": 951,
+      "y": 2818,
+      "nx": 49.531,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x109",
+      "staff": 6,
+      "x": 1048,
+      "y": 2818,
+      "nx": 54.583,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x109",
+      "staff": 6,
+      "x": 1048,
+      "y": 2844,
+      "nx": 54.583,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x114",
+      "staff": 6,
+      "x": 1094,
+      "y": 2844,
+      "nx": 56.979,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x114",
+      "staff": 6,
+      "x": 1098,
+      "y": 2828,
+      "nx": 57.188,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p3-x118",
+      "staff": 6,
+      "x": 1130,
+      "y": 2846,
+      "nx": 58.854,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x118",
+      "staff": 6,
+      "x": 1132,
+      "y": 2834,
+      "nx": 58.958,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": "b",
+      "text": "도b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p11-x118",
+      "staff": 6,
+      "x": 1133,
+      "y": 2774,
+      "nx": 59.01,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p2-x118",
+      "staff": 6,
+      "x": 1134,
+      "y": 2856,
+      "nx": 59.062,
+      "pitch": "G4",
+      "step": 2,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p1-x118",
+      "staff": 6,
+      "x": 1134,
+      "y": 2872,
+      "nx": 59.062,
+      "pitch": "F4",
+      "step": 1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "vertical_blocked",
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p11-x122",
+      "staff": 6,
+      "x": 1171,
+      "y": 2774,
+      "nx": 60.99,
+      "pitch": "B5",
+      "step": 11,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p10-x126",
+      "staff": 6,
+      "x": 1209,
+      "y": 2783,
+      "nx": 62.969,
+      "pitch": "A5",
+      "step": 10,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x126",
+      "staff": 6,
+      "x": 1209,
+      "y": 2830,
+      "nx": 62.969,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": "b",
+      "text": "도b",
+      "confidence": "check",
+      "flags": [
+        "accidental_unstable"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p9-x130",
+      "staff": 6,
+      "x": 1249,
+      "y": 2793,
+      "nx": 65.052,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x130",
+      "staff": 6,
+      "x": 1249,
+      "y": 2840,
+      "nx": 65.052,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x134",
+      "staff": 6,
+      "x": 1288,
+      "y": 2802,
+      "nx": 67.083,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x134",
+      "staff": 6,
+      "x": 1288,
+      "y": 2840,
+      "nx": 67.083,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p3-x144",
+      "staff": 6,
+      "x": 1381,
+      "y": 2850,
+      "nx": 71.927,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x148",
+      "staff": 6,
+      "x": 1420,
+      "y": 2841,
+      "nx": 73.958,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x153",
+      "staff": 6,
+      "x": 1472,
+      "y": 2841,
+      "nx": 76.667,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": "natural",
+      "text": "시",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x157",
+      "staff": 6,
+      "x": 1511,
+      "y": 2802,
+      "nx": 78.698,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x157",
+      "staff": 6,
+      "x": 1511,
+      "y": 2830,
+      "nx": 78.698,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": "b",
+      "text": "도b",
+      "confidence": "check",
+      "flags": [
+        "accidental_unstable"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p7-x163",
+      "staff": 6,
+      "x": 1566,
+      "y": 2812,
+      "nx": 81.562,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x174",
+      "staff": 6,
+      "x": 1666,
+      "y": 2818,
+      "nx": 86.771,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x198",
+      "staff": 6,
+      "x": 1899,
+      "y": 2818,
+      "nx": 98.906,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x198",
+      "staff": 6,
+      "x": 1899,
+      "y": 2844,
+      "nx": 98.906,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "accidental_unstable"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x201",
+      "staff": 6,
+      "x": 1933,
+      "y": 2840,
+      "nx": 100.677,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "vertical_blocked",
+        "accidental_unstable"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x201",
+      "staff": 6,
+      "x": 1934,
+      "y": 2820,
+      "nx": 100.729,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p7-x205",
+      "staff": 6,
+      "x": 1972,
+      "y": 2809,
+      "nx": 102.708,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": "#",
+      "text": "미#",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x213",
+      "staff": 6,
+      "x": 2048,
+      "y": 2818,
+      "nx": 106.667,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x216",
+      "staff": 6,
+      "x": 2078,
+      "y": 2801,
+      "nx": 108.229,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p3-x219",
+      "staff": 6,
+      "x": 2102,
+      "y": 2846,
+      "nx": 109.479,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": null,
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x221",
+      "staff": 6,
+      "x": 2118,
+      "y": 2818,
+      "nx": 110.312,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p4-x225",
+      "staff": 6,
+      "x": 2160,
+      "y": 2844,
+      "nx": 112.5,
+      "pitch": "B4",
+      "step": 4,
+      "accidental": "b",
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "accidental_unstable"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x229",
+      "staff": 6,
+      "x": 2194,
+      "y": 2818,
+      "nx": 114.271,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x239",
+      "staff": 6,
+      "x": 2296,
+      "y": 2831,
+      "nx": 119.583,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": "#",
+      "text": "도#",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p-3-x241",
+      "staff": 6,
+      "x": 2314,
+      "y": 2904,
+      "nx": 120.521,
+      "pitch": "B3",
+      "step": -3,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "snap_residual",
+        "beam_sloped",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p-1-x241",
+      "staff": 6,
+      "x": 2316,
+      "y": 2889,
+      "nx": 120.625,
+      "pitch": "D4",
+      "step": -1,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p3-x245",
+      "staff": 6,
+      "x": 2352,
+      "y": 2850,
+      "nx": 122.5,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": "b",
+      "text": "라b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p2-x36",
+      "staff": 7,
+      "x": 350,
+      "y": 3100,
+      "nx": 18.135,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x42",
+      "staff": 7,
+      "x": 403,
+      "y": 2996,
+      "nx": 20.881,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p9-x46",
+      "staff": 7,
+      "x": 444,
+      "y": 3034,
+      "nx": 23.005,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x51",
+      "staff": 7,
+      "x": 496,
+      "y": 2996,
+      "nx": 25.699,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p11-x56",
+      "staff": 7,
+      "x": 538,
+      "y": 3015,
+      "nx": 27.876,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p6-x60",
+      "staff": 7,
+      "x": 580,
+      "y": 3062,
+      "nx": 30.052,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p2-x65",
+      "staff": 7,
+      "x": 624,
+      "y": 3100,
+      "nx": 32.332,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x70",
+      "staff": 7,
+      "x": 677,
+      "y": 2996,
+      "nx": 35.078,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p8-x76",
+      "staff": 7,
+      "x": 731,
+      "y": 3042,
+      "nx": 37.876,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x81",
+      "staff": 7,
+      "x": 784,
+      "y": 2996,
+      "nx": 40.622,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p12-x87",
+      "staff": 7,
+      "x": 843,
+      "y": 3004,
+      "nx": 43.679,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": "b",
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p6-x92",
+      "staff": 7,
+      "x": 885,
+      "y": 3062,
+      "nx": 45.855,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p2-x99",
+      "staff": 7,
+      "x": 954,
+      "y": 3100,
+      "nx": 49.43,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x104",
+      "staff": 7,
+      "x": 1007,
+      "y": 2996,
+      "nx": 52.176,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p9-x109",
+      "staff": 7,
+      "x": 1048,
+      "y": 3034,
+      "nx": 54.301,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x114",
+      "staff": 7,
+      "x": 1098,
+      "y": 2996,
+      "nx": 56.891,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p11-x121",
+      "staff": 7,
+      "x": 1171,
+      "y": 3015,
+      "nx": 60.674,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p6-x127",
+      "staff": 7,
+      "x": 1229,
+      "y": 3062,
+      "nx": 63.679,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p-1-x133",
+      "staff": 7,
+      "x": 1288,
+      "y": 3128,
+      "nx": 66.736,
+      "pitch": "F2",
+      "step": -1,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x139",
+      "staff": 7,
+      "x": 1340,
+      "y": 2996,
+      "nx": 69.43,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p10-x143",
+      "staff": 7,
+      "x": 1381,
+      "y": 3024,
+      "nx": 71.554,
+      "pitch": "C4",
+      "step": 10,
+      "accidental": null,
+      "text": "도",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x150",
+      "staff": 7,
+      "x": 1447,
+      "y": 2996,
+      "nx": 74.974,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p12-x157",
+      "staff": 7,
+      "x": 1511,
+      "y": 3004,
+      "nx": 78.29,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p8-x164",
+      "staff": 7,
+      "x": 1578,
+      "y": 3043,
+      "nx": 81.762,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p2-x173",
+      "staff": 7,
+      "x": 1670,
+      "y": 3100,
+      "nx": 86.528,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x178",
+      "staff": 7,
+      "x": 1722,
+      "y": 2996,
+      "nx": 89.223,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p9-x183",
+      "staff": 7,
+      "x": 1763,
+      "y": 3034,
+      "nx": 91.347,
+      "pitch": "B3",
+      "step": 9,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x188",
+      "staff": 7,
+      "x": 1816,
+      "y": 2996,
+      "nx": 94.093,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p11-x193",
+      "staff": 7,
+      "x": 1858,
+      "y": 3015,
+      "nx": 96.269,
+      "pitch": "D4",
+      "step": 11,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p6-x197",
+      "staff": 7,
+      "x": 1899,
+      "y": 3062,
+      "nx": 98.394,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p2-x205",
+      "staff": 7,
+      "x": 1976,
+      "y": 3100,
+      "nx": 102.383,
+      "pitch": "B2",
+      "step": 2,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x210",
+      "staff": 7,
+      "x": 2029,
+      "y": 2996,
+      "nx": 105.13,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p8-x220",
+      "staff": 7,
+      "x": 2121,
+      "y": 3042,
+      "nx": 109.896,
+      "pitch": "A3",
+      "step": 8,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s7-p13-x226",
+      "staff": 7,
+      "x": 2179,
+      "y": 2996,
+      "nx": 112.902,
+      "pitch": "F4",
+      "step": 13,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p12-x232",
+      "staff": 7,
+      "x": 2236,
+      "y": 3004,
+      "nx": 115.855,
+      "pitch": "E4",
+      "step": 12,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s7-p6-x236",
+      "staff": 7,
+      "x": 2281,
+      "y": 3062,
+      "nx": 118.187,
+      "pitch": "F3",
+      "step": 6,
+      "accidental": null,
+      "text": "파",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x36",
+      "staff": 6,
+      "x": 350,
+      "y": 2799,
+      "nx": 18.229,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x36",
+      "staff": 6,
+      "x": 350,
+      "y": 2824,
+      "nx": 18.229,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p9-x46",
+      "staff": 6,
+      "x": 444,
+      "y": 2790,
+      "nx": 23.125,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": "b",
+      "text": "솔b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p7-x46",
+      "staff": 6,
+      "x": 444,
+      "y": 2815,
+      "nx": 23.125,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x65",
+      "staff": 6,
+      "x": 624,
+      "y": 2834,
+      "nx": 32.5,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x76",
+      "staff": 6,
+      "x": 731,
+      "y": 2799,
+      "nx": 38.073,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x76",
+      "staff": 6,
+      "x": 731,
+      "y": 2824,
+      "nx": 38.073,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x88",
+      "staff": 6,
+      "x": 843,
+      "y": 2828,
+      "nx": 43.906,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p3-x88",
+      "staff": 6,
+      "x": 843,
+      "y": 2853,
+      "nx": 43.906,
+      "pitch": "A4",
+      "step": 3,
+      "accidental": "natural",
+      "text": "라",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x99",
+      "staff": 6,
+      "x": 954,
+      "y": 2834,
+      "nx": 49.688,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x161",
+      "staff": 6,
+      "x": 1550,
+      "y": 2799,
+      "nx": 80.729,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x161",
+      "staff": 6,
+      "x": 1550,
+      "y": 2824,
+      "nx": 80.729,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x174",
+      "staff": 6,
+      "x": 1669,
+      "y": 2799,
+      "nx": 86.927,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p9-x184",
+      "staff": 6,
+      "x": 1763,
+      "y": 2790,
+      "nx": 91.823,
+      "pitch": "G5",
+      "step": 9,
+      "accidental": null,
+      "text": "솔b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p7-x184",
+      "staff": 6,
+      "x": 1763,
+      "y": 2815,
+      "nx": 91.823,
+      "pitch": "E5",
+      "step": 7,
+      "accidental": null,
+      "text": "미b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x214",
+      "staff": 6,
+      "x": 2050,
+      "y": 2834,
+      "nx": 106.771,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": null,
+      "text": "도",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p8-x233",
+      "staff": 6,
+      "x": 2236,
+      "y": 2799,
+      "nx": 116.458,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p6-x233",
+      "staff": 6,
+      "x": 2236,
+      "y": 2824,
+      "nx": 116.458,
+      "pitch": "D5",
+      "step": 6,
+      "accidental": null,
+      "text": "레b",
+      "confidence": "caution",
+      "flags": [
+        "vertical_blocked",
+        "snap_residual",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s6-p5-x243",
+      "staff": 6,
+      "x": 2335,
+      "y": 2828,
+      "nx": 121.615,
+      "pitch": "C5",
+      "step": 5,
+      "accidental": "#",
+      "text": "도#",
+      "confidence": "check",
+      "flags": [
+        "vertical_blocked",
+        "accidental_candidate",
+        "chord_rescue_added"
+      ],
+      "edited": false
+    }
+  ]
+}

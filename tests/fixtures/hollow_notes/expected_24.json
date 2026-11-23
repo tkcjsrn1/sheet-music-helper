@@ -1,0 +1,890 @@
+{
+  "schema": 1,
+  "source": "sources/hollow_24.ly",
+  "source_sha256": "681a460fbffa80c18a6473a3d862f3fd9742b821a18c044b84d5230b3318ba88",
+  "pdf": "pdf/hollow_24.pdf",
+  "pdf_sha256": "b2b53f2d5a9bf949c3827aca3f3d34a9df511e1290a252467c2e5381e026ee38",
+  "generator": "LilyPond 2.26.0",
+  "dpi": 300,
+  "page": 1,
+  "page_size_pt": [
+    595.280029296875,
+    841.8900146484375
+  ],
+  "coordinate_origin": "PDF 좌상단, point-and-click 음표 머리 상자의 중심",
+  "truth_origin": "음고·길이·마디·빔 묶음은 .ly, 좌표는 LilyPond PDF 링크. OMR 미사용.",
+  "notes": [
+    {
+      "id": "treble-8",
+      "source_line": 8,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        91.7906,
+        128.76202,
+        103.678,
+        135.20404
+      ],
+      "center_300dpi": [
+        407.22626,
+        549.9293
+      ]
+    },
+    {
+      "id": "treble-11",
+      "source_line": 11,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        190.246,
+        128.76202,
+        198.44701,
+        135.20404
+      ],
+      "center_300dpi": [
+        809.7771,
+        549.9293
+      ]
+    },
+    {
+      "id": "treble-12",
+      "source_line": 12,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        252.744,
+        122.78503,
+        260.94501,
+        129.22699
+      ],
+      "center_300dpi": [
+        1070.18544,
+        525.02505
+      ]
+    },
+    {
+      "id": "treble-14",
+      "source_line": 14,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 3,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        332.89899,
+        122.78503,
+        344.78699,
+        129.22699
+      ],
+      "center_300dpi": [
+        1411.84578,
+        525.02505
+      ]
+    },
+    {
+      "id": "treble-17",
+      "source_line": 17,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 4,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        431.61099,
+        122.78503,
+        439.81299,
+        129.22699
+      ],
+      "center_300dpi": [
+        1815.46663,
+        525.02505
+      ]
+    },
+    {
+      "id": "treble-18",
+      "source_line": 18,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 4,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "B4",
+      "midi": 71,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        494.10999,
+        116.80701,
+        502.31201,
+        123.24902
+      ],
+      "center_300dpi": [
+        2075.87916,
+        500.11673
+      ]
+    },
+    {
+      "id": "treble-21",
+      "source_line": 21,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 5,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "B4",
+      "midi": 71,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        74.3552,
+        302.112,
+        86.2428,
+        308.55402
+      ],
+      "center_300dpi": [
+        334.57917,
+        1272.22087
+      ]
+    },
+    {
+      "id": "treble-24",
+      "source_line": 24,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 6,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "B4",
+      "midi": 71,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        176.731,
+        302.112,
+        184.933,
+        308.55402
+      ],
+      "center_300dpi": [
+        753.46667,
+        1272.22087
+      ]
+    },
+    {
+      "id": "treble-25",
+      "source_line": 25,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 6,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        241.729,
+        296.13403,
+        249.931,
+        302.57703
+      ],
+      "center_300dpi": [
+        1024.29167,
+        1247.31471
+      ]
+    },
+    {
+      "id": "treble-27",
+      "source_line": 27,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 7,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        324.034,
+        296.13403,
+        335.922,
+        302.57703
+      ],
+      "center_300dpi": [
+        1374.90832,
+        1247.31471
+      ]
+    },
+    {
+      "id": "treble-30",
+      "source_line": 30,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 8,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        427.35101,
+        296.13403,
+        435.55301,
+        302.57703
+      ],
+      "center_300dpi": [
+        1797.71671,
+        1247.31471
+      ]
+    },
+    {
+      "id": "treble-31",
+      "source_line": 31,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 8,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "F5",
+      "midi": 77,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        492.349,
+        290.15704,
+        500.54999,
+        296.599
+      ],
+      "center_300dpi": [
+        2068.53956,
+        1222.40842
+      ]
+    },
+    {
+      "id": "treble-34",
+      "source_line": 34,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 9,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "F5",
+      "midi": 77,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        74.3552,
+        475.46201,
+        86.2428,
+        481.90402
+      ],
+      "center_300dpi": [
+        334.57917,
+        1994.51256
+      ]
+    },
+    {
+      "id": "treble-37",
+      "source_line": 37,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 10,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "F5",
+      "midi": 77,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        177.181,
+        475.46201,
+        185.383,
+        481.90402
+      ],
+      "center_300dpi": [
+        755.34166,
+        1994.51256
+      ]
+    },
+    {
+      "id": "treble-38",
+      "source_line": 38,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 10,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "A5",
+      "midi": 81,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        242.465,
+        469.48401,
+        250.666,
+        475.92603
+      ],
+      "center_300dpi": [
+        1027.35624,
+        1969.60424
+      ]
+    },
+    {
+      "id": "treble-40",
+      "source_line": 40,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 11,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "A5",
+      "midi": 81,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        324.565,
+        469.48401,
+        336.453,
+        475.92603
+      ],
+      "center_300dpi": [
+        1377.12084,
+        1969.60424
+      ]
+    },
+    {
+      "id": "treble-43",
+      "source_line": 43,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 12,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "A5",
+      "midi": 81,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        428.495,
+        469.48401,
+        436.69601,
+        475.92603
+      ],
+      "center_300dpi": [
+        1802.48127,
+        1969.60424
+      ]
+    },
+    {
+      "id": "treble-44",
+      "source_line": 44,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 12,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        490.79001,
+        499.37201,
+        498.991,
+        505.81403
+      ],
+      "center_300dpi": [
+        2062.04376,
+        2094.13757
+      ]
+    },
+    {
+      "id": "bass-48",
+      "source_line": 48,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "E2",
+      "midi": 40,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        91.7906,
+        188.53802,
+        103.678,
+        194.98004
+      ],
+      "center_300dpi": [
+        407.22626,
+        798.99597
+      ]
+    },
+    {
+      "id": "bass-51",
+      "source_line": 51,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "E2",
+      "midi": 40,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        190.246,
+        188.53802,
+        198.44701,
+        194.98004
+      ],
+      "center_300dpi": [
+        809.7771,
+        798.99597
+      ]
+    },
+    {
+      "id": "bass-52",
+      "source_line": 52,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        252.744,
+        182.56,
+        260.94501,
+        189.00201
+      ],
+      "center_300dpi": [
+        1070.18544,
+        774.08752
+      ]
+    },
+    {
+      "id": "bass-54",
+      "source_line": 54,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 3,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        332.89899,
+        182.56,
+        344.78699,
+        189.00201
+      ],
+      "center_300dpi": [
+        1411.84578,
+        774.08752
+      ]
+    },
+    {
+      "id": "bass-57",
+      "source_line": 57,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 4,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        431.61099,
+        182.56,
+        439.81299,
+        189.00201
+      ],
+      "center_300dpi": [
+        1815.46663,
+        774.08752
+      ]
+    },
+    {
+      "id": "bass-58",
+      "source_line": 58,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 4,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        494.10999,
+        176.58301,
+        502.31201,
+        183.02502
+      ],
+      "center_300dpi": [
+        2075.87916,
+        749.1834
+      ]
+    },
+    {
+      "id": "bass-61",
+      "source_line": 61,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 5,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        74.3552,
+        361.888,
+        86.2428,
+        368.33002
+      ],
+      "center_300dpi": [
+        334.57917,
+        1521.28754
+      ]
+    },
+    {
+      "id": "bass-64",
+      "source_line": 64,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 6,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        176.731,
+        361.888,
+        184.933,
+        368.33002
+      ],
+      "center_300dpi": [
+        753.46667,
+        1521.28754
+      ]
+    },
+    {
+      "id": "bass-65",
+      "source_line": 65,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 6,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        241.729,
+        355.91,
+        249.931,
+        362.35202
+      ],
+      "center_300dpi": [
+        1024.29167,
+        1496.37922
+      ]
+    },
+    {
+      "id": "bass-67",
+      "source_line": 67,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 7,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        324.034,
+        355.91,
+        335.922,
+        362.35202
+      ],
+      "center_300dpi": [
+        1374.90832,
+        1496.37922
+      ]
+    },
+    {
+      "id": "bass-70",
+      "source_line": 70,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 8,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        427.35101,
+        355.91,
+        435.55301,
+        362.35202
+      ],
+      "center_300dpi": [
+        1797.71671,
+        1496.37922
+      ]
+    },
+    {
+      "id": "bass-71",
+      "source_line": 71,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 8,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        492.349,
+        349.93301,
+        500.54999,
+        356.375
+      ],
+      "center_300dpi": [
+        2068.53956,
+        1471.47503
+      ]
+    },
+    {
+      "id": "bass-74",
+      "source_line": 74,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 9,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        74.3552,
+        535.23804,
+        86.2428,
+        541.68005
+      ],
+      "center_300dpi": [
+        334.57917,
+        2243.57936
+      ]
+    },
+    {
+      "id": "bass-77",
+      "source_line": 77,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 10,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        177.181,
+        535.23804,
+        185.383,
+        541.68005
+      ],
+      "center_300dpi": [
+        755.34166,
+        2243.57936
+      ]
+    },
+    {
+      "id": "bass-78",
+      "source_line": 78,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 10,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "A3",
+      "midi": 57,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        242.465,
+        529.26001,
+        250.666,
+        535.70203
+      ],
+      "center_300dpi": [
+        1027.35624,
+        2218.67091
+      ]
+    },
+    {
+      "id": "bass-80",
+      "source_line": 80,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 11,
+      "onset_whole": "0",
+      "duration_denominator": 1,
+      "pitch": "A3",
+      "midi": 57,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": null,
+      "bbox_pt": [
+        324.565,
+        529.26001,
+        336.453,
+        535.70203
+      ],
+      "center_300dpi": [
+        1377.12084,
+        2218.67091
+      ]
+    },
+    {
+      "id": "bass-83",
+      "source_line": 83,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 12,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "A3",
+      "midi": 57,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        428.495,
+        529.26001,
+        436.69601,
+        535.70203
+      ],
+      "center_300dpi": [
+        1802.48127,
+        2218.67091
+      ]
+    },
+    {
+      "id": "bass-84",
+      "source_line": 84,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 12,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "E2",
+      "midi": 40,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        490.79001,
+        559.14801,
+        498.991,
+        565.59003
+      ],
+      "center_300dpi": [
+        2062.04376,
+        2343.20424
+      ]
+    }
+  ],
+  "beams": [],
+  "staff_size": 24,
+  "key_signature": {
+    "symbol": "",
+    "count": 0,
+    "letters": []
+  },
+  "engraving_family": "LilyPond 2.26.0 / Emmentaler; 서로 다른 폰트 계열 아님"
+}

@@ -1,0 +1,53 @@
+{
+  "base_main": "1d37312b418022cf1fc9a97f0666fbfe83f6743b",
+  "original_renderer_commit": "17331506d4cedf044c1fc7696150e5392eaee9b5",
+  "renderer_lf_sha256": "d27eb42b3a42c8817ab3e48f080d0b1fb6ca5573b56abf5e959aa810bbbe9ad0",
+  "suite": {
+    "total": 48,
+    "passed": 48,
+    "skipped": 0,
+    "failed": 0,
+    "exit": 0,
+    "golden": 711,
+    "pdf_snapshots": 17,
+    "snapshot_workers": 1
+  },
+  "protected_test_files_modified": false,
+  "minimum_available_bytes": 1096134656,
+  "memory_samples": 126,
+  "independent_review": {
+    "critical": 0,
+    "important": 0,
+    "minor": 0
+  },
+  "json_comparison": [
+    {
+      "case": "chopin_Db_p1",
+      "labels": 262,
+      "selftest_fixture_lf_equal": true,
+      "source_before_after_raw_bytes_equal": true,
+      "sha256": "24033f938654667f251ed4856b59671f1a602333ecf471f6532d3b896b316037",
+      "fixture_unchanged": true
+    },
+    {
+      "case": "aoharu_p1",
+      "labels": 226,
+      "selftest_fixture_lf_equal": true,
+      "source_before_after_raw_bytes_equal": true,
+      "sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+      "fixture_unchanged": true
+    },
+    {
+      "case": "bach_p1",
+      "labels": 182,
+      "source_before_after_raw_bytes_equal": true,
+      "baseline_renderer_commit": "1d37312",
+      "before_sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4",
+      "after_sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4"
+    }
+  ],
+  "label_lane_option_included": false,
+  "fixture_updates": 0,
+  "post_test_main": "41845a30c254fde90be48bb66cd7f64293fb6702",
+  "post_test_main_changes": "WORKLOG.md 추가4행만, 제품/검사 변경0"
+}

@@ -1,0 +1,22 @@
+{
+  "aoharu_p1": {
+    "previous_beta_json_equal": true,
+    "previous_beta_pixels_equal": true
+  },
+  "chopin_Db_p1": {
+    "previous_beta_json_equal": true,
+    "previous_beta_pixels_equal": true
+  },
+  "bach_p1": {
+    "previous_beta_json_equal": true,
+    "previous_beta_pixels_equal": true
+  },
+  "selftest_baselines": {
+    "regenerated_source_commit": "cebae18ceb7c73949e91b81a766d64b809efb9f8",
+    "content_changes": 0,
+    "cases": [
+      "aoharu_p1",
+      "chopin_Db_p1"
+    ]
+  }
+}

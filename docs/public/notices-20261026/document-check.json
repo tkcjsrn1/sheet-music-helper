@@ -1,0 +1,84 @@
+{
+  "base": "9a0137db43c99efdea1ff630dd8f6e29c38038fc",
+  "local_links_checked": 19,
+  "product_protected_diff": [],
+  "new_captures_or_binaries": [],
+  "links": [
+    {
+      "file": "docs/public/LICENSE_INVENTORY.md",
+      "target": "LICENSE_EVIDENCE.json"
+    },
+    {
+      "file": "docs/public/LICENSE_INVENTORY.md",
+      "target": "../../THIRD_PARTY_NOTICES.txt"
+    },
+    {
+      "file": "docs/public/LICENSE_INVENTORY.md",
+      "target": "BUNDLED_MODULES.md"
+    },
+    {
+      "file": "docs/public/LICENSE_INVENTORY.md",
+      "target": "notices-20261026/MATCHED_LICENSES.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "IMAGE_HISTORY.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "MIGRATION_DRAFT.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "LICENSE_INVENTORY.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "README_DRAFT.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "USER_GUIDE_DRAFT.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "SMARTSCREEN.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "RELEASE_GATES.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "VALIDATION.md"
+    },
+    {
+      "file": "docs/public/README.md",
+      "target": "notices-20261026/MATCHED_LICENSES.md"
+    },
+    {
+      "file": "docs/public/USER_GUIDE_DRAFT.md",
+      "target": "../releases/d69a025/HUMAN_CHECK.md"
+    },
+    {
+      "file": "docs/public/notices-20261026/MATCHED_LICENSES.md",
+      "target": "THIRD_PARTY_NOTICES_DRAFT.txt"
+    },
+    {
+      "file": "docs/public/notices-20261026/MATCHED_LICENSES.md",
+      "target": "MATCHED_LICENSES.json"
+    },
+    {
+      "file": "docs/public/notices-20261026/MATCHED_LICENSES.md",
+      "target": "unit.log"
+    },
+    {
+      "file": "docs/public/notices-20261026/MATCHED_LICENSES.md",
+      "target": "collect.py"
+    },
+    {
+      "file": "docs/releases/d69a025/USER_GUIDE.md",
+      "target": "../../public/USER_GUIDE_DRAFT.md"
+    }
+  ]
+}

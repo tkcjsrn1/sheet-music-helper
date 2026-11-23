@@ -1,0 +1,143 @@
+{
+  "source_commit": "2fba0372d15954f9f529354709987deba55c80ed",
+  "adoption": "사용자 결정: #217 재적용, D♭ 중복1 감수. 정답 골든 갱신 아님.",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "before_labels": 226,
+      "after_labels": 226,
+      "before_sha256": "08102982ef4fa8de194b585226dd377e296196166e32f3fb4c502c7403e2a5b9",
+      "after_sha256": "39769a7303e4074ab5994075469c05681a23204c3c381a1076d2e4dc2e4efa30",
+      "differences": [],
+      "baseline_updated": false,
+      "baseline_after_sha256": "08102982ef4fa8de194b585226dd377e296196166e32f3fb4c502c7403e2a5b9"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "before_labels": 254,
+      "after_labels": 255,
+      "before_sha256": "0f72051416317ba5845709393a06bc1d0f8b8445174603ec9a92db4fd1059958",
+      "after_sha256": "098c566d3961aeea995eff81dc0fdf8e1eb5a4f544c820719244a89154c33a72",
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            6,
+            2332,
+            2838
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s6-p4-x243",
+              "staff": 6,
+              "x": 2332,
+              "y": 2838,
+              "nx": 121.458,
+              "pitch": "B4",
+              "step": 4,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            2335,
+            2828
+          ],
+          "before": [
+            {
+              "id": "s6-p5-x243",
+              "staff": 6,
+              "x": 2335,
+              "y": 2828,
+              "nx": 121.615,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": "#",
+              "text": "도#",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_candidate",
+                "chord_rescue_added"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p5-x243",
+              "staff": 6,
+              "x": 2335,
+              "y": 2828,
+              "nx": 121.615,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": "#",
+              "text": "도#",
+              "confidence": "caution",
+              "flags": [
+                "vertical_blocked",
+                "chord_rescue_added"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            2352,
+            2850
+          ],
+          "before": [
+            {
+              "id": "s6-p3-x245",
+              "staff": 6,
+              "x": 2352,
+              "y": 2850,
+              "nx": 122.5,
+              "pitch": "A4",
+              "step": 3,
+              "accidental": "b",
+              "text": "라b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p3-x245",
+              "staff": 6,
+              "x": 2352,
+              "y": 2850,
+              "nx": 122.5,
+              "pitch": "A4",
+              "step": 3,
+              "accidental": null,
+              "text": "라b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        }
+      ],
+      "baseline_updated": true,
+      "baseline_after_sha256": "098c566d3961aeea995eff81dc0fdf8e1eb5a4f544c820719244a89154c33a72"
+    }
+  ],
+  "comparison": "JSON 객체 전체를 비교. SHA는 원본 바이트(CRLF/LF 포함)이므로 의미가 같은 파일도 다를 수 있음."
+}

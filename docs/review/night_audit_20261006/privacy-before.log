@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_feedback_bundle.py", line 52, in <module>
+    main()
+    ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_feedback_bundle.py", line 43, in main
+    assert saved == expected, "수정 기록에도 개인 원본 파일명이 남습니다"
+           ^^^^^^^^^^^^^^^^^
+AssertionError: 수정 기록에도 개인 원본 파일명이 남습니다

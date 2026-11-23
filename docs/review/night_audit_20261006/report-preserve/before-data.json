@@ -1,0 +1,23 @@
+[
+  {
+    "target": "source.png",
+    "changed": true,
+    "became_zip": true,
+    "before_sha256": "4fac33a03fe914cf2212c9d33dfbab44d15ff9936567a201c01f06807f4ff4de",
+    "after_sha256": "abdef921573547e3c842889955b118c252ad1c059befc6ee5562c325d3deea55"
+  },
+  {
+    "target": "result.png",
+    "changed": true,
+    "became_zip": true,
+    "before_sha256": "cbfc5435155863342a420a8084d99082646da5508ee635ed2a1af4b53f0f4132",
+    "after_sha256": "abdef921573547e3c842889955b118c252ad1c059befc6ee5562c325d3deea55"
+  },
+  {
+    "target": "labels.json",
+    "changed": true,
+    "became_zip": true,
+    "before_sha256": "98e76be9ad9e4e98bc5b0b4168c96eddc61ce57d82b3d0c0b304bc120f99f515",
+    "after_sha256": "abdef921573547e3c842889955b118c252ad1c059befc6ee5562c325d3deea55"
+  }
+]

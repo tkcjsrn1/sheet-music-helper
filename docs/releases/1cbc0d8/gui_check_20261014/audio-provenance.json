@@ -1,0 +1,12 @@
+{
+  "exe_sha256": "2667ECFADBDDB2ADB50E60166B8510C0BB031B41A8A5417A062968E41CF54BDE",
+  "capture_script_sha256": "f8a6a34376cfe67d251deb0319d88dabb7878e3dff9475bb7a23d06adf1386d3",
+  "analysis_script_sha256": "08c860bc54b1994cd6f1ef700983212b3495ea6c874184325228ff08b4a04dd5",
+  "control_script_sha256": "35bfdd01d89fb10d9623ea28463f4829139c7288836735d114d17511be991761",
+  "pcm_conversion": "float32→PCM16, 원래 48kHz 유지, 증폭/필터/재표본화 없음",
+  "microphone_used": false,
+  "pcm_sha256": {
+    "piano_loopback.wav": "547e894c5dd7404f179f0ad4bbe8692f6e0b872473e0e70bd877984f9403974a",
+    "beep_loopback.wav": "0df72687bd0dcd3be8a39aa25bc76d474a8aeb6a0095b6f4ea9876ac32ec2582"
+  }
+}

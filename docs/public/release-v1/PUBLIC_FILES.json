@@ -1,0 +1,131 @@
+{
+  "source_commit": "65be2abb54e8b232a02d0411852d0b6c65b33902",
+  "status": "prepared-for-review",
+  "copy_source_files": [
+    {
+      "path": "gui.py",
+      "sha256": "19209F4EA1EFE279E9A7DF642D8D4A7905FC4983EF98EBE4FF6657652D6DB534"
+    },
+    {
+      "path": "main.py",
+      "sha256": "171B844923400836329200A60923055E17E0CDAAD3E58F35A3873129FB9A66AF"
+    },
+    {
+      "path": "user_messages.py",
+      "sha256": "FD29CEF2879279CB624496EE5CFFE2EDCB1C216C12F4E31D3EF394B25F7F3720"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "3A58A8840710C206404AD77B466625357A83A9BB02635A35E4BCF3BFE84DEAD0"
+    },
+    {
+      "path": "assets/version_info.txt",
+      "sha256": "81C4174BA676A68B4EE8D1F7ECD7253DB0317839E6630C4CE4F636FE7E261B6D"
+    },
+    {
+      "path": ".gitattributes",
+      "sha256": "AB7CD89D9AD3B0AF286F0F862A212A67077B3B3E3241B01EC09D06DFF29C4AAE"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "351C93B74996DCC608A9A67342EB367D0D00A918297E0CA4E835690401FDEF61"
+    },
+    {
+      "path": "modules/__init__.py",
+      "sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+    },
+    {
+      "path": "modules/accidental_detect.py",
+      "sha256": "58F2AB3E0CDB469372B5CB2466C912469CF3DE937501CB3F8825BC41572BA54D"
+    },
+    {
+      "path": "modules/chord_rescue.py",
+      "sha256": "50BA7263AB428EE3911F5FFE6760445E0B3008AF70D5387DDC2889769AC1EB86"
+    },
+    {
+      "path": "modules/clef_keysig.py",
+      "sha256": "AAE2E73036B8980D1523C148C9CC19BDB55352C85E8E6D96819140205BD0972E"
+    },
+    {
+      "path": "modules/feedback_bundle.py",
+      "sha256": "8FB21DBBD2763BA2F461E084D9EF6F2EF868328400EEA29E2673E26E2ECC09E6"
+    },
+    {
+      "path": "modules/label_audio.py",
+      "sha256": "2E24D128E2197C5F8F6CF4FBE37056259408D5938C018B5045771BBCA596F022"
+    },
+    {
+      "path": "modules/label_edits.py",
+      "sha256": "45E55758C72DD25EDC967015BC37AF1B5707EAF3555B5A15DD79D09F27DD590C"
+    },
+    {
+      "path": "modules/label_region.py",
+      "sha256": "C4774E8A581CCD20C1DA8888B6F07F3D4A091A2F46D558E01B4EC52D658D6317"
+    },
+    {
+      "path": "modules/labels_io.py",
+      "sha256": "EEB9F28F45ECC3EB8393F564D2C57C439583E6ED7B539C61E76098D334B27D0A"
+    },
+    {
+      "path": "modules/note_namer.py",
+      "sha256": "0083594FEA37644BA9EE74F14CA1294909A695E221CC597D1C77BFD05A09C73F"
+    },
+    {
+      "path": "modules/notehead_detect.py",
+      "sha256": "F524A792CC801EEB2478411DEC85B72AC88002B33A5213952266D109F41B59CC"
+    },
+    {
+      "path": "modules/photo_correct.py",
+      "sha256": "215D08809A57D64364705E2487CC9F8BAD5935EBA5D810ADE4A5EF9FCD3119F9"
+    },
+    {
+      "path": "modules/piano_keyboard.py",
+      "sha256": "98C029156628B61CA4ED4E3C0899518B68718D2A272B17E8FF5DDD45503B1671"
+    },
+    {
+      "path": "modules/pitch_calculator.py",
+      "sha256": "61C1331E0C42BC9CAFE077ECA26F04CD6E141A91A9E284C06ACD0710AE1C0522"
+    },
+    {
+      "path": "modules/preprocess.py",
+      "sha256": "8966184C8EC2A22B8BE7508F37B59645F6B03587B68F97A6D5F1894C19D0EF07"
+    },
+    {
+      "path": "modules/renderer.py",
+      "sha256": "3D1F493CABE835A2D14241D45BB75D010DB5F57B2630D92E8D95747BE0EE8B26"
+    },
+    {
+      "path": "modules/result_legend.py",
+      "sha256": "012975007CD3A8D63C8D60E6945F2C2627D0E1A5BC9B40D35F2E5964008E7478"
+    },
+    {
+      "path": "modules/verify.py",
+      "sha256": "DCCDC02896F5FCB04C82A4FABD0D651C63FB9BE89B93F19371154499A862F5B3"
+    }
+  ],
+  "copy_release_documents": {
+    "docs/public/release-v1/README.md": "README.md",
+    "docs/public/release-v1/USER_GUIDE.md": "USER_GUIDE.md",
+    "docs/public/release-v1/ACCURACY.md": "ACCURACY.md",
+    "docs/public/release-v1/SMARTSCREEN.md": "SMARTSCREEN.md",
+    "docs/public/release-v1/RELEASE_NOTES.md": "RELEASE_NOTES.md",
+    "docs/public/release-v1/THIRD_PARTY_NOTICES.txt": "THIRD_PARTY_NOTICES.txt",
+    "docs/public/release-v1/FEEDBACK_FORM.md": "FEEDBACK_FORM.md"
+  },
+  "conditional_source_files": [
+    "build.py",
+    "악보헬퍼.spec",
+    "assets/icon.ico",
+    "assets/icon.png",
+    "assets/make_icon.py"
+  ],
+  "pending_decision_source_files": [
+    "LICENSE"
+  ],
+  "release_attachment_only": [
+    "악보헬퍼.exe",
+    "승인된 ZIP",
+    "build-info.json"
+  ],
+  "default_for_unlisted_paths": "exclude"
+}

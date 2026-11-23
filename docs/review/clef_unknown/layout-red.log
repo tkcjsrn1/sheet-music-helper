@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_result_legend.py", line 138, in <module>
+    main()
+    ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_result_legend.py", line 93, in main
+    assert add_keysig_header(str(combined), labels=both, **dict(opts, first_staff_top=120))
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

@@ -1,0 +1,14 @@
+....F.
+======================================================================
+FAIL: test_recorded_only_does_not_create_new_uncertainty (__main__.ReviewReasonTests.test_recorded_only_does_not_create_new_uncertainty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 69, in test_recorded_only_does_not_create_new_uncertainty
+    self.assertIn('사용자가 추가', added)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '사용자가 추가' not found in '사용자 수정 라벨입니다. 원래 판정: 추가 확인 사유가 기록되지 않았어요.'
+
+----------------------------------------------------------------------
+Ran 6 tests in 2.530s
+
+FAILED (failures=1)

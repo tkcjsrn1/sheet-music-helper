@@ -1,0 +1,19 @@
+{
+  "job": "keyboard",
+  "scope": "screen_only",
+  "passed": true,
+  "full_suite_passed": false,
+  "stages": [
+    {
+      "name": "keyboard-widget",
+      "exit": 0,
+      "seconds": 7.527975399978459
+    }
+  ],
+  "min_available_bytes": 2561548288,
+  "cleanup": {
+    "numlock_before": true,
+    "numlock_after": true,
+    "numlock_restored": true
+  }
+}

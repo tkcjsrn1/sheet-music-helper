@@ -1,0 +1,4 @@
+git diff --name-only 60a8542 38363c9
+WORKLOG.md
+
+제품·테스트·골든·의존성·안내문 차이0. 실제 빌드/Actions 커밋은60a8542, 최신main은38363c9.

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "gui.py",
+    "tested_hash": "D1F2C1D6F587A54C0EC391F97B0665AF647B1402A9704F8ED683C6A849A207EF",
+    "checkout_hash": "A97C74F56444D3594308D23DDB43C1F5E5E51101A8D3EF4D9B50A0BD13C49866",
+    "line_endings_only": true
+  },
+  {
+    "file": "test_gui_reopen_edits.py",
+    "tested_hash": "C2750E3A5F116A2E77691FE1F992F2D094569FD8E8CDF8B4301B3055F03527FF",
+    "checkout_hash": "414D38E6300262A91E9CFE115B4FB68E8444B6A44068B33FC85A0C2F9304CAC5",
+    "line_endings_only": true
+  }
+]

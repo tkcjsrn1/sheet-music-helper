@@ -1,0 +1,17 @@
+{
+  "build_commit": "a9646b4675218402ace5f4adf325105611c5b712",
+  "exe_sha256": "A7671CAF5505F70AEC3E8C2EA92118C6438B554CEE67B340B2679ED226C5339F",
+  "gui_pid": 45664,
+  "boot_pid": 34408,
+  "start_kst": "2026-10-15T04:38:52+09:00",
+  "last_close_kst": "2026-10-15T04:47:55+09:00",
+  "elapsed_seconds": 543,
+  "limit_seconds": 900,
+  "running_exe_count_after": 0,
+  "microphone": false,
+  "piano_capture_count": 1,
+  "control_script_sha256": "e6dba3c123d1faa7a417281602bfd2e649f624363602d42713128ff6882bf3fb",
+  "native_helper_sha256": "a64a37c0b6390a66ab38e3e441cbe130f09ff33f6177ea140948721d37446170",
+  "sine_control": "전날1cbc0d8 실제 사인파 대조 재사용. 이번 동시 대조 녹음 아님",
+  "keyboard_result": "N/P·F1 무반응 관측: 통과 아님. Tk 내부 포커스/주입/제품 원인은 미확정. 입력칸 n 입력은 관측."
+}

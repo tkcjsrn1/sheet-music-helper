@@ -1,0 +1,303 @@
+{
+  "schema": 1,
+  "generator": "악보헬퍼 0.9.0",
+  "source": {
+    "file": "KakaoTalk_20260731_162400402.png",
+    "page": 0,
+    "width": 1640,
+    "height": 2360,
+    "dpi": 300,
+    "sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8"
+  },
+  "music": {
+    "key_symbol": "♯",
+    "key_count": 2,
+    "key_letters": [
+      "F",
+      "C"
+    ],
+    "tonic": "",
+    "minor": false,
+    "notation": "solfege-fixed"
+  },
+  "staves": [
+    {
+      "id": 0,
+      "clef": "treble",
+      "line_ys": [
+        490.0,
+        501.0,
+        512.0,
+        524.0,
+        535.0
+      ],
+      "spacing": 11.3,
+      "top": 490.0,
+      "bottom": 535.0,
+      "bottom_fit": 535.0
+    },
+    {
+      "id": 1,
+      "clef": "bass",
+      "line_ys": [
+        602.0,
+        614.0,
+        625.0,
+        637.0,
+        648.0
+      ],
+      "spacing": 11.5,
+      "top": 602.0,
+      "bottom": 648.0,
+      "bottom_fit": 648.2
+    },
+    {
+      "id": 2,
+      "clef": "treble",
+      "line_ys": [
+        761.0,
+        773.0,
+        785.0,
+        797.0,
+        808.0
+      ],
+      "spacing": 11.8,
+      "top": 761.0,
+      "bottom": 808.0,
+      "bottom_fit": 808.4
+    },
+    {
+      "id": 3,
+      "clef": "bass",
+      "line_ys": [
+        861.0,
+        873.0,
+        884.0,
+        896.0,
+        907.0
+      ],
+      "spacing": 11.5,
+      "top": 861.0,
+      "bottom": 907.0,
+      "bottom_fit": 907.2
+    },
+    {
+      "id": 4,
+      "clef": "treble",
+      "line_ys": [
+        1021.0,
+        1033.0,
+        1044.0,
+        1056.0,
+        1067.0
+      ],
+      "spacing": 11.5,
+      "top": 1021.0,
+      "bottom": 1067.0,
+      "bottom_fit": 1067.2
+    },
+    {
+      "id": 5,
+      "clef": "bass",
+      "line_ys": [
+        1112.0,
+        1124.0,
+        1136.0,
+        1147.0,
+        1159.0
+      ],
+      "spacing": 11.7,
+      "top": 1112.0,
+      "bottom": 1159.0,
+      "bottom_fit": 1159.0
+    },
+    {
+      "id": 6,
+      "clef": "treble",
+      "line_ys": [
+        1272.0,
+        1283.0,
+        1295.0,
+        1306.0,
+        1318.0
+      ],
+      "spacing": 11.5,
+      "top": 1272.0,
+      "bottom": 1318.0,
+      "bottom_fit": 1317.8
+    },
+    {
+      "id": 7,
+      "clef": "bass",
+      "line_ys": [
+        1364.0,
+        1376.0,
+        1387.0,
+        1398.0,
+        1409.0
+      ],
+      "spacing": 11.2,
+      "top": 1364.0,
+      "bottom": 1409.0,
+      "bottom_fit": 1409.2
+    },
+    {
+      "id": 8,
+      "clef": "treble",
+      "line_ys": [
+        1524.0,
+        1535.0,
+        1547.0,
+        1558.0,
+        1569.0
+      ],
+      "spacing": 11.3,
+      "top": 1524.0,
+      "bottom": 1569.0,
+      "bottom_fit": 1569.1999999999998
+    },
+    {
+      "id": 9,
+      "clef": "bass",
+      "line_ys": [
+        1614.0,
+        1626.0,
+        1638.0,
+        1650.0,
+        1662.0
+      ],
+      "spacing": 12.0,
+      "top": 1614.0,
+      "bottom": 1662.0,
+      "bottom_fit": 1662.0
+    },
+    {
+      "id": 10,
+      "clef": "treble",
+      "line_ys": [
+        1774.0,
+        1786.0,
+        1798.0,
+        1809.0,
+        1821.0
+      ],
+      "spacing": 11.7,
+      "top": 1774.0,
+      "bottom": 1821.0,
+      "bottom_fit": 1821.0
+    },
+    {
+      "id": 11,
+      "clef": "bass",
+      "line_ys": [
+        1866.0,
+        1878.0,
+        1889.0,
+        1901.0,
+        1913.0
+      ],
+      "spacing": 11.7,
+      "top": 1866.0,
+      "bottom": 1913.0,
+      "bottom_fit": 1912.8000000000002
+    }
+  ],
+  "labels": [
+    {
+      "id": "s0-p13-x75",
+      "staff": 0,
+      "x": 421,
+      "y": 461,
+      "nx": 37.257,
+      "pitch": "D6",
+      "step": 13,
+      "accidental": null,
+      "text": "레",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s0-p12-x80",
+      "staff": 0,
+      "x": 450,
+      "y": 466,
+      "nx": 39.823,
+      "pitch": "C6",
+      "step": 12,
+      "accidental": null,
+      "text": "도#",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s0-p10-x85",
+      "staff": 0,
+      "x": 480,
+      "y": 478,
+      "nx": 42.478,
+      "pitch": "A5",
+      "step": 10,
+      "accidental": null,
+      "text": "라",
+      "confidence": "certain",
+      "flags": [
+        "off_staff"
+      ],
+      "edited": false
+    },
+    {
+      "id": "s0-p8-x90",
+      "staff": 0,
+      "x": 510,
+      "y": 490,
+      "nx": 45.133,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p8-x95",
+      "staff": 0,
+      "x": 539,
+      "y": 490,
+      "nx": 47.699,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    {
+      "id": "s0-p8-x110",
+      "staff": 0,
+      "x": 624,
+      "y": 490,
+      "nx": 55.221,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파#",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    }
+  ],
+  "selected_region": [
+    410.4293193717278,
+    451.64397905759165,
+    633.6753926701571,
+    499.7277486910995
+  ]
+}

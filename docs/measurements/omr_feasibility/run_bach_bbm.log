@@ -1,0 +1,247 @@
+INFO  []                      Main 259  | Running in batch mode
+INFO  []              TesseractOCR 137  | Creating OCR folder C:\Users\정혁\AppData\Roaming\AudiverisLtd\audiveris\config\tessdata
+WARN  []                 Languages 142  | *** No installed OCR languages ***
+INFO  []             AliasPatterns 146  | Alias patterns: [(IMSLP[0-9]*)-.*]
+INFO  []                      Main 194  | Submitting 2 task(s) in sequence:
+    Input "C:\Users\정혁\Desktop\악보헬퍼\output\omr-compare2\in\bach_p1.png"
+    Input "C:\Users\정혁\Desktop\악보헬퍼\output\omr-compare2\in\chopin_Bbm_p1.png"
+INFO  [bach_p1]                      Book 560  | 1 sheet in C:\Users\정혁\Desktop\악보헬퍼\output\omr-compare2\in\bach_p1.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as output\omr-compare2\out\bach_p1.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [bach_p1]            StepMonitoring 98   | LOAD
+INFO  [bach_p1]                 SheetStub 1278 | Loaded image #1 2481x3508 from C:\Users\정혁\Desktop\악보헬퍼\output\omr-compare2\in\bach_p1.png
+INFO  [bach_p1]                 ImageUtil 152  | Converting max RGB to gray
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | BINARY
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [bach_p1]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | SCALE
+INFO  [bach_p1]              ScaleBuilder 254  | Beam  guessed height: 12 -- 0.25 of [9..20] range
+INFO  [bach_p1]              ScaleBuilder 271  | Beam measured height: 11 -- 0.18 of [9..20] range at 129% of needed quorum
+INFO  [bach_p1]              ScaleBuilder 401  | Normalized black jitter: 4.76 %
+INFO  [bach_p1]                 ScaleStep 65   | Scale{ interline(20,21,21) line(2,3,3) beam(11)}
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | GRID
+INFO  [bach_p1]            LinesRetriever 1508 | Global slope: 0.00000
+INFO  [bach_p1]         ClustersRetriever 326  | Retrieved raw line clusters: 8 of sizes [5] with interline(20,21,21)
+INFO  [bach_p1]                 PeakGraph 310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+INFO  [bach_p1]             SystemManager 134  | Indentation detected for system #1
+INFO  [bach_p1]             SystemManager 800  | 1 part along 4 systems
+INFO  [bach_p1]                      Book 543  | Created scores: [{Score 1}]
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | HEADERS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | STEM_SEEDS
+INFO  [bach_p1]             StemSeedsStep 86   | stem(5 max:5)
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | BEAMS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | LEDGERS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | HEADS
+INFO  [bach_p1]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_BLACK[L:-0.3,R:-0.3]}
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | STEMS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | REDUCTION
+INFO  [bach_p1]             ReductionStep 105  | Stems free length median value: 73 pixels, 3.5 interlines
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | CUE_BEAMS
+INFO  [bach_p1]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | TEXTS
+WARN  [bach_p1]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [bach_p1]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | MEASURES
+INFO  [bach_p1]                      Page 307  | 30 raw measures: [8 in system#1, 8 in system#2, 7 in system#3, 7 in system#4]
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | CHORDS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | CURVES
+INFO  [bach_p1]              SlursBuilder 240  | Slurs: 10
+INFO  [bach_p1]           SegmentsBuilder 155  | Segments: 9
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | SYMBOLS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | LINKS
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5116{(0.797) staff:1 NATURAL pitch:-2.0}
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5088{(0.797) staff:2 NATURAL pitch:-3.0}
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5155{(0.797) staff:3 NATURAL pitch:-1.0}
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5171{(0.796) staff:3 NATURAL pitch:2.0}
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5154{(0.796) staff:4 NATURAL pitch:-2.0}
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5184{(0.797) staff:5 NATURAL pitch:-4.0}
+INFO  [bach_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#5200{(0.137) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=179,y=3266]
+INFO  [bach_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#5265{(0.147) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=2262,y=3266]
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5220{(0.797) staff:7 NATURAL pitch:-4.0}
+INFO  [bach_p1]                  KeyInter 1198 | No effective key before AlterInter#5204{(0.796) staff:8 NATURAL pitch:2.0}
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | RHYTHMS
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]            StepMonitoring 98   | PAGE
+INFO  [bach_p1]                      Book 2565 | Stored /book.xml
+INFO  [bach_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [bach_p1]                 SheetStub 1655 | Sheet disposed
+INFO  [bach_p1]                      Book 2050 | End of Stub#1
+INFO  [bach_p1]                      Book 2057 | End of Book{bach_p1}
+INFO  [bach_p1]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [bach_p1]           PartwiseBuilder 2707 | Exporting sheet(s): [#1]
+INFO  [bach_p1]             ScoreExporter 164  | Score bach_p1 exported to output\omr-compare2\out\bach_p1.mxl
+INFO  [bach_p1]                     Score 181  | Closing {Score 1}
+INFO  [chopin_Bbm_p1]                      Book 560  | 1 sheet in C:\Users\정혁\Desktop\악보헬퍼\output\omr-compare2\in\chopin_Bbm_p1.png
+INFO  []                      Book 2565 | Stored /book.xml
+INFO  []                      Book 2525 | Book stored as output\omr-compare2\out\chopin_Bbm_p1.omr
+INFO  []                      Book 1929 | Book reaching PAGE on sheets:[#1]
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | LOAD
+INFO  [chopin_Bbm_p1]                 SheetStub 1278 | Loaded image #1 2480x3509 from C:\Users\정혁\Desktop\악보헬퍼\output\omr-compare2\in\chopin_Bbm_p1.png
+INFO  [chopin_Bbm_p1]                 ImageUtil 152  | Converting max RGB to gray
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                DataHolder 348  | Stored /sheet#1/GRAY.png
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | BINARY
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                DataHolder 256  | Removed /sheet#1/GRAY.png
+INFO  [chopin_Bbm_p1]                DataHolder 348  | Stored /sheet#1/BINARY.png
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | SCALE
+INFO  [chopin_Bbm_p1]              ScaleBuilder 254  | Beam  guessed height: 11 -- 0.25 of [9..19] range
+INFO  [chopin_Bbm_p1]              ScaleBuilder 271  | Beam measured height: 10 -- 0.10 of [9..19] range at 534% of needed quorum
+INFO  [chopin_Bbm_p1]              ScaleBuilder 401  | Normalized black jitter: 15.00 %
+INFO  [chopin_Bbm_p1]                 ScaleStep 65   | Scale{ interline(19,20,21) line(2,3,5) beam(10)}
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | GRID
+INFO  [chopin_Bbm_p1]            LinesRetriever 1508 | Global slope: 0.00000
+INFO  [chopin_Bbm_p1]         ClustersRetriever 326  | Retrieved raw line clusters: 8 of sizes [5] with interline(19,20,21)
+INFO  [chopin_Bbm_p1]                 PeakGraph 310  | Systems: #1[1, 2] #2[3, 4] #3[5, 6] #4[7, 8]
+INFO  [chopin_Bbm_p1]             SystemManager 134  | Indentation detected for system #1
+INFO  [chopin_Bbm_p1]             SystemManager 800  | 1 part along 4 systems
+INFO  [chopin_Bbm_p1]                      Book 543  | Created scores: [{Score 1}]
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | HEADERS
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | STEM_SEEDS
+INFO  [chopin_Bbm_p1]             StemSeedsStep 86   | stem(4 max:5)
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | BEAMS
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                DataHolder 348  | Stored /sheet#1/HEAD_SPOTS.png
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | LEDGERS
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | HEADS
+INFO  [chopin_Bbm_p1]             HeadSeedTally 235  | Scale information: HeadSeeds{NOTEHEAD_VOID[L:0.0] NOTEHEAD_BLACK[L:-0.3]}
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                DataHolder 256  | Removed /sheet#1/HEAD_SPOTS.png
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | STEMS
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | REDUCTION
+INFO  [chopin_Bbm_p1]             ReductionStep 105  | Stems free length median value: 69 pixels, 3.5 interlines
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | CUE_BEAMS
+INFO  [chopin_Bbm_p1]              CueBeamsStep 81   | Step CUE_BEAMS is skipped because small heads switch is off
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | TEXTS
+WARN  [chopin_Bbm_p1]              TesseractOCR 335  | The collection of supported languages is empty
+INFO  [chopin_Bbm_p1]                   OcrUtil 106  | Missing support for 'eng' language(s)
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | MEASURES
+INFO  [chopin_Bbm_p1]                      Page 307  | 13 raw measures: [3 in system#1, 3 in system#2, 4 in system#3, 3 in system#4]
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | CHORDS
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | CURVES
+INFO  [chopin_Bbm_p1]              SlursBuilder 240  | Slurs: 28
+INFO  [chopin_Bbm_p1]           SegmentsBuilder 155  | Segments: 50
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | SYMBOLS
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | LINKS
+INFO  [chopin_Bbm_p1]             SymbolsLinker 258  | No chord linked to OctaveShiftInter#8279{(0.152) staff:8 QUINDICESIMA BASSA} at java.awt.Point[x=1438,y=3384]
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | RHYTHMS
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#3} Time inconsistency in {7/8=[HeadChordInter#6429{(0.956/0.956) staff:2 slot#9 off:7/8 dur:1/8}], 1=[HeadChordInter#6401{(0.959/0.959) staff:1 slot#9 off:1 dur:3/16}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#3} Time inconsistency in {11/8=[HeadChordInter#6433{(0.951/0.951) staff:2 slot#17 off:11/8 dur:1/8}], 31/16=[HeadChordInter#6408{(0.950/0.950) staff:1 slot#17 off:31/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#3} Voice{#1 excess:11/16} too long
+INFO  [chopin_Bbm_p1]               StackRhythm 224  | S1 MeasureStack#3 no correct rhythm
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#4} Time inconsistency in {1/8=[HeadChordInter#6472{(0.957/0.957) staff:4 slot#3 off:1/8 dur:1/8}], 1/4=[HeadChordInter#6436{(0.957/0.957) staff:3 slot#3 off:1/4 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#4} Time inconsistency in {5/8=[HeadChordInter#6476{(0.954/0.954) staff:4 slot#11 off:5/8 dur:1/8}], 9/8=[HeadChordInter#6443{(0.961/0.961) staff:3 slot#11 off:9/8 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#4} Time inconsistency in {3/2=[HeadChordInter#6478{(0.956/0.956) staff:4 slot#15 off:3/2 dur:1/8}], 13/8=[HeadChordInter#6447{(0.953/0.953) staff:3 slot#15 off:13/8 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#4} Time inconsistency in {2=[HeadChordInter#6482{(0.954/0.954) staff:4 slot#23 off:2 dur:1/8}], 5/2=[HeadChordInter#6454{(0.958/0.958) staff:3 slot#23 off:5/2 dur:1/8}]}
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#4} Voice{#1 excess:5/4} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#4} Voice{#6 excess:5/8} too long
+INFO  [chopin_Bbm_p1]               StackRhythm 224  | S2 MeasureStack#4 no correct rhythm
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#9} Time inconsistency in {9/8=[HeadChordInter#6568{(0.965/0.965) staff:6 slot#10 off:9/8 dur:1/8}], 19/16=[HeadChordInter#6524{(0.910/0.910) staff:5 slot#10 off:19/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#9} Time inconsistency in {5/4=[HeadChordInter#6569{(0.971/0.971) staff:6 slot#11 off:5/4 dur:1/8}], 21/16=[HeadChordInter#6525{(0.953/0.953) staff:5 slot#11 off:21/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#9} Time inconsistency in {11/8=[HeadChordInter#6570{(0.954/0.954) staff:6 slot#12 off:11/8 dur:1/8}], 23/16=[HeadChordInter#6526{(0.948/0.948) staff:5 slot#12 off:23/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#9} Voice{#1 excess:1/16} too long
+INFO  [chopin_Bbm_p1]               StackRhythm 224  | S3 MeasureStack#9 no correct rhythm
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#10} Time inconsistency in {9/8=[HeadChordInter#6532{(0.914/0.914) staff:5 slot#10 off:9/8 dur:1/8}], 19/16=[HeadChordInter#6580{(0.960/0.960) staff:6 slot#10 off:19/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#10} Time inconsistency in {5/4=[HeadChordInter#6533{(0.950/0.950) staff:5 slot#11 off:5/4 dur:1/8}], 21/16=[HeadChordInter#6581{(0.970/0.970) staff:6 slot#11 off:21/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#10} Time inconsistency in {11/8=[HeadChordInter#6534{(0.945/0.945) staff:5 slot#12 off:11/8 dur:1/8}], 23/16=[HeadChordInter#6582{(0.953/0.953) staff:6 slot#12 off:23/16 dur:1/8}]}
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#10} Voice{#5 excess:1/16} too long
+INFO  [chopin_Bbm_p1]               StackRhythm 224  | S3 MeasureStack#10 no correct rhythm
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#11} Time inconsistency in {7/8=[HeadChordInter#6626{(0.956/0.956) staff:8 slot#9 off:7/8 dur:1/8}], 1=[HeadChordInter#6587{(0.958/0.958) staff:7 slot#9 off:1 dur:1/8}]}
+INFO  [chopin_Bbm_p1]             MeasureRhythm 1276 | Measure{#11} Time inconsistency in {11/8=[HeadChordInter#6630{(0.952/0.952) staff:8 slot#17 off:11/8 dur:1/8}], 15/8=[HeadChordInter#6594{(0.950/0.950) staff:7 slot#17 off:15/8 dur:1/8}]}
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#11} Voice{#1 excess:5/8} too long
+INFO  [chopin_Bbm_p1]               StackRhythm 224  | S4 MeasureStack#11 no correct rhythm
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#12} Voice{#4 excess:1/8} too long
+INFO  [chopin_Bbm_p1]               StackRhythm 224  | S4 MeasureStack#12 no correct rhythm
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]            StepMonitoring 98   | PAGE
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#3} Voice{#1 excess:11/16} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#4} Voice{#1 excess:5/4} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#4} Voice{#6 excess:5/8} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#9} Voice{#1 excess:1/16} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#10} Voice{#5 excess:1/16} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#11} Voice{#1 excess:5/8} too long
+INFO  [chopin_Bbm_p1]                     Voice 257  | Measure{#12} Voice{#4 excess:1/8} too long
+INFO  [chopin_Bbm_p1]                      Book 2565 | Stored /book.xml
+INFO  [chopin_Bbm_p1]                     Sheet 1583 | Stored /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]                 SheetStub 1655 | Sheet disposed
+INFO  [chopin_Bbm_p1]                      Book 2050 | End of Stub#1
+INFO  [chopin_Bbm_p1]                      Book 2057 | End of Book{chopin_Bbm_p1}
+INFO  [chopin_Bbm_p1]                 SheetStub 1000 | Loaded /sheet#1/sheet#1.xml
+INFO  [chopin_Bbm_p1]           PartwiseBuilder 2707 | Exporting sheet(s): [#1]
+INFO  [chopin_Bbm_p1]             ScoreExporter 164  | Score chopin_Bbm_p1 exported to output\omr-compare2\out\chopin_Bbm_p1.mxl
+INFO  [chopin_Bbm_p1]                     Score 181  | Closing {Score 1}
+exit=0

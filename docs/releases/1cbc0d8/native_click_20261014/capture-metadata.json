@@ -1,0 +1,79 @@
+{
+  "exe_sha256": "2667ECFADBDDB2ADB50E60166B8510C0BB031B41A8A5417A062968E41CF54BDE",
+  "bootloader_pid": 38924,
+  "gui_pid": 19412,
+  "hwnd": 13700310,
+  "window_rect": [
+    20,
+    20,
+    1238,
+    867
+  ],
+  "next_xy": [
+    1147,
+    97
+  ],
+  "previous_xy": [
+    530,
+    97
+  ],
+  "method": "ctypes user32 SetForegroundWindow/SetCursorPos/SendInput + WindowFromPoint/GetAncestor(GA_ROOT)",
+  "captures": [
+    {
+      "file": "processing.png",
+      "source_sha256": "bbaf25a7ab89e5fab4f17a514ec6ec6b4233cf37d002af89ac4a0b97b61c744f",
+      "capture_utc": "2026-10-14T01:49:40.297057+00:00",
+      "crop": [
+        450,
+        42,
+        1190,
+        112
+      ]
+    },
+    {
+      "file": "complete-before.png",
+      "source_sha256": "285b986445eeddc1df037e7d958d7d86599dd7cac5c098a06a334e34a8a56d5d",
+      "capture_utc": "2026-10-14T01:50:19.072837+00:00",
+      "crop": [
+        450,
+        42,
+        1190,
+        162
+      ]
+    },
+    {
+      "file": "after-next.png",
+      "source_sha256": "a2327c3c97ac631b94dc1e125c9d81dd18b03d1f5bce6e825b4a24dccc60929e",
+      "capture_utc": "2026-10-14T01:50:19.978222+00:00",
+      "crop": [
+        450,
+        42,
+        1190,
+        162
+      ]
+    },
+    {
+      "file": "after-prev.png",
+      "source_sha256": "b6b841863f5b1d28e3718863fb131d13eb4994d022f9c603042bd82a03cbe8b5",
+      "capture_utc": "2026-10-14T01:50:54.681747+00:00",
+      "crop": [
+        450,
+        42,
+        1190,
+        162
+      ]
+    },
+    {
+      "file": "after-next-repeat.png",
+      "source_sha256": "3cb49e919f7c57b930f3fd5c04e124c0c9f5272e0c4425d64bf69b605a886dcb",
+      "capture_utc": "2026-10-14T01:50:55.585973+00:00",
+      "crop": [
+        450,
+        42,
+        1190,
+        162
+      ]
+    }
+  ],
+  "probe_sha256": "fa12a4500170d1a85da6ddc507164819d4f0cd78b465a237902898c4b27d8500"
+}

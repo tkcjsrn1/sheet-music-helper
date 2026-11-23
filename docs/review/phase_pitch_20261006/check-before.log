@@ -1,0 +1,2 @@
+usage: check_header_symbols.py [-h] [--check] [--output-dir OUTPUT_DIR]
+check_header_symbols.py: error: unrecognized arguments: --shift-x 0.5

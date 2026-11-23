@@ -1,0 +1,38 @@
+{
+  "numlock_before": true,
+  "ime_before": 1,
+  "input_scope": "Aoharu p1 + Chopin Db p1 실제 GUI 선택·변환",
+  "launcher_pid": 15988,
+  "gui_pid": 10908,
+  "select_click": {
+    "x": 240,
+    "y": 250,
+    "actual_xy": [
+      240,
+      250
+    ],
+    "expected_root": 5636326,
+    "hit_root": 5636326,
+    "pid": 10908
+  },
+  "convert_click": {
+    "x": 240,
+    "y": 310,
+    "actual_xy": [
+      240,
+      310
+    ],
+    "expected_root": 5636326,
+    "hit_root": 5636326,
+    "pid": 10908
+  },
+  "completed": true,
+  "files": [
+    "F:\\akbo-data\\tmp\\codex-memory-20261023\\gui-retry-output\\app\\output\\chopin_Db_p1_p2_계이름.png",
+    "F:\\akbo-data\\tmp\\codex-memory-20261023\\gui-retry-output\\app\\output\\KakaoTalk_20260731_162400402_p1_계이름.png",
+    "F:\\akbo-data\\tmp\\codex-memory-20261023\\gui-retry-output\\app\\output\\chopin_Db_p1_p2_라벨.json",
+    "F:\\akbo-data\\tmp\\codex-memory-20261023\\gui-retry-output\\app\\output\\KakaoTalk_20260731_162400402_p1_라벨.json"
+  ],
+  "ime_restored": true,
+  "numlock_unchanged": true
+}

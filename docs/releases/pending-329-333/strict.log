@@ -1,0 +1,15 @@
+aoharu_p1 기존 행/문맥 무변경, 가운데 추가 0 2도 분할 추가 0
+aoharu_p2 기존 행/문맥 무변경, 가운데 추가 0 2도 분할 추가 0
+aoharu_p3 기존 행/문맥 무변경, 가운데 추가 0 2도 분할 추가 0
+chopin_Db_p1 기존 행/문맥 무변경, 가운데 추가 0 2도 분할 추가 2
+bach_p1 기존 행/문맥 무변경, 가운데 추가 0 2도 분할 추가 0
+clef_change_clara1 기존 행/문맥 무변경, 가운데 추가 1 2도 분할 추가 0
+alto_beethoven1 기존 행/문맥 무변경, 가운데 추가 0 2도 분할 추가 0
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\check-beta329-additions-only.py", line 41, in <module>
+    row['second_pair_added']=compare(row['second_disabled'],row['actual'],name,'#329')
+                             ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\output\check-beta329-additions-only.py", line 27, in compare
+    assert kept==old['labels'],(case,phase,'기존 행 변경/삭제/순서 변경')
+           ^^^^^^^^^^^^^^^^^^^
+AssertionError: ('schubert_restored', '#329', '기존 행 변경/삭제/순서 변경')

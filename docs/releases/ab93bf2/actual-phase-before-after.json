@@ -1,0 +1,42 @@
+{
+  "case": "Beethoven Bravura x0.5",
+  "old_labels": 227,
+  "new_labels": 227,
+  "unpaired_labels": 0,
+  "context_equal": true,
+  "changes": [
+    {
+      "before": {
+        "id": "s0-p0-x45",
+        "staff": 0,
+        "x": 407,
+        "y": 244,
+        "nx": 22.611,
+        "pitch": "E4",
+        "step": 0,
+        "accidental": null,
+        "text": "미",
+        "confidence": "caution",
+        "flags": [
+          "vertical_blocked",
+          "snap_residual"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s0-p1-x45",
+        "staff": 0,
+        "x": 407,
+        "y": 239,
+        "nx": 22.611,
+        "pitch": "F4",
+        "step": 1,
+        "accidental": null,
+        "text": "파",
+        "confidence": "certain",
+        "flags": [],
+        "edited": false
+      }
+    }
+  ]
+}

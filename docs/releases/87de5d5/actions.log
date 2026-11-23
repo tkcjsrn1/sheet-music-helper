@@ -1,0 +1,498 @@
+selftest	UNKNOWN STEP	﻿2026-10-05T23:08:04.0249220Z Current runner version: '2.337.0'
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0280041Z ##[group]Runner Image Provisioner
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0281046Z Hosted Compute Agent
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0281814Z Version: 20260901.588
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0282562Z Commit: f88ec8081b781fac6c440065ac7ff9e710ce3d0b
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0283434Z Build Date: 2026-09-01T19:56:44Z
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0284351Z Worker ID: {6b42827f-2ef4-4883-95f0-d494b6cf04b2}
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0285908Z Azure Region: centralus
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0287049Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0288750Z ##[group]Operating System
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0289498Z Microsoft Windows Server 2025
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0290236Z 10.0.26100
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0290876Z Datacenter
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0291454Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0292085Z ##[group]Runner Image
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0292772Z Image: windows-2025-vs2026
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0293501Z Version: 20260925.250.1
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0295288Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20260925.250/images/windows/Windows2025-VS2026-Readme.md
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0297256Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20260925.250
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0298389Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0299744Z ##[group]GITHUB_TOKEN Permissions
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0302275Z Contents: read
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0302968Z Metadata: read
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0303614Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0306610Z Secret source: Actions
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0307696Z Cache mode: write
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0308519Z Prepare workflow directory
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0845532Z Prepare all required actions
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.0911805Z Getting action download info
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.4481779Z Download action repository 'actions/checkout@v6' (SHA:d23441a48e516b6c34aea4fa41551a30e30af803)
+selftest	UNKNOWN STEP	2026-10-05T23:08:04.6850045Z Download action repository 'actions/setup-python@v6' (SHA:ece7cb06caefa5fff74198d8649806c4678c61a1)
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.0728824Z Complete job name: selftest
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3315375Z ##[group]Run actions/checkout@v6
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3350476Z with:
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3351384Z   repository: tkcjsrn1/sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3383572Z   token: ***
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3384725Z   ssh-strict: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3385871Z   ssh-user: git
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3386622Z   persist-credentials: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3387372Z   clean: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3388112Z   sparse-checkout-cone-mode: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3388978Z   fetch-depth: 1
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3389646Z   fetch-tags: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3390315Z   show-progress: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3390956Z   lfs: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3391608Z   submodules: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3392362Z   set-safe-directory: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3394192Z   allow-unsafe-pr-checkout: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3395973Z env:
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3396719Z   PYTHONIOENCODING: utf-8
+selftest	UNKNOWN STEP	2026-10-05T23:08:05.3397456Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2293889Z Syncing repository: tkcjsrn1/sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2298042Z ##[group]Getting Git version info
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2300130Z Working directory is 'D:\a\sheet-music-helper\sheet-music-helper'
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2303864Z [command]"C:\Program Files\Git\bin\git.exe" version
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2305682Z git version 2.55.0.windows.5
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2310867Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2319574Z Temporarily overriding HOME='D:\a\_temp\679292f5-717e-4aa6-bfa6-b6fc9bf14a2b' before making global git config changes
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2324100Z Adding repository directory to the temporary git global config as a safe directory
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2327869Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\sheet-music-helper\sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2333441Z Deleting the contents of 'D:\a\sheet-music-helper\sheet-music-helper'
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2337057Z ##[group]Determining repository object format
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2339764Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2347135Z ##[group]Initializing the repository
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2349716Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\sheet-music-helper\sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2352936Z Initialized empty Git repository in D:/a/sheet-music-helper/sheet-music-helper/.git/
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2361383Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/tkcjsrn1/sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2367605Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2369997Z ##[group]Disabling automatic garbage collection
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2373063Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2378033Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2382181Z ##[group]Setting up auth
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2384280Z Removing SSH command configuration
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2387580Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+selftest	UNKNOWN STEP	2026-10-05T23:08:08.2396394Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+selftest	UNKNOWN STEP	2026-10-05T23:08:09.7302001Z Removing HTTP extra header
+selftest	UNKNOWN STEP	2026-10-05T23:08:09.7306543Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+selftest	UNKNOWN STEP	2026-10-05T23:08:09.7309821Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+selftest	UNKNOWN STEP	2026-10-05T23:08:09.8989336Z Removing includeIf entries pointing to credentials config files
+selftest	UNKNOWN STEP	2026-10-05T23:08:09.9002431Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+selftest	UNKNOWN STEP	2026-10-05T23:08:09.9450062Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+selftest	UNKNOWN STEP	2026-10-05T23:08:10.9388194Z [command]"C:\Program Files\Git\bin\git.exe" config --file D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.0347630Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.1152583Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.1665254Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.3037854Z [command]"C:\Program Files\Git\bin\git.exe" config --local includeIf.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.3600940Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.3603545Z ##[group]Fetching the repository
+selftest	UNKNOWN STEP	2026-10-05T23:08:11.3605489Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +87de5d51201bf49c313f78ecf34ea48c37847836:refs/remotes/origin/main
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.0472117Z From https://github.com/tkcjsrn1/sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.0473187Z  * [new ref]         87de5d51201bf49c313f78ecf34ea48c37847836 -> origin/main
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.0565817Z [command]"C:\Program Files\Git\bin\git.exe" branch --list --remote origin/main
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.1809753Z   origin/main
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.1885376Z [command]"C:\Program Files\Git\bin\git.exe" rev-parse refs/remotes/origin/main
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.2515857Z 87de5d51201bf49c313f78ecf34ea48c37847836
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.2579863Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.2580720Z ##[group]Determining the checkout info
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.2581529Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.2594333Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.3342063Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.4438970Z ##[group]Checking out the ref
+selftest	UNKNOWN STEP	2026-10-05T23:08:15.4444425Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B main refs/remotes/origin/main
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4196761Z Updating files:  57% (756/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4197510Z Updating files:  58% (766/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4198108Z Updating files:  59% (779/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4198599Z Updating files:  60% (792/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4199033Z Updating files:  61% (805/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4199477Z Updating files:  62% (818/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4199914Z Updating files:  63% (831/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4200365Z Updating files:  64% (845/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4200810Z Updating files:  65% (858/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4201329Z Updating files:  66% (871/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4201762Z Updating files:  67% (884/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4202167Z Updating files:  68% (897/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4210397Z Updating files:  69% (911/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4211003Z Updating files:  70% (924/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.4211448Z Updating files:  71% (937/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.5624788Z Updating files:  72% (950/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.5864826Z Updating files:  73% (963/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.6763344Z Updating files:  74% (977/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.6952256Z Updating files:  74% (979/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.7480913Z Updating files:  75% (990/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.7808462Z Updating files:  76% (1003/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8112714Z Updating files:  77% (1016/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8172375Z Updating files:  78% (1029/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8222038Z Updating files:  79% (1043/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8306489Z Updating files:  80% (1056/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8324886Z Updating files:  81% (1069/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8538185Z Updating files:  82% (1082/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8594885Z Updating files:  83% (1095/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8632913Z Updating files:  84% (1108/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8664614Z Updating files:  85% (1122/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8701351Z Updating files:  86% (1135/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8729699Z Updating files:  87% (1148/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8758322Z Updating files:  88% (1161/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8819704Z Updating files:  89% (1174/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8829194Z Updating files:  90% (1188/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8871662Z Updating files:  91% (1201/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8905934Z Updating files:  92% (1214/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8951609Z Updating files:  93% (1227/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.8987968Z Updating files:  94% (1240/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9022971Z Updating files:  95% (1254/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9057303Z Updating files:  96% (1267/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9162107Z Updating files:  97% (1280/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9184387Z Updating files:  98% (1293/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9186544Z Updating files:  99% (1306/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9187221Z Updating files: 100% (1319/1319)
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9311349Z Updating files: 100% (1319/1319), done.
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9387041Z Switched to a new branch 'main'
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9487235Z branch 'main' set up to track 'origin/main'.
+selftest	UNKNOWN STEP	2026-10-05T23:08:17.9714368Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.2222194Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.4569329Z 87de5d51201bf49c313f78ecf34ea48c37847836
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5617697Z ##[group]Run actions/setup-python@v6
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5618301Z with:
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5618709Z   python-version: 3.14.0
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5619099Z   check-latest: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5623028Z   token: ***
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5623426Z   update-environment: true
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5624151Z   allow-prereleases: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5624543Z   freethreaded: false
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5624884Z env:
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5625188Z   PYTHONIOENCODING: utf-8
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.5625578Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.9065424Z ##[group]Installed versions
+selftest	UNKNOWN STEP	2026-10-05T23:08:18.9122035Z Version 3.14.0 was not found in the local cache
+selftest	UNKNOWN STEP	2026-10-05T23:08:19.8298802Z Version 3.14.0 is available for downloading
+selftest	UNKNOWN STEP	2026-10-05T23:08:19.8301360Z Download from "https://github.com/actions/python-versions/releases/download/3.14.0-18313368925/python-3.14.0-win32-x64.zip"
+selftest	UNKNOWN STEP	2026-10-05T23:08:20.5261911Z Extract downloaded archive
+selftest	UNKNOWN STEP	2026-10-05T23:08:20.6370634Z [command]"C:\Program Files\PowerShell\7\pwsh.exe" -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Unrestricted -Command "$ErrorActionPreference = 'Stop' ; try { Add-Type -AssemblyName System.IO.Compression.ZipFile } catch { } ; try { [System.IO.Compression.ZipFile]::ExtractToDirectory('D:\a\_temp\python-3.14.0-win32-x64.zip', 'D:\a\_temp\ebf99a39-67d4-4462-8476-c9258a4fba3e', $true) } catch { if (($_.Exception.GetType().FullName -eq 'System.Management.Automation.MethodException') -or ($_.Exception.GetType().FullName -eq 'System.Management.Automation.RuntimeException') ){ Expand-Archive -LiteralPath 'D:\a\_temp\python-3.14.0-win32-x64.zip' -DestinationPath 'D:\a\_temp\ebf99a39-67d4-4462-8476-c9258a4fba3e' -Force } else { throw $_ } } ;"
+selftest	UNKNOWN STEP	2026-10-05T23:08:21.5203925Z Execute installation script
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.6491245Z Check if Python hostedtoolcache folder exist...
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.6491753Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.6632480Z Check if current Python version is installed...
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.6790568Z Python3.14 (x64) was found in C:\hostedtoolcache\windows\Python...
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.6791316Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.7113414Z Deleting C:\hostedtoolcache\windows\Python\3.14.7\x64...
+selftest	UNKNOWN STEP	2026-10-05T23:08:24.7114178Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:29.6223816Z VERBOSE: Performing the operation "Remove File" on target "C:\hostedtoolcache\windows\Python\3.14.7\x64.complete".
+selftest	UNKNOWN STEP	2026-10-05T23:08:29.6225074Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:29.6225512Z Remove registry entries for Python 3.14(x64)...
+selftest	UNKNOWN STEP	2026-10-05T23:08:29.6225999Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1561442Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1564087Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\4A74AA6611FA4AE41B603
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1564929Z 2208F1395A2".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1565180Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1571740Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1572819Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\553D36C37EB45E0498DA5
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1573656Z 84FB3930D1F".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1574016Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1592656Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1593721Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\7ED03295AC2617C46B8F8
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1594756Z F2CE6A729D7".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1595067Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1608541Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1609544Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\ABDA378FE12E7494788B2
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1610629Z 8151415BF4F".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1611027Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1626905Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1627992Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\AE0E3349BB6F0F047BF4C
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1633522Z 2733DEB37B0".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1634006Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1652180Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1662304Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\B25B1AB7748DCA342BEE8
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1667858Z 2DF132F9AB9".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1671230Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1672973Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1674209Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\EA3E6CF4BDEDC594E9D45
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1675913Z 61F384D266D".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1677463Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1680082Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1681767Z HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Installer\UserData\S-1-5-18\Products\ED6D42486A04DDE4EAD7E
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1696383Z 8B00D7780F1".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.1697354Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2165650Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2166755Z HKEY_CLASSES_ROOT\Installer\Products\4A74AA6611FA4AE41B6032208F1395A2".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2219987Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2228101Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2229135Z HKEY_CLASSES_ROOT\Installer\Products\553D36C37EB45E0498DA584FB3930D1F".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2348352Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2401996Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2403328Z HKEY_CLASSES_ROOT\Installer\Products\7ED03295AC2617C46B8F8F2CE6A729D7".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2404433Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2577600Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2578585Z HKEY_CLASSES_ROOT\Installer\Products\ABDA378FE12E7494788B28151415BF4F".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2579356Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2613835Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2615439Z HKEY_CLASSES_ROOT\Installer\Products\AE0E3349BB6F0F047BF4C2733DEB37B0".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2616608Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2652234Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2653617Z HKEY_CLASSES_ROOT\Installer\Products\B25B1AB7748DCA342BEE82DF132F9AB9".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2654676Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2892650Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2894371Z HKEY_CLASSES_ROOT\Installer\Products\EA3E6CF4BDEDC594E9D4561F384D266D".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2895389Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2931499Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2932965Z HKEY_CLASSES_ROOT\Installer\Products\ED6D42486A04DDE4EAD7E8B00D7780F1".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.2934038Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3089791Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3091016Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\Miniconda3 py314_26.7.1-1 (Python 3.14.7 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3091997Z 64-bit)".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3092394Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3241369Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3242345Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{3C63D355-4BE7-40E5-89AD-85F43B39D0F1}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3247375Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3307565Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3308738Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{4FC6E3AE-DEDB-495C-9E4D-65F183D462D6}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3316629Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3347927Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3349519Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{59230DE7-62CA-4C71-B6F8-F8C26E7A927D}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3357450Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3395652Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3421092Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{66AA47A4-AF11-4EA4-B106-2302F831592A}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3423741Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3463280Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3464265Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{7BA1B52B-D847-43AC-B2EE-28FD31F2A99B}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3491766Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3492827Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{8424D6DE-40A6-4EDD-AE7D-8E0BD077081F}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3493583Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3529783Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3530790Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{9433E0EA-F6BB-40F0-B74F-2C37D3BE730B}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3531621Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3726563Z VERBOSE: Performing the operation "Remove Key" on target "Item: 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3727386Z HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\Uninstall\{F873ADBA-E21E-4947-87B8-82514151FBF4}".
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.3728076Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.4158800Z Create Python 3.14.0 folder in C:\hostedtoolcache\windows\Python
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.4159538Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.4196631Z Copy Python binaries to C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.4197360Z 
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.4367301Z Install Python 3.14.0 in C:\hostedtoolcache\windows\Python...
+selftest	UNKNOWN STEP	2026-10-05T23:08:30.4367853Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6283776Z Create python3 symlink
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6292527Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6652043Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6653447Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6657591Z Directory: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6658451Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6659540Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6664606Z Mode                 LastWriteTime         Length Name
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6666648Z ----                 -------------         ------ ----
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6674616Z -a---l         10/5/2026  11:09 PM              0 python3.exe
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6683901Z Install and upgrade Pip
+selftest	UNKNOWN STEP	2026-10-05T23:09:02.6684314Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:05.2794496Z Looking in links: c:\Users\RUNNER~1\AppData\Local\Temp\tmp8jrdlz35
+selftest	UNKNOWN STEP	2026-10-05T23:09:05.2800405Z Requirement already satisfied: pip in c:\hostedtoolcache\windows\python\3.14.0\x64\lib\site-packages (25.2)
+selftest	UNKNOWN STEP	2026-10-05T23:09:06.8120307Z Collecting pip
+selftest	UNKNOWN STEP	2026-10-05T23:09:06.8579542Z Downloading pip-26.2.1-py3-none-any.whl.metadata (4.6 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:06.9065076Z Downloading pip-26.2.1-py3-none-any.whl (1.8 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:06.9957350Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:06.9958542Z ---------------------------------------- 1.8/1.8 MB 28.3 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:06.9959108Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:07.0453427Z Installing collected packages: pip
+selftest	UNKNOWN STEP	2026-10-05T23:09:07.0459242Z Attempting uninstall: pip
+selftest	UNKNOWN STEP	2026-10-05T23:09:07.0484515Z Found existing installation: pip 25.2
+selftest	UNKNOWN STEP	2026-10-05T23:09:07.0974581Z Uninstalling pip-25.2:
+selftest	UNKNOWN STEP	2026-10-05T23:09:07.1121117Z Successfully uninstalled pip-25.2
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.2345265Z Successfully installed pip-26.2.1
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.3759336Z Create complete file
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.3759978Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.3809198Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.3809489Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7235418Z Successfully set up CPython (3.14.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7324221Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7510731Z ##[group]Run python -m pip install opencv-python==5.0.0.93 numpy==2.5.1 scipy==1.18.0 Pillow==12.3.0 customtkinter==6.0.0 pyinstaller==6.21.0 PyMuPDF==1.28.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7511742Z ^[[36;1mpython -m pip install opencv-python==5.0.0.93 numpy==2.5.1 scipy==1.18.0 Pillow==12.3.0 customtkinter==6.0.0 pyinstaller==6.21.0 PyMuPDF==1.28.0^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7645371Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7646178Z env:
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7646463Z   PYTHONIOENCODING: utf-8
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7646825Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7647333Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.14.0\x64/lib/pkgconfig
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7647802Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7648288Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7648801Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:09.7649407Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:09:11.6882465Z Collecting opencv-python==5.0.0.93
+selftest	UNKNOWN STEP	2026-10-05T23:09:11.8690886Z   Downloading opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl.metadata (20 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.1353135Z Collecting numpy==2.5.1
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.1492517Z   Downloading numpy-2.5.1-cp314-cp314-win_amd64.whl.metadata (6.6 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.3206650Z Collecting scipy==1.18.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.3503443Z   Downloading scipy-1.18.0-cp314-cp314-win_amd64.whl.metadata (61 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.6324711Z Collecting Pillow==12.3.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.6456239Z   Downloading pillow-12.3.0-cp314-cp314-win_amd64.whl.metadata (9.3 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.7078808Z Collecting customtkinter==6.0.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.7196577Z   Downloading customtkinter-6.0.0-py3-none-any.whl.metadata (698 bytes)
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.7890865Z Collecting pyinstaller==6.21.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.8024197Z   Downloading pyinstaller-6.21.0-py3-none-win_amd64.whl.metadata (8.5 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.9728652Z Collecting PyMuPDF==1.28.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:12.9865935Z   Downloading pymupdf-1.28.0-cp310-abi3-win_amd64.whl.metadata (26 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.0422627Z Collecting darkdetect (from customtkinter==6.0.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.0539828Z   Downloading darkdetect-0.8.0-py3-none-any.whl.metadata (3.6 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.1059803Z Collecting packaging (from customtkinter==6.0.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.1175126Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.1646350Z Collecting altgraph (from pyinstaller==6.21.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.1758437Z   Downloading altgraph-0.17.5-py2.py3-none-any.whl.metadata (7.5 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.2268702Z Collecting pefile>=2022.5.30 (from pyinstaller==6.21.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.2406717Z   Downloading pefile-2024.8.26-py3-none-any.whl.metadata (1.4 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.2908410Z Collecting pyinstaller-hooks-contrib>=2026.6 (from pyinstaller==6.21.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.3030203Z   Downloading pyinstaller_hooks_contrib-2026.8-py3-none-any.whl.metadata (16 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.3491553Z Collecting pywin32-ctypes>=0.2.1 (from pyinstaller==6.21.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.3608887Z   Downloading pywin32_ctypes-0.2.3-py3-none-any.whl.metadata (3.9 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.4776446Z Collecting setuptools>=42.0.0 (from pyinstaller==6.21.0)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.4899224Z   Downloading setuptools-84.0.0-py3-none-any.whl.metadata (6.6 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:13.5276331Z Downloading opencv_python-5.0.0.93-cp37-abi3-win_amd64.whl (44.0 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:15.1009198Z    ---------------------------------------- 44.0/44.0 MB 28.5 MB/s  0:00:01
+selftest	UNKNOWN STEP	2026-10-05T23:09:15.1514550Z Downloading numpy-2.5.1-cp314-cp314-win_amd64.whl (12.6 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:15.2820441Z    ---------------------------------------- 12.6/12.6 MB 96.7 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:15.2950977Z Downloading scipy-1.18.0-cp314-cp314-win_amd64.whl (37.3 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.2361212Z    ---------------------------------------- 37.3/37.3 MB 39.5 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.2856365Z Downloading pillow-12.3.0-cp314-cp314-win_amd64.whl (7.2 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.3794497Z    ---------------------------------------- 7.2/7.2 MB 76.7 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.3933693Z Downloading customtkinter-6.0.0-py3-none-any.whl (302 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.4233377Z Downloading pyinstaller-6.21.0-py3-none-win_amd64.whl (1.4 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.4511361Z    ---------------------------------------- 1.4/1.4 MB 45.6 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.4641518Z Downloading pymupdf-1.28.0-cp310-abi3-win_amd64.whl (19.8 MB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.6728705Z    ---------------------------------------- 19.8/19.8 MB 95.0 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.6849065Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.7113427Z Downloading pefile-2024.8.26-py3-none-any.whl (74 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.7372298Z Downloading pyinstaller_hooks_contrib-2026.8-py3-none-any.whl (462 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.7688206Z Downloading pywin32_ctypes-0.2.3-py3-none-any.whl (30 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.7956825Z Downloading setuptools-84.0.0-py3-none-any.whl (818 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.8194986Z    ---------------------------------------- 818.2/818.2 kB 26.3 MB/s  0:00:00
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.8307068Z Downloading altgraph-0.17.5-py2.py3-none-any.whl (21 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:16.8576404Z Downloading darkdetect-0.8.0-py3-none-any.whl (9.0 kB)
+selftest	UNKNOWN STEP	2026-10-05T23:09:17.1886858Z Installing collected packages: altgraph, setuptools, pywin32-ctypes, PyMuPDF, Pillow, pefile, packaging, numpy, darkdetect, scipy, pyinstaller-hooks-contrib, opencv-python, customtkinter, pyinstaller
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.2295114Z 
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.2316219Z Successfully installed Pillow-12.3.0 PyMuPDF-1.28.0 altgraph-0.17.5 customtkinter-6.0.0 darkdetect-0.8.0 numpy-2.5.1 opencv-python-5.0.0.93 packaging-26.3 pefile-2024.8.26 pyinstaller-6.21.0 pyinstaller-hooks-contrib-2026.8 pywin32-ctypes-0.2.3 scipy-1.18.0 setuptools-84.0.0
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.4991179Z ##[group]Run python tests/fixtures/beams/build_fixture.py --check
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.4992123Z ^[[36;1mpython tests/fixtures/beams/build_fixture.py --check^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.4992560Z ^[[36;1mif ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.4992986Z ^[[36;1mpython build.py^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5091787Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5092294Z env:
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5092653Z   PYTHONIOENCODING: utf-8
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5093105Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5093675Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.14.0\x64/lib/pkgconfig
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5094194Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5094628Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5095025Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:09:38.5095480Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:09:39.0242238Z 음표 104개 · 빔 묶음 16개 · 소스/PDF 대응 확인
+selftest	UNKNOWN STEP	2026-10-05T23:09:39.6246069Z 원본 spec으로 빌드 중: 87de5d51201b-20261005-230939-623478
+selftest	UNKNOWN STEP	2026-10-05T23:10:21.6635718Z 빌드 후 전체 테스트 실행
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2369921Z   [통과] test_accidentals.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2371119Z   [통과] test_beam_fixture.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2520051Z   [통과] test_beta_changes.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2523235Z   [통과] test_build.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2523778Z   [통과] test_chord_rescue.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2524286Z   [통과] test_chord_wiring.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2524858Z   [통과] test_clef_start.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2525394Z   [통과] test_feedback_bundle.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2525901Z   [통과] test_feedback_intake.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2526418Z   [통과] test_font_sp.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2526944Z   [통과] test_golden_regression.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2527500Z   [통과] test_gui_all_pages.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2528017Z   [통과] test_gui_compact.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2528709Z   [통과] test_gui_label_edits.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2529254Z   [통과] test_gui_page_navigation.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2529879Z   [통과] test_gui_region.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2530684Z   [통과] test_gui_reopen_edits.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2531212Z   [통과] test_gui_snapshot.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2531695Z   [통과] test_header_symbols.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2532274Z   [통과] test_hollow_fixture_resources.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2532907Z   [통과] test_keysig_and_timesig.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2533452Z   [통과] test_keysig_subpixel.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2533985Z   [통과] test_keysig_subpixel_controls.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2534510Z   [통과] test_label_audio.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2535033Z   [통과] test_label_edits.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2535525Z   [통과] test_label_region.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2536002Z   [통과] test_labels_cli.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2536553Z   [통과] test_labels_io.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2537026Z   [통과] test_naturals_real.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2537629Z   [통과] test_notation_options.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2538164Z   [통과] test_photo_correct.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2538665Z   [통과] test_pipeline_advanced.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2539570Z   [통과] test_preprocess.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2540072Z   [통과] test_replay_report.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2540640Z   [통과] test_result_legend.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2541129Z   [통과] test_runner.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2541627Z   [통과] test_unsupported_scores_xfail.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2542189Z   [통과] test_verify_units.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2542686Z   [통과] test_verovio_truth.py
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2543017Z 
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2543427Z 39개 중 통과 39 · 건너뜀 0 · 실패 0
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2543744Z 
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2544544Z 검증 완료: D:\a\sheet-music-helper\sheet-music-helper\dist\87de5d51201b-20261005-230939-623478\악보헬퍼.exe
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2545683Z 커밋 정보: D:\a\sheet-music-helper\sheet-music-helper\dist\87de5d51201b-20261005-230939-623478\build-info.json
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2548041Z 패키지: D:\a\sheet-music-helper\sheet-music-helper\dist\악보헬퍼-87de5d51201b-20261005-230939-623478.zip
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2552386Z SHA-256: FE0488AC7AB8E7F91BC5CF1F8958BB43F4769B278552F9E9E23266B3478066E1
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2769134Z ##[group]Run $exe = (Get-ChildItem dist -Recurse -File -Filter '악보헬퍼.exe' | Select-Object -First 1).FullName
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2770782Z ^[[36;1m$exe = (Get-ChildItem dist -Recurse -File -Filter '악보헬퍼.exe' | Select-Object -First 1).FullName^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2771553Z ^[[36;1mif (-not $exe) { throw '빌드된 exe가 없습니다.' }^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2772126Z ^[[36;1m$env:PATH = "$env:SystemRoot\System32;$env:SystemRoot"^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2772938Z ^[[36;1mif (Get-Command python -ErrorAction SilentlyContinue) { throw 'Python이 PATH에 남았습니다.' }^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2773593Z ^[[36;1m$cases = @(^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2774200Z ^[[36;1m  @('aoharu_p1', 'sample_images/KakaoTalk_20260731_162400402.png', 'KakaoTalk_20260731_162400402'),^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2775061Z ^[[36;1m  @('chopin_Db_p1', 'tests/fixtures/selftest/chopin_Db_p1.png', 'chopin_Db_p1')^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2775658Z ^[[36;1m)^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2776027Z ^[[36;1mforeach ($case in $cases) {^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2776688Z ^[[36;1m  $name, $inputFile, $baseName = $case^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2777172Z ^[[36;1m  $out = "output/ci-selftest/$name"^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2778018Z ^[[36;1m  $run = Start-Process -FilePath $exe -ArgumentList @('--selftest', $inputFile, $out) -Wait -PassThru -WindowStyle Hidden^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2778944Z ^[[36;1m  if ($run.ExitCode -ne 0) { throw "$name selftest 종료 코드 $($run.ExitCode)" }^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2779596Z ^[[36;1m  $png = Join-Path $out "${baseName}_계이름.png"^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2780128Z ^[[36;1m  $json = Join-Path $out "${baseName}_라벨.json"^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2780788Z ^[[36;1m  if (-not (Test-Path $png) -or -not (Test-Path $json)) { throw "$name PNG/JSON 누락" }^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2781472Z ^[[36;1m  $baseline = "tests/fixtures/selftest/$name.json"^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2782237Z ^[[36;1m  $actualText = (Get-Content -LiteralPath $json -Raw -Encoding utf8).Replace("`r`n", "`n")^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2783171Z ^[[36;1m  $baselineText = (Get-Content -LiteralPath $baseline -Raw -Encoding utf8).Replace("`r`n", "`n")^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2784072Z ^[[36;1m  if (-not [string]::Equals($actualText, $baselineText, [StringComparison]::Ordinal)) {^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2784945Z ^[[36;1m    throw "$name 라벨 JSON이 현재 selftest 기준과 다릅니다."^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2785427Z ^[[36;1m  }^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2785856Z ^[[36;1m  Write-Output "$name JSON 기준 일치"^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2786309Z ^[[36;1m}^[[0m
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2876701Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2877257Z env:
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2877678Z   PYTHONIOENCODING: utf-8
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2878206Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2878886Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.14.0\x64/lib/pkgconfig
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2879572Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2880192Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2881645Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.14.0\x64
+selftest	UNKNOWN STEP	2026-10-05T23:17:47.2882196Z ##[endgroup]
+selftest	UNKNOWN STEP	2026-10-05T23:18:13.7741172Z aoharu_p1 JSON 기준 일치
+selftest	UNKNOWN STEP	2026-10-05T23:18:30.7324811Z chopin_Db_p1 JSON 기준 일치
+selftest	UNKNOWN STEP	2026-10-05T23:18:30.7865096Z Post job cleanup.
+selftest	UNKNOWN STEP	2026-10-05T23:18:30.9911028Z Post job cleanup.
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.1754449Z [command]"C:\Program Files\Git\bin\git.exe" version
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.2137340Z git version 2.55.0.windows.5
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.2298461Z Temporarily overriding HOME='D:\a\_temp\358b20a1-9b9c-4784-8e98-f58d798106de' before making global git config changes
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.2299952Z Adding repository directory to the temporary git global config as a safe directory
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.2312311Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\sheet-music-helper\sheet-music-helper
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.2666455Z Removing SSH command configuration
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.2688037Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.3207062Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.9601558Z Removing HTTP extra header
+selftest	UNKNOWN STEP	2026-10-05T23:18:31.9613362Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.0082301Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5006390Z Removing includeIf entries pointing to credentials config files
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5019681Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5269630Z includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5272925Z includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5275521Z includeif.gitdir:/github/workspace/.git.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5296008Z includeif.gitdir:/github/workspace/.git/worktrees/*.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5460495Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5640800Z D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5693810Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git.path D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.5974153Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.6216668Z D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.6259939Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:D:/a/sheet-music-helper/sheet-music-helper/.git/worktrees/*.path D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.6532808Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.6768535Z /github/runner_temp/git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.6810976Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git.path /github/runner_temp/git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.7099746Z [command]"C:\Program Files\Git\bin\git.exe" config --local --get-all includeif.gitdir:/github/workspace/.git/worktrees/*.path
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.7326163Z /github/runner_temp/git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.7375285Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset includeif.gitdir:/github/workspace/.git/worktrees/*.path /github/runner_temp/git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config
+selftest	UNKNOWN STEP	2026-10-05T23:18:32.7646286Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+selftest	UNKNOWN STEP	2026-10-05T23:18:33.3100186Z Removing credentials config 'D:\a\_temp\git-credentials-f38e59bd-9da0-49f2-a1bb-9f148868d524.config'
+selftest	UNKNOWN STEP	2026-10-05T23:18:33.3314545Z Cleaning up orphan processes

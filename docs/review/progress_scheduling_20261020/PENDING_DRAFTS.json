@@ -1,0 +1,107 @@
+[
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "gui.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\gui.py",
+    "sha256": "f141221fe721f0e2109610192e1be22bd8a7db5ebe9cc481525e6df7e92498f5",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "modules/label_audio.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\modules\\label_audio.py",
+    "sha256": "8b9954c720f0539eefd32cdeab6bf354bc74fbb8e332f85643312f910123e9c0",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "modules/piano_keyboard.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\modules\\piano_keyboard.py",
+    "sha256": "d8c698d4e3f520df848f8b9f0d3b52845735c691ec2d2d6ebadedc25ded1f686",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "tests/test_audio_plan.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\tests\\test_audio_plan.py",
+    "sha256": "b68bec665ffccf0b870d5a9673cfec3b77acb9eacc9616ee464a4e71bcf69382",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "tests/test_piano_state.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\tests\\test_piano_state.py",
+    "sha256": "522bbb87bbcbf06728f21644cdbc095a3dc83104b3133828631a8b76ce4262a5",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "tests/test_gui_piano_events.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\tests\\test_gui_piano_events.py",
+    "sha256": "10f5a890c9dae220e683925e3d0c26e0102b9d2eb006d10faaf3c8a90dfbac47",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "tests/test_gui_piano_widget.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\tests\\test_gui_piano_widget.py",
+    "sha256": "588d2fc17ea481d584ded5898b2e50155a3617357ddb625468dc1721c26c8428",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "tests/test_gui_label_edits.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\tests\\test_gui_label_edits.py",
+    "sha256": "004f295c131532dd7935dae032a597bd791626fb45bf46eadf5d5397823e1105",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-keyboard-20261020",
+    "path": "tests/test_gui_input_folder.py",
+    "backup": "F:\\sheet-music-helper-keyboard-20261020\\output\\night-20261020\\pending-final\\tests\\test_gui_input_folder.py",
+    "sha256": "ab29345f4bd66695f28909e35a86d199f803d7de3ec4b5ff6cfe0c04430ed89e",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-placement-lanes-20261019",
+    "path": "gui.py",
+    "backup": "F:\\sheet-music-helper-placement-lanes-20261019\\output\\night-20261020\\pending-final\\gui.py",
+    "sha256": "8cf79a8912648a5d958fc760748b565e1ee0e1e69cdecca6409c54140677fd73",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-placement-lanes-20261019",
+    "path": "modules/renderer.py",
+    "backup": "F:\\sheet-music-helper-placement-lanes-20261019\\output\\night-20261020\\pending-final\\modules\\renderer.py",
+    "sha256": "b9d99518dc08eb476f7bb5b30f78b7f3f0299243abccd6ceb1fd18e60817c7a6",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-placement-lanes-20261019",
+    "path": "tests/test_renderer_label_lanes.py",
+    "backup": "F:\\sheet-music-helper-placement-lanes-20261019\\output\\night-20261020\\pending-final\\tests\\test_renderer_label_lanes.py",
+    "sha256": "51c3bc9419edbf37d4d4d6acb720081b3a1c9e6957211d94a5be7c6d05b25ff3",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-placement-lanes-20261019",
+    "path": "tests/test_gui_placement_mode.py",
+    "backup": "F:\\sheet-music-helper-placement-lanes-20261019\\output\\night-20261020\\pending-final\\tests\\test_gui_placement_mode.py",
+    "sha256": "cbc60d69f9787d5eec262670e819568c8507a84ed284b574e4c745fe2ed48179",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-placement-lanes-20261019",
+    "path": "docs/review/label_lanes_20261019/make-preview.py",
+    "backup": "F:\\sheet-music-helper-placement-lanes-20261019\\output\\night-20261020\\pending-final\\docs\\review\\label_lanes_20261019\\make-preview.py",
+    "sha256": "59a6fe24b68299f5d1d47d2d051f4f16f5d5e763f6d36ac19b68a7ed6c64e5a6",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  },
+  {
+    "workspace": "F:\\sheet-music-helper-placement-lanes-20261019",
+    "path": "docs/review/label_lanes_20261019/OPTION_PLAN.md",
+    "backup": "F:\\sheet-music-helper-placement-lanes-20261019\\output\\night-20261020\\pending-final\\docs\\review\\label_lanes_20261019\\OPTION_PLAN.md",
+    "sha256": "03f9e7f4928e0f633fa9253820b079a25f52ed9f0955f4f37cb326228c4bac6f",
+    "status": "미완료·미커밋 초안, 전체/실제 검증 미실행"
+  }
+]

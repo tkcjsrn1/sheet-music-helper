@@ -1,0 +1,32 @@
+{
+  "job": "lanes",
+  "passed": false,
+  "stages": [
+    {
+      "name": "figures",
+      "exit": 0,
+      "seconds": 12.016534200010938
+    },
+    {
+      "name": "placement-settings",
+      "exit": 0,
+      "seconds": 6.02180670000962
+    },
+    {
+      "name": "default-bytes",
+      "exit": 0,
+      "seconds": 40.03058750000491
+    },
+    {
+      "name": "run-all",
+      "exit": 1,
+      "seconds": 872.6583051999914
+    }
+  ],
+  "min_available_bytes": 1718571008,
+  "cleanup": {
+    "numlock_before": false,
+    "numlock_after": false,
+    "numlock_restored": true
+  }
+}

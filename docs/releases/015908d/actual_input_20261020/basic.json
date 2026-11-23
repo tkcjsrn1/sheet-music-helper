@@ -1,0 +1,30 @@
+{
+  "root": {
+    "hwnd": 4588944,
+    "title": "악보헬퍼 - 계이름 자동 표기",
+    "pid": 332,
+    "rect": [
+      96,
+      96,
+      1552,
+      1093
+    ],
+    "cls": "TkTopLevel",
+    "visible": true
+  },
+  "help_window": {
+    "hwnd": 593110,
+    "title": "단축키 도움말",
+    "pid": 332,
+    "rect": [
+      128,
+      128,
+      721,
+      525
+    ],
+    "cls": "TkTopLevel",
+    "visible": true
+  },
+  "actual_input": true,
+  "visual_confirmation_pending": true
+}

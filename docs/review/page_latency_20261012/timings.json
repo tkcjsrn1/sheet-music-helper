@@ -1,0 +1,1292 @@
+{
+  "inputs": [
+    {
+      "name": "KakaoTalk_20260731_162400402.png",
+      "sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8"
+    },
+    {
+      "name": "beethoven_op18no1_bravura_p1.png",
+      "sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46"
+    }
+  ],
+  "timed": {
+    "summary": {
+      "page_count": 2,
+      "switches": [
+        {
+          "index": 1,
+          "accepted": true,
+          "actual_index": 1,
+          "seconds": 0.22343780001392588
+        },
+        {
+          "index": 0,
+          "accepted": true,
+          "actual_index": 0,
+          "seconds": 0.18480129999807104
+        },
+        {
+          "index": 1,
+          "accepted": true,
+          "actual_index": 1,
+          "seconds": 0.21908409998286515
+        }
+      ],
+      "pending_disabled_seen": true,
+      "elapsed": 22.109257799980696
+    },
+    "events": [
+      {
+        "stage": "ui_draw",
+        "seconds": 0.04425989999435842,
+        "page": 0,
+        "thread": "UI",
+        "at": 1.728860999981407
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.10782879998441786,
+        "page": 0,
+        "thread": "worker",
+        "at": 1.8633047999464907
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.10788790002698079,
+        "page": 0,
+        "thread": "UI",
+        "at": 1.8633591999532655,
+        "callback": "<lambda>"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.006838100031018257,
+        "page": 0,
+        "thread": "worker",
+        "at": 1.8701702999533154
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.007006400031968951,
+        "page": 1,
+        "thread": "UI",
+        "at": 1.8703364999964833,
+        "callback": "_append"
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.003213800024241209,
+        "page": 1,
+        "thread": "UI",
+        "at": 1.8738242999534123,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0033825000282377005,
+        "page": 1,
+        "thread": "worker",
+        "at": 1.8739940999657847
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.0032952000037766993,
+        "page": 1,
+        "thread": "UI",
+        "at": 1.877302399952896,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0033389999880455434,
+        "page": 1,
+        "thread": "worker",
+        "at": 1.877344299980905
+      },
+      {
+        "stage": "load",
+        "seconds": 0.04235719999996945,
+        "page": 1,
+        "thread": "worker",
+        "at": 1.9197245999821462
+      },
+      {
+        "stage": "preprocess_including_load",
+        "seconds": 0.10638090001884848,
+        "page": 1,
+        "thread": "worker",
+        "at": 1.983736299967859
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.002154999994672835,
+        "page": 1,
+        "thread": "UI",
+        "at": 1.9859112999984063,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0021880000131204724,
+        "page": 1,
+        "thread": "worker",
+        "at": 1.9859447999624535
+      },
+      {
+        "stage": "headers",
+        "seconds": 0.14186299999710172,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.127817899978254
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 7.999996887519956e-05,
+        "page": 1,
+        "thread": "UI",
+        "at": 2.1279184999875724,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00012119999155402184,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.1279577999957837
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.010537000023759902,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.1385083999484777
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.010679200000595301,
+        "page": 1,
+        "thread": "UI",
+        "at": 2.13864639995154,
+        "callback": "_append"
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.005399600020609796,
+        "page": 1,
+        "thread": "UI",
+        "at": 2.143932999984827,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.005509000038728118,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.1440372999641113
+      },
+      {
+        "stage": "detect",
+        "seconds": 0.2671017000102438,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.4111518999561667
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.07346559996949509,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.484637399960775
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.19167919998290017,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.67632919998141
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00013230001786723733,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.6764918999979272
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00017200002912431955,
+        "page": 1,
+        "thread": "UI",
+        "at": 2.6765293999924324,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.008711999980732799,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.685218199971132
+      },
+      {
+        "stage": "pitch",
+        "seconds": 0.0003491000388748944,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.6855893999454565
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.009131899976637214,
+        "page": 1,
+        "thread": "UI",
+        "at": 2.685634499997832,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.003079500049352646,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.688680899969768
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.0031272000051103532,
+        "page": 1,
+        "thread": "UI",
+        "at": 2.6887286999844946,
+        "callback": "_append"
+      },
+      {
+        "stage": "accidentals",
+        "seconds": 0.12392400001408532,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.812614399997983
+      },
+      {
+        "stage": "remove_accidental_ghosts",
+        "seconds": 0.0418107999721542,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.8545371999498457
+      },
+      {
+        "stage": "to_solfege_batch",
+        "seconds": 0.00014239997835829854,
+        "page": 1,
+        "thread": "worker",
+        "at": 2.8547008999739774
+      },
+      {
+        "stage": "diagnose_labels",
+        "seconds": 0.27895940002053976,
+        "page": 1,
+        "thread": "worker",
+        "at": 3.1336799999698997
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.06797760003246367,
+        "page": 1,
+        "thread": "worker",
+        "at": 3.504058399994392
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.18840809998800978,
+        "page": 1,
+        "thread": "worker",
+        "at": 3.6924838999984786
+      },
+      {
+        "stage": "unstable_accidentals",
+        "seconds": 0.7082656000275165,
+        "page": 1,
+        "thread": "worker",
+        "at": 3.842030999949202
+      },
+      {
+        "stage": "sloped_beam_suspects",
+        "seconds": 0.225272000010591,
+        "page": 1,
+        "thread": "worker",
+        "at": 4.067472799972165
+      },
+      {
+        "stage": "clef_change_suspects",
+        "seconds": 0.5045085999881849,
+        "page": 1,
+        "thread": "worker",
+        "at": 4.572062199993525
+      },
+      {
+        "stage": "alto_suspects",
+        "seconds": 0.026926999969873577,
+        "page": 1,
+        "thread": "worker",
+        "at": 4.5990720999543555
+      },
+      {
+        "stage": "unknown_clef_suspects",
+        "seconds": 3.0099996365606785e-05,
+        "page": 1,
+        "thread": "worker",
+        "at": 4.599220899981447
+      },
+      {
+        "stage": "clef_glyph_suspects",
+        "seconds": 0.5035482000093907,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.102845899993554
+      },
+      {
+        "stage": "grace_size_suspects",
+        "seconds": 0.04633240000111982,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.1492522999760695
+      },
+      {
+        "stage": "glyph_shape_suspects",
+        "seconds": 0.03557950002141297,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.184922299988102
+      },
+      {
+        "stage": "narrow_hole_suspects",
+        "seconds": 0.036501599999610335,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.221505399968009
+      },
+      {
+        "stage": "beam_gap_suspects",
+        "seconds": 0.04360059997998178,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.265183299954515
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.07644129998516291,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.696773599949665
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.19570639997255057,
+        "page": 1,
+        "thread": "worker",
+        "at": 5.892497099994216
+      },
+      {
+        "stage": "diagnose_labels",
+        "seconds": 0.3125803000293672,
+        "page": 1,
+        "thread": "worker",
+        "at": 6.369670399988536
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.07465770002454519,
+        "page": 1,
+        "thread": "worker",
+        "at": 6.824579699954484
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.22798560000956059,
+        "page": 1,
+        "thread": "worker",
+        "at": 7.052586999954656
+      },
+      {
+        "stage": "sloped_beam_suspects",
+        "seconds": 0.24578070000279695,
+        "page": 1,
+        "thread": "worker",
+        "at": 7.443502099951729
+      },
+      {
+        "stage": "grace_size_suspects",
+        "seconds": 0.049655399983748794,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.688682999985758
+      },
+      {
+        "stage": "glyph_shape_suspects",
+        "seconds": 0.03440539998700842,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.723176499945112
+      },
+      {
+        "stage": "narrow_hole_suspects",
+        "seconds": 0.03134960000170395,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.754600299987942
+      },
+      {
+        "stage": "beam_gap_suspects",
+        "seconds": 0.03585149999707937,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.790541299968027
+      },
+      {
+        "stage": "apply_chord_rescue",
+        "seconds": 3.529915999970399,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.795190199976787
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0015782999689690769,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.79786619998049
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.0021023000008426607,
+        "page": 1,
+        "thread": "UI",
+        "at": 8.798390999960247,
+        "callback": "_append"
+      },
+      {
+        "stage": "render",
+        "seconds": 0.1838747999863699,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.981794199964497
+      },
+      {
+        "stage": "build_document",
+        "seconds": 0.0030704999808222055,
+        "page": 1,
+        "thread": "worker",
+        "at": 8.984946099983063
+      },
+      {
+        "stage": "header_render",
+        "seconds": 0.21057689998997375,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.195637999975588
+      },
+      {
+        "stage": "legend_render",
+        "seconds": 0.22516410000389442,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.420906499959528
+      },
+      {
+        "stage": "save_labels",
+        "seconds": 0.0055100999888964,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.426429599989206
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00018090003868564963,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.56886229995871
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00023030000738799572,
+        "page": 1,
+        "thread": "UI",
+        "at": 9.568909499968868,
+        "callback": "_append"
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.006336599995847791,
+        "page": 1,
+        "thread": "UI",
+        "at": 9.575228000001516,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.006374899996444583,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.575265199993737
+      },
+      {
+        "stage": "page_total",
+        "seconds": 7.7056452999822795,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.575842099962756
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.012431400013156235,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.588294999965001
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.012546800018753856,
+        "page": 1,
+        "thread": "UI",
+        "at": 9.588408499956131,
+        "callback": "<lambda>"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.009571600006893277,
+        "page": 1,
+        "thread": "worker",
+        "at": 9.597905199974775
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.009713099978398532,
+        "page": 2,
+        "thread": "UI",
+        "at": 9.59804659994552,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.008076699974481016,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.606498799985275
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.008283999981358647,
+        "page": 2,
+        "thread": "UI",
+        "at": 9.606697699986398,
+        "callback": "_append"
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.009319500008132309,
+        "page": 2,
+        "thread": "UI",
+        "at": 9.615843199950177,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.009408100042492151,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.615930199972354
+      },
+      {
+        "stage": "load",
+        "seconds": 0.04823479999322444,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.664190699986648
+      },
+      {
+        "stage": "preprocess_including_load",
+        "seconds": 0.12543739995453507,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.741387799964286
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.000685499981045723,
+        "page": 2,
+        "thread": "UI",
+        "at": 9.742100199975539,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.000756800000090152,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.742169399978593
+      },
+      {
+        "stage": "headers",
+        "seconds": 0.25300299999071285,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.99518759996863
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00021579995518550277,
+        "page": 2,
+        "thread": "UI",
+        "at": 9.995440099970438,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0002703999634832144,
+        "page": 2,
+        "thread": "worker",
+        "at": 9.995497299998533
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.008367699978407472,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.003888499981258
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.009773299971129745,
+        "page": 2,
+        "thread": "UI",
+        "at": 10.005294499977026,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.011476199957542121,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.015387899999041
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.01170919998548925,
+        "page": 2,
+        "thread": "UI",
+        "at": 10.01561760000186,
+        "callback": "_append"
+      },
+      {
+        "stage": "detect",
+        "seconds": 0.4352697999565862,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.450677899993025
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.11199449998093769,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.56269859999884
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.07379160000709817,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.636510199983604
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00022660003742203116,
+        "page": 2,
+        "thread": "UI",
+        "at": 10.636757899948861,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00027080002473667264,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.636803000001237
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.01533760002348572,
+        "page": 2,
+        "thread": "UI",
+        "at": 10.652155599964317,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.015367800020612776,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.652187999978196
+      },
+      {
+        "stage": "pitch",
+        "seconds": 0.00031259999377653003,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.65251999994507
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.002677599957678467,
+        "page": 2,
+        "thread": "UI",
+        "at": 10.655206299968995,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0027057999977841973,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.6552362999646
+      },
+      {
+        "stage": "accidentals",
+        "seconds": 0.20457090000854805,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.859821299964096
+      },
+      {
+        "stage": "remove_accidental_ghosts",
+        "seconds": 0.06430920003913343,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.92434589995537
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00022219994571059942,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.924608699977398
+      },
+      {
+        "stage": "to_solfege_batch",
+        "seconds": 0.00015629996778443456,
+        "page": 2,
+        "thread": "worker",
+        "at": 10.924783499969635
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.0004430999979376793,
+        "page": 2,
+        "thread": "UI",
+        "at": 10.924829499970656,
+        "callback": "_append"
+      },
+      {
+        "stage": "diagnose_labels",
+        "seconds": 0.22298709995811805,
+        "page": 2,
+        "thread": "worker",
+        "at": 11.14779069996439
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.11194739997154102,
+        "page": 2,
+        "thread": "worker",
+        "at": 11.76029229996493
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.053499999979976565,
+        "page": 2,
+        "thread": "worker",
+        "at": 11.813837699999567
+      },
+      {
+        "stage": "unstable_accidentals",
+        "seconds": 0.9122824000078253,
+        "page": 2,
+        "thread": "worker",
+        "at": 12.06016539997654
+      },
+      {
+        "stage": "sloped_beam_suspects",
+        "seconds": 0.3603964999783784,
+        "page": 2,
+        "thread": "worker",
+        "at": 12.420799699961208
+      },
+      {
+        "stage": "clef_change_suspects",
+        "seconds": 1.120630599965807,
+        "page": 2,
+        "thread": "worker",
+        "at": 13.54151529999217
+      },
+      {
+        "stage": "alto_suspects",
+        "seconds": 0.054234999988693744,
+        "page": 2,
+        "thread": "worker",
+        "at": 13.595838699955493
+      },
+      {
+        "stage": "unknown_clef_suspects",
+        "seconds": 2.47000134550035e-05,
+        "page": 2,
+        "thread": "worker",
+        "at": 13.596019199991133
+      },
+      {
+        "stage": "clef_glyph_suspects",
+        "seconds": 1.029233800014481,
+        "page": 2,
+        "thread": "worker",
+        "at": 14.625345699954778
+      },
+      {
+        "stage": "grace_size_suspects",
+        "seconds": 0.0759849000023678,
+        "page": 2,
+        "thread": "worker",
+        "at": 14.70144039997831
+      },
+      {
+        "stage": "glyph_shape_suspects",
+        "seconds": 0.0557622000342235,
+        "page": 2,
+        "thread": "worker",
+        "at": 14.757292499998584
+      },
+      {
+        "stage": "narrow_hole_suspects",
+        "seconds": 0.046121299965307117,
+        "page": 2,
+        "thread": "worker",
+        "at": 14.803503099945374
+      },
+      {
+        "stage": "beam_gap_suspects",
+        "seconds": 0.048997199977748096,
+        "page": 2,
+        "thread": "worker",
+        "at": 14.852594899944961
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.11190459999488667,
+        "page": 2,
+        "thread": "worker",
+        "at": 15.563401099992916
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.07994760002475232,
+        "page": 2,
+        "thread": "worker",
+        "at": 15.643368199991528
+      },
+      {
+        "stage": "diagnose_labels",
+        "seconds": 0.19215439999243245,
+        "page": 2,
+        "thread": "worker",
+        "at": 16.099124200001825
+      },
+      {
+        "stage": "drop_beam_ghosts",
+        "seconds": 0.11037690000375733,
+        "page": 2,
+        "thread": "worker",
+        "at": 16.714444599987473
+      },
+      {
+        "stage": "drop_offstaff_ghosts",
+        "seconds": 0.05125889996998012,
+        "page": 2,
+        "thread": "worker",
+        "at": 16.765724999946542
+      },
+      {
+        "stage": "sloped_beam_suspects",
+        "seconds": 0.3267174000502564,
+        "page": 2,
+        "thread": "worker",
+        "at": 17.327626699989196
+      },
+      {
+        "stage": "grace_size_suspects",
+        "seconds": 0.08390339999459684,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.642174799984787
+      },
+      {
+        "stage": "glyph_shape_suspects",
+        "seconds": 0.06517390004592016,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.70746079995297
+      },
+      {
+        "stage": "narrow_hole_suspects",
+        "seconds": 0.04955779999727383,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.75720209995052
+      },
+      {
+        "stage": "beam_gap_suspects",
+        "seconds": 0.05170980002731085,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.809080699982587
+      },
+      {
+        "stage": "apply_chord_rescue",
+        "seconds": 4.960734100022819,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.81340819998877
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00021460000425577164,
+        "page": 2,
+        "thread": "UI",
+        "at": 19.81363979994785,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0002579999854788184,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.813685299945064
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.004726999963168055,
+        "page": 2,
+        "thread": "UI",
+        "at": 19.818987899983767,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.004753899993374944,
+        "page": 2,
+        "thread": "worker",
+        "at": 19.81901429995196
+      },
+      {
+        "stage": "render",
+        "seconds": 0.275779000017792,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.09484589996282
+      },
+      {
+        "stage": "build_document",
+        "seconds": 0.004672400013078004,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.09959349996643
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00015609996626153588,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.099842700001318
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00019569997675716877,
+        "page": 2,
+        "thread": "UI",
+        "at": 20.099882299953606,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.004831199999898672,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.104688099992927
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.004897600039839745,
+        "page": 2,
+        "thread": "UI",
+        "at": 20.104754099971615,
+        "callback": "_append"
+      },
+      {
+        "stage": "header_render",
+        "seconds": 0.3318163999938406,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.436537499947008
+      },
+      {
+        "stage": "legend_render",
+        "seconds": 0.29079539998201653,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.727382499957457
+      },
+      {
+        "stage": "save_labels",
+        "seconds": 0.014117999991867691,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.74151569994865
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.00023210002109408379,
+        "page": 2,
+        "thread": "UI",
+        "at": 20.938726099964697,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0003025000332854688,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.938796999980696
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.004540099995210767,
+        "page": 2,
+        "thread": "UI",
+        "at": 20.94336099998327,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.004646799992769957,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.943466099968646
+      },
+      {
+        "stage": "page_total",
+        "seconds": 11.347240099974442,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.945181799994316
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.008915899961721152,
+        "page": 2,
+        "thread": "worker",
+        "at": 20.954132199985906
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.009127199999056756,
+        "page": 2,
+        "thread": "UI",
+        "at": 20.9543405000004,
+        "callback": "<lambda>"
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.0013821999891661108,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.25300139997853,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.0014298999449238181,
+        "page": 2,
+        "thread": "worker",
+        "at": 21.253047599981073
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.008881199988536537,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.261949499952607,
+        "callback": "_append"
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.008934999990742654,
+        "page": 2,
+        "thread": "worker",
+        "at": 21.26200509996852
+      },
+      {
+        "stage": "thread_schedule_wait",
+        "seconds": 0.00918140000430867,
+        "page": 2,
+        "thread": "worker",
+        "at": 21.271202699979767
+      },
+      {
+        "stage": "worker_total",
+        "seconds": 19.51575530000264,
+        "page": 2,
+        "thread": "worker",
+        "at": 21.27121489995625
+      },
+      {
+        "stage": "ui_queue_wait",
+        "seconds": 0.009260899969376624,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.27128069999162,
+        "callback": "finished"
+      },
+      {
+        "stage": "ui_image_load",
+        "seconds": 0.039807000022847205,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.329045399965253
+      },
+      {
+        "stage": "ui_publish",
+        "seconds": 0.05546539998613298,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.32905119995121
+      },
+      {
+        "stage": "ui_draw",
+        "seconds": 0.0413278000196442,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.37578379997285
+      },
+      {
+        "stage": "ui_fit",
+        "seconds": 0.04656989994691685,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.375788899953477
+      },
+      {
+        "stage": "ui_image_load",
+        "seconds": 0.047337799973320216,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.697096399962902
+      },
+      {
+        "stage": "ui_publish",
+        "seconds": 0.06357280001975596,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.69710039999336
+      },
+      {
+        "stage": "page_switch",
+        "seconds": 0.21776569995563477,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.699685899948236
+      },
+      {
+        "stage": "ui_image_load",
+        "seconds": 0.04052960005355999,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.88219609996304
+      },
+      {
+        "stage": "ui_publish",
+        "seconds": 0.057301699998788536,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.882201899948996
+      },
+      {
+        "stage": "page_switch",
+        "seconds": 0.17859990004217252,
+        "page": 2,
+        "thread": "UI",
+        "at": 21.88397069997154
+      },
+      {
+        "stage": "ui_image_load",
+        "seconds": 0.04120690003037453,
+        "page": 2,
+        "thread": "UI",
+        "at": 22.099522099946626
+      },
+      {
+        "stage": "ui_publish",
+        "seconds": 0.05684070003917441,
+        "page": 2,
+        "thread": "UI",
+        "at": 22.09952799999155
+      },
+      {
+        "stage": "page_switch",
+        "seconds": 0.21163800003705546,
+        "page": 2,
+        "thread": "UI",
+        "at": 22.10180899995612
+      }
+    ]
+  },
+  "control": {
+    "summary": {
+      "page_count": 2,
+      "switches": [
+        {
+          "index": 1,
+          "accepted": true,
+          "actual_index": 1,
+          "seconds": 0.2500702999532223
+        },
+        {
+          "index": 0,
+          "accepted": true,
+          "actual_index": 0,
+          "seconds": 0.1731335999793373
+        },
+        {
+          "index": 1,
+          "accepted": true,
+          "actual_index": 1,
+          "seconds": 0.2142251000041142
+        }
+      ],
+      "pending_disabled_seen": true,
+      "elapsed": 21.96475680003641
+    },
+    "events": []
+  },
+  "default_bytes_equal": [
+    {
+      "file": "beethoven_op18no1_bravura_p1_p2_계이름.png",
+      "sha256": "a75612439f78f47541b9213b30ad3214ba53d5bf249af5ccd84b3a53314d24a8"
+    },
+    {
+      "file": "beethoven_op18no1_bravura_p1_p2_라벨.json",
+      "sha256": "63b86f00fb1164d3c426c6d2de3f7a41a18904d0fab61aa6bacf29402bc20536"
+    },
+    {
+      "file": "KakaoTalk_20260731_162400402_p1_계이름.png",
+      "sha256": "a81c6268bf2391f8d298ec793c09f31e8a3373125b6ad6f5525efdb649c3261d"
+    },
+    {
+      "file": "KakaoTalk_20260731_162400402_p1_라벨.json",
+      "sha256": "aee46e57f697ad39eb2319006fdd43cbd6345c168a6f4b5d8cc25f8e4a699af2"
+    }
+  ]
+}

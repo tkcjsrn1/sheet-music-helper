@@ -1,0 +1,61 @@
+{
+  "baseline_commit": "7fe91c6345b6882dca07046871b79b6e729f6192",
+  "cases": [
+    {
+      "name": "aoharu_p1",
+      "png_sha256": "ef72d3a5247f780d5d10a992b103555eec855bb00bd5cc639aa8eadac9a295be",
+      "json_sha256": "a369aaaf68d1ff742fb014da3dd513bf7b6f92c9a585ae74058625ab92671f16",
+      "png_bytes_changed": false,
+      "json_bytes_changed": false
+    },
+    {
+      "name": "chopin_Db_p1",
+      "png_sha256": "40f502a5806daa58bf3e63088d17404b38bc40bdf653e5b2a8991eaea62a994d",
+      "json_sha256": "1f862c28a501b86525a7f8b9f23d47a75fc345904f3794cf986e1a8895e92464",
+      "png_bytes_changed": false,
+      "json_bytes_changed": false
+    },
+    {
+      "name": "bach_p1",
+      "png_sha256": "ba44ae9fbe06f03313835856fedb8f8f2182b86698f438c2afca15f49a2f38a3",
+      "json_sha256": "ba3ef6cad28b01d3cd4201742b0a7d0eeb02301201c40035a0bd335e5f8b1624",
+      "png_bytes_changed": false,
+      "json_bytes_changed": false
+    }
+  ],
+  "screenshots": [
+    {
+      "name": "01_review_and_editor.png",
+      "width": 1000,
+      "height": 640,
+      "sha256": "6c58cf2f736c74eb236356e4781ea51c0ea3d153a382158c0231c526a0268575"
+    },
+    {
+      "name": "02_second_page.png",
+      "width": 1000,
+      "height": 640,
+      "sha256": "4f9b8b646e8d2e02e83a5bcab5817c3db9694169a4fb65dab51922b7b124bc11"
+    },
+    {
+      "name": "03_region_review.png",
+      "width": 1000,
+      "height": 640,
+      "sha256": "16aedb2fe0e59cfe4346138fc2ee193e09443b92c6ed07317313e121bd1889df"
+    },
+    {
+      "name": "04_duplicate_label.png",
+      "width": 1250,
+      "height": 800,
+      "sha256": "a30584c6096d43dbb69e82d096a65aa213e70dc74c3c2b958a0bd553b8796c92"
+    }
+  ],
+  "integrated_main": "66106b10efb8e6cc26ef13cdbeeca7da221d825b",
+  "integration_product_and_existing_tests_changed": false,
+  "unchanged_pipeline_functions": [
+    "start_convert",
+    "_convert_worker",
+    "_convert_page",
+    "_save_edit_version",
+    "_render_edit_document"
+  ]
+}

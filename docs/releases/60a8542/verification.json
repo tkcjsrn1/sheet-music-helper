@@ -1,0 +1,187 @@
+{
+  "build_commit": "60a8542573317f657eefdb4533c30a89f2be08df",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "labels": 226,
+      "confidence": {
+        "certain": 225,
+        "caution": 1
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 0,
+      "caution_light_pixels": 63,
+      "exe_png": "output\\release-60a8542\\aoharu_p1_exe\\KakaoTalk_20260731_162400402_계이름.png",
+      "exe_json": "output\\release-60a8542\\aoharu_p1_exe\\KakaoTalk_20260731_162400402_라벨.json"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "labels": 254,
+      "confidence": {
+        "certain": 206,
+        "check": 14,
+        "caution": 34
+      },
+      "staves": 8,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 1120,
+      "caution_light_pixels": 4025,
+      "exe_png": "output\\release-60a8542\\chopin_Db_p1_exe\\chopin_Db_p1_계이름.png",
+      "exe_json": "output\\release-60a8542\\chopin_Db_p1_exe\\chopin_Db_p1_라벨.json"
+    },
+    {
+      "case": "bach_p1",
+      "input_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+      "labels": 184,
+      "confidence": {
+        "certain": 171,
+        "check": 12,
+        "caution": 1
+      },
+      "staves": 8,
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 880,
+      "caution_light_pixels": 128,
+      "exe_png": "output\\release-60a8542\\bach_p1_exe\\bach_p1_계이름.png",
+      "exe_json": "output\\release-60a8542\\bach_p1_exe\\bach_p1_라벨.json"
+    },
+    {
+      "case": "clef_change_clara1",
+      "input_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+      "labels": 587,
+      "confidence": {
+        "caution": 65,
+        "certain": 350,
+        "check": 172
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 3,
+        "key_letters": [
+          "B",
+          "E",
+          "A"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 11802,
+      "caution_light_pixels": 4710,
+      "exe_png": "output\\release-60a8542\\clef_change_clara1_exe\\clara_polonaise_1_bravura_p1_계이름.png",
+      "exe_json": "output\\release-60a8542\\clef_change_clara1_exe\\clara_polonaise_1_bravura_p1_라벨.json"
+    },
+    {
+      "case": "alto_beethoven1",
+      "input_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+      "labels": 239,
+      "confidence": {
+        "check": 62,
+        "caution": 8,
+        "certain": 169
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 3971,
+      "caution_light_pixels": 421,
+      "exe_png": "output\\release-60a8542\\alto_beethoven1_exe\\beethoven_op18no1_bravura_p1_계이름.png",
+      "exe_json": "output\\release-60a8542\\alto_beethoven1_exe\\beethoven_op18no1_bravura_p1_라벨.json"
+    }
+  ],
+  "python_removed_from_path": true,
+  "settings_absent_cli_first_run": true,
+  "exe_adjacent_default_output": true,
+  "zip_files": [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.txt",
+    "build-info.json",
+    "먼저 읽어주세요.txt",
+    "악보헬퍼.exe"
+  ],
+  "d3": {
+    "edited_check_draws_as_certain": true,
+    "source_exe_edited_pixels_equal": true,
+    "original_confidence_preserved": true,
+    "target": {
+      "id": "s0-p-3-x176",
+      "staff": 0,
+      "x": 1694,
+      "y": 618,
+      "nx": 87.772,
+      "pitch": "B3",
+      "step": -3,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    }
+  }
+}

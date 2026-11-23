@@ -1,0 +1,19 @@
+{
+  "test_copies": 0,
+  "restored": true,
+  "ime_native": false,
+  "numlock": true,
+  "owned_bootstrap_pid": 30224,
+  "owned_gui_pid": 26172,
+  "verified_at": "2026-10-16T12:06:37Z",
+  "desktop_ime_restore": "사본 내부 복원 뒤 바탕 전면 IME가 1로 돌아와 IMC_SETCONVERSIONMODE(2)로 최초0 복원, 글자/키 입력 없음",
+  "initial": {
+    "action": "baseline",
+    "numlock": true,
+    "native": false,
+    "ime_available": true,
+    "utc": "2026-10-16T12:01:22Z"
+  },
+  "close_requested_at": "2026-10-16T12:05:02Z",
+  "process_exit_observed_before": "2026-10-16T12:05:24Z"
+}

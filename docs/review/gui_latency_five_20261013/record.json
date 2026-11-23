@@ -1,0 +1,17 @@
+{
+  "final": {
+    "raw_sha256": "0e235108adca7a00aa7236a4b2fb1558ca40a238906409fd386ad255ab4e7a0f",
+    "gzip_sha256": "c520fbb6f44c44fec6ad1b4cf202194c64793cabad2d427cb1531fb0dad6777b",
+    "bytes": 12174
+  },
+  "return_only": {
+    "raw_sha256": "a11b605f01de5a47ab1239626a98554d2e337be93e7b3e84142bb33af8a21ba7",
+    "gzip_sha256": "c8b472a8c3e65a012291232a78e5945a8213460a2b939aaecd9664611c98f54f",
+    "bytes": 11974
+  },
+  "source_commit": "5b793aab354954e0c2215084c0e4ad51a6f2a663",
+  "tool_sha256": "dffa2b12ec1e8108d8525d8d859bbb9c4d3db8903edec3fd8482ad331252b395",
+  "executed_script_sha256": "210adf20751371e309238f129f708e85d29e9b4e7736cbfc5e59d9e5969a6ec0",
+  "archived_script_sha256": "29471c97aa0ffd2d9bbf94b5ce28a180ad935a54d6b9c888cbfce7782bd7dad6",
+  "archive_changes": "저장 위치에 맞춘 repository root 부모 단계와 새 output 인자만 조정"
+}

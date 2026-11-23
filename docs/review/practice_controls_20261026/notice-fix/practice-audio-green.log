@@ -1,0 +1,13 @@
+test_bad_duration_list_never_opens_device (__main__.PianoRepeat.test_bad_duration_list_never_opens_device) ... ok
+test_repeat_restarts_indices_and_uses_per_group_time_with_one_device (__main__.PianoRepeat.test_repeat_restarts_indices_and_uses_per_group_time_with_one_device) ... ok
+test_stop_during_repeat_and_callback_failure_always_release_device (__main__.PianoRepeat.test_stop_during_repeat_and_callback_failure_always_release_device) ... ok
+test_boundary_in_chord_keeps_whole_chord_and_original_indices (__main__.PracticePlan.test_boundary_in_chord_keeps_whole_chord_and_original_indices) ... ok
+test_defaults_preserve_original_plan_and_equal_time (__main__.PracticePlan.test_defaults_preserve_original_plan_and_equal_time) ... ok
+test_future_timing_is_independent_from_pitch_and_scaled_after_slicing (__main__.PracticePlan.test_future_timing_is_independent_from_pitch_and_scaled_after_slicing) ... ok
+test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) ... ok
+test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.006s
+
+OK

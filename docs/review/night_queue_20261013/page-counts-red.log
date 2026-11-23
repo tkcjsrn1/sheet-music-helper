@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_counts_follow_page_and_user_edits_without_changing_labels (__main__.PageCountsTests.test_counts_follow_page_and_user_edits_without_changing_labels)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\prepared-test-page-counts-20261013.py", line 20, in test_counts_follow_page_and_user_edits_without_changing_labels
+    self.assertIn('확인 필요 1',app.page_label.options['text']);self.assertIn('주의 1',app.page_label.options['text'])
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '확인 필요 1' not found in '1 / 2 · 一.png · 1쪽'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.001s
+
+FAILED (failures=1)

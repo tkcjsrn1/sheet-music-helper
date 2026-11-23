@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_chord_wiring.py", line 47, in <module>
+    main()
+    ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_chord_wiring.py", line 39, in main
+    assert len(labels) == 254  # 기존 240 + 추가 19 - 가운데 유령 4 - A-25 임시표 글리프 유령 1
+           ^^^^^^^^^^^^^^^^^^
+AssertionError

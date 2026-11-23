@@ -1,0 +1,131 @@
+396 INFO: PyInstaller: 6.21.0, contrib hooks: 2026.6
+397 INFO: Python: 3.14.0
+437 INFO: Platform: Windows-11-10.0.26200-SP0
+437 INFO: Python environment: C:\Users\정혁\Desktop\악보헬퍼\venv
+446 INFO: Removing temporary files and cleaning cache in C:\Users\정혁\AppData\Local\pyinstaller
+1967 INFO: Module search paths (PYTHONPATH):
+['F:\\sheet-music-helper-codex-night-20261004',
+ 'C:\\Python314\\python314.zip',
+ 'C:\\Python314\\DLLs',
+ 'C:\\Python314\\Lib',
+ 'C:\\Python314',
+ 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv',
+ 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages',
+ 'F:\\sheet-music-helper-codex-night-20261004']
+2610 INFO: Appending 'datas' from .spec
+2613 INFO: checking Analysis
+2623 INFO: Building Analysis because Analysis-00.toc is non existent
+2623 INFO: Looking for Python shared library...
+2623 INFO: Using Python shared library: C:\Python314\python314.dll
+2623 INFO: Running Analysis Analysis-00.toc
+2623 INFO: Target bytecode optimization level: 0
+2623 INFO: Initializing module dependency graph...
+2624 INFO: Initializing module graph hook caches...
+2649 INFO: Analyzing modules for base_library.zip ...
+4666 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5314 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5606 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5750 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+5766 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+8736 INFO: Caching module dependency graph...
+8770 INFO: Analyzing F:\sheet-music-helper-codex-night-20261004\gui.py
+8975 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9003 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9032 INFO: Processing standard module hook 'hook-customtkinter.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+9083 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+9088 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+9598 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+9664 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+9671 INFO: SetuptoolsInfo: initializing cached setuptools info...
+10817 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11324 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11501 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+11996 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13077 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+13325 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+14913 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15028 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16701 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+17175 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17284 INFO: Processing standard module hook 'hook-xml.dom.domreg.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17897 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18706 INFO: Processing standard module hook 'hook-cv2.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+19586 INFO: Processing standard module hook 'hook-scipy.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20604 INFO: Processing standard module hook 'hook-pycparser.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+20830 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+20857 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20909 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+20911 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+20925 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21548 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+21552 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21568 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+21570 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+22165 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+22168 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+22944 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+22947 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+24460 INFO: Processing standard module hook 'hook-scipy.linalg.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+24719 INFO: Processing standard module hook 'hook-scipy.special._ufuncs.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28852 INFO: Processing standard module hook 'hook-scipy.spatial._ckdtree.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28987 INFO: Processing standard module hook 'hook-matplotlib.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+30554 INFO: Processing standard module hook 'hook-matplotlib.backend_bases.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+31736 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+31895 INFO: Processing standard module hook 'hook-matplotlib.pyplot.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+33161 INFO: Processing standard module hook 'hook-dateutil.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+33271 INFO: Processing pre-safe-import-module hook 'hook-six.moves.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+36146 INFO: Processing pre-safe-import-module hook 'hook-gi.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+36153 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+36963 INFO: Processing standard module hook 'hook-scipy.spatial.transform.rotation.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+38303 INFO: Processing standard module hook 'hook-scipy.stats._stats.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+39504 INFO: Processing standard module hook 'hook-scipy.sparse.csgraph.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+41912 INFO: Processing standard module hook 'hook-scipy.special._ellip_harm_2.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+43534 INFO: Processing module hooks (post-graph stage)...
+43575 WARNING: Hidden import "pycparser.lextab" not found!
+43575 WARNING: Hidden import "pycparser.yacctab" not found!
+43585 INFO: Processing standard module hook 'hook-matplotlib.backends.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+43587 INFO: Matplotlib backend selection method: automatic discovery of used backends
+44380 INFO: Trying determine the default backend as first importable candidate from the list: ['QtAgg', 'Qt5Agg', 'Gtk4Agg', 'Gtk3Agg', 'TkAgg', 'WxAgg']
+47605 INFO: Selected matplotlib backends: ['TkAgg']
+48111 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48235 WARNING: Hidden import "scipy.special._cdflib" not found!
+48318 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+48343 INFO: Performing binary vs. data reclassification (1203 entries)
+49134 INFO: Looking for ctypes DLLs
+49162 WARNING: Ignoring AppKit.framework/AppKit imported from C:\Users\정혁\Desktop\악보헬퍼\venv\Lib\site-packages\darkdetect\_mac_detect.py - only basenames are supported with ctypes imports!
+49348 INFO: Analyzing run-time hooks ...
+49355 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49362 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49367 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49372 INFO: Including run-time hook 'pyi_rth_mplconfig.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49377 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+49384 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks'
+49402 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49407 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+49465 INFO: Creating base_library.zip...
+49492 INFO: Looking for dynamic libraries
+53656 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\numpy.libs', 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\cv2\\../../x64/vc17/bin', 'C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\scipy.libs']
+53656 INFO: Extra DLL search directories (PATH): ['C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Lib\\site-packages\\cv2\\../../x64/vc17/bin']
+55690 INFO: Warnings written to F:\sheet-music-helper-codex-night-20261004\build\29037e2fe602-20261005-211648-214621\악보헬퍼\warn-악보헬퍼.txt
+55810 INFO: Graph cross-reference written to F:\sheet-music-helper-codex-night-20261004\build\29037e2fe602-20261005-211648-214621\악보헬퍼\xref-악보헬퍼.html
+55892 INFO: checking PYZ
+55892 INFO: Building PYZ because PYZ-00.toc is non existent
+55892 INFO: Building PYZ (ZlibArchive) F:\sheet-music-helper-codex-night-20261004\build\29037e2fe602-20261005-211648-214621\악보헬퍼\PYZ-00.pyz
+56857 INFO: Building PYZ (ZlibArchive) F:\sheet-music-helper-codex-night-20261004\build\29037e2fe602-20261005-211648-214621\악보헬퍼\PYZ-00.pyz completed successfully.
+56938 INFO: checking PKG
+56938 INFO: Building PKG because PKG-00.toc is non existent
+56938 INFO: Building PKG (CArchive) 악보헬퍼.pkg
+69513 INFO: Building PKG (CArchive) 악보헬퍼.pkg completed successfully.
+69534 INFO: Bootloader C:\Users\정혁\Desktop\악보헬퍼\venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+69535 INFO: checking EXE
+69535 INFO: Building EXE because EXE-00.toc is non existent
+69535 INFO: Building EXE from EXE-00.toc
+69535 INFO: Copying bootloader EXE to F:\sheet-music-helper-codex-night-20261004\dist\29037e2fe602-20261005-211648-214621\악보헬퍼.exe
+69594 INFO: Copying icon to EXE
+69636 INFO: Copying version information to EXE
+69679 INFO: Copying 0 resources to EXE
+69679 INFO: Embedding manifest in EXE
+69725 INFO: Appending PKG archive to EXE
+69806 INFO: Fixing EXE headers
+70491 INFO: Building EXE from EXE-00.toc completed successfully.
+70515 INFO: Build complete! The results are available in: F:\sheet-music-helper-codex-night-20261004\dist\29037e2fe602-20261005-211648-214621

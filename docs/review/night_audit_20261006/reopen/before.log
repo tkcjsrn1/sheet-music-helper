@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_edits.py", line 167, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_edits.py", line 114, in main
+    try: load(str(folder),str(source),str(root)); assert False,'손상된 간격 목록으로 열었다'
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 233, in _load_edit_version
+    options['staff_spacings'] = {int(k):float(v) for k,v in options['staff_spacings'].items()}
+                                                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'items'

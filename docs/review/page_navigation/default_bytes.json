@@ -1,0 +1,22 @@
+{
+  "default": [
+    {
+      "input": "KakaoTalk_20260731_162400402.png",
+      "png_bytes_equal": true,
+      "json_bytes_equal": true,
+      "labels": 226
+    },
+    {
+      "input": "chopin_Db_p1.png",
+      "png_bytes_equal": true,
+      "json_bytes_equal": true,
+      "labels": 255
+    }
+  ],
+  "batch_png_json_bytes_equal": true,
+  "batch_label_counts": [
+    226,
+    255
+  ],
+  "second_page_report_source_and_labels_equal": true
+}

@@ -1,0 +1,10 @@
+test_empty_result_always_disables_hidden_navigation (__main__.PageProgressTests.test_empty_result_always_disables_hidden_navigation) ... ok
+test_inputs_all_formats_are_ignored (__main__.PageProgressTests.test_inputs_all_formats_are_ignored) ... ok
+test_processing_is_visibly_disabled_and_shows_current_page (__main__.PageProgressTests.test_processing_is_visibly_disabled_and_shows_current_page) ... ok
+test_real_worker_keeps_pending_page_disabled_then_unlocks (__main__.PageProgressTests.test_real_worker_keeps_pending_page_disabled_then_unlocks) ... ok
+test_thread_start_failure_stops_progress (__main__.PageProgressTests.test_thread_start_failure_stops_progress) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 30.400s
+
+OK

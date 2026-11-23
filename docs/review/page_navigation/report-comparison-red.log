@@ -1,0 +1,7 @@
+{'input': 'KakaoTalk_20260731_162400402.png', 'png_bytes_equal': True, 'json_bytes_equal': True, 'labels': 226}
+{'input': 'chopin_Db_p1.png', 'png_bytes_equal': True, 'json_bytes_equal': True, 'labels': 255}
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\check_page_bytes.py", line 33, in <module>
+    assert json.loads(z.read('labels.json'))==app._edit_session['doc']
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

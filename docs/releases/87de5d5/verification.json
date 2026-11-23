@@ -1,0 +1,427 @@
+{
+  "wrong_input_relabel_rejected": true,
+  "build_commit": "87de5d51201bf49c313f78ecf34ea48c37847836",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "labels": 226,
+      "confidence": {
+        "certain": 225,
+        "caution": 1
+      },
+      "signals": {
+        "off_staff": 116,
+        "snap_residual": 8,
+        "vertical_blocked": 1
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 0,
+      "caution_light_pixels": 63,
+      "exe_png": "output\\release-87de5d5\\aoharu_p1_exe\\KakaoTalk_20260731_162400402_계이름.png",
+      "exe_json": "output\\release-87de5d5\\aoharu_p1_exe\\KakaoTalk_20260731_162400402_라벨.json"
+    },
+    {
+      "case": "aoharu_p2",
+      "input_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+      "labels": 327,
+      "confidence": {
+        "certain": 296,
+        "caution": 28,
+        "check": 3
+      },
+      "signals": {
+        "off_staff": 63,
+        "vertical_blocked": 31,
+        "snap_residual": 17,
+        "weak_side_ink": 3,
+        "glyph_shape": 1
+      },
+      "staves": 14,
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 162,
+      "caution_light_pixels": 1239,
+      "exe_png": "output\\release-87de5d5\\aoharu_p2_exe\\KakaoTalk_20260731_162400402_01_계이름.png",
+      "exe_json": "output\\release-87de5d5\\aoharu_p2_exe\\KakaoTalk_20260731_162400402_01_라벨.json"
+    },
+    {
+      "case": "aoharu_p3",
+      "input_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+      "labels": 158,
+      "confidence": {
+        "caution": 10,
+        "certain": 147,
+        "check": 1
+      },
+      "signals": {
+        "vertical_blocked": 11,
+        "off_staff": 65,
+        "snap_residual": 3,
+        "weak_side_ink": 1
+      },
+      "staves": 8,
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 54,
+      "caution_light_pixels": 454,
+      "exe_png": "output\\release-87de5d5\\aoharu_p3_exe\\KakaoTalk_20260731_162400402_02_계이름.png",
+      "exe_json": "output\\release-87de5d5\\aoharu_p3_exe\\KakaoTalk_20260731_162400402_02_라벨.json"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "labels": 260,
+      "confidence": {
+        "certain": 197,
+        "check": 25,
+        "caution": 38
+      },
+      "signals": {
+        "weak_side_ink": 6,
+        "snap_residual": 28,
+        "off_staff": 116,
+        "beam_sloped": 2,
+        "grace_size": 9,
+        "glyph_shape": 2,
+        "vertical_blocked": 45,
+        "accidental_unstable": 7,
+        "chord_rescue_added": 24,
+        "accidental_candidate": 2
+      },
+      "staves": 8,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 1936,
+      "caution_light_pixels": 4310,
+      "exe_png": "output\\release-87de5d5\\chopin_Db_p1_exe\\chopin_Db_p1_계이름.png",
+      "exe_json": "output\\release-87de5d5\\chopin_Db_p1_exe\\chopin_Db_p1_라벨.json"
+    },
+    {
+      "case": "bach_p1",
+      "input_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+      "labels": 184,
+      "confidence": {
+        "certain": 171,
+        "check": 12,
+        "caution": 1
+      },
+      "signals": {
+        "accidental_unstable": 1,
+        "weak_side_ink": 9,
+        "beam_adjacent": 2,
+        "glyph_shape": 3,
+        "off_staff": 48,
+        "vertical_blocked": 6,
+        "snap_residual": 4
+      },
+      "staves": 8,
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 880,
+      "caution_light_pixels": 128,
+      "exe_png": "output\\release-87de5d5\\bach_p1_exe\\bach_p1_계이름.png",
+      "exe_json": "output\\release-87de5d5\\bach_p1_exe\\bach_p1_라벨.json"
+    },
+    {
+      "case": "clef_change_clara1",
+      "input_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+      "labels": 599,
+      "confidence": {
+        "caution": 67,
+        "certain": 355,
+        "check": 177
+      },
+      "signals": {
+        "vertical_blocked": 174,
+        "off_staff": 227,
+        "clef_glyph": 12,
+        "clef_changed": 149,
+        "accidental_candidate": 13,
+        "accidental_unstable": 76,
+        "weak_side_ink": 12,
+        "snap_residual": 13,
+        "glyph_shape": 17
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 3,
+        "key_letters": [
+          "B",
+          "E",
+          "A"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 12258,
+      "caution_light_pixels": 4855,
+      "exe_png": "output\\release-87de5d5\\clef_change_clara1_exe\\clara_polonaise_1_bravura_p1_계이름.png",
+      "exe_json": "output\\release-87de5d5\\clef_change_clara1_exe\\clara_polonaise_1_bravura_p1_라벨.json"
+    },
+    {
+      "case": "alto_beethoven1",
+      "input_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+      "labels": 223,
+      "confidence": {
+        "caution": 1,
+        "certain": 146,
+        "check": 76
+      },
+      "signals": {
+        "vertical_blocked": 3,
+        "snap_residual": 4,
+        "off_staff": 59,
+        "clef_alto": 49,
+        "glyph_shape": 2,
+        "clef_unknown": 21,
+        "grace_size": 6,
+        "weak_side_ink": 1
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 4866,
+      "caution_light_pixels": 43,
+      "exe_png": "output\\release-87de5d5\\alto_beethoven1_exe\\beethoven_op18no1_bravura_p1_계이름.png",
+      "exe_json": "output\\release-87de5d5\\alto_beethoven1_exe\\beethoven_op18no1_bravura_p1_라벨.json"
+    },
+    {
+      "case": "schubert_restored",
+      "input_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+      "labels": 481,
+      "confidence": {
+        "caution": 160,
+        "certain": 295,
+        "check": 26
+      },
+      "signals": {
+        "vertical_blocked": 169,
+        "off_staff": 149,
+        "glyph_shape": 2,
+        "snap_residual": 25,
+        "beam_adjacent": 3,
+        "weak_side_ink": 5,
+        "accidental_unstable": 14,
+        "beam_sloped": 3,
+        "grace_size": 2,
+        "chord_rescue_added": 1
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 1814,
+      "caution_light_pixels": 9452,
+      "exe_png": "output\\release-87de5d5\\schubert_restored_exe\\schubert_lindenbaum_piano_leipzig_p1_계이름.png",
+      "exe_json": "output\\release-87de5d5\\schubert_restored_exe\\schubert_lindenbaum_piano_leipzig_p1_라벨.json"
+    },
+    {
+      "case": "alto_beethoven_leipzig",
+      "input_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+      "labels": 223,
+      "confidence": {
+        "caution": 1,
+        "certain": 136,
+        "check": 86
+      },
+      "signals": {
+        "vertical_blocked": 2,
+        "snap_residual": 6,
+        "off_staff": 59,
+        "clef_alto": 49,
+        "clef_unknown": 30,
+        "grace_size": 7,
+        "glyph_shape": 2,
+        "weak_side_ink": 1
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 5528,
+      "caution_light_pixels": 43,
+      "exe_png": "output\\release-87de5d5\\alto_beethoven_leipzig_exe\\beethoven_op18no1_leipzig_p1_계이름.png",
+      "exe_json": "output\\release-87de5d5\\alto_beethoven_leipzig_exe\\beethoven_op18no1_leipzig_p1_라벨.json"
+    },
+    {
+      "case": "header_xy0p5",
+      "input_sha256": "f93875a16d0db08a3ed38ad6ef836de71ee23b81c31068e8c7d0559de51a5439",
+      "labels": 222,
+      "confidence": {
+        "certain": 147,
+        "check": 75
+      },
+      "signals": {
+        "off_staff": 59,
+        "clef_alto": 49,
+        "clef_unknown": 17,
+        "weak_side_ink": 4,
+        "grace_size": 8,
+        "snap_residual": 6
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": null,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 4816,
+      "caution_light_pixels": 0,
+      "exe_png": "output\\release-87de5d5\\header_xy0p5_exe\\phase-0.5-0.5_계이름.png",
+      "exe_json": "output\\release-87de5d5\\header_xy0p5_exe\\phase-0.5-0.5_라벨.json"
+    }
+  ],
+  "python_removed_from_path": true,
+  "settings_absent_cli_first_run": true,
+  "exe_adjacent_default_output": true,
+  "zip_files": [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.txt",
+    "build-info.json",
+    "먼저 읽어주세요.txt",
+    "악보헬퍼.exe"
+  ],
+  "d3": {
+    "edited_check_draws_as_certain": true,
+    "source_exe_edited_pixels_equal": true,
+    "original_confidence_preserved": true,
+    "target": {
+      "id": "s0-p-3-x176",
+      "staff": 0,
+      "x": 1694,
+      "y": 618,
+      "nx": 87.772,
+      "pitch": "B3",
+      "step": -3,
+      "accidental": null,
+      "text": "시b",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "snap_residual",
+        "off_staff"
+      ],
+      "edited": false
+    }
+  }
+}

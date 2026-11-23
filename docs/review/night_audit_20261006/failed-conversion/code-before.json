@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BCFFE7AB8E8951B03A48FE7A77F3005B89788F84201391DC0A1E13EE983C1C99",
+    "Path": "F:\\sheet-music-helper-codex-night-20261004\\gui.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "3C98262DC5A3596C5A234D4BE0CFF34B6106883F7D38712C8FF749D0FD95A20B",
+    "Path": "F:\\sheet-music-helper-codex-night-20261004\\tests\\test_gui_snapshot.py"
+  }
+]

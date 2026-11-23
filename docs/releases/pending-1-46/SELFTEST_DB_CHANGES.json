@@ -1,0 +1,216 @@
+{
+ "case": "chopin_Db_p1",
+ "schema": [
+  2,
+  2
+ ],
+ "changed": [
+  {
+   "key": [
+    4,
+    1235,
+    2024
+   ],
+   "before": {
+    "id": "s4-p11-x129",
+    "staff": 4,
+    "x": 1235,
+    "y": 2024,
+    "nx": 64.323,
+    "pitch": "B5",
+    "step": 11,
+    "accidental": "bb",
+    "text": "시bb",
+    "confidence": "check",
+    "flags": [
+     "snap_residual",
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   },
+   "after": {
+    "id": "s4-p11-x129",
+    "staff": 4,
+    "x": 1235,
+    "y": 2024,
+    "nx": 64.323,
+    "pitch": "B5",
+    "step": 11,
+    "accidental": "b",
+    "text": "시b",
+    "confidence": "check",
+    "flags": [
+     "snap_residual",
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   }
+  },
+  {
+   "key": [
+    6,
+    2352,
+    2850
+   ],
+   "before": {
+    "id": "s6-p3-x245",
+    "staff": 6,
+    "x": 2352,
+    "y": 2850,
+    "nx": 122.5,
+    "pitch": "A4",
+    "step": 3,
+    "accidental": "bb",
+    "text": "라bb",
+    "confidence": "check",
+    "flags": [
+     "side_pair",
+     "double_acc"
+    ],
+    "edited": false
+   },
+   "after": {
+    "id": "s6-p3-x245",
+    "staff": 6,
+    "x": 2352,
+    "y": 2850,
+    "nx": 122.5,
+    "pitch": "A4",
+    "step": 3,
+    "accidental": null,
+    "text": "라b",
+    "confidence": "check",
+    "flags": [
+     "side_pair",
+     "double_acc"
+    ],
+    "edited": false
+   }
+  },
+  {
+   "key": [
+    7,
+    1098,
+    2996
+   ],
+   "before": {
+    "id": "s7-p13-x114",
+    "staff": 7,
+    "x": 1098,
+    "y": 2996,
+    "nx": 56.891,
+    "pitch": "F4",
+    "step": 13,
+    "accidental": "##",
+    "text": "파##",
+    "confidence": "check",
+    "flags": [
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   },
+   "after": {
+    "id": "s7-p13-x114",
+    "staff": 7,
+    "x": 1098,
+    "y": 2996,
+    "nx": 56.891,
+    "pitch": "F4",
+    "step": 13,
+    "accidental": null,
+    "text": "파",
+    "confidence": "check",
+    "flags": [
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   }
+  },
+  {
+   "key": [
+    7,
+    1340,
+    2996
+   ],
+   "before": {
+    "id": "s7-p13-x139",
+    "staff": 7,
+    "x": 1340,
+    "y": 2996,
+    "nx": 69.43,
+    "pitch": "F4",
+    "step": 13,
+    "accidental": "##",
+    "text": "파##",
+    "confidence": "check",
+    "flags": [
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   },
+   "after": {
+    "id": "s7-p13-x139",
+    "staff": 7,
+    "x": 1340,
+    "y": 2996,
+    "nx": 69.43,
+    "pitch": "F4",
+    "step": 13,
+    "accidental": null,
+    "text": "파",
+    "confidence": "check",
+    "flags": [
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   }
+  },
+  {
+   "key": [
+    7,
+    1447,
+    2996
+   ],
+   "before": {
+    "id": "s7-p13-x150",
+    "staff": 7,
+    "x": 1447,
+    "y": 2996,
+    "nx": 74.974,
+    "pitch": "F4",
+    "step": 13,
+    "accidental": "##",
+    "text": "파##",
+    "confidence": "check",
+    "flags": [
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   },
+   "after": {
+    "id": "s7-p13-x150",
+    "staff": 7,
+    "x": 1447,
+    "y": 2996,
+    "nx": 74.974,
+    "pitch": "F4",
+    "step": 13,
+    "accidental": null,
+    "text": "파",
+    "confidence": "check",
+    "flags": [
+     "double_acc",
+     "off_staff"
+    ],
+    "edited": false
+   }
+  }
+ ]
+}

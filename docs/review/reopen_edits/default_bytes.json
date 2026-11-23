@@ -1,0 +1,14 @@
+[
+  {
+    "input": "aoharu_p1",
+    "png_bytes_equal": true,
+    "json_bytes_equal": true,
+    "labels": 226
+  },
+  {
+    "input": "chopin_Db_p1",
+    "png_bytes_equal": true,
+    "json_bytes_equal": true,
+    "labels": 255
+  }
+]

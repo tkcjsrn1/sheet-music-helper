@@ -1,0 +1,37 @@
+{
+  "job": "lanes",
+  "passed": false,
+  "stages": [
+    {
+      "name": "figures",
+      "exit": 0,
+      "seconds": 12.016534200010938
+    },
+    {
+      "name": "placement-settings",
+      "exit": 0,
+      "seconds": 6.02180670000962
+    },
+    {
+      "name": "default-bytes",
+      "exit": 0,
+      "seconds": 40.03058750000491
+    },
+    {
+      "name": "labels-cli-fixed",
+      "exit": 0,
+      "seconds": 30.971375699999044
+    },
+    {
+      "name": "default-bytes-lowmem",
+      "exit": 0,
+      "seconds": 44.60649879999983
+    }
+  ],
+  "min_available_bytes": 1592512512,
+  "cleanup": {
+    "numlock_before": false,
+    "numlock_after": false,
+    "numlock_restored": true
+  }
+}

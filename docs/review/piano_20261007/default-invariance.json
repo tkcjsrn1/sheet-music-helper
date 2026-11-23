@@ -1,0 +1,23 @@
+[
+  {
+    "name": "aoharu_p1",
+    "json_bytes_equal": true,
+    "png_bytes_equal": true,
+    "json_sha256": "39769a7303e4074ab5994075469c05681a23204c3c381a1076d2e4dc2e4efa30",
+    "png_sha256": "26daea2b1059f9cc0cddd99678bb2600846eb8af75a83c1d9ea734fb0d4f32b6"
+  },
+  {
+    "name": "chopin_Db_p1",
+    "json_bytes_equal": true,
+    "png_bytes_equal": true,
+    "json_sha256": "bf86f977f128a4d9201f6bd8757d5d6219e8ddc150ba078a55cdb48ed1b1d0d7",
+    "png_sha256": "892bba1f1453702cd0ccf7d9deebd8424601ea25a4c7bd1d00f11fab2c8cf217"
+  },
+  {
+    "name": "bach",
+    "json_bytes_equal": true,
+    "png_bytes_equal": true,
+    "json_sha256": "fc89e9adea4afe874076d110948221354af80df7765a7c73880a646cfb21cc4f",
+    "png_sha256": "675690faef526a0801f40f93484507f4cfa15ab2bf3abcb0dc4f75336995024a"
+  }
+]

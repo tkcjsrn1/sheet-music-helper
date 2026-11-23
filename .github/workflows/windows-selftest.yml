@@ -1,0 +1,65 @@
+name: Clean Windows selftest
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  selftest:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    env:
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14.0'
+      - name: 빌드 의존성 설치
+        shell: pwsh
+        run: |
+          python -m pip install opencv-python==5.0.0.93 numpy==2.5.1 scipy==1.18.0 Pillow==12.3.0 customtkinter==6.0.0 pyinstaller==6.21.0 PyMuPDF==1.28.0
+      - name: 소스에서 exe 빌드
+        shell: pwsh
+        env:
+          PYTHONPATH: ${{ github.workspace }}/docs/review/memory_20261023/runtime
+          PYTHONDONTWRITEBYTECODE: '1'
+          LOW_MEMORY_PROOF: ${{ runner.temp }}/low-memory-workers.jsonl
+          OMP_NUM_THREADS: '1'
+          OPENBLAS_NUM_THREADS: '1'
+          MKL_NUM_THREADS: '1'
+        run: |
+          python tests/fixtures/beams/build_fixture.py --check
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          python build.py
+          if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+          Get-Content -LiteralPath $env:LOW_MEMORY_PROOF
+      - name: Python 없는 PATH에서 exe 자체 점검
+        shell: pwsh
+        run: |
+          $exe = (Get-ChildItem dist -Recurse -File -Filter '악보헬퍼.exe' | Select-Object -First 1).FullName
+          if (-not $exe) { throw '빌드된 exe가 없습니다.' }
+          $env:PATH = "$env:SystemRoot\System32;$env:SystemRoot"
+          if (Get-Command python -ErrorAction SilentlyContinue) { throw 'Python이 PATH에 남았습니다.' }
+          $cases = @(
+            @('aoharu_p1', 'sample_images/KakaoTalk_20260731_162400402.png', 'KakaoTalk_20260731_162400402'),
+            @('chopin_Db_p1', 'tests/fixtures/selftest/chopin_Db_p1.png', 'chopin_Db_p1')
+          )
+          foreach ($case in $cases) {
+            $name, $inputFile, $baseName = $case
+            $out = "output/ci-selftest/$name"
+            $run = Start-Process -FilePath $exe -ArgumentList @('--selftest', $inputFile, $out) -Wait -PassThru -WindowStyle Hidden
+            if ($run.ExitCode -ne 0) { throw "$name selftest 종료 코드 $($run.ExitCode)" }
+            $png = Join-Path $out "${baseName}_계이름.png"
+            $json = Join-Path $out "${baseName}_라벨.json"
+            if (-not (Test-Path $png) -or -not (Test-Path $json)) { throw "$name PNG/JSON 누락" }
+            $baseline = "tests/fixtures/selftest/$name.json"
+            $actualText = (Get-Content -LiteralPath $json -Raw -Encoding utf8).Replace("`r`n", "`n")
+            $baselineText = (Get-Content -LiteralPath $baseline -Raw -Encoding utf8).Replace("`r`n", "`n")
+            if (-not [string]::Equals($actualText, $baselineText, [StringComparison]::Ordinal)) {
+              throw "$name 라벨 JSON이 현재 selftest 기준과 다릅니다."
+            }
+            Write-Output "$name JSON 기준 일치"
+          }

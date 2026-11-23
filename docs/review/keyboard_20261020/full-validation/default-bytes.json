@@ -1,0 +1,20 @@
+[
+  {
+    "case": "aoharu_p1",
+    "png_bytes_equal": true,
+    "json_bytes_equal": true,
+    "input_sha256": "34DAB8064E56796256EA8A11FA89452CB09263C543FFBB353AD7F0ACB4E867F8"
+  },
+  {
+    "case": "chopin_Db_p1",
+    "png_bytes_equal": true,
+    "json_bytes_equal": true,
+    "input_sha256": "85B0792C2CAEE0225664DAF060DA800621291DD65FCA47EB9AEEBF599177FDF2"
+  },
+  {
+    "case": "bach_p1",
+    "png_bytes_equal": true,
+    "json_bytes_equal": true,
+    "input_sha256": "A6897F836EA2EE838358A278E57DF54E4BF2C1D37D6A599378764DDA0ACEC3E0"
+  }
+]

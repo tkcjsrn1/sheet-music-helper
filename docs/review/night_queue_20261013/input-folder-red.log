@@ -1,0 +1,15 @@
+test_saved_invalid_types_and_report_privacy (<run_path>.InputFolderTests.test_saved_invalid_types_and_report_privacy) ... ERROR
+
+======================================================================
+ERROR: test_saved_invalid_types_and_report_privacy (<run_path>.InputFolderTests.test_saved_invalid_types_and_report_privacy)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "output/prepared-test-input-folder-20261013.py", line 47, in test_saved_invalid_types_and_report_privacy
+    self.assertEqual(gui.SheetHelperApp._load_settings(app)['last_input_dir'],'')
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'last_input_dir'
+
+----------------------------------------------------------------------
+Ran 1 test in 0.030s
+
+FAILED (errors=1)

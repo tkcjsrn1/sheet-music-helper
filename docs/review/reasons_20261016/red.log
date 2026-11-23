@@ -1,0 +1,343 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='weak_side_ink')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='beam_adjacent')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='beam_sloped')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='glyph_shape')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='clef_glyph')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='narrow_hole')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='beam_gap')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='text_row')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='vertical_blocked')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='chord_rescue_added')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='chord_middle_added')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='accidental_candidate')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='accidental_unstable')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='clef_changed')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='clef_alto')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='clef_unknown')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='grace_size')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='flat_propagated')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (flag='double_acc')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 40, in test_all_current_grade_signals_have_an_explanation
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (recorded_only='snap_residual')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 45, in test_all_current_grade_signals_have_an_explanation
+    self.assertIn('이유가 기록되지', self.reason(flags=[flag]))
+                                     ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (recorded_only='off_staff')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 45, in test_all_current_grade_signals_have_an_explanation
+    self.assertIn('이유가 기록되지', self.reason(flags=[flag]))
+                                     ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_all_current_grade_signals_have_an_explanation (__main__.ReviewReasonTests.test_all_current_grade_signals_have_an_explanation) (recorded_only='no_ledger')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 45, in test_all_current_grade_signals_have_an_explanation
+    self.assertIn('이유가 기록되지', self.reason(flags=[flag]))
+                                     ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_multiple_reasons_deduplicate_and_leave_document_unchanged (__main__.ReviewReasonTests.test_multiple_reasons_deduplicate_and_leave_document_unchanged)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 49, in test_multiple_reasons_deduplicate_and_leave_document_unchanged
+    self.assertTrue(callable(function))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_recent_signals_explain_observation_without_proving_error (__main__.ReviewReasonTests.test_recent_signals_explain_observation_without_proving_error) (flag='double_acc')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 30, in test_recent_signals_explain_observation_without_proving_error
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_recent_signals_explain_observation_without_proving_error (__main__.ReviewReasonTests.test_recent_signals_explain_observation_without_proving_error) (flag='flat_propagated')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 30, in test_recent_signals_explain_observation_without_proving_error
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_recent_signals_explain_observation_without_proving_error (__main__.ReviewReasonTests.test_recent_signals_explain_observation_without_proving_error) (flag='beam_gap')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 30, in test_recent_signals_explain_observation_without_proving_error
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_recent_signals_explain_observation_without_proving_error (__main__.ReviewReasonTests.test_recent_signals_explain_observation_without_proving_error) (flag='narrow_hole')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 30, in test_recent_signals_explain_observation_without_proving_error
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_recent_signals_explain_observation_without_proving_error (__main__.ReviewReasonTests.test_recent_signals_explain_observation_without_proving_error) (flag='text_row')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 30, in test_recent_signals_explain_observation_without_proving_error
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_recent_signals_explain_observation_without_proving_error (__main__.ReviewReasonTests.test_recent_signals_explain_observation_without_proving_error) (flag='beam_sloped')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 30, in test_recent_signals_explain_observation_without_proving_error
+    text = self.reason(flags=[flag])
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 16, in reason
+    self.assertTrue(callable(function), '선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 선택 라벨의 사람이 읽을 수 있는 사유 안내가 필요하다
+
+======================================================================
+FAIL: test_recorded_only_does_not_create_new_uncertainty (__main__.ReviewReasonTests.test_recorded_only_does_not_create_new_uncertainty)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 60, in test_recorded_only_does_not_create_new_uncertainty
+    self.assertTrue(callable(function))
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true
+
+======================================================================
+FAIL: test_selecting_and_clearing_label_updates_visible_reason (__main__.ReviewReasonTests.test_selecting_and_clearing_label_updates_visible_reason)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_review_reasons.py", line 84, in test_selecting_and_clearing_label_updates_visible_reason
+    self.assertIn('겹임시표', app._edit_reason.text)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: '겹임시표' not found in ''
+
+----------------------------------------------------------------------
+Ran 5 tests in 3.434s
+
+FAILED (failures=31)

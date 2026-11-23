@@ -1,0 +1,86 @@
+[
+  {
+    "case": "bach__lighting_shadow_left",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 182,
+    "new_count": 182
+  },
+  {
+    "case": "bach__noise_focus_blur",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 187,
+    "new_count": 187
+  },
+  {
+    "case": "bach__rotation_0p5deg",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 188,
+    "new_count": 188
+  },
+  {
+    "case": "bach__translate_x0p5_y0p5",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 183,
+    "new_count": 183
+  },
+  {
+    "case": "chopin_Db__lighting_shadow_left",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 230,
+    "new_count": 230
+  },
+  {
+    "case": "chopin_Db__noise_focus_blur",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 245,
+    "new_count": 245
+  },
+  {
+    "case": "chopin_Db__rotation_0p5deg",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 247,
+    "new_count": 247
+  },
+  {
+    "case": "chopin_Db__translate_x0p5_y0p5",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 237,
+    "new_count": 237
+  },
+  {
+    "case": "F_flat1__lighting_shadow_left",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 166,
+    "new_count": 166
+  },
+  {
+    "case": "F_flat1__noise_focus_blur",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 167,
+    "new_count": 167
+  },
+  {
+    "case": "F_flat1__rotation_0p5deg",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 169,
+    "new_count": 169
+  },
+  {
+    "case": "F_flat1__translate_x0p5_y0p5",
+    "json_equal": true,
+    "png_equal": true,
+    "old_count": 162,
+    "new_count": 162
+  }
+]

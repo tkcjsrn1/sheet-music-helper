@@ -1,0 +1,34 @@
+{
+  "baseline_commit": "02f40fcbd1db881a0c40b271aeb1078790378129",
+  "customtkinter_version": "6.0.0",
+  "unchanged_pipeline_functions": [
+    "start_convert",
+    "_convert_worker",
+    "_convert_page",
+    "_save_edit_version",
+    "_render_edit_document"
+  ],
+  "cases": [
+    {
+      "name": "aoharu_p1",
+      "png_sha256": "a81c6268bf2391f8d298ec793c09f31e8a3373125b6ad6f5525efdb649c3261d",
+      "json_sha256": "aee46e57f697ad39eb2319006fdd43cbd6345c168a6f4b5d8cc25f8e4a699af2",
+      "png_bytes_changed": false,
+      "json_bytes_changed": false
+    },
+    {
+      "name": "chopin_Db_p1",
+      "png_sha256": "40f502a5806daa58bf3e63088d17404b38bc40bdf653e5b2a8991eaea62a994d",
+      "json_sha256": "c340407732dc882264c7bd5f34442a2e37f6d70f2f2290d3b83515cd8afdc710",
+      "png_bytes_changed": false,
+      "json_bytes_changed": false
+    },
+    {
+      "name": "bach_p1",
+      "png_sha256": "ba44ae9fbe06f03313835856fedb8f8f2182b86698f438c2afca15f49a2f38a3",
+      "json_sha256": "ba3ef6cad28b01d3cd4201742b0a7d0eeb02301201c40035a0bd335e5f8b1624",
+      "png_bytes_changed": false,
+      "json_bytes_changed": false
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "ProcessId": 21372,
+    "ParentProcessId": 19524,
+    "CreationDate": "2026-10-05T23:41:06.371492+09:00",
+    "ExecutablePath": "F:\\sheet-music-helper-codex-night-20261004\\dist\\29037e2fe602-20261005-211648-214621\\악보헬퍼.exe"
+  },
+  {
+    "ProcessId": 18668,
+    "ParentProcessId": 21372,
+    "CreationDate": "2026-10-05T23:41:16.922763+09:00",
+    "ExecutablePath": "F:\\sheet-music-helper-codex-night-20261004\\dist\\29037e2fe602-20261005-211648-214621\\악보헬퍼.exe"
+  }
+]

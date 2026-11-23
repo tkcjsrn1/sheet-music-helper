@@ -1,0 +1,88 @@
+{
+  "root": 6884174,
+  "pid": 28128,
+  "canvas": {
+    "hwnd": 2231256,
+    "title": "",
+    "pid": 28128,
+    "rect": [
+      477,
+      185,
+      1194,
+      823
+    ],
+    "cls": "TkChild",
+    "visible": true
+  },
+  "candidates": [
+    {
+      "hwnd": 5180328,
+      "title": "",
+      "pid": 28128,
+      "rect": [
+        477,
+        73,
+        1214,
+        843
+      ],
+      "cls": "TkChild",
+      "visible": true
+    },
+    {
+      "hwnd": 2231256,
+      "title": "",
+      "pid": 28128,
+      "rect": [
+        477,
+        185,
+        1194,
+        823
+      ],
+      "cls": "TkChild",
+      "visible": true
+    },
+    {
+      "hwnd": 7735896,
+      "title": "",
+      "pid": 28128,
+      "rect": [
+        477,
+        73,
+        1214,
+        843
+      ],
+      "cls": "TkChild",
+      "visible": true
+    }
+  ],
+  "scale": 0.3414285714285714,
+  "drag": [
+    [
+      704,
+      424
+    ],
+    [
+      714,
+      436
+    ]
+  ],
+  "folder": "F:\\sheet-music-helper-progress-test-20261020\\output\\human-beta-015908d\\app\\output\\선택영역-1688b5e8382a4b24a52f676f158376ba",
+  "label": {
+    "id": "s2-p1-x75",
+    "staff": 2,
+    "x": 679,
+    "y": 717,
+    "nx": 37.722,
+    "pitch": "F4",
+    "step": 1,
+    "accidental": "##",
+    "text": "파##",
+    "confidence": "check",
+    "flags": [
+      "grace_size",
+      "double_acc"
+    ],
+    "edited": false
+  },
+  "actual_gui": true
+}

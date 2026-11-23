@@ -1,0 +1,354 @@
+{
+  "name": "clara_polonaise_2_bravura_p1",
+  "targets": [
+    {
+      "x": 202.9,
+      "y": 860.9,
+      "truth": "C4",
+      "text_truth": "도",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 255.60000000000002,
+      "y": 860.9,
+      "truth": "C4",
+      "text_truth": "도",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 325.7,
+      "y": 860.9,
+      "truth": "C4",
+      "text_truth": "도",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 417.2,
+      "y": 860.9,
+      "truth": "C4",
+      "text_truth": "도",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 487.4,
+      "y": 860.9,
+      "truth": "C4",
+      "text_truth": "도",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 740.1,
+      "y": 869.9,
+      "truth": "B3",
+      "text_truth": "시",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 792.8,
+      "y": 869.9,
+      "truth": "B3",
+      "text_truth": "시",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 890.0,
+      "y": 869.9,
+      "truth": "B3",
+      "text_truth": "시",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 1011.2,
+      "y": 869.9,
+      "truth": "B3",
+      "text_truth": "시",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 1105.5,
+      "y": 869.9,
+      "truth": "B3",
+      "text_truth": "시",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 647.4,
+      "y": 905.9,
+      "truth": "E3",
+      "text_truth": "미",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": false,
+      "hollow": true,
+      "ledger": false,
+      "staff_found": true,
+      "status": "누락"
+    },
+    {
+      "x": 1275.4,
+      "y": 869.9,
+      "truth": "B3",
+      "text_truth": "시",
+      "printed": "",
+      "eff": "",
+      "key_alter": "",
+      "key_now": "0",
+      "clef_now": "bass",
+      "clef_start": "bass",
+      "staff": 3,
+      "chord": true,
+      "hollow": false,
+      "ledger": true,
+      "staff_found": true,
+      "status": "누락"
+    }
+  ],
+  "stages": [
+    {
+      "stage": "detect_noteheads",
+      "heads": 580,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_beam_ghosts",
+      "heads": 567,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_offstaff_ghosts",
+      "heads": 564,
+      "target_indices_found": []
+    },
+    {
+      "stage": "remove_accidental_ghosts",
+      "heads": 548,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_beam_ghosts",
+      "heads": 574,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_offstaff_ghosts",
+      "heads": 570,
+      "target_indices_found": []
+    },
+    {
+      "stage": "detect_noteheads_rescue",
+      "heads": 579,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_beam_ghosts",
+      "heads": 566,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_offstaff_ghosts",
+      "heads": 563,
+      "target_indices_found": []
+    },
+    {
+      "stage": "remove_accidental_ghosts",
+      "heads": 547,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_beam_ghosts",
+      "heads": 574,
+      "target_indices_found": []
+    },
+    {
+      "stage": "drop_offstaff_ghosts",
+      "heads": 570,
+      "target_indices_found": []
+    },
+    {
+      "stage": "apply_chord_rescue",
+      "heads": 548,
+      "target_indices_found": []
+    }
+  ],
+  "rejects_near": [
+    {
+      "target": 0,
+      "rows": []
+    },
+    {
+      "target": 1,
+      "rows": []
+    },
+    {
+      "target": 2,
+      "rows": []
+    },
+    {
+      "target": 3,
+      "rows": []
+    },
+    {
+      "target": 4,
+      "rows": []
+    },
+    {
+      "target": 5,
+      "rows": []
+    },
+    {
+      "target": 6,
+      "rows": []
+    },
+    {
+      "target": 7,
+      "rows": []
+    },
+    {
+      "target": 8,
+      "rows": []
+    },
+    {
+      "target": 9,
+      "rows": []
+    },
+    {
+      "target": 10,
+      "rows": [
+        {
+          "staff": 3,
+          "x": 647.0,
+          "y": 906.0,
+          "filled": false,
+          "reason": "같은 높이 바로 옆의 중복으로 판정"
+        },
+        {
+          "staff": 3,
+          "x": 647.0,
+          "y": 906.0,
+          "filled": false,
+          "reason": "같은 높이 바로 옆의 중복으로 판정"
+        }
+      ]
+    },
+    {
+      "target": 11,
+      "rows": []
+    }
+  ],
+  "observation_labels_unchanged": true
+}

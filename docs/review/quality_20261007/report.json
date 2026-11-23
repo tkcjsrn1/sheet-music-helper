@@ -1,0 +1,7508 @@
+[
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "base",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "801151af856cf0dec27813c71cf4c902ffb4bc95eaed32d3c8955d8c3def95db",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 9.223791399999755,
+    "import_s": 2.7646037000013166,
+    "pipeline_s": 6.106254800000897,
+    "stages_s": {
+      "preprocess": 0.08884559999933117,
+      "analyze_staves": 0.13098519999766722,
+      "detect_noteheads": 0.24277120000260766,
+      "drop_beam_ghosts": 0.2726690999988932,
+      "drop_offstaff_ghosts": 0.6560809999973571,
+      "calculate_pitches": 0.0008005000017874409,
+      "annotate_accidentals": 0.2181516000018746,
+      "remove_accidental_ghosts": 0.08407390000138548,
+      "apply_chord_rescue": 2.7909442000018316,
+      "render_solfege_on_image": 0.14783449999958975
+    },
+    "peak_working_bytes": 229863424,
+    "labels": 226,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 225,
+      "caution": 1
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 226
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "identity_warp",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "801151af856cf0dec27813c71cf4c902ffb4bc95eaed32d3c8955d8c3def95db",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.550844400000642,
+    "import_s": 1.5518121999994037,
+    "pipeline_s": 6.625357199998689,
+    "stages_s": {
+      "preprocess": 0.090350499998749,
+      "analyze_staves": 0.15051630000016303,
+      "detect_noteheads": 0.2653900999976031,
+      "drop_beam_ghosts": 0.29916599999342,
+      "drop_offstaff_ghosts": 0.685576800002309,
+      "calculate_pitches": 0.0009692000021459535,
+      "annotate_accidentals": 0.22926039999947534,
+      "remove_accidental_ghosts": 0.08095959999991464,
+      "apply_chord_rescue": 2.9229818000021623,
+      "render_solfege_on_image": 0.21077469999727327
+    },
+    "peak_working_bytes": 229457920,
+    "labels": 226,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 225,
+      "caution": 1
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 226
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "x025",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "e6658173a04ca72e7a477c22a5d0582071c6e678a376458a5ed770d489f0a6cf",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.966201900002488,
+    "import_s": 1.9904908000025898,
+    "pipeline_s": 6.662340699997003,
+    "stages_s": {
+      "preprocess": 0.1349128000001656,
+      "analyze_staves": 0.18928329999835114,
+      "detect_noteheads": 0.40964639999947394,
+      "drop_beam_ghosts": 0.29463919999761856,
+      "drop_offstaff_ghosts": 0.663132300000143,
+      "calculate_pitches": 0.0007279000019480009,
+      "annotate_accidentals": 0.22812709999925573,
+      "remove_accidental_ghosts": 0.10253629999715486,
+      "apply_chord_rescue": 2.7669529000013426,
+      "render_solfege_on_image": 0.15273979999983567
+    },
+    "peak_working_bytes": 229277696,
+    "labels": 227,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 223,
+      "caution": 2,
+      "check": 2
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 224,
+      "음고": 2
+    },
+    "ghosts": 1,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 2,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "x05",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "19ebfc598a1cf595887841238edebe78bb97b7ef0081f0894b1d4da7bc10c6f7",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.473665500001516,
+    "import_s": 1.6237156999995932,
+    "pipeline_s": 5.545707900000707,
+    "stages_s": {
+      "preprocess": 0.07453580000219517,
+      "analyze_staves": 0.1127706000006583,
+      "detect_noteheads": 0.19530310000118334,
+      "drop_beam_ghosts": 0.25205080000159796,
+      "drop_offstaff_ghosts": 0.5519702999990841,
+      "calculate_pitches": 0.0007297999982256442,
+      "annotate_accidentals": 0.20555149999563582,
+      "remove_accidental_ghosts": 0.07445080000252347,
+      "apply_chord_rescue": 2.6143703999987338,
+      "render_solfege_on_image": 0.16108430000167573
+    },
+    "peak_working_bytes": 229498880,
+    "labels": 226,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 224,
+      "check": 2
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 224,
+      "음고": 2
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 2,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "x075",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "5f1f606022275cfcc4126821d3014c18005722e0619d238ae864f76fc4ab7ba7",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.7284022999992885,
+    "import_s": 2.2333882999992056,
+    "pipeline_s": 5.203096199998981,
+    "stages_s": {
+      "preprocess": 0.07342099999732454,
+      "analyze_staves": 0.11283049999838113,
+      "detect_noteheads": 0.20515139999770327,
+      "drop_beam_ghosts": 0.2270176999954856,
+      "drop_offstaff_ghosts": 0.5310673000021779,
+      "calculate_pitches": 0.0007698999979766086,
+      "annotate_accidentals": 0.20670240000254125,
+      "remove_accidental_ghosts": 0.06829829999696813,
+      "apply_chord_rescue": 2.3351511000000755,
+      "render_solfege_on_image": 0.13428680000288296
+    },
+    "peak_working_bytes": 230051840,
+    "labels": 225,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 225
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 225,
+      "누락": 1
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "y05",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "0de9314a9e817b64844720ea2031b2b5e1e9763ae5d680fe8a10ee4c0c0bdaa4",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 7.80534439999974,
+    "import_s": 2.103052000002208,
+    "pipeline_s": 5.441443799998524,
+    "stages_s": {
+      "preprocess": 0.07545269999900484,
+      "analyze_staves": 0.11614219999682973,
+      "detect_noteheads": 0.20550849999926868,
+      "drop_beam_ghosts": 0.23834449999776552,
+      "drop_offstaff_ghosts": 0.5841141000018979,
+      "calculate_pitches": 0.0006979000027058646,
+      "annotate_accidentals": 0.21413210000173422,
+      "remove_accidental_ghosts": 0.07089949999863165,
+      "apply_chord_rescue": 2.5960883000007016,
+      "render_solfege_on_image": 0.1609807999993791
+    },
+    "peak_working_bytes": 229654528,
+    "labels": 234,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 224,
+      "caution": 9,
+      "check": 1
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 225,
+      "누락": 1
+    },
+    "ghosts": 9,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "xy05",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "0194b6b019a74c10e2467b32d1642d33ead1188caadee79c627515de97994ade",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 7.604728199999954,
+    "import_s": 2.1266482999999425,
+    "pipeline_s": 5.21505260000049,
+    "stages_s": {
+      "preprocess": 0.07574409999870113,
+      "analyze_staves": 0.11637870000049588,
+      "detect_noteheads": 0.21275819999937085,
+      "drop_beam_ghosts": 0.2353103999994346,
+      "drop_offstaff_ghosts": 0.5571087999996962,
+      "calculate_pitches": 0.0006900000007590279,
+      "annotate_accidentals": 0.21413530000063474,
+      "remove_accidental_ghosts": 0.06485299999985727,
+      "apply_chord_rescue": 2.3914308000021265,
+      "render_solfege_on_image": 0.13364740000179154
+    },
+    "peak_working_bytes": 230711296,
+    "labels": 236,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 222,
+      "check": 2,
+      "caution": 12
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 222,
+      "음고": 3,
+      "누락": 1
+    },
+    "ghosts": 11,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 3,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "resize090",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "7572360dbd61b46e689072bd99c4c8ba67aee3680b9926cce18b9f40b7ff76f4",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.140511499997956,
+    "import_s": 2.119053200000053,
+    "pipeline_s": 4.729103999998188,
+    "stages_s": {
+      "preprocess": 0.06914390000019921,
+      "analyze_staves": 0.0947307999995246,
+      "detect_noteheads": 0.17038569999931497,
+      "drop_beam_ghosts": 0.21320190000187722,
+      "drop_offstaff_ghosts": 0.5534325000044191,
+      "calculate_pitches": 0.0007565000014437828,
+      "annotate_accidentals": 0.20889189999797964,
+      "remove_accidental_ghosts": 0.0602565000008326,
+      "apply_chord_rescue": 2.235902899999928,
+      "render_solfege_on_image": 0.13661320000028354
+    },
+    "peak_working_bytes": 210042880,
+    "labels": 246,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 225,
+      "caution": 13,
+      "check": 8
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 225,
+      "누락": 1
+    },
+    "ghosts": 21,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "resize110",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "c97983b4ccbed9c80ca94a2f5a664df298e63f5cf4e4c70842b77f5a1f34d14c",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.234993400001258,
+    "import_s": 2.0936454000002414,
+    "pipeline_s": 5.870228299998416,
+    "stages_s": {
+      "preprocess": 0.11272209999879124,
+      "analyze_staves": 0.13814560000173515,
+      "detect_noteheads": 0.22265110000080313,
+      "drop_beam_ghosts": 0.24729490000390797,
+      "drop_offstaff_ghosts": 0.5889748000008694,
+      "calculate_pitches": 0.0006766999977116939,
+      "annotate_accidentals": 0.21734640000067884,
+      "remove_accidental_ghosts": 0.07506460000149673,
+      "apply_chord_rescue": 2.6526443000002473,
+      "render_solfege_on_image": 0.14383210000232793
+    },
+    "peak_working_bytes": 250929152,
+    "labels": 222,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 220,
+      "caution": 1,
+      "check": 1
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 222,
+      "누락": 4
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 4,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p1",
+    "kind": "aoharu",
+    "variant": "jpeg70",
+    "source_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+    "input_sha256": "8b75fe8d38ab4bfd57a8da4d68b1e919b30a04706b8c243612c760ca6a3b6d8f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.3864880000001,
+    "import_s": 2.115281499998673,
+    "pipeline_s": 5.964072099999612,
+    "stages_s": {
+      "preprocess": 0.07831420000002254,
+      "analyze_staves": 0.11003539999728673,
+      "detect_noteheads": 0.19501429999945685,
+      "drop_beam_ghosts": 0.25838389999989886,
+      "drop_offstaff_ghosts": 0.5993071999982931,
+      "calculate_pitches": 0.0007894999980635475,
+      "annotate_accidentals": 0.21468499999900814,
+      "remove_accidental_ghosts": 0.07212439999784692,
+      "apply_chord_rescue": 2.7684688000008464,
+      "render_solfege_on_image": 0.19708060000266414
+    },
+    "peak_working_bytes": 229507072,
+    "labels": 227,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 225,
+      "caution": 2
+    },
+    "truth": 226,
+    "counts": {
+      "맞음": 225,
+      "누락": 1
+    },
+    "ghosts": 2,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "base",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "e35ecf6ff7b651db4b28adba39240937181f126a9be0178f9db5a5f299bca2ad",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.517568700000993,
+    "import_s": 2.1320085000006657,
+    "pipeline_s": 5.111946199998783,
+    "stages_s": {
+      "preprocess": 0.07567760000165435,
+      "analyze_staves": 0.14080749999993714,
+      "detect_noteheads": 0.22101349999866216,
+      "drop_beam_ghosts": 0.24692359999971814,
+      "drop_offstaff_ghosts": 0.06669799999872339,
+      "calculate_pitches": 0.0007032000030449126,
+      "annotate_accidentals": 0.2839592999989691,
+      "remove_accidental_ghosts": 0.07280519999767421,
+      "apply_chord_rescue": 2.3202349999992293,
+      "render_solfege_on_image": 0.17689429999882123
+    },
+    "peak_working_bytes": 230948864,
+    "labels": 327,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 296,
+      "caution": 28,
+      "check": 3
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 327
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "identity_warp",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "e35ecf6ff7b651db4b28adba39240937181f126a9be0178f9db5a5f299bca2ad",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.156433500000276,
+    "import_s": 2.293856100000994,
+    "pipeline_s": 5.5709554999994,
+    "stages_s": {
+      "preprocess": 0.08421670000097947,
+      "analyze_staves": 0.1376892999978736,
+      "detect_noteheads": 0.22317560000010417,
+      "drop_beam_ghosts": 0.29959690000032424,
+      "drop_offstaff_ghosts": 0.08642290000352659,
+      "calculate_pitches": 0.0007602999976370484,
+      "annotate_accidentals": 0.29201610000018263,
+      "remove_accidental_ghosts": 0.08165690000168979,
+      "apply_chord_rescue": 2.707409499998903,
+      "render_solfege_on_image": 0.1664692999984254
+    },
+    "peak_working_bytes": 230772736,
+    "labels": 327,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 296,
+      "caution": 28,
+      "check": 3
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 327
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "x025",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "0c5437fd19c948f011d642cbea9f1a07acf6b1d24b3022413044969d3fb2810a",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.516826400002174,
+    "import_s": 2.1346713000020827,
+    "pipeline_s": 5.1138668000021426,
+    "stages_s": {
+      "preprocess": 0.07755619999807095,
+      "analyze_staves": 0.13182660000165924,
+      "detect_noteheads": 0.2141529000000446,
+      "drop_beam_ghosts": 0.24709949999669334,
+      "drop_offstaff_ghosts": 0.07811450000372133,
+      "calculate_pitches": 0.0007733999991614837,
+      "annotate_accidentals": 0.29748180000387947,
+      "remove_accidental_ghosts": 0.07372970000142232,
+      "apply_chord_rescue": 2.3277158999990206,
+      "render_solfege_on_image": 0.1768259999989823
+    },
+    "peak_working_bytes": 231268352,
+    "labels": 333,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 298,
+      "caution": 31,
+      "check": 4
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 326,
+      "음고": 1
+    },
+    "ghosts": 6,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 1,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "x05",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "6f1a0f0454286f421ececa9cc095337f23bd1f419be81cf9e40e1b1c6b1a552b",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.534020200000668,
+    "import_s": 2.0670400999988487,
+    "pipeline_s": 5.197491200000513,
+    "stages_s": {
+      "preprocess": 0.08779859999776818,
+      "analyze_staves": 0.14480299999922863,
+      "detect_noteheads": 0.22473950000130571,
+      "drop_beam_ghosts": 0.2496826000060537,
+      "drop_offstaff_ghosts": 0.06785719999606954,
+      "calculate_pitches": 0.0006853999948361889,
+      "annotate_accidentals": 0.2858004000008805,
+      "remove_accidental_ghosts": 0.06910689999858732,
+      "apply_chord_rescue": 2.3166997999978776,
+      "render_solfege_on_image": 0.1695398000010755
+    },
+    "peak_working_bytes": 230907904,
+    "labels": 334,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 297,
+      "caution": 30,
+      "check": 7
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 324,
+      "누락": 2,
+      "음고": 1
+    },
+    "ghosts": 9,
+    "header": {},
+    "new_missing": 2,
+    "recovered": 0,
+    "new_wrong": 1,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "x075",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "70c1295401a182f2f42c2d7293f53184704576ec1b7fd9124a44b7bc9c66228d",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.731866400001309,
+    "import_s": 2.0898998999982723,
+    "pipeline_s": 5.359057600002416,
+    "stages_s": {
+      "preprocess": 0.07360180000250693,
+      "analyze_staves": 0.13311919999978272,
+      "detect_noteheads": 0.2121822000008251,
+      "drop_beam_ghosts": 0.24683700000241515,
+      "drop_offstaff_ghosts": 0.06678060000194819,
+      "calculate_pitches": 0.0006830999991507269,
+      "annotate_accidentals": 0.2931341000003158,
+      "remove_accidental_ghosts": 0.08017330000075162,
+      "apply_chord_rescue": 2.428213200000755,
+      "render_solfege_on_image": 0.23612599999978556
+    },
+    "peak_working_bytes": 230469632,
+    "labels": 333,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 295,
+      "caution": 32,
+      "check": 6
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 326,
+      "누락": 1
+    },
+    "ghosts": 7,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "y05",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "d0b3a867c9d581324ab6c5f380aa38ff7732167875f01124a03119ff11b2cb7f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 7.584491599998728,
+    "import_s": 2.1848322999976517,
+    "pipeline_s": 5.128686399999424,
+    "stages_s": {
+      "preprocess": 0.07378539999990608,
+      "analyze_staves": 0.1472336999977415,
+      "detect_noteheads": 0.23236530000212952,
+      "drop_beam_ghosts": 0.24139970000032918,
+      "drop_offstaff_ghosts": 0.09350959999937913,
+      "calculate_pitches": 0.0007363000040641055,
+      "annotate_accidentals": 0.29147419999571866,
+      "remove_accidental_ghosts": 0.07200319999901694,
+      "apply_chord_rescue": 2.2773267999982636,
+      "render_solfege_on_image": 0.17980570000145235
+    },
+    "peak_working_bytes": 230301696,
+    "labels": 332,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 293,
+      "check": 9,
+      "caution": 30
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 321,
+      "누락": 5,
+      "음고": 1
+    },
+    "ghosts": 10,
+    "header": {},
+    "new_missing": 5,
+    "recovered": 0,
+    "new_wrong": 1,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "xy05",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "33e0789c086722bf96fcb2283d1b44834b2b96e4c4b169c16f2682c4a0038574",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 7.574844099999609,
+    "import_s": 2.0602386999999,
+    "pipeline_s": 5.240244299999176,
+    "stages_s": {
+      "preprocess": 0.07315030000245315,
+      "analyze_staves": 0.13611980000132462,
+      "detect_noteheads": 0.21550740000020596,
+      "drop_beam_ghosts": 0.2442817999944964,
+      "drop_offstaff_ghosts": 0.08272730000317097,
+      "calculate_pitches": 0.0008210999985749368,
+      "annotate_accidentals": 0.2869847000038135,
+      "remove_accidental_ghosts": 0.06900309999764431,
+      "apply_chord_rescue": 2.353227899999183,
+      "render_solfege_on_image": 0.17076170000291313
+    },
+    "peak_working_bytes": 230535168,
+    "labels": 333,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 293,
+      "check": 6,
+      "caution": 34
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 320,
+      "누락": 4,
+      "음고": 3
+    },
+    "ghosts": 10,
+    "header": {},
+    "new_missing": 4,
+    "recovered": 0,
+    "new_wrong": 3,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "resize090",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "1f76e2f904409d57f24b08ca026d219f97b126186f9b6464eb9a9f6add7c5c13",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.107248800002708,
+    "import_s": 2.1137610000005225,
+    "pipeline_s": 4.733309300001565,
+    "stages_s": {
+      "preprocess": 0.06394559999898775,
+      "analyze_staves": 0.1103067000003648,
+      "detect_noteheads": 0.20207250000021304,
+      "drop_beam_ghosts": 0.21987590000208002,
+      "drop_offstaff_ghosts": 0.066990800005442,
+      "calculate_pitches": 0.0007089000027917791,
+      "annotate_accidentals": 0.26807840000037686,
+      "remove_accidental_ghosts": 0.059447800002089934,
+      "apply_chord_rescue": 2.2241075999991153,
+      "render_solfege_on_image": 0.1740432000005967
+    },
+    "peak_working_bytes": 212582400,
+    "labels": 331,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 293,
+      "caution": 34,
+      "check": 4
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 322,
+      "누락": 4,
+      "음고": 1
+    },
+    "ghosts": 8,
+    "header": {},
+    "new_missing": 4,
+    "recovered": 0,
+    "new_wrong": 1,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "resize110",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "85b29a74ac638ee1e12e416b93c13643567b8033073bdc216c1a48a2212e08df",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.208868300000177,
+    "import_s": 2.0731602999985626,
+    "pipeline_s": 5.865338999999949,
+    "stages_s": {
+      "preprocess": 0.09063850000165985,
+      "analyze_staves": 0.17313040000226465,
+      "detect_noteheads": 0.2294335000005958,
+      "drop_beam_ghosts": 0.2641433999961009,
+      "drop_offstaff_ghosts": 0.08606339999823831,
+      "calculate_pitches": 0.0008006999960343819,
+      "annotate_accidentals": 0.3097849999976461,
+      "remove_accidental_ghosts": 0.07749969999713358,
+      "apply_chord_rescue": 2.6135754000024463,
+      "render_solfege_on_image": 0.20482429999901797
+    },
+    "peak_working_bytes": 251756544,
+    "labels": 327,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 295,
+      "caution": 31,
+      "check": 1
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 325,
+      "누락": 2
+    },
+    "ghosts": 2,
+    "header": {},
+    "new_missing": 2,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p2",
+    "kind": "aoharu",
+    "variant": "jpeg70",
+    "source_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+    "input_sha256": "49906cbd68eeb48e0257167f1e883bcaa1704622420182432d18c1344eb45d7e",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.778112600000895,
+    "import_s": 2.1941189000026498,
+    "pipeline_s": 5.3015941999983625,
+    "stages_s": {
+      "preprocess": 0.08066820000021835,
+      "analyze_staves": 0.1390038999998069,
+      "detect_noteheads": 0.21428240000022925,
+      "drop_beam_ghosts": 0.24106810000012047,
+      "drop_offstaff_ghosts": 0.07515280000370694,
+      "calculate_pitches": 0.0006609000010939781,
+      "annotate_accidentals": 0.2783067000018491,
+      "remove_accidental_ghosts": 0.06855569999970612,
+      "apply_chord_rescue": 2.3560557999990124,
+      "render_solfege_on_image": 0.21367169999939506
+    },
+    "peak_working_bytes": 231383040,
+    "labels": 327,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 14,
+    "confidence": {
+      "certain": 297,
+      "caution": 28,
+      "check": 2
+    },
+    "truth": 327,
+    "counts": {
+      "맞음": 326,
+      "누락": 1
+    },
+    "ghosts": 1,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "base",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "72b5bb8f0a2e485e71f01cf4f1762c4b4dae8abeb7708e844ffb26ed13321d3f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.892369400000462,
+    "import_s": 3.8233822000001965,
+    "pipeline_s": 6.604623899998842,
+    "stages_s": {
+      "preprocess": 0.09415969999827212,
+      "analyze_staves": 0.10247209999943152,
+      "detect_noteheads": 0.19920160000037868,
+      "drop_beam_ghosts": 0.4044142999991891,
+      "drop_offstaff_ghosts": 0.44415749999461696,
+      "calculate_pitches": 0.0006087000001571141,
+      "annotate_accidentals": 0.22527379999883124,
+      "remove_accidental_ghosts": 0.10159689999636612,
+      "apply_chord_rescue": 2.231890099999873,
+      "render_solfege_on_image": 0.13592160000189324
+    },
+    "peak_working_bytes": 228597760,
+    "labels": 158,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 10,
+      "certain": 147,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 158
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "identity_warp",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "72b5bb8f0a2e485e71f01cf4f1762c4b4dae8abeb7708e844ffb26ed13321d3f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 11.580900999997539,
+    "import_s": 5.459957099999883,
+    "pipeline_s": 5.520497199999227,
+    "stages_s": {
+      "preprocess": 0.08806199999889941,
+      "analyze_staves": 0.08530070000051637,
+      "detect_noteheads": 0.1472966000001179,
+      "drop_beam_ghosts": 0.23979619999590795,
+      "drop_offstaff_ghosts": 0.3687445999967167,
+      "calculate_pitches": 0.0003685000010591466,
+      "annotate_accidentals": 0.15497859999959473,
+      "remove_accidental_ghosts": 0.06546099999832222,
+      "apply_chord_rescue": 3.102922199999739,
+      "render_solfege_on_image": 0.1381576000021596
+    },
+    "peak_working_bytes": 229089280,
+    "labels": 158,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 10,
+      "certain": 147,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 158
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "x025",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "58e949f89e5068d03fa89ddab75051f826ca0d67b015959be0ef822c8f974c84",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.751466699999582,
+    "import_s": 4.374880600000324,
+    "pipeline_s": 3.9899019000004046,
+    "stages_s": {
+      "preprocess": 0.0862076999983401,
+      "analyze_staves": 0.09299029999965569,
+      "detect_noteheads": 0.13993289999780245,
+      "drop_beam_ghosts": 0.22501250000641448,
+      "drop_offstaff_ghosts": 0.3285011999942071,
+      "calculate_pitches": 0.0004681999998865649,
+      "annotate_accidentals": 0.162613100001181,
+      "remove_accidental_ghosts": 0.06210889999783831,
+      "apply_chord_rescue": 1.7169417000004614,
+      "render_solfege_on_image": 0.10802449999755481
+    },
+    "peak_working_bytes": 228397056,
+    "labels": 156,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 9,
+      "certain": 146,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 156,
+      "누락": 2
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 2,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "x05",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "9c0489ca2bc71eabd37dccdb77b9684eba7b853c92820fad9b543fa453f23e32",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 6.158725599998434,
+    "import_s": 2.1305527000004076,
+    "pipeline_s": 3.7541989000019385,
+    "stages_s": {
+      "preprocess": 0.07744850000017323,
+      "analyze_staves": 0.0819947999989381,
+      "detect_noteheads": 0.1330859000008786,
+      "drop_beam_ghosts": 0.2093492000058177,
+      "drop_offstaff_ghosts": 0.27619870000125957,
+      "calculate_pitches": 0.0005157000014150981,
+      "annotate_accidentals": 0.15209700000559678,
+      "remove_accidental_ghosts": 0.06081929999709246,
+      "apply_chord_rescue": 1.7147536999982549,
+      "render_solfege_on_image": 0.11062659999879543
+    },
+    "peak_working_bytes": 229769216,
+    "labels": 160,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 12,
+      "certain": 147,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 157,
+      "누락": 1
+    },
+    "ghosts": 3,
+    "header": {},
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "x075",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "81901777fecac13dc3609b54a9872fa629d8f2dedd7258f056d301a3fb70d109",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 6.374695299997256,
+    "import_s": 2.095685100000992,
+    "pipeline_s": 4.011483499998576,
+    "stages_s": {
+      "preprocess": 0.07441160000234959,
+      "analyze_staves": 0.08375879999948665,
+      "detect_noteheads": 0.1333529000003182,
+      "drop_beam_ghosts": 0.21870339999804855,
+      "drop_offstaff_ghosts": 0.28750489999583806,
+      "calculate_pitches": 0.0003867999985232018,
+      "annotate_accidentals": 0.14873609999995097,
+      "remove_accidental_ghosts": 0.05792740000106278,
+      "apply_chord_rescue": 1.8909275999976671,
+      "render_solfege_on_image": 0.12778049999906216
+    },
+    "peak_working_bytes": 230166528,
+    "labels": 158,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 10,
+      "certain": 147,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 158
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "y05",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "dedf3e886555411f7854e59ac48eb3083386e8074005e5489a12f58931d0cc93",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 6.698242599999503,
+    "import_s": 2.2225379000010435,
+    "pipeline_s": 4.20627930000046,
+    "stages_s": {
+      "preprocess": 0.0897661999988486,
+      "analyze_staves": 0.09074709999913466,
+      "detect_noteheads": 0.1547179999979562,
+      "drop_beam_ghosts": 0.24368309999408666,
+      "drop_offstaff_ghosts": 0.3175389999996696,
+      "calculate_pitches": 0.0004447999999683816,
+      "annotate_accidentals": 0.16323699999702512,
+      "remove_accidental_ghosts": 0.06154160000369302,
+      "apply_chord_rescue": 1.7766026999997848,
+      "render_solfege_on_image": 0.11687570000140113
+    },
+    "peak_working_bytes": 229945344,
+    "labels": 166,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 18,
+      "certain": 144,
+      "check": 4
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 154,
+      "누락": 4
+    },
+    "ghosts": 12,
+    "header": {},
+    "new_missing": 4,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "xy05",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "f5f5eccca7efbb567f672bb2c6b6e21aa279206737ec54ced00f907600b3d494",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 6.505217000001721,
+    "import_s": 2.4484941999980947,
+    "pipeline_s": 3.7798480999990716,
+    "stages_s": {
+      "preprocess": 0.08154600000125356,
+      "analyze_staves": 0.08170140000220272,
+      "detect_noteheads": 0.1434865000010177,
+      "drop_beam_ghosts": 0.21308180000050925,
+      "drop_offstaff_ghosts": 0.2856699999974808,
+      "calculate_pitches": 0.0003915999986929819,
+      "annotate_accidentals": 0.15104129999963334,
+      "remove_accidental_ghosts": 0.05954019999990123,
+      "apply_chord_rescue": 1.6840383000017027,
+      "render_solfege_on_image": 0.11473169999953825
+    },
+    "peak_working_bytes": 229171200,
+    "labels": 168,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 19,
+      "certain": 148,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 154,
+      "누락": 4
+    },
+    "ghosts": 14,
+    "header": {},
+    "new_missing": 4,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "resize090",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "f07a23ef047916340266ca789cdeff00b8fa5ecd155f195cf54ef2381d429210",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 5.595340299998497,
+    "import_s": 2.0871322999992117,
+    "pipeline_s": 3.240620900000067,
+    "stages_s": {
+      "preprocess": 0.060415399999328656,
+      "analyze_staves": 0.06884989999889513,
+      "detect_noteheads": 0.11705350000192993,
+      "drop_beam_ghosts": 0.19059000000561355,
+      "drop_offstaff_ghosts": 0.25733319999926607,
+      "calculate_pitches": 0.0003907999998773448,
+      "annotate_accidentals": 0.13051899999845773,
+      "remove_accidental_ghosts": 0.05095609999989392,
+      "apply_chord_rescue": 1.42380790000243,
+      "render_solfege_on_image": 0.10233639999933075
+    },
+    "peak_working_bytes": 210288640,
+    "labels": 164,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 14,
+      "certain": 148,
+      "check": 2
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 153,
+      "누락": 3,
+      "음고": 2
+    },
+    "ghosts": 9,
+    "header": {},
+    "new_missing": 3,
+    "recovered": 0,
+    "new_wrong": 2,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "resize110",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "fe5f779036ca53485c04e78fa37cd71c4158eace017e0fd43a22398e61b94f40",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.220211500000005,
+    "import_s": 2.409139600000344,
+    "pipeline_s": 4.543704300001991,
+    "stages_s": {
+      "preprocess": 0.09632849999979953,
+      "analyze_staves": 0.11860009999873,
+      "detect_noteheads": 0.1870627999996941,
+      "drop_beam_ghosts": 0.25513929999942775,
+      "drop_offstaff_ghosts": 0.3590087000047788,
+      "calculate_pitches": 0.0003580999982659705,
+      "annotate_accidentals": 0.1599075999984052,
+      "remove_accidental_ghosts": 0.06617819999883068,
+      "apply_chord_rescue": 1.9442871999999625,
+      "render_solfege_on_image": 0.12739499999952386
+    },
+    "peak_working_bytes": 250519552,
+    "labels": 155,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 8,
+      "certain": 147
+    },
+    "truth": 158,
+    "counts": {
+      "누락": 4,
+      "맞음": 154
+    },
+    "ghosts": 1,
+    "header": {},
+    "new_missing": 4,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "aoharu_p3",
+    "kind": "aoharu",
+    "variant": "jpeg70",
+    "source_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+    "input_sha256": "d0ac9feb2956cea19f7530ffe83b0fe9b9ef827a848f362b63bf2c60ea294f25",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 6.153320699999313,
+    "import_s": 2.142255300001125,
+    "pipeline_s": 3.7454997999993793,
+    "stages_s": {
+      "preprocess": 0.08190409999951953,
+      "analyze_staves": 0.08599909999975353,
+      "detect_noteheads": 0.13486890000058338,
+      "drop_beam_ghosts": 0.20857459999751882,
+      "drop_offstaff_ghosts": 0.27044659999592113,
+      "calculate_pitches": 0.00036159999945084564,
+      "annotate_accidentals": 0.14457050000419258,
+      "remove_accidental_ghosts": 0.057679100002133055,
+      "apply_chord_rescue": 1.6827389999998559,
+      "render_solfege_on_image": 0.11488979999921867
+    },
+    "peak_working_bytes": 228548608,
+    "labels": 158,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "caution": 10,
+      "certain": 147,
+      "check": 1
+    },
+    "truth": 158,
+    "counts": {
+      "맞음": 158
+    },
+    "ghosts": 0,
+    "header": {},
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "bach_bwv846_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "268f90461e0cd73ecec82b669c1f245c0fc10522320d6b749409bba7a351c5b7",
+    "input_sha256": "2c7711901b4d054668edce370fe0e3fc81e1a90c8e6f7528a008d46733c7c64f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.689463200000318,
+    "import_s": 2.083704700002272,
+    "pipeline_s": 8.342991000001348,
+    "stages_s": {
+      "preprocess": 0.10731750000195461,
+      "analyze_staves": 0.20922989999962738,
+      "detect_noteheads": 0.38204960000075516,
+      "drop_beam_ghosts": 0.3182624000037322,
+      "drop_offstaff_ghosts": 0.48175959999935003,
+      "calculate_pitches": 0.0007404999996651895,
+      "annotate_accidentals": 0.4455896000035864,
+      "remove_accidental_ghosts": 0.08309889999873121,
+      "apply_chord_rescue": 3.8136991999999736,
+      "render_solfege_on_image": 0.2070497000022442
+    },
+    "peak_working_bytes": 293134336,
+    "labels": 337,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 1,
+      "certain": 316,
+      "check": 20
+    },
+    "truth": 324,
+    "counts": {
+      "맞음": 316,
+      "표기": 8
+    },
+    "ghosts": 13,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "bach_bwv846_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "113488ac16100b80bbdc4370cf0c3d600f638cd028c476961ad132302a56b49b",
+    "input_sha256": "edab1858b05135b0a43c05060b6cecb1d2a64a5d4c809ba65e4b0dc4265cda4d",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.740542600000481,
+    "import_s": 2.0898477000009734,
+    "pipeline_s": 8.378520999998727,
+    "stages_s": {
+      "preprocess": 0.10107340000104159,
+      "analyze_staves": 0.2124723000015365,
+      "detect_noteheads": 0.36432150000109687,
+      "drop_beam_ghosts": 0.3281507000028796,
+      "drop_offstaff_ghosts": 0.5384945000005246,
+      "calculate_pitches": 0.0007036999995762017,
+      "annotate_accidentals": 0.4372107999988657,
+      "remove_accidental_ghosts": 0.08525259999805712,
+      "apply_chord_rescue": 3.8527625999995507,
+      "render_solfege_on_image": 0.19476299999951152
+    },
+    "peak_working_bytes": 293429248,
+    "labels": 327,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 1,
+      "certain": 312,
+      "check": 14
+    },
+    "truth": 324,
+    "counts": {
+      "맞음": 316,
+      "누락": 4,
+      "표기": 4
+    },
+    "ghosts": 7,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "bc9c78d78262ef24c75e71b58f1b710f96006eafad9c4f15209f6c43c0de0a75",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.35577039999771,
+    "import_s": 2.141549199997826,
+    "pipeline_s": 7.94685759999993,
+    "stages_s": {
+      "preprocess": 0.10402569999860134,
+      "analyze_staves": 0.19780679999894346,
+      "detect_noteheads": 0.31177699999898323,
+      "drop_beam_ghosts": 0.3264674999991257,
+      "drop_offstaff_ghosts": 0.17800390000047628,
+      "calculate_pitches": 0.0007332999994105194,
+      "annotate_accidentals": 0.3270903999982693,
+      "remove_accidental_ghosts": 0.08469810000315192,
+      "apply_chord_rescue": 3.5278918000003614,
+      "render_solfege_on_image": 0.1711756000004243
+    },
+    "peak_working_bytes": 293847040,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 147,
+      "check": 76
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "identity_warp",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "bc9c78d78262ef24c75e71b58f1b710f96006eafad9c4f15209f6c43c0de0a75",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.909014600001683,
+    "import_s": 2.11970040000233,
+    "pipeline_s": 8.511171800000739,
+    "stages_s": {
+      "preprocess": 0.10543550000147661,
+      "analyze_staves": 0.23337919999903534,
+      "detect_noteheads": 0.402706600001693,
+      "drop_beam_ghosts": 0.38744369999767514,
+      "drop_offstaff_ghosts": 0.20997369999895454,
+      "calculate_pitches": 0.000763399999414105,
+      "annotate_accidentals": 0.36764430000039283,
+      "remove_accidental_ghosts": 0.09588829999847803,
+      "apply_chord_rescue": 4.0813600000001315,
+      "render_solfege_on_image": 0.19265249999807565
+    },
+    "peak_working_bytes": 293158912,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 147,
+      "check": 76
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "x025",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "d4706591c2918b4e8294b8fa7c5bb35bf205ce0e94fb7f3b7820fc17f38ebd45",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.210928500000591,
+    "import_s": 1.6804558000003453,
+    "pipeline_s": 10.185472100001789,
+    "stages_s": {
+      "preprocess": 0.12982189999820548,
+      "analyze_staves": 0.3130550999994739,
+      "detect_noteheads": 0.416636700003437,
+      "drop_beam_ghosts": 0.4352390999956697,
+      "drop_offstaff_ghosts": 0.2565902000023925,
+      "calculate_pitches": 0.00075470000228961,
+      "annotate_accidentals": 0.3766639999994368,
+      "remove_accidental_ghosts": 0.09393590000399854,
+      "apply_chord_rescue": 4.750042599996959,
+      "render_solfege_on_image": 0.20115249999798834
+    },
+    "peak_working_bytes": 293486592,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 1,
+      "certain": 127,
+      "check": 95
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "x05",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "e7e449695871f8a6fb0df35584f25b6c05b98924353decd20b3f997e4621b09c",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.929532299996936,
+    "import_s": 2.9171715999982553,
+    "pipeline_s": 9.674391000000469,
+    "stages_s": {
+      "preprocess": 0.14145450000069104,
+      "analyze_staves": 0.2130576999988989,
+      "detect_noteheads": 0.4218791000021156,
+      "drop_beam_ghosts": 0.439882700004091,
+      "drop_offstaff_ghosts": 0.2554703000023437,
+      "calculate_pitches": 0.0010630000033415854,
+      "annotate_accidentals": 0.3985027999988233,
+      "remove_accidental_ghosts": 0.09591950000321958,
+      "apply_chord_rescue": 4.488714800001617,
+      "render_solfege_on_image": 0.17492739999943296
+    },
+    "peak_working_bytes": 294146048,
+    "labels": 227,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 129,
+      "check": 95,
+      "caution": 3
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 13,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "x075",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "21f8c432cc5957e6e7c93e0468e9065c4a94a63517077d5b32bc22c70b525dc5",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.720373500000278,
+    "import_s": 2.4624169999988226,
+    "pipeline_s": 7.782187599997997,
+    "stages_s": {
+      "preprocess": 0.10853040000074543,
+      "analyze_staves": 0.19672649999847636,
+      "detect_noteheads": 0.33800820000033127,
+      "drop_beam_ghosts": 0.34480990000156453,
+      "drop_offstaff_ghosts": 0.19202880000011646,
+      "calculate_pitches": 0.0006935999990673736,
+      "annotate_accidentals": 0.3485116999981983,
+      "remove_accidental_ghosts": 0.0883761000004597,
+      "apply_chord_rescue": 3.5305734000030498,
+      "render_solfege_on_image": 0.16553600000042934
+    },
+    "peak_working_bytes": 294137856,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 146,
+      "check": 77
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "y05",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "e8e5fecb4ec4732848ac3563209a0a91afce5483d48a37079646b3994325f629",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 10.733173500000703,
+    "import_s": 2.1128338999988046,
+    "pipeline_s": 8.339135300000635,
+    "stages_s": {
+      "preprocess": 0.1029923999994935,
+      "analyze_staves": 0.20963340000162134,
+      "detect_noteheads": 0.34553260000029695,
+      "drop_beam_ghosts": 0.3357174000047962,
+      "drop_offstaff_ghosts": 0.1820765999982541,
+      "calculate_pitches": 0.0005071999985375442,
+      "annotate_accidentals": 0.32776380000359495,
+      "remove_accidental_ghosts": 0.08427720000327099,
+      "apply_chord_rescue": 4.0568826000017,
+      "render_solfege_on_image": 0.20156130000032135
+    },
+    "peak_working_bytes": 292921344,
+    "labels": 224,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 156,
+      "check": 68
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "xy05",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "f93875a16d0db08a3ed38ad6ef836de71ee23b81c31068e8c7d0559de51a5439",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 10.312521500000003,
+    "import_s": 2.222638499999448,
+    "pipeline_s": 7.803858500003116,
+    "stages_s": {
+      "preprocess": 0.10910899999726098,
+      "analyze_staves": 0.20497009999962756,
+      "detect_noteheads": 0.3199280999979237,
+      "drop_beam_ghosts": 0.3289954999963811,
+      "drop_offstaff_ghosts": 0.17501690000062808,
+      "calculate_pitches": 0.0005213000004005153,
+      "annotate_accidentals": 0.32400910000069416,
+      "remove_accidental_ghosts": 0.08290000000124564,
+      "apply_chord_rescue": 3.541469200001302,
+      "render_solfege_on_image": 0.16381950000140932
+    },
+    "peak_working_bytes": 293359616,
+    "labels": 222,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 147,
+      "check": 75
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 7,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "resize090",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "064013812e353db98a3ddf81bdab60db5e7081e89fb237c20bc2a37cee7e1968",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 9.071976999999606,
+    "import_s": 2.0886129999998957,
+    "pipeline_s": 6.6894999999967695,
+    "stages_s": {
+      "preprocess": 0.09099350000178674,
+      "analyze_staves": 0.19192320000001928,
+      "detect_noteheads": 0.2939820999999938,
+      "drop_beam_ghosts": 0.299849399998493,
+      "drop_offstaff_ghosts": 0.1476669999974547,
+      "calculate_pitches": 0.0005753000004915521,
+      "annotate_accidentals": 0.3656656999992265,
+      "remove_accidental_ghosts": 0.07675990000279853,
+      "apply_chord_rescue": 3.0206337999989046,
+      "render_solfege_on_image": 0.16768170000068494
+    },
+    "peak_working_bytes": 262332416,
+    "labels": 258,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "check": 94,
+      "caution": 6,
+      "certain": 158
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 44,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "resize110",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "eafe3fc89ad9fd5be58633270552c0d0570124f1ce080f8d8eecbef6659cf3ae",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 13.868614099999832,
+    "import_s": 2.135739299999841,
+    "pipeline_s": 11.446554099999048,
+    "stages_s": {
+      "preprocess": 0.12498480000067502,
+      "analyze_staves": 0.26320529999793507,
+      "detect_noteheads": 0.4304042000003392,
+      "drop_beam_ghosts": 0.5019631999966805,
+      "drop_offstaff_ghosts": 0.19083050000335788,
+      "calculate_pitches": 0.0007949999999254942,
+      "annotate_accidentals": 0.4804375000021537,
+      "remove_accidental_ghosts": 0.11940649999814923,
+      "apply_chord_rescue": 5.424043200000597,
+      "render_solfege_on_image": 0.2444541000004392
+    },
+    "peak_working_bytes": 328171520,
+    "labels": 226,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 161,
+      "check": 62,
+      "caution": 3
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 12,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_bravura_p1",
+    "kind": "verovio",
+    "variant": "jpeg70",
+    "source_sha256": "2dba4943e9459602a0ccc6d099089523cfb5dc4749828a0f7556cca227273c46",
+    "input_sha256": "d8498b468eb61ef3d0b01279408ffa656144dfc7ec73f36bfa5d16f43994bc1b",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 13.32608849999815,
+    "import_s": 2.9030100000018138,
+    "pipeline_s": 10.05141829999775,
+    "stages_s": {
+      "preprocess": 0.14294660000086878,
+      "analyze_staves": 0.259637200000725,
+      "detect_noteheads": 0.42744220000167843,
+      "drop_beam_ghosts": 0.43938450000132434,
+      "drop_offstaff_ghosts": 0.23778710000260617,
+      "calculate_pitches": 0.0006967000008444302,
+      "annotate_accidentals": 0.3935803999993368,
+      "remove_accidental_ghosts": 0.11264719999962836,
+      "apply_chord_rescue": 4.61072029999923,
+      "render_solfege_on_image": 0.27997959999993327
+    },
+    "peak_working_bytes": 293871616,
+    "labels": 239,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "check": 87,
+      "caution": 6,
+      "certain": 146
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 25,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "c6d903e880142f233e2c835e276a40e6d29f01b82a2fd1e6caa96b5b6fa5200f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.59420009999667,
+    "import_s": 2.6556429999982356,
+    "pipeline_s": 7.649240999999165,
+    "stages_s": {
+      "preprocess": 0.10904149999987567,
+      "analyze_staves": 0.1882925999998406,
+      "detect_noteheads": 0.32584010000209673,
+      "drop_beam_ghosts": 0.3267125999991549,
+      "drop_offstaff_ghosts": 0.18865200000072946,
+      "calculate_pitches": 0.0004948000023432542,
+      "annotate_accidentals": 0.3171448999964923,
+      "remove_accidental_ghosts": 0.08113560000128928,
+      "apply_chord_rescue": 3.5190197999982047,
+      "render_solfege_on_image": 0.16624370000135968
+    },
+    "peak_working_bytes": 292368384,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 137,
+      "check": 86
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 133,
+      "음고": 74
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "identity_warp",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "c6d903e880142f233e2c835e276a40e6d29f01b82a2fd1e6caa96b5b6fa5200f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 11.240495800000645,
+    "import_s": 2.349646099999518,
+    "pipeline_s": 8.59799280000152,
+    "stages_s": {
+      "preprocess": 0.2666346000005433,
+      "analyze_staves": 0.21067459999903804,
+      "detect_noteheads": 0.36902890000055777,
+      "drop_beam_ghosts": 0.3687307999971381,
+      "drop_offstaff_ghosts": 0.19372359999397304,
+      "calculate_pitches": 0.0005352000007405877,
+      "annotate_accidentals": 0.36739610000222456,
+      "remove_accidental_ghosts": 0.10063979999904404,
+      "apply_chord_rescue": 3.912081800001033,
+      "render_solfege_on_image": 0.19251259999873582
+    },
+    "peak_working_bytes": 292929536,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 137,
+      "check": 86
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 133,
+      "음고": 74
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x025",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "773c85d788c698ecaed53da35299391f8802da303f8cc0b08be2706e60b02de1",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.216695300001447,
+    "import_s": 2.2120431999974244,
+    "pipeline_s": 7.7140321000006224,
+    "stages_s": {
+      "preprocess": 0.10681560000011814,
+      "analyze_staves": 0.19629589999749442,
+      "detect_noteheads": 0.32965039999908186,
+      "drop_beam_ghosts": 0.33008939999490394,
+      "drop_offstaff_ghosts": 0.192063300000882,
+      "calculate_pitches": 0.000660100002278341,
+      "annotate_accidentals": 0.32438570000158506,
+      "remove_accidental_ghosts": 0.08431460000065272,
+      "apply_chord_rescue": 3.5701547999997274,
+      "render_solfege_on_image": 0.1707289000005403
+    },
+    "peak_working_bytes": 294174720,
+    "labels": 224,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 120,
+      "check": 104
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 10,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 16,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x05",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "0f87974107ce0ede04a40438a71649c29ae86bcbe0799b24ceed07845a210974",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.36687560000064,
+    "import_s": 2.128408100001252,
+    "pipeline_s": 7.977739900001325,
+    "stages_s": {
+      "preprocess": 0.11281409999719472,
+      "analyze_staves": 0.1879079999998794,
+      "detect_noteheads": 0.31643610000173794,
+      "drop_beam_ghosts": 0.3347951999967336,
+      "drop_offstaff_ghosts": 0.19199939999816706,
+      "calculate_pitches": 0.0007707000004302245,
+      "annotate_accidentals": 0.3343927999994776,
+      "remove_accidental_ghosts": 0.08039260000077775,
+      "apply_chord_rescue": 3.885042699999758,
+      "render_solfege_on_image": 0.17930759999944712
+    },
+    "peak_working_bytes": 294494208,
+    "labels": 223,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 1,
+      "certain": 127,
+      "check": 95
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 9,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 16,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x075",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "9940bb6c0e916cebcf607baceb4abdd71838949d69cfdfcf08de3bcf96b439fb",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.620417800000723,
+    "import_s": 2.0986563000005845,
+    "pipeline_s": 8.258222300002672,
+    "stages_s": {
+      "preprocess": 0.1013706000012462,
+      "analyze_staves": 0.19142640000063693,
+      "detect_noteheads": 0.32006380000166246,
+      "drop_beam_ghosts": 0.34602360000644694,
+      "drop_offstaff_ghosts": 0.22134259999802453,
+      "calculate_pitches": 0.0005326000027707778,
+      "annotate_accidentals": 0.3279490999993868,
+      "remove_accidental_ghosts": 0.0782255999984045,
+      "apply_chord_rescue": 4.053818399999727,
+      "render_solfege_on_image": 0.1688821999996435
+    },
+    "peak_working_bytes": 293724160,
+    "labels": 224,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 1,
+      "certain": 145,
+      "check": 78
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 126,
+      "음고": 81
+    },
+    "ghosts": 10,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 16,
+    "fixed": 9,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "y05",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "ab73a6806fe806741c08acbbf45479ade4f56a8e7ae0a6955811c525d6fb164d",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 10.091924399999698,
+    "import_s": 2.114121200000227,
+    "pipeline_s": 7.724866699998529,
+    "stages_s": {
+      "preprocess": 0.10563469999760855,
+      "analyze_staves": 0.20714120000047842,
+      "detect_noteheads": 0.3164604999983567,
+      "drop_beam_ghosts": 0.3307044000030146,
+      "drop_offstaff_ghosts": 0.14413779999813414,
+      "calculate_pitches": 0.0007073999986459967,
+      "annotate_accidentals": 0.3366490000007616,
+      "remove_accidental_ghosts": 0.08638989999963087,
+      "apply_chord_rescue": 3.511442499999248,
+      "render_solfege_on_image": 0.16258100000050035
+    },
+    "peak_working_bytes": 290766848,
+    "labels": 221,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 164,
+      "check": 57
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 7,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 16,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "xy05",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "2708c61a519233170e7413a74f98222783bbdbcd34c346e9ce53f252af330c57",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 10.27726310000071,
+    "import_s": 2.109136800001579,
+    "pipeline_s": 7.899933799999417,
+    "stages_s": {
+      "preprocess": 0.1015828000017791,
+      "analyze_staves": 0.20121060000019497,
+      "detect_noteheads": 0.3201535000007425,
+      "drop_beam_ghosts": 0.3391587000005529,
+      "drop_offstaff_ghosts": 0.16259319999880972,
+      "calculate_pitches": 0.0005272000016702805,
+      "annotate_accidentals": 0.33393380000416073,
+      "remove_accidental_ghosts": 0.09184519999689655,
+      "apply_chord_rescue": 3.697652899998502,
+      "render_solfege_on_image": 0.1805805000003602
+    },
+    "peak_working_bytes": 293257216,
+    "labels": 222,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 147,
+      "check": 75
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 8,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 16,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "resize090",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "fdf01706a0473147b49de39a409661e7853da9539e239469fa3dc37bafff1733",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 9.149669000002177,
+    "import_s": 2.09646789999897,
+    "pipeline_s": 6.787748399998236,
+    "stages_s": {
+      "preprocess": 0.08978159999969648,
+      "analyze_staves": 0.17568670000036946,
+      "detect_noteheads": 0.30107009999846923,
+      "drop_beam_ghosts": 0.28661490000013146,
+      "drop_offstaff_ghosts": 0.2089769999984128,
+      "calculate_pitches": 0.0006605000016861595,
+      "annotate_accidentals": 0.3513142000010703,
+      "remove_accidental_ghosts": 0.08021250000456348,
+      "apply_chord_rescue": 3.0311328999996476,
+      "render_solfege_on_image": 0.16721989999859943
+    },
+    "peak_working_bytes": 264237056,
+    "labels": 263,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 161,
+      "caution": 7,
+      "check": 95
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 106,
+      "음고": 90,
+      "표기": 11
+    },
+    "ghosts": 49,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "0",
+      "key_ok": false
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 27,
+    "fixed": 0,
+    "key_changed": true
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "resize110",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "97cea3fae0eb07e5b6292f7b51e0040a3e9734c111d9a791f880b352fa2a2bce",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.241931200002,
+    "import_s": 2.1094782000000123,
+    "pipeline_s": 9.842612799999188,
+    "stages_s": {
+      "preprocess": 0.12513490000128513,
+      "analyze_staves": 0.2559734999995271,
+      "detect_noteheads": 0.3655652999987069,
+      "drop_beam_ghosts": 0.3778191000019433,
+      "drop_offstaff_ghosts": 0.18525379999482539,
+      "calculate_pitches": 0.0005292999994708225,
+      "annotate_accidentals": 0.38884739999775775,
+      "remove_accidental_ghosts": 0.10108250000121188,
+      "apply_chord_rescue": 4.777103800002806,
+      "render_solfege_on_image": 0.21951440000339062
+    },
+    "peak_working_bytes": 326184960,
+    "labels": 235,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "check": 67,
+      "caution": 5,
+      "certain": 163
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 117,
+      "음고": 90
+    },
+    "ghosts": 21,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 3,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 16,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "beethoven_op18no1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "jpeg70",
+    "source_sha256": "bb21e5fb58f9febf4a3fb6be6972c7160de146298617331172ac0ccef0dab8a9",
+    "input_sha256": "1508057b9c7deb7f25dd38611d8ec7823c5f67f36e443427fc7a6a3dd0c97193",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 9.756709000001138,
+    "import_s": 1.4466105999999854,
+    "pipeline_s": 7.997043700001086,
+    "stages_s": {
+      "preprocess": 0.11399109999911161,
+      "analyze_staves": 0.19837449999977252,
+      "detect_noteheads": 0.3143791999973473,
+      "drop_beam_ghosts": 0.32504890000564046,
+      "drop_offstaff_ghosts": 0.18638669999927515,
+      "calculate_pitches": 0.0005069000035291538,
+      "annotate_accidentals": 0.33280529999683495,
+      "remove_accidental_ghosts": 0.08489099999860628,
+      "apply_chord_rescue": 3.7077375999979267,
+      "render_solfege_on_image": 0.21517769999991287
+    },
+    "peak_working_bytes": 294264832,
+    "labels": 221,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 1,
+      "key_letters": [
+        "B"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 145,
+      "check": 76
+    },
+    "truth": 207,
+    "counts": {
+      "맞음": 133,
+      "음고": 74
+    },
+    "ghosts": 7,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [
+        {
+          "staff": 2,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 6,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 7,
+          "truth": "bass",
+          "got": "treble"
+        },
+        {
+          "staff": 10,
+          "truth": "alto3",
+          "got": "bass"
+        },
+        {
+          "staff": 11,
+          "truth": "bass",
+          "got": "treble"
+        }
+      ],
+      "key_truth": [
+        "1f"
+      ],
+      "key_first": "1f",
+      "key_got": "1f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_1_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+    "input_sha256": "f661c77dfa747262600b36f1bb766939264a07f2b89b196f70a73ad504dffdd4",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 15.85782879999897,
+    "import_s": 2.1842949999991106,
+    "pipeline_s": 13.367817900001683,
+    "stages_s": {
+      "preprocess": 0.11638089999905787,
+      "analyze_staves": 0.24061889999939012,
+      "detect_noteheads": 0.4969442000001436,
+      "drop_beam_ghosts": 0.3443637000018498,
+      "drop_offstaff_ghosts": 2.4435854999974254,
+      "calculate_pitches": 0.001879300001746742,
+      "annotate_accidentals": 0.782916700001806,
+      "remove_accidental_ghosts": 0.09790960000100313,
+      "apply_chord_rescue": 6.721027100000356,
+      "render_solfege_on_image": 0.4960973000015656
+    },
+    "peak_working_bytes": 297197568,
+    "labels": 599,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 3,
+      "key_letters": [
+        "B",
+        "E",
+        "A"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 67,
+      "certain": 355,
+      "check": 177
+    },
+    "truth": 562,
+    "counts": {
+      "맞음": 404,
+      "음고": 131,
+      "누락": 16,
+      "표기": 11
+    },
+    "ghosts": 53,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "3f",
+        "4f"
+      ],
+      "key_first": "3f",
+      "key_got": "3f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_1_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "42a494da27842044be275e83df5967faffed1c545a78858cc0672b9af55be4d6",
+    "input_sha256": "b31d95e90e19c1602bb99fa103ad5bfd8e498e4830953c1fc55b0b3a7b07e667",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 17.790514300002542,
+    "import_s": 1.7804805999985547,
+    "pipeline_s": 15.7133216000002,
+    "stages_s": {
+      "preprocess": 0.13238420000197948,
+      "analyze_staves": 0.2770338999980595,
+      "detect_noteheads": 0.5645842000012635,
+      "drop_beam_ghosts": 0.4498063999999431,
+      "drop_offstaff_ghosts": 3.0731917999983125,
+      "calculate_pitches": 0.0020514000025286805,
+      "annotate_accidentals": 0.9250214000021515,
+      "remove_accidental_ghosts": 0.12370039999950677,
+      "apply_chord_rescue": 7.231637500000943,
+      "render_solfege_on_image": 0.431241800000862
+    },
+    "peak_working_bytes": 293883904,
+    "labels": 612,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 3,
+      "key_letters": [
+        "B",
+        "E",
+        "A"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 65,
+      "certain": 352,
+      "check": 195
+    },
+    "truth": 562,
+    "counts": {
+      "맞음": 405,
+      "표기": 12,
+      "음고": 133,
+      "누락": 12
+    },
+    "ghosts": 62,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "3f",
+        "4f"
+      ],
+      "key_first": "3f",
+      "key_got": "3f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "7a52b3221220e2ba9b187f3050e922e8e0b63001a278b6430290c869d6546cab",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.809472400000232,
+    "import_s": 2.4029289000027347,
+    "pipeline_s": 12.146880600001168,
+    "stages_s": {
+      "preprocess": 0.13983550000193645,
+      "analyze_staves": 0.25176900000224123,
+      "detect_noteheads": 0.5464241999980004,
+      "drop_beam_ghosts": 0.37450819999867235,
+      "drop_offstaff_ghosts": 1.9942368000010902,
+      "calculate_pitches": 0.0014929999997548293,
+      "annotate_accidentals": 0.7494217999992543,
+      "remove_accidental_ghosts": 0.09906330000012531,
+      "apply_chord_rescue": 5.394481499999529,
+      "render_solfege_on_image": 0.3520217000004777
+    },
+    "peak_working_bytes": 295378944,
+    "labels": 548,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 325,
+      "check": 41,
+      "caution": 182
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 474,
+      "누락": 100,
+      "표기": 24,
+      "음고": 14
+    },
+    "ghosts": 29,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "identity_warp",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "7a52b3221220e2ba9b187f3050e922e8e0b63001a278b6430290c869d6546cab",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.76527200000055,
+    "import_s": 2.1064498999985517,
+    "pipeline_s": 12.389788799999224,
+    "stages_s": {
+      "preprocess": 0.10541269999885117,
+      "analyze_staves": 0.22418190000098548,
+      "detect_noteheads": 0.49740249999740627,
+      "drop_beam_ghosts": 0.3496911000002001,
+      "drop_offstaff_ghosts": 1.8953984000036144,
+      "calculate_pitches": 0.0011647999999695458,
+      "annotate_accidentals": 0.7078280999958224,
+      "remove_accidental_ghosts": 0.09122459999707644,
+      "apply_chord_rescue": 5.540847100000974,
+      "render_solfege_on_image": 0.3981239999993704
+    },
+    "peak_working_bytes": 293265408,
+    "labels": 548,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 325,
+      "check": 41,
+      "caution": 182
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 474,
+      "누락": 100,
+      "표기": 24,
+      "음고": 14
+    },
+    "ghosts": 29,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "x025",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "b5454a29a003da2f332983f94707f61c7749664a0a5c54f635633dac3799262e",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.136224200003198,
+    "import_s": 2.142030799997883,
+    "pipeline_s": 11.722932199998468,
+    "stages_s": {
+      "preprocess": 0.1106880999977875,
+      "analyze_staves": 0.23422130000108154,
+      "detect_noteheads": 0.4406976999998733,
+      "drop_beam_ghosts": 0.35757469999953173,
+      "drop_offstaff_ghosts": 1.9355674999933399,
+      "calculate_pitches": 0.001048499998432817,
+      "annotate_accidentals": 0.6992265999979281,
+      "remove_accidental_ghosts": 0.08673149999958696,
+      "apply_chord_rescue": 5.422561100000166,
+      "render_solfege_on_image": 0.35331310000037774
+    },
+    "peak_working_bytes": 295124992,
+    "labels": 549,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 319,
+      "check": 45,
+      "caution": 185
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 475,
+      "누락": 99,
+      "표기": 24,
+      "음고": 14
+    },
+    "ghosts": 30,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 2,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "x05",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "e708daa95b028b49b3790451784d241381594a76124511bcf3114c9099b31250",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.423086500002682,
+    "import_s": 2.0783157000005303,
+    "pipeline_s": 12.071538500000315,
+    "stages_s": {
+      "preprocess": 0.11239870000281371,
+      "analyze_staves": 0.22660220000034315,
+      "detect_noteheads": 0.44442500000150176,
+      "drop_beam_ghosts": 0.3532523999965633,
+      "drop_offstaff_ghosts": 1.926155100001779,
+      "calculate_pitches": 0.001222700004291255,
+      "annotate_accidentals": 0.7160125999980664,
+      "remove_accidental_ghosts": 0.0976957000020775,
+      "apply_chord_rescue": 5.723382699998183,
+      "render_solfege_on_image": 0.3841714000009233
+    },
+    "peak_working_bytes": 295837696,
+    "labels": 550,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 323,
+      "check": 42,
+      "caution": 185
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 474,
+      "누락": 98,
+      "표기": 24,
+      "음고": 16
+    },
+    "ghosts": 29,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 3,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "x075",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "bf0c10f295697503e802d9d5ba2cd866eea7920dd371549c783388511fd28c72",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.151102199997695,
+    "import_s": 2.071697100000165,
+    "pipeline_s": 11.816431100000045,
+    "stages_s": {
+      "preprocess": 0.10503620000235969,
+      "analyze_staves": 0.2241704000007303,
+      "detect_noteheads": 0.43991190000087954,
+      "drop_beam_ghosts": 0.3513362999983656,
+      "drop_offstaff_ghosts": 1.890230099998007,
+      "calculate_pitches": 0.0011966000020038337,
+      "annotate_accidentals": 0.7012221000004502,
+      "remove_accidental_ghosts": 0.1056652999977814,
+      "apply_chord_rescue": 5.408868299997266,
+      "render_solfege_on_image": 0.3510220999996818
+    },
+    "peak_working_bytes": 294662144,
+    "labels": 552,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 324,
+      "check": 45,
+      "caution": 183
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 475,
+      "누락": 99,
+      "표기": 24,
+      "음고": 14
+    },
+    "ghosts": 32,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 2,
+    "recovered": 3,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "y05",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "2a71eea945fe368dbfad55408f66d5835487c51abbbfa05db139dde1ee244051",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 14.532888300000195,
+    "import_s": 2.1272564999999304,
+    "pipeline_s": 12.141220899997279,
+    "stages_s": {
+      "preprocess": 0.10364860000117915,
+      "analyze_staves": 0.21992339999997057,
+      "detect_noteheads": 0.4479412999971828,
+      "drop_beam_ghosts": 0.3533318000008876,
+      "drop_offstaff_ghosts": 2.0136584999963816,
+      "calculate_pitches": 0.0011260999999649357,
+      "annotate_accidentals": 0.7062777000028291,
+      "remove_accidental_ghosts": 0.09512639999957173,
+      "apply_chord_rescue": 5.660325100001501,
+      "render_solfege_on_image": 0.36518380000052275
+    },
+    "peak_working_bytes": 295583744,
+    "labels": 551,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 322,
+      "caution": 189,
+      "check": 40
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 477,
+      "누락": 97,
+      "표기": 23,
+      "음고": 15
+    },
+    "ghosts": 27,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 4,
+    "new_wrong": 0,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "xy05",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "d98653afeedccc3f83d2ae92807f54ad9d59775d9f2d47938870b434cd4bad14",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 16.803966200001014,
+    "import_s": 2.18916050000189,
+    "pipeline_s": 14.295335700000578,
+    "stages_s": {
+      "preprocess": 0.11349640000116779,
+      "analyze_staves": 0.21735999999873457,
+      "detect_noteheads": 0.440607500000624,
+      "drop_beam_ghosts": 0.39149550000365707,
+      "drop_offstaff_ghosts": 2.3775499999901513,
+      "calculate_pitches": 0.0011662000033538789,
+      "annotate_accidentals": 0.756488700000773,
+      "remove_accidental_ghosts": 0.10044460000426625,
+      "apply_chord_rescue": 7.3027610999997705,
+      "render_solfege_on_image": 0.4636715999986336
+    },
+    "peak_working_bytes": 295432192,
+    "labels": 555,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 327,
+      "check": 43,
+      "caution": 185
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 478,
+      "누락": 95,
+      "표기": 23,
+      "음고": 16
+    },
+    "ghosts": 30,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 6,
+    "new_wrong": 0,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "resize090",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "49a5007484a1f247754b2f4e03f1966ea98144713c9a9d0076c8fc6e2647128f",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 16.021223299998383,
+    "import_s": 2.832117300000391,
+    "pipeline_s": 12.878133599999273,
+    "stages_s": {
+      "preprocess": 0.128495799999655,
+      "analyze_staves": 0.23087750000195228,
+      "detect_noteheads": 0.5290389999972831,
+      "drop_beam_ghosts": 0.3658700000050885,
+      "drop_offstaff_ghosts": 1.9359302000011667,
+      "calculate_pitches": 0.0012476000010792632,
+      "annotate_accidentals": 0.7525215000059688,
+      "remove_accidental_ghosts": 0.12396809999700054,
+      "apply_chord_rescue": 5.363326900001994,
+      "render_solfege_on_image": 0.3672087000013562
+    },
+    "peak_working_bytes": 262377472,
+    "labels": 556,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 323,
+      "check": 52,
+      "caution": 181
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 475,
+      "누락": 99,
+      "표기": 24,
+      "음고": 14
+    },
+    "ghosts": 36,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 3,
+    "recovered": 4,
+    "new_wrong": 0,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "resize110",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "54a65eb7c1af1b40991f87bd5cf1a96ee2ae030ff03f1dfdf1ecf4c87aeb5b47",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 16.341167599999608,
+    "import_s": 2.112830699999904,
+    "pipeline_s": 13.967360200000257,
+    "stages_s": {
+      "preprocess": 0.12647240000296733,
+      "analyze_staves": 0.2552243999998609,
+      "detect_noteheads": 0.5021694999995816,
+      "drop_beam_ghosts": 0.4045832000047085,
+      "drop_offstaff_ghosts": 2.1576748000006774,
+      "calculate_pitches": 0.0012039000030199531,
+      "annotate_accidentals": 0.8092914000008022,
+      "remove_accidental_ghosts": 0.10464300000239746,
+      "apply_chord_rescue": 6.553447399997822,
+      "render_solfege_on_image": 0.3910172000032617
+    },
+    "peak_working_bytes": 325423104,
+    "labels": 546,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 319,
+      "check": 42,
+      "caution": 185
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 476,
+      "누락": 97,
+      "표기": 23,
+      "음고": 16
+    },
+    "ghosts": 26,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 3,
+    "new_wrong": 0,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_bravura_p1",
+    "kind": "verovio",
+    "variant": "jpeg70",
+    "source_sha256": "933a7f129bdac537375c0254f117c84d7fb8c90f2410085aae5566b8fd837c44",
+    "input_sha256": "f23676e162f1295340f4f93d59068ce870b4649cc1a62eb9b7e7f594f6d4a00a",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.482988100000512,
+    "import_s": 2.1111633999971673,
+    "pipeline_s": 12.107015100002172,
+    "stages_s": {
+      "preprocess": 0.12106459999995423,
+      "analyze_staves": 0.2190279999995255,
+      "detect_noteheads": 0.43900670000221,
+      "drop_beam_ghosts": 0.3557172000000719,
+      "drop_offstaff_ghosts": 1.8862990000015998,
+      "calculate_pitches": 0.0012301999995543156,
+      "annotate_accidentals": 0.7067563999989943,
+      "remove_accidental_ghosts": 0.1011532000011357,
+      "apply_chord_rescue": 5.630913500001043,
+      "render_solfege_on_image": 0.3922315999989223
+    },
+    "peak_working_bytes": 296243200,
+    "labels": 552,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 325,
+      "check": 44,
+      "caution": 183
+    },
+    "truth": 612,
+    "counts": {
+      "맞음": 474,
+      "누락": 99,
+      "표기": 24,
+      "음고": 15
+    },
+    "ghosts": 32,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 1,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "2c94485c9dc834e1d89e1bc3ff05e6b9e47291793cffca678e49ed5131ca0326",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.172090500000195,
+    "import_s": 2.134980499999074,
+    "pipeline_s": 11.77886959999887,
+    "stages_s": {
+      "preprocess": 0.10763599999700091,
+      "analyze_staves": 0.22232059999805642,
+      "detect_noteheads": 0.44612750000305823,
+      "drop_beam_ghosts": 0.36284510000041337,
+      "drop_offstaff_ghosts": 1.8841551000041363,
+      "calculate_pitches": 0.0010915999955614097,
+      "annotate_accidentals": 0.6882411999977194,
+      "remove_accidental_ghosts": 0.08879240000169375,
+      "apply_chord_rescue": 5.506744099999196,
+      "render_solfege_on_image": 0.33312239999941085
+    },
+    "peak_working_bytes": 294830080,
+    "labels": 546,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 307,
+      "caution": 193,
+      "check": 46
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 467,
+      "누락": 73,
+      "표기": 26,
+      "음고": 17
+    },
+    "ghosts": 28,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "identity_warp",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "2c94485c9dc834e1d89e1bc3ff05e6b9e47291793cffca678e49ed5131ca0326",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.94028740000067,
+    "import_s": 2.068725400000403,
+    "pipeline_s": 12.580436700001883,
+    "stages_s": {
+      "preprocess": 0.10570079999888549,
+      "analyze_staves": 0.21900710000045365,
+      "detect_noteheads": 0.4327735000006214,
+      "drop_beam_ghosts": 0.4016932000013185,
+      "drop_offstaff_ghosts": 1.9671914000064135,
+      "calculate_pitches": 0.0012207999970996752,
+      "annotate_accidentals": 0.7209682000029716,
+      "remove_accidental_ghosts": 0.09246310000162339,
+      "apply_chord_rescue": 6.1118972999975085,
+      "render_solfege_on_image": 0.3836891999999352
+    },
+    "peak_working_bytes": 294830080,
+    "labels": 546,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 307,
+      "caution": 193,
+      "check": 46
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 467,
+      "누락": 73,
+      "표기": 26,
+      "음고": 17
+    },
+    "ghosts": 28,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x025",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "dbde1dd673585b93b48e1224aed69cdc6c96d22afc47b4d48798b320b5b38243",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.277800100000604,
+    "import_s": 2.144186500001524,
+    "pipeline_s": 11.834043100003328,
+    "stages_s": {
+      "preprocess": 0.11026819999824511,
+      "analyze_staves": 0.22021920000042883,
+      "detect_noteheads": 0.426571399999375,
+      "drop_beam_ghosts": 0.3604591999974218,
+      "drop_offstaff_ghosts": 1.8280470999961835,
+      "calculate_pitches": 0.0012140000035287812,
+      "annotate_accidentals": 0.698680700003024,
+      "remove_accidental_ghosts": 0.09999170000082813,
+      "apply_chord_rescue": 5.522016800001438,
+      "render_solfege_on_image": 0.35617199999978766
+    },
+    "peak_working_bytes": 291725312,
+    "labels": 545,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 312,
+      "caution": 188,
+      "check": 45
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 460,
+      "누락": 77,
+      "표기": 26,
+      "음고": 20
+    },
+    "ghosts": 30,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 9,
+    "recovered": 5,
+    "new_wrong": 5,
+    "fixed": 3,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x05",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "db2683e5675a4a18d805ceaf38e2fea362d276bde2aa3f8d79afa2f02148042d",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 15.014124200002698,
+    "import_s": 2.102824099998543,
+    "pipeline_s": 12.651086300000316,
+    "stages_s": {
+      "preprocess": 0.1292386000022816,
+      "analyze_staves": 0.24544310000055702,
+      "detect_noteheads": 0.43839139999909094,
+      "drop_beam_ghosts": 0.35709760000463575,
+      "drop_offstaff_ghosts": 1.9644608999988122,
+      "calculate_pitches": 0.0018477999983588234,
+      "annotate_accidentals": 0.7526572000024316,
+      "remove_accidental_ghosts": 0.10731849999865517,
+      "apply_chord_rescue": 5.633556700002373,
+      "render_solfege_on_image": 0.3656939999964379
+    },
+    "peak_working_bytes": 295190528,
+    "labels": 549,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 308,
+      "check": 52,
+      "caution": 189
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 469,
+      "누락": 74,
+      "표기": 24,
+      "음고": 16
+    },
+    "ghosts": 31,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 8,
+    "recovered": 7,
+    "new_wrong": 6,
+    "fixed": 7,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x075",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "f7f27d5b8c8abf37513431ac9e95481047a924f8ad2dd5cfd940bc38b5884862",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.414755600002536,
+    "import_s": 2.0698272999979963,
+    "pipeline_s": 12.061365499997919,
+    "stages_s": {
+      "preprocess": 0.11392220000197995,
+      "analyze_staves": 0.23183919999792124,
+      "detect_noteheads": 0.42762149999907706,
+      "drop_beam_ghosts": 0.3566116000038164,
+      "drop_offstaff_ghosts": 1.9964355999982217,
+      "calculate_pitches": 0.0011938999996345956,
+      "annotate_accidentals": 0.7207727000022714,
+      "remove_accidental_ghosts": 0.09550769999987097,
+      "apply_chord_rescue": 5.496399899999233,
+      "render_solfege_on_image": 0.37495039999703295
+    },
+    "peak_working_bytes": 295612416,
+    "labels": 543,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 306,
+      "caution": 192,
+      "check": 45
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 466,
+      "누락": 74,
+      "표기": 22,
+      "음고": 21
+    },
+    "ghosts": 26,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 6,
+    "recovered": 5,
+    "new_wrong": 6,
+    "fixed": 6,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "y05",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "ba86f4d3b4fba58f327dfb9ca8ff600573cd3b9d02c24acd3831c93201f9c34a",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 14.918894500002352,
+    "import_s": 2.076822799997899,
+    "pipeline_s": 12.548963500001264,
+    "stages_s": {
+      "preprocess": 0.10639549999905284,
+      "analyze_staves": 0.22266949999902863,
+      "detect_noteheads": 0.442414799999824,
+      "drop_beam_ghosts": 0.3670302000027732,
+      "drop_offstaff_ghosts": 2.216201200004434,
+      "calculate_pitches": 0.0012231000000610948,
+      "annotate_accidentals": 0.7421140999977069,
+      "remove_accidental_ghosts": 0.10270799999852898,
+      "apply_chord_rescue": 6.0779951000004075,
+      "render_solfege_on_image": 0.3526662000003853
+    },
+    "peak_working_bytes": 295686144,
+    "labels": 554,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 303,
+      "check": 62,
+      "caution": 189
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 458,
+      "누락": 73,
+      "표기": 32,
+      "음고": 20
+    },
+    "ghosts": 36,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 7,
+    "recovered": 7,
+    "new_wrong": 16,
+    "fixed": 6,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "xy05",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "834675b20caeb2fd41ddf2bff50a88007d684a4bc64b427a119bb04d54fb8c8f",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 14.958402200001728,
+    "import_s": 2.562036799998168,
+    "pipeline_s": 12.09073029999854,
+    "stages_s": {
+      "preprocess": 0.11639369999829796,
+      "analyze_staves": 0.21969099999842,
+      "detect_noteheads": 0.5001652999999351,
+      "drop_beam_ghosts": 0.35283909999998286,
+      "drop_offstaff_ghosts": 1.8868611000034434,
+      "calculate_pitches": 0.001061199996911455,
+      "annotate_accidentals": 0.7112068999995245,
+      "remove_accidental_ghosts": 0.09895540000070469,
+      "apply_chord_rescue": 5.509551299997838,
+      "render_solfege_on_image": 0.365788999999495
+    },
+    "peak_working_bytes": 295436288,
+    "labels": 549,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 303,
+      "check": 61,
+      "caution": 185
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 467,
+      "누락": 74,
+      "표기": 22,
+      "음고": 20
+    },
+    "ghosts": 31,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 11,
+    "recovered": 10,
+    "new_wrong": 4,
+    "fixed": 5,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "resize090",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "ccd527617aac7b32a454faf7b8792f5c8a8a6201a96ee89e43feac13b8056bb6",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.802279700001236,
+    "import_s": 2.0542093999974895,
+    "pipeline_s": 10.483420299999125,
+    "stages_s": {
+      "preprocess": 0.09673769999790238,
+      "analyze_staves": 0.1858509999983653,
+      "detect_noteheads": 0.3936921999993501,
+      "drop_beam_ghosts": 0.3106335000047693,
+      "drop_offstaff_ghosts": 1.6138815999947838,
+      "calculate_pitches": 0.001149199997598771,
+      "annotate_accidentals": 0.6939703999996709,
+      "remove_accidental_ghosts": 0.08665259999906993,
+      "apply_chord_rescue": 4.833751799997117,
+      "render_solfege_on_image": 0.33527569999932894
+    },
+    "peak_working_bytes": 263782400,
+    "labels": 550,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 183,
+      "certain": 302,
+      "check": 65
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 461,
+      "누락": 86,
+      "표기": 23,
+      "음고": 13
+    },
+    "ghosts": 45,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 17,
+    "recovered": 4,
+    "new_wrong": 1,
+    "fixed": 7,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "resize110",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "968728d4b22df2e8744204ffd1b70458b30094dc02b795084239048e53f3dfbd",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 16.271609100000205,
+    "import_s": 2.1233351999981096,
+    "pipeline_s": 13.883455000002868,
+    "stages_s": {
+      "preprocess": 0.13610130000233767,
+      "analyze_staves": 0.26771350000126404,
+      "detect_noteheads": 0.5210271999967517,
+      "drop_beam_ghosts": 0.4255104999974719,
+      "drop_offstaff_ghosts": 1.9680429999934859,
+      "calculate_pitches": 0.0010748999993666075,
+      "annotate_accidentals": 0.7990973999985727,
+      "remove_accidental_ghosts": 0.13399529999878723,
+      "apply_chord_rescue": 6.469930399998702,
+      "render_solfege_on_image": 0.40658410000105505
+    },
+    "peak_working_bytes": 324227072,
+    "labels": 591,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 304,
+      "caution": 221,
+      "check": 66
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 466,
+      "음고": 47,
+      "표기": 29,
+      "누락": 41
+    },
+    "ghosts": 42,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 4,
+    "recovered": 36,
+    "new_wrong": 27,
+    "fixed": 7,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_2_leipzig_p1",
+    "kind": "verovio",
+    "variant": "jpeg70",
+    "source_sha256": "6d0a2c057f994cafb809cc74c1eae346d366b6ec67e4ddb4c06b0b0a7c9ef30e",
+    "input_sha256": "103bafba872c850e536ffb26723d7a92ef67644a6ea8059fb476490a4dbe063e",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 15.804518000000826,
+    "import_s": 2.446735500001523,
+    "pipeline_s": 13.095802699997876,
+    "stages_s": {
+      "preprocess": 0.14465159999963362,
+      "analyze_staves": 0.27677870000115945,
+      "detect_noteheads": 0.6233378999968409,
+      "drop_beam_ghosts": 0.3966098999953829,
+      "drop_offstaff_ghosts": 2.0434381000013673,
+      "calculate_pitches": 0.0012124999993829988,
+      "annotate_accidentals": 0.7454891999987012,
+      "remove_accidental_ghosts": 0.11213680000219028,
+      "apply_chord_rescue": 6.035461499999656,
+      "render_solfege_on_image": 0.3778993999985687
+    },
+    "peak_working_bytes": 295153664,
+    "labels": 545,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "certain": 307,
+      "caution": 188,
+      "check": 50
+    },
+    "truth": 583,
+    "counts": {
+      "맞음": 462,
+      "누락": 76,
+      "표기": 26,
+      "음고": 19
+    },
+    "ghosts": 29,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0",
+        "1f"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 5,
+    "recovered": 2,
+    "new_wrong": 2,
+    "fixed": 2,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_3_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "b4172f5a0cfeed2fb51d1ea33de1591511e299ab560e46c7acb52dd2aa0d3560",
+    "input_sha256": "328be901c54446141af51e1aa3163aa0feb2dc9021be115a80e4b793481eb0a6",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.867630400000053,
+    "import_s": 2.158280999999988,
+    "pipeline_s": 12.43950340000083,
+    "stages_s": {
+      "preprocess": 0.10919070000090869,
+      "analyze_staves": 0.17971939999915776,
+      "detect_noteheads": 0.44674400000076275,
+      "drop_beam_ghosts": 0.3480985999958648,
+      "drop_offstaff_ghosts": 3.0236200999970606,
+      "calculate_pitches": 0.0012169000001449604,
+      "annotate_accidentals": 0.6168717999971705,
+      "remove_accidental_ghosts": 0.09225729999889154,
+      "apply_chord_rescue": 5.627081200000248,
+      "render_solfege_on_image": 0.31677080000008573
+    },
+    "peak_working_bytes": 295055360,
+    "labels": 455,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 10,
+    "confidence": {
+      "certain": 256,
+      "check": 54,
+      "caution": 145
+    },
+    "truth": 465,
+    "counts": {
+      "맞음": 388,
+      "누락": 49,
+      "표기": 2,
+      "음고": 26
+    },
+    "ghosts": 25,
+    "header": {
+      "truth_staves": 10,
+      "product_staves": 10,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "2s"
+      ],
+      "key_first": "2s",
+      "key_got": "2s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_3_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "23648a6e1a58ae342884d7193c96952bb6b5c99db9f7c8edc2370fba0666f4df",
+    "input_sha256": "524f015be628646b2369b3cfb3bdb4d13648dd1a69e78140598b3014281747df",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 14.955729799999972,
+    "import_s": 2.1172009999972943,
+    "pipeline_s": 12.569868399998086,
+    "stages_s": {
+      "preprocess": 0.10309440000128234,
+      "analyze_staves": 0.1858661000005668,
+      "detect_noteheads": 0.3912218000004941,
+      "drop_beam_ghosts": 0.3519469999955618,
+      "drop_offstaff_ghosts": 2.910628600006021,
+      "calculate_pitches": 0.0010589999983494636,
+      "annotate_accidentals": 0.6375026999994589,
+      "remove_accidental_ghosts": 0.08914379999987432,
+      "apply_chord_rescue": 5.700385299998743,
+      "render_solfege_on_image": 0.344786199999362
+    },
+    "peak_working_bytes": 295571456,
+    "labels": 461,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 2,
+      "key_letters": [
+        "F",
+        "C"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 10,
+    "confidence": {
+      "certain": 251,
+      "check": 72,
+      "caution": 138
+    },
+    "truth": 465,
+    "counts": {
+      "맞음": 382,
+      "누락": 50,
+      "표기": 6,
+      "음고": 27
+    },
+    "ghosts": 32,
+    "header": {
+      "truth_staves": 10,
+      "product_staves": 10,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "2s"
+      ],
+      "key_first": "2s",
+      "key_got": "2s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_4_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "ed544d3f1384db6818b3d33079a1c8b10385370cdda7882e20fb7bf6a29b992b",
+    "input_sha256": "8e4b1537be5ea551e09a58f0a552ee83921178c42e818fa05e9526ecbb7325ec",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.390541799999482,
+    "import_s": 2.083169199999247,
+    "pipeline_s": 10.047139899998001,
+    "stages_s": {
+      "preprocess": 0.10615469999902416,
+      "analyze_staves": 0.19879150000269874,
+      "detect_noteheads": 0.3719793000018399,
+      "drop_beam_ghosts": 0.33852300000580726,
+      "drop_offstaff_ghosts": 1.6307419999975536,
+      "calculate_pitches": 0.0011117000030935742,
+      "annotate_accidentals": 0.5639097000021138,
+      "remove_accidental_ghosts": 0.11855199999990873,
+      "apply_chord_rescue": 4.643309799997951,
+      "render_solfege_on_image": 0.2691726999983075
+    },
+    "peak_working_bytes": 294596608,
+    "labels": 396,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 10,
+    "confidence": {
+      "check": 52,
+      "certain": 243,
+      "caution": 101
+    },
+    "truth": 402,
+    "counts": {
+      "맞음": 337,
+      "누락": 36,
+      "음고": 23,
+      "표기": 6
+    },
+    "ghosts": 28,
+    "header": {
+      "truth_staves": 10,
+      "product_staves": 10,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "clara_polonaise_4_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "cf6fb4341d5be4534d2ff7bf100324a2258cba70c7b1318c248df3f4513063b9",
+    "input_sha256": "c39d48135e3e385c5f634233334b2411f60d29c5a9b3d8fc4ca45cb14555f25b",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.6310713999992,
+    "import_s": 2.075370999998995,
+    "pipeline_s": 10.226857000001473,
+    "stages_s": {
+      "preprocess": 0.10388430000239168,
+      "analyze_staves": 0.19300179999845568,
+      "detect_noteheads": 0.35722270000042045,
+      "drop_beam_ghosts": 0.3269741000003705,
+      "drop_offstaff_ghosts": 1.5974455999967176,
+      "calculate_pitches": 0.0011985999990429264,
+      "annotate_accidentals": 0.519610899995314,
+      "remove_accidental_ghosts": 0.11422730000049341,
+      "apply_chord_rescue": 4.7573993999976665,
+      "render_solfege_on_image": 0.31780389999767067
+    },
+    "peak_working_bytes": 293380096,
+    "labels": 401,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 10,
+    "confidence": {
+      "check": 67,
+      "certain": 239,
+      "caution": 95
+    },
+    "truth": 402,
+    "counts": {
+      "맞음": 336,
+      "누락": 34,
+      "표기": 9,
+      "음고": 23
+    },
+    "ghosts": 32,
+    "header": {
+      "truth_staves": 10,
+      "product_staves": 10,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "joplin_maple_leaf_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "1f2c6025c1b15b73713e5e77b12ab0bfe549d90b6772ee1b85e262dc0f68ae7e",
+    "input_sha256": "a297e251e9f99e795401d10d4f11a7528fd32594fc4429f366a106ee1a72d0e3",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.323894799999835,
+    "import_s": 2.2572805999989214,
+    "pipeline_s": 9.741196599999967,
+    "stages_s": {
+      "preprocess": 0.11044960000072024,
+      "analyze_staves": 0.21178240000153892,
+      "detect_noteheads": 0.4025799000010011,
+      "drop_beam_ghosts": 0.3155369000014616,
+      "drop_offstaff_ghosts": 1.0085174000050756,
+      "calculate_pitches": 0.0010740000034275,
+      "annotate_accidentals": 0.7132778000050166,
+      "remove_accidental_ghosts": 0.08906710000155726,
+      "apply_chord_rescue": 4.42475039999772,
+      "render_solfege_on_image": 0.3852658000032534
+    },
+    "peak_working_bytes": 297017344,
+    "labels": 537,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 4,
+      "key_letters": [
+        "B",
+        "E",
+        "A",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 10,
+    "confidence": {
+      "certain": 369,
+      "check": 92,
+      "caution": 76
+    },
+    "truth": 534,
+    "counts": {
+      "누락": 27,
+      "맞음": 428,
+      "표기": 19,
+      "음고": 60
+    },
+    "ghosts": 30,
+    "header": {
+      "truth_staves": 10,
+      "product_staves": 10,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "4f"
+      ],
+      "key_first": "4f",
+      "key_got": "4f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "joplin_maple_leaf_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "810f192ae9b1bd98f18c63b39727f2a387839d4772ceb25c400efe6ce97838b6",
+    "input_sha256": "129c51c204a4bb0ed703a0817ab341e21428b61b6d626021459a33fb7386b7b0",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 11.91786090000096,
+    "import_s": 2.1313809000021138,
+    "pipeline_s": 9.527525800000149,
+    "stages_s": {
+      "preprocess": 0.10489030000098865,
+      "analyze_staves": 0.20435050000014598,
+      "detect_noteheads": 0.3929681999979948,
+      "drop_beam_ghosts": 0.32683929999984684,
+      "drop_offstaff_ghosts": 0.9496221999943373,
+      "calculate_pitches": 0.0010656999984348658,
+      "annotate_accidentals": 0.675298300000577,
+      "remove_accidental_ghosts": 0.07154780000200844,
+      "apply_chord_rescue": 4.325515700002143,
+      "render_solfege_on_image": 0.3499164999993809
+    },
+    "peak_working_bytes": 295866368,
+    "labels": 502,
+    "music": {
+      "key_symbol": "♭",
+      "key_count": 4,
+      "key_letters": [
+        "B",
+        "E",
+        "A",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 10,
+    "confidence": {
+      "certain": 349,
+      "check": 77,
+      "caution": 76
+    },
+    "truth": 518,
+    "counts": {
+      "누락": 33,
+      "맞음": 426,
+      "음고": 56,
+      "표기": 3
+    },
+    "ghosts": 17,
+    "header": {
+      "truth_staves": 10,
+      "product_staves": 10,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "4f"
+      ],
+      "key_first": "4f",
+      "key_got": "4f",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "mozart_k545_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "bbccc648e7fb65e416521681c90ffe1afd880be21db6982be871aa7ea15787ce",
+    "input_sha256": "2f38c2a2709ef54043913ce4f8a710101de8270b06d008d5edc47d76cea6df93",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 7.326782100000855,
+    "import_s": 2.124462499999936,
+    "pipeline_s": 4.948110400000587,
+    "stages_s": {
+      "preprocess": 0.10439290000067558,
+      "analyze_staves": 0.1228726999979699,
+      "detect_noteheads": 0.15875859999869135,
+      "drop_beam_ghosts": 0.2697267000003194,
+      "drop_offstaff_ghosts": 0.07900820000213571,
+      "calculate_pitches": 0.0006352999989758246,
+      "annotate_accidentals": 0.2793122000002768,
+      "remove_accidental_ghosts": 0.05651679999937187,
+      "apply_chord_rescue": 2.2609018000002834,
+      "render_solfege_on_image": 0.14129359999787994
+    },
+    "peak_working_bytes": 293777408,
+    "labels": 198,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 6,
+    "confidence": {
+      "certain": 171,
+      "caution": 5,
+      "check": 22
+    },
+    "truth": 191,
+    "counts": {
+      "맞음": 177,
+      "음고": 14
+    },
+    "ghosts": 7,
+    "header": {
+      "truth_staves": 6,
+      "product_staves": 6,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "mozart_k545_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "d6f1a3fbbc56cd90bfafb2fd3da6f1797cbb9bb5d3caf29c1b0a7e770fc51aa2",
+    "input_sha256": "ce34ec86f7d9fadc3350d38cfee6a21174a525bf4b2c0477d14416b0f714805d",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 8.564039600001706,
+    "import_s": 2.12753999999768,
+    "pipeline_s": 6.14135289999831,
+    "stages_s": {
+      "preprocess": 0.09957749999739463,
+      "analyze_staves": 0.15146439999807626,
+      "detect_noteheads": 0.17557899999883375,
+      "drop_beam_ghosts": 0.27132409999831,
+      "drop_offstaff_ghosts": 0.11727569999857224,
+      "calculate_pitches": 0.0006452999987232033,
+      "annotate_accidentals": 0.27329850000023725,
+      "remove_accidental_ghosts": 0.060580299999855924,
+      "apply_chord_rescue": 2.772580500000913,
+      "render_solfege_on_image": 0.18950349999795435
+    },
+    "peak_working_bytes": 291733504,
+    "labels": 195,
+    "music": {
+      "key_symbol": "",
+      "key_count": 0,
+      "key_letters": [],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 8,
+    "confidence": {
+      "certain": 177,
+      "caution": 7,
+      "check": 11
+    },
+    "truth": 191,
+    "counts": {
+      "맞음": 181,
+      "음고": 10
+    },
+    "ghosts": 4,
+    "header": {
+      "truth_staves": 8,
+      "product_staves": 8,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "0"
+      ],
+      "key_first": "0",
+      "key_got": "0",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "ec4c7cd95a9d7b6a064526b1e706e25fb48bb40e5812c162209980637b28029c",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 13.017400000000634,
+    "import_s": 1.927613800002291,
+    "pipeline_s": 10.80145320000156,
+    "stages_s": {
+      "preprocess": 0.15205609999975422,
+      "analyze_staves": 0.35901000000012573,
+      "detect_noteheads": 0.5672835000004852,
+      "drop_beam_ghosts": 0.36530100000163657,
+      "drop_offstaff_ghosts": 1.1757455000006303,
+      "calculate_pitches": 0.0012142999985371716,
+      "annotate_accidentals": 0.6974770000015269,
+      "remove_accidental_ghosts": 0.09661299999788753,
+      "apply_chord_rescue": 4.703227400001197,
+      "render_solfege_on_image": 0.32476039999892237
+    },
+    "peak_working_bytes": 292802560,
+    "labels": 480,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 150,
+      "check": 26,
+      "certain": 304
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 432,
+      "누락": 41,
+      "음고": 1,
+      "표기": 26
+    },
+    "ghosts": 19,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "identity_warp",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "ec4c7cd95a9d7b6a064526b1e706e25fb48bb40e5812c162209980637b28029c",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 13.928692299999966,
+    "import_s": 2.1687934000001405,
+    "pipeline_s": 11.483138899999176,
+    "stages_s": {
+      "preprocess": 0.11533240000062506,
+      "analyze_staves": 0.24396990000241203,
+      "detect_noteheads": 0.4163215999979002,
+      "drop_beam_ghosts": 0.35610629999791854,
+      "drop_offstaff_ghosts": 1.1210103999983403,
+      "calculate_pitches": 0.0013244999972812366,
+      "annotate_accidentals": 0.6763337999982468,
+      "remove_accidental_ghosts": 0.10363589999906253,
+      "apply_chord_rescue": 5.332747100001143,
+      "render_solfege_on_image": 0.31214969999928144
+    },
+    "peak_working_bytes": 296427520,
+    "labels": 480,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 150,
+      "check": 26,
+      "certain": 304
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 432,
+      "누락": 41,
+      "음고": 1,
+      "표기": 26
+    },
+    "ghosts": 19,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "x025",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "e7a06596b08505558760d1265cbc0d84931ede1a179c032c2a0f687c1bd54dea",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.927300000003015,
+    "import_s": 2.3727255999983754,
+    "pipeline_s": 10.284410100000969,
+    "stages_s": {
+      "preprocess": 0.10679990000062389,
+      "analyze_staves": 0.24390609999682056,
+      "detect_noteheads": 0.40956119999827933,
+      "drop_beam_ghosts": 0.3370165999949677,
+      "drop_offstaff_ghosts": 1.1394021999985853,
+      "calculate_pitches": 0.0009296999996877275,
+      "annotate_accidentals": 0.6421401999978116,
+      "remove_accidental_ghosts": 0.09133590000419645,
+      "apply_chord_rescue": 4.7323761000006925,
+      "render_solfege_on_image": 0.31433470000047237
+    },
+    "peak_working_bytes": 295321600,
+    "labels": 475,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 148,
+      "certain": 297,
+      "check": 30
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 428,
+      "누락": 43,
+      "음고": 1,
+      "표기": 28
+    },
+    "ghosts": 16,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 3,
+    "recovered": 1,
+    "new_wrong": 3,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "x05",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "0d70a39df9dc86b3fe2df415ebe23e901d81cb6200da7393531abe44acd4207c",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.729159300000902,
+    "import_s": 2.0988385999989987,
+    "pipeline_s": 10.352818600000319,
+    "stages_s": {
+      "preprocess": 0.1049944999977015,
+      "analyze_staves": 0.24060180000014952,
+      "detect_noteheads": 0.40927019999799086,
+      "drop_beam_ghosts": 0.33450079999602167,
+      "drop_offstaff_ghosts": 1.0606401000004553,
+      "calculate_pitches": 0.0010213999994448386,
+      "annotate_accidentals": 0.6484100000016042,
+      "remove_accidental_ghosts": 0.09220540000023902,
+      "apply_chord_rescue": 4.811164599999756,
+      "render_solfege_on_image": 0.319339099998615
+    },
+    "peak_working_bytes": 294658048,
+    "labels": 476,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 145,
+      "certain": 307,
+      "check": 24
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 425,
+      "누락": 44,
+      "표기": 30,
+      "음고": 1
+    },
+    "ghosts": 18,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 4,
+    "recovered": 1,
+    "new_wrong": 5,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "x075",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "567b7713cf71b262d5fb1bdfd88d93cc3bd62c02568068216967bb232512283c",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.748715699999593,
+    "import_s": 2.0962641000005533,
+    "pipeline_s": 10.374279200001183,
+    "stages_s": {
+      "preprocess": 0.10723200000211364,
+      "analyze_staves": 0.2376896999994642,
+      "detect_noteheads": 0.40934289999859175,
+      "drop_beam_ghosts": 0.34510450000016135,
+      "drop_offstaff_ghosts": 1.1302506000029098,
+      "calculate_pitches": 0.0011482999980216846,
+      "annotate_accidentals": 0.6453312000012374,
+      "remove_accidental_ghosts": 0.09218420000252081,
+      "apply_chord_rescue": 4.795493499997974,
+      "render_solfege_on_image": 0.3297112999971432
+    },
+    "peak_working_bytes": 297119744,
+    "labels": 475,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 148,
+      "certain": 294,
+      "check": 33
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 425,
+      "표기": 32,
+      "누락": 43
+    },
+    "ghosts": 16,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 4,
+    "recovered": 2,
+    "new_wrong": 7,
+    "fixed": 2,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "y05",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "69edf4f9ed9b3ff4eff91ba42ab07819f7eb88b1391a7f78dacf376e4052d8e4",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 13.120445799999288,
+    "import_s": 2.0907890000016778,
+    "pipeline_s": 10.756809599999542,
+    "stages_s": {
+      "preprocess": 0.11931429999822285,
+      "analyze_staves": 0.24234120000255643,
+      "detect_noteheads": 0.4345523999982106,
+      "drop_beam_ghosts": 0.3460978000002797,
+      "drop_offstaff_ghosts": 1.093003800000588,
+      "calculate_pitches": 0.0010259000046062283,
+      "annotate_accidentals": 0.6506354999983159,
+      "remove_accidental_ghosts": 0.09757570000147098,
+      "apply_chord_rescue": 4.996212199999718,
+      "render_solfege_on_image": 0.3717434999998659
+    },
+    "peak_working_bytes": 296402944,
+    "labels": 490,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 161,
+      "certain": 298,
+      "check": 31
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 437,
+      "누락": 35,
+      "표기": 28
+    },
+    "ghosts": 23,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 2,
+    "recovered": 8,
+    "new_wrong": 2,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "xy05",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "6c55b4d4afbe7a2b82cda95de6c0f7f2adb7a712a0d477bef942e4edf6893411",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 13.166609399999288,
+    "import_s": 2.4053162000018347,
+    "pipeline_s": 10.489556300002732,
+    "stages_s": {
+      "preprocess": 0.11437730000034207,
+      "analyze_staves": 0.24846790000083274,
+      "detect_noteheads": 0.41664399999717716,
+      "drop_beam_ghosts": 0.3352532000026258,
+      "drop_offstaff_ghosts": 1.1047914000009769,
+      "calculate_pitches": 0.0009781999979168177,
+      "annotate_accidentals": 0.6349917999978061,
+      "remove_accidental_ghosts": 0.09622369999851799,
+      "apply_chord_rescue": 4.82644110000183,
+      "render_solfege_on_image": 0.3099359000007098
+    },
+    "peak_working_bytes": 294207488,
+    "labels": 486,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 164,
+      "certain": 300,
+      "check": 22
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 439,
+      "누락": 31,
+      "표기": 30
+    },
+    "ghosts": 15,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 11,
+    "new_wrong": 5,
+    "fixed": 2,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "resize090",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "7940ffe14d5f8caedc60f4fd199f2e168dfff0b64c6b0a6403c91acd4d6dccb7",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 11.628587100000004,
+    "import_s": 2.139675200000056,
+    "pipeline_s": 9.219792699997925,
+    "stages_s": {
+      "preprocess": 0.10300149999966379,
+      "analyze_staves": 0.20371890000023996,
+      "detect_noteheads": 0.3729758999979822,
+      "drop_beam_ghosts": 0.29620170000271173,
+      "drop_offstaff_ghosts": 0.9483272999968904,
+      "calculate_pitches": 0.0010082000044349115,
+      "annotate_accidentals": 0.6483091000009154,
+      "remove_accidental_ghosts": 0.08583859999998822,
+      "apply_chord_rescue": 4.147997600000963,
+      "render_solfege_on_image": 0.30735400000048685
+    },
+    "peak_working_bytes": 263753728,
+    "labels": 489,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 152,
+      "certain": 297,
+      "check": 40
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 424,
+      "표기": 31,
+      "누락": 45
+    },
+    "ghosts": 32,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 5,
+    "recovered": 1,
+    "new_wrong": 6,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "resize110",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "1517f0d4f3355b46d039b6bae642d83a6bcb21409384a3eb8f0af01cb5b452f3",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 15.467751200001658,
+    "import_s": 2.1368965999972716,
+    "pipeline_s": 13.064159899997321,
+    "stages_s": {
+      "preprocess": 0.1349370000025374,
+      "analyze_staves": 0.2815521999982593,
+      "detect_noteheads": 0.47596319999865955,
+      "drop_beam_ghosts": 0.4053779999994731,
+      "drop_offstaff_ghosts": 1.3713979999920412,
+      "calculate_pitches": 0.0011255999997956678,
+      "annotate_accidentals": 0.8127963000042655,
+      "remove_accidental_ghosts": 0.12487700000201585,
+      "apply_chord_rescue": 5.996044699997583,
+      "render_solfege_on_image": 0.351550600000337
+    },
+    "peak_working_bytes": 330133504,
+    "labels": 493,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 149,
+      "check": 43,
+      "certain": 301
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 428,
+      "누락": 40,
+      "표기": 32
+    },
+    "ghosts": 31,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 2,
+    "new_wrong": 6,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "jpeg70",
+    "source_sha256": "cccdf8ff5e6a087394eae3f0b8acc09cbb1ebf30b39ee1e16dec385a4f20e548",
+    "input_sha256": "476489b16f5d2e4b6d4d00bc9bccc9a7a758bda388c88c02e7d85719f1fdf1cc",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.729255700000067,
+    "import_s": 2.0981799000001047,
+    "pipeline_s": 10.357602200001566,
+    "stages_s": {
+      "preprocess": 0.1176339999983611,
+      "analyze_staves": 0.24553649999870686,
+      "detect_noteheads": 0.4219818999990821,
+      "drop_beam_ghosts": 0.344023699995887,
+      "drop_offstaff_ghosts": 1.0612669000001915,
+      "calculate_pitches": 0.0010615999999572523,
+      "annotate_accidentals": 0.6482334000029368,
+      "remove_accidental_ghosts": 0.0954916000009689,
+      "apply_chord_rescue": 4.692667799998162,
+      "render_solfege_on_image": 0.3417886000024737
+    },
+    "peak_working_bytes": 296173568,
+    "labels": 479,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 150,
+      "check": 27,
+      "certain": 302
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 433,
+      "누락": 41,
+      "표기": 26
+    },
+    "ghosts": 18,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 1,
+    "new_wrong": 0,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "6d5c9b410e70695ee8c5d54e46fe74629ca4e2134b7470d43476ef105f40c311",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 13.213531500001409,
+    "import_s": 2.140701500000432,
+    "pipeline_s": 10.79337950000263,
+    "stages_s": {
+      "preprocess": 0.10755010000139009,
+      "analyze_staves": 0.23336190000190982,
+      "detect_noteheads": 0.49258820000250125,
+      "drop_beam_ghosts": 0.3730842999975721,
+      "drop_offstaff_ghosts": 1.088658900000155,
+      "calculate_pitches": 0.0010855000000447035,
+      "annotate_accidentals": 0.63753910000014,
+      "remove_accidental_ghosts": 0.09029180000288761,
+      "apply_chord_rescue": 4.9802204000006896,
+      "render_solfege_on_image": 0.30698490000213496
+    },
+    "peak_working_bytes": 291651584,
+    "labels": 481,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 160,
+      "certain": 295,
+      "check": 26
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 435,
+      "누락": 34,
+      "표기": 28,
+      "음고": 3
+    },
+    "ghosts": 13,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "identity_warp",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "6d5c9b410e70695ee8c5d54e46fe74629ca4e2134b7470d43476ef105f40c311",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 12.82126369999969,
+    "import_s": 2.1013361000004807,
+    "pipeline_s": 10.45733829999881,
+    "stages_s": {
+      "preprocess": 0.10381319999942207,
+      "analyze_staves": 0.24600199999986216,
+      "detect_noteheads": 0.4080547999983537,
+      "drop_beam_ghosts": 0.3431890999963798,
+      "drop_offstaff_ghosts": 1.00960589999886,
+      "calculate_pitches": 0.0010387000002083369,
+      "annotate_accidentals": 0.6409563999986858,
+      "remove_accidental_ghosts": 0.09394740000061574,
+      "apply_chord_rescue": 4.838908400000946,
+      "render_solfege_on_image": 0.32042860000001383
+    },
+    "peak_working_bytes": 296103936,
+    "labels": 481,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 160,
+      "certain": 295,
+      "check": 26
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 435,
+      "누락": 34,
+      "표기": 28,
+      "음고": 3
+    },
+    "ghosts": 13,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x025",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "0ceb7a29070d3ce9f577a5fb8abc336a2c13264d1e7162497442310f9c827492",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.25,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 15.254374000000098,
+    "import_s": 2.41755589999957,
+    "pipeline_s": 12.546470100001898,
+    "stages_s": {
+      "preprocess": 0.12793750000128057,
+      "analyze_staves": 0.28200549999746727,
+      "detect_noteheads": 0.5797501999986707,
+      "drop_beam_ghosts": 0.43307060000370257,
+      "drop_offstaff_ghosts": 1.283374399998138,
+      "calculate_pitches": 0.001147899998613866,
+      "annotate_accidentals": 0.6942524000005506,
+      "remove_accidental_ghosts": 0.10616929999741842,
+      "apply_chord_rescue": 5.807979699999123,
+      "render_solfege_on_image": 0.392103500002122
+    },
+    "peak_working_bytes": 294944768,
+    "labels": 481,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 160,
+      "certain": 305,
+      "check": 16
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 437,
+      "누락": 36,
+      "음고": 1,
+      "표기": 26
+    },
+    "ghosts": 15,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 2,
+    "recovered": 0,
+    "new_wrong": 1,
+    "fixed": 3,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x05",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "53d71691dbb611553674f573ce2bd9f5c1f661a8397beda822e06cf76d907716",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 16.89192009999897,
+    "import_s": 2.6924216999977943,
+    "pipeline_s": 13.796713899999304,
+    "stages_s": {
+      "preprocess": 0.15118050000091898,
+      "analyze_staves": 0.3466447999999218,
+      "detect_noteheads": 0.6443843000015477,
+      "drop_beam_ghosts": 0.48438469999746303,
+      "drop_offstaff_ghosts": 1.4777357999992091,
+      "calculate_pitches": 0.0012027999982819892,
+      "annotate_accidentals": 0.730333999999857,
+      "remove_accidental_ghosts": 0.10795709999729297,
+      "apply_chord_rescue": 6.376498400000855,
+      "render_solfege_on_image": 0.4625849999974889
+    },
+    "peak_working_bytes": 297213952,
+    "labels": 479,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 155,
+      "certain": 298,
+      "check": 26
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 436,
+      "누락": 37,
+      "표기": 27
+    },
+    "ghosts": 14,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 4,
+    "recovered": 1,
+    "new_wrong": 4,
+    "fixed": 6,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "x075",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "b7bdca609f573881e1586f9876a4a63d00b677913f30cee6f41f784b3052eda0",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.75,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 15.967831500001921,
+    "import_s": 2.7489581999980146,
+    "pipeline_s": 12.870606300002692,
+    "stages_s": {
+      "preprocess": 0.13043280000056257,
+      "analyze_staves": 0.28972649999923306,
+      "detect_noteheads": 0.5324007000017446,
+      "drop_beam_ghosts": 0.43185979999543633,
+      "drop_offstaff_ghosts": 1.4895596999995178,
+      "calculate_pitches": 0.0013463999966916163,
+      "annotate_accidentals": 0.7395996999985073,
+      "remove_accidental_ghosts": 0.12281830000210903,
+      "apply_chord_rescue": 6.018810900000972,
+      "render_solfege_on_image": 0.38096390000282554
+    },
+    "peak_working_bytes": 295682048,
+    "labels": 480,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "check": 19,
+      "caution": 162,
+      "certain": 299
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 436,
+      "누락": 36,
+      "표기": 28
+    },
+    "ghosts": 14,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 3,
+    "recovered": 1,
+    "new_wrong": 1,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "y05",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "fcd7ecc1f19745977208604cd3ecc0b0eb3a60346e78cb280a100dc60664cded",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 23.05071820000012,
+    "import_s": 1.640284500001144,
+    "pipeline_s": 20.84856380000201,
+    "stages_s": {
+      "preprocess": 0.15723139999681734,
+      "analyze_staves": 0.36985330000243266,
+      "detect_noteheads": 0.5792075999997905,
+      "drop_beam_ghosts": 0.6613232000017888,
+      "drop_offstaff_ghosts": 2.181270900000527,
+      "calculate_pitches": 0.0017405000035068952,
+      "annotate_accidentals": 0.8269781000017247,
+      "remove_accidental_ghosts": 0.17091630000140867,
+      "apply_chord_rescue": 11.405177799999365,
+      "render_solfege_on_image": 0.8287271000008332
+    },
+    "peak_working_bytes": 295419904,
+    "labels": 494,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 164,
+      "certain": 292,
+      "check": 38
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 434,
+      "누락": 35,
+      "표기": 31
+    },
+    "ghosts": 27,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 4,
+    "recovered": 3,
+    "new_wrong": 4,
+    "fixed": 1,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "xy05",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "39f74a6de964dde692fc1013d7f618a92380badde3d353ace41d841a100f2026",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.5,
+    "dy": 0.5,
+    "status": 0,
+    "wall_s": 30.476245400001062,
+    "import_s": 6.019103400001768,
+    "pipeline_s": 23.543178500000067,
+    "stages_s": {
+      "preprocess": 0.2160561000018788,
+      "analyze_staves": 0.4810761000007915,
+      "detect_noteheads": 0.9301145999997971,
+      "drop_beam_ghosts": 0.7270863000048848,
+      "drop_offstaff_ghosts": 2.67275079999672,
+      "calculate_pitches": 0.0020485000022745226,
+      "annotate_accidentals": 0.8790523999996367,
+      "remove_accidental_ghosts": 0.1869827999980771,
+      "apply_chord_rescue": 11.41561410000213,
+      "render_solfege_on_image": 0.7976581000002625
+    },
+    "peak_working_bytes": 292134912,
+    "labels": 495,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 163,
+      "certain": 302,
+      "check": 30
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 437,
+      "누락": 34,
+      "음고": 3,
+      "표기": 26
+    },
+    "ghosts": 27,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 3,
+    "recovered": 3,
+    "new_wrong": 7,
+    "fixed": 6,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "resize090",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "6068ec6216f9d5b571a21298d47722dbf54d29c0b141b83efc9771951fd7f5bd",
+    "sx": 0.9,
+    "sy": 0.9,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 26.856529599997884,
+    "import_s": 5.446705099999235,
+    "pipeline_s": 20.629185800000414,
+    "stages_s": {
+      "preprocess": 0.19420259999969858,
+      "analyze_staves": 0.4742344000005687,
+      "detect_noteheads": 0.7927065000003495,
+      "drop_beam_ghosts": 0.6927376000021468,
+      "drop_offstaff_ghosts": 2.527498799998284,
+      "calculate_pitches": 0.003378299999894807,
+      "annotate_accidentals": 0.8878833999988274,
+      "remove_accidental_ghosts": 0.16796750000139582,
+      "apply_chord_rescue": 9.517797099997551,
+      "render_solfege_on_image": 0.7908692000019073
+    },
+    "peak_working_bytes": 261308416,
+    "labels": 496,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 3,
+      "key_letters": [
+        "F",
+        "C",
+        "G"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 164,
+      "certain": 296,
+      "check": 36
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 420,
+      "표기": 36,
+      "누락": 41,
+      "음고": 3
+    },
+    "ghosts": 35,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "3s",
+      "key_ok": false
+    },
+    "new_missing": 8,
+    "recovered": 1,
+    "new_wrong": 17,
+    "fixed": 6,
+    "key_changed": true
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "resize110",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "b82cb4d5835691a14bdc8b33a61c5fb8d891e64d96c3e6abcb11b3ad24d4ce20",
+    "sx": 1.1,
+    "sy": 1.1,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 33.14698729999873,
+    "import_s": 5.48677360000147,
+    "pipeline_s": 27.018317699999898,
+    "stages_s": {
+      "preprocess": 0.285329800000909,
+      "analyze_staves": 0.757030400000076,
+      "detect_noteheads": 1.0765000999999756,
+      "drop_beam_ghosts": 0.8548437999997986,
+      "drop_offstaff_ghosts": 2.6344546000000264,
+      "calculate_pitches": 0.001414199999999255,
+      "annotate_accidentals": 1.094525699998485,
+      "remove_accidental_ghosts": 0.24477250000200002,
+      "apply_chord_rescue": 13.013313800001924,
+      "render_solfege_on_image": 0.8742827000023681
+    },
+    "peak_working_bytes": 322445312,
+    "labels": 500,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 161,
+      "certain": 306,
+      "check": 33
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 432,
+      "표기": 32,
+      "음고": 7,
+      "누락": 29
+    },
+    "ghosts": 27,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 6,
+    "new_wrong": 10,
+    "fixed": 4,
+    "key_changed": false
+  },
+  {
+    "name": "schubert_lindenbaum_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "jpeg70",
+    "source_sha256": "e0891433a63c6e1c90ed8e87031d28f298629daf4092a86a8a0212ec7ba0675c",
+    "input_sha256": "88394dee93e6b6824afedde8a33477b2c5d61b5ac150ffae3fcfd21ee34f5279",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 21.71419909999895,
+    "import_s": 4.84495799999786,
+    "pipeline_s": 16.343683700000838,
+    "stages_s": {
+      "preprocess": 0.2142296999991231,
+      "analyze_staves": 0.4913569999989704,
+      "detect_noteheads": 0.9247178000005079,
+      "drop_beam_ghosts": 0.5210418999959074,
+      "drop_offstaff_ghosts": 1.7163908000002266,
+      "calculate_pitches": 0.001977100004296517,
+      "annotate_accidentals": 0.7832220999989659,
+      "remove_accidental_ghosts": 0.14896779999980936,
+      "apply_chord_rescue": 6.476860899998428,
+      "render_solfege_on_image": 0.6098094000008132
+    },
+    "peak_working_bytes": 294707200,
+    "labels": 478,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 4,
+      "key_letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 12,
+    "confidence": {
+      "caution": 159,
+      "certain": 295,
+      "check": 24
+    },
+    "truth": 500,
+    "counts": {
+      "맞음": 435,
+      "누락": 35,
+      "표기": 28,
+      "음고": 2
+    },
+    "ghosts": 11,
+    "header": {
+      "truth_staves": 12,
+      "product_staves": 12,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "1s",
+        "4s"
+      ],
+      "key_first": "4s",
+      "key_got": "4s",
+      "key_ok": true
+    },
+    "new_missing": 1,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schumann_op48no2_piano_bravura_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "8c506080500e8620cdb60bc8d8bd9eac0e98dae76cbcff16ca6f0c2b3408b8df",
+    "input_sha256": "5f2ae8c76c793efec9152183d519ba6ec48bccef23c2dde7d7df7b387d6579fb",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 9.543876899999304,
+    "import_s": 3.052147200000036,
+    "pipeline_s": 6.109533000002557,
+    "stages_s": {
+      "preprocess": 0.1411298999992141,
+      "analyze_staves": 0.16258430000016233,
+      "detect_noteheads": 0.21963790000154404,
+      "drop_beam_ghosts": 0.31081710000216844,
+      "drop_offstaff_ghosts": 0.3602432999978191,
+      "calculate_pitches": 0.0005238999983703252,
+      "annotate_accidentals": 0.3101457999982813,
+      "remove_accidental_ghosts": 0.07680540000001201,
+      "apply_chord_rescue": 2.681825600000593,
+      "render_solfege_on_image": 0.23686860000088927
+    },
+    "peak_working_bytes": 289849344,
+    "labels": 179,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 3,
+      "key_letters": [
+        "F",
+        "C",
+        "G"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 4,
+    "confidence": {
+      "caution": 57,
+      "certain": 58,
+      "check": 64
+    },
+    "truth": 192,
+    "counts": {
+      "맞음": 111,
+      "음고": 56,
+      "누락": 25
+    },
+    "ghosts": 12,
+    "header": {
+      "truth_staves": 4,
+      "product_staves": 4,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "3s"
+      ],
+      "key_first": "3s",
+      "key_got": "3s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  },
+  {
+    "name": "schumann_op48no2_piano_leipzig_p1",
+    "kind": "verovio",
+    "variant": "base",
+    "source_sha256": "104795054ba0ff508c751fa84f6ee514b798c473e7755117d19070ecf25a757f",
+    "input_sha256": "761789146b4d8807c02b0fadc6dbdcf34a035bdfaeb6564a2211db7f9550f3c8",
+    "sx": 1.0,
+    "sy": 1.0,
+    "dx": 0.0,
+    "dy": 0.0,
+    "status": 0,
+    "wall_s": 10.100834900000336,
+    "import_s": 2.8489668000001984,
+    "pipeline_s": 6.926843200002622,
+    "stages_s": {
+      "preprocess": 0.12607070000012754,
+      "analyze_staves": 0.18321590000050492,
+      "detect_noteheads": 0.25255660000038915,
+      "drop_beam_ghosts": 0.3734613000015088,
+      "drop_offstaff_ghosts": 0.4458703999989666,
+      "calculate_pitches": 0.0007139999979699496,
+      "annotate_accidentals": 0.3392189999940456,
+      "remove_accidental_ghosts": 0.09363320000193198,
+      "apply_chord_rescue": 2.871466699998564,
+      "render_solfege_on_image": 0.20648430000073859
+    },
+    "peak_working_bytes": 291143680,
+    "labels": 195,
+    "music": {
+      "key_symbol": "♯",
+      "key_count": 3,
+      "key_letters": [
+        "F",
+        "C",
+        "G"
+      ],
+      "tonic": "",
+      "minor": false,
+      "notation": "solfege"
+    },
+    "staves": 6,
+    "confidence": {
+      "caution": 59,
+      "certain": 53,
+      "check": 83
+    },
+    "truth": 192,
+    "counts": {
+      "맞음": 109,
+      "음고": 62,
+      "누락": 21
+    },
+    "ghosts": 24,
+    "header": {
+      "truth_staves": 6,
+      "product_staves": 6,
+      "staves_missing": 0,
+      "clef_wrong": [],
+      "key_truth": [
+        "3s"
+      ],
+      "key_first": "3s",
+      "key_got": "3s",
+      "key_ok": true
+    },
+    "new_missing": 0,
+    "recovered": 0,
+    "new_wrong": 0,
+    "fixed": 0,
+    "key_changed": false
+  }
+]

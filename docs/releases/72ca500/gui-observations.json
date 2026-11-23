@@ -1,0 +1,45 @@
+{
+  "method": "ctypes 실제 SendInput 마우스/스캔코드",
+  "started": "2026-10-16T12:01:23Z",
+  "input_finished": "2026-10-16T12:05:02Z",
+  "restored_at": "2026-10-16T12:06:00Z",
+  "time_limit_minutes": 15,
+  "root_hwnd": 1379146,
+  "gui_pid": 26172,
+  "frame": [
+    1218,
+    847
+  ],
+  "page_before": "1/2 확인필요1·주의1",
+  "page_after": "2/2 확인필요3·주의28",
+  "processing_next_disabled": true,
+  "next_page_actual_click": true,
+  "next_review_actual_click": "1/2→2/2",
+  "korean_num_on_N_N_P": [
+    "1/2",
+    "2/2",
+    "1/2"
+  ],
+  "english_num_off_F1": {
+    "before_hwnds": [
+      1379146
+    ],
+    "new_help_hwnd": 200030,
+    "title": "단축키 도움말"
+  },
+  "reason_editor": {
+    "opened_by_actual_label_click": true,
+    "hwnd": 9112640,
+    "selected": "보표8 라(A2)",
+    "text": "확인 필요: 빔 사이 빈틈처럼 보여 음표가 아닐 수 있어요.",
+    "entry_text": "라",
+    "buttons_visible": true
+  },
+  "not_checked": [
+    "나머지 IME/NumLock 조합의 이번exe재검사",
+    "이번exe실제저장종료재열기",
+    "이번exe새루프백/사람청취",
+    "실제다운로드SmartScreen",
+    "Python없는별도PC"
+  ]
+}

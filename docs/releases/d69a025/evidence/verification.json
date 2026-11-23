@@ -1,0 +1,386 @@
+{
+  "build_commit": "d69a025a063f9beb7797b4966509d18c7de5f3c4",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "input_sha256": "34DAB8064E56796256EA8A11FA89452CB09263C543FFBB353AD7F0ACB4E867F8",
+      "labels": 226,
+      "staves": 12,
+      "confidence": {
+        "certain": 224,
+        "check": 1,
+        "caution": 1
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": true,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\aoharu_p1-exe\\KakaoTalk_20260731_162400402_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\aoharu_p1-exe\\KakaoTalk_20260731_162400402_계이름.png",
+      "json_sha256": "DBBE0AF68093F3D5F4796C3742858A36DD93DC6937B5D99CA4DA11EE07D5889F"
+    },
+    {
+      "case": "aoharu_p2",
+      "input_sha256": "9C06D33900DA9F2BAF8E6E404DFE6488EDA4C220EBBDA4304BB449E1C97F68E6",
+      "labels": 327,
+      "staves": 14,
+      "confidence": {
+        "certain": 296,
+        "caution": 28,
+        "check": 3
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\aoharu_p2-exe\\KakaoTalk_20260731_162400402_01_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\aoharu_p2-exe\\KakaoTalk_20260731_162400402_01_계이름.png",
+      "json_sha256": "81E80EDAD4AE93C954DA78FA116E9CCBC36CE67D973C34A27869157C8B91AA57"
+    },
+    {
+      "case": "aoharu_p3",
+      "input_sha256": "40B2F9D39E0297C6D034AE498302B30B1EAACFCC97B656B92400CFA1EB173EA1",
+      "labels": 158,
+      "staves": 8,
+      "confidence": {
+        "caution": 10,
+        "certain": 147,
+        "check": 1
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\aoharu_p3-exe\\KakaoTalk_20260731_162400402_02_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\aoharu_p3-exe\\KakaoTalk_20260731_162400402_02_계이름.png",
+      "json_sha256": "92A5E72E6A96E26854610D9DE0935F817FDF351E6DBF19F13DA25F054884B0EA"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input_sha256": "85B0792C2CAEE0225664DAF060DA800621291DD65FCA47EB9AEEBF599177FDF2",
+      "labels": 262,
+      "staves": 8,
+      "confidence": {
+        "certain": 189,
+        "check": 35,
+        "caution": 38
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": true,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\chopin_Db_p1-exe\\chopin_Db_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\chopin_Db_p1-exe\\chopin_Db_p1_계이름.png",
+      "json_sha256": "24033F938654667F251ED4856B59671F1A602333ECF471F6532D3B896B316037"
+    },
+    {
+      "case": "bach_p1",
+      "input_sha256": "A6897F836EA2EE838358A278E57DF54E4BF2C1D37D6A599378764DDA0ACEC3E0",
+      "labels": 182,
+      "staves": 8,
+      "confidence": {
+        "certain": 169,
+        "check": 12,
+        "caution": 1
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": true,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\bach_p1-exe\\bach_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\bach_p1-exe\\bach_p1_계이름.png",
+      "json_sha256": "FDDAFB25C7CDDDD44AF6BB6F0B6459D9AC700708257596CBB6900A9FDA30E7A4"
+    },
+    {
+      "case": "clef_change_clara1",
+      "input_sha256": "A78B0A632529D0676A532D946CBC72C275BF72AD716C88D2B6470B960A0A7DAF",
+      "labels": 601,
+      "staves": 12,
+      "confidence": {
+        "caution": 68,
+        "certain": 348,
+        "check": 185
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 3,
+        "key_letters": [
+          "B",
+          "E",
+          "A"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clef_change_clara1-exe\\clara_polonaise_1_bravura_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clef_change_clara1-exe\\clara_polonaise_1_bravura_p1_계이름.png",
+      "json_sha256": "DD3DCF53E4AB67C1995608BA89A73F4C846985999EB626E5A56F1459E4E61425"
+    },
+    {
+      "case": "alto_beethoven1",
+      "input_sha256": "2DBA4943E9459602A0CCC6D099089523CFB5DC4749828A0F7556CCA227273C46",
+      "labels": 223,
+      "staves": 12,
+      "confidence": {
+        "certain": 142,
+        "check": 81
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 1,
+        "key_letters": [
+          "B"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\alto_beethoven1-exe\\beethoven_op18no1_bravura_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\alto_beethoven1-exe\\beethoven_op18no1_bravura_p1_계이름.png",
+      "json_sha256": "CCD92E3BCE8A96FC340896F22D42CB49A31B239A08CA446EE2247C8F93167DDB"
+    },
+    {
+      "case": "schubert_restored",
+      "input_sha256": "E0891433A63C6E1C90ED8E87031D28F298629DAF4092A86A8A0212EC7BA0675C",
+      "labels": 504,
+      "staves": 12,
+      "confidence": {
+        "caution": 164,
+        "certain": 300,
+        "check": 40
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\schubert_restored-exe\\schubert_lindenbaum_piano_leipzig_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\schubert_restored-exe\\schubert_lindenbaum_piano_leipzig_p1_계이름.png",
+      "json_sha256": "6260AFD34DD31DA5C7B0709A5CEFD606534E5FDFBD413B040A1C7051C7048F68"
+    },
+    {
+      "case": "clara1_leipzig",
+      "input_sha256": "42A494DA27842044BE275E83DF5967FAFFED1C545A78858CC0672B9AF55BE4D6",
+      "labels": 611,
+      "staves": 12,
+      "confidence": {
+        "check": 201,
+        "caution": 65,
+        "certain": 345
+      },
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 3,
+        "key_letters": [
+          "B",
+          "E",
+          "A"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clara1_leipzig-exe\\clara_polonaise_1_leipzig_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clara1_leipzig-exe\\clara_polonaise_1_leipzig_p1_계이름.png",
+      "json_sha256": "04DA0F4FDB97B950D6681C5E7692293271B2955B8FE8B55BDC780055D9623AF2"
+    },
+    {
+      "case": "clara2_bravura",
+      "input_sha256": "933A7F129BDAC537375C0254F117C84D7FB8C90F2410085AAE5566B8FD837C44",
+      "labels": 619,
+      "staves": 12,
+      "confidence": {
+        "certain": 321,
+        "check": 94,
+        "caution": 204
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clara2_bravura-exe\\clara_polonaise_2_bravura_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clara2_bravura-exe\\clara_polonaise_2_bravura_p1_계이름.png",
+      "json_sha256": "4967A09200785C8017B7DAC5A82690AC15729660A9E9113A329DB6693C658CB1"
+    },
+    {
+      "case": "clara2_leipzig",
+      "input_sha256": "6D0A2C057F994CAFB809CC74C1EAE346D366B6EC67E4DDB4C06B0B0A7C9EF30E",
+      "labels": 596,
+      "staves": 12,
+      "confidence": {
+        "certain": 307,
+        "check": 81,
+        "caution": 208
+      },
+      "music": {
+        "key_symbol": "",
+        "key_count": 0,
+        "key_letters": [],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clara2_leipzig-exe\\clara_polonaise_2_leipzig_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\clara2_leipzig-exe\\clara_polonaise_2_leipzig_p1_계이름.png",
+      "json_sha256": "B70D3B7C0D2F5712C7C0B96A669474CE0C0929B105695D2D065B316B0F05CFE1"
+    },
+    {
+      "case": "schubert_bravura",
+      "input_sha256": "CCCDF8FF5E6A087394EAE3F0B8ACC09CBB1EBF30B39EE1E16DEC385A4F20E548",
+      "labels": 504,
+      "staves": 12,
+      "confidence": {
+        "caution": 152,
+        "check": 42,
+        "certain": 310
+      },
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 4,
+        "key_letters": [
+          "F",
+          "C",
+          "G",
+          "D"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "baseline_015908d_json_raw_equal": true,
+      "baseline_015908d_pixels_equal": true,
+      "source_exe_json_raw_equal": true,
+      "source_exe_pixels_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "source_reused": false,
+      "exe_json": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\schubert_bravura-exe\\schubert_lindenbaum_piano_bravura_p1_라벨.json",
+      "exe_png": "F:\\akbo-data\\tmp\\merge-beta-20261023\\verification\\schubert_bravura-exe\\schubert_lindenbaum_piano_bravura_p1_계이름.png",
+      "json_sha256": "C286E68EF0DDB78AB6AD0FB11EF25492E351365C64FB82C9D07B7AE2AD5DED66"
+    }
+  ],
+  "python_removed_from_path": true,
+  "settings_absent_cli_first_run": true,
+  "exe_adjacent_default_output": true,
+  "wrong_input_relabel_rejected": true,
+  "zip_files": [
+    "악보헬퍼.exe",
+    "build-info.json",
+    "먼저 읽어주세요.txt",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.txt"
+  ]
+}

@@ -1,0 +1,59 @@
+diff --git a/modules/notehead_detect.py b/modules/notehead_detect.py
+index 0b32d8e..cd9b84c 100644
+--- a/modules/notehead_detect.py
++++ b/modules/notehead_detect.py
+@@ -83,6 +83,10 @@ ARC_MIN_HEIGHT_SP = 0.75
+ HOLE_WALL_MAX_SP = 5.0
+ 
+ 
++# 덧줄 지나는 빈 머리(§1-50 초안) — 구멍 중심이 가린 덩어리 중심에서 이 안(sp). 근거는 사용 자리 주석
++LEDGER_HOLLOW_CENTER_SP = 0.15
++
++
+ @dataclass
+ class Notehead:
+     """검출된 음표 머리 하나를 표현"""
+@@ -1074,6 +1078,7 @@ def _detect_noteheads_in_band(
+             ring_artifacts.add(blocker)
+ 
+     artifacts = seam_artifacts | ring_artifacts
++    raw_pre = list(raw)       # blocker 번호는 이 목록 기준(아래에서 artifacts를 빼면 번호가 밀린다)
+     if artifacts:
+         _before = list(raw)
+         raw = [item for bi, item in enumerate(raw) if bi not in artifacts]
+@@ -1087,6 +1092,35 @@ def _detect_noteheads_in_band(
+         raw.append((cx, cy, False, hy0, hy1))
+         accepted_holes.append((cx, hy0, hy1))
+ 
++    # 덧줄이 한가운데를 지나는 2분 · 온음표(§1-50 초안): 덧줄이 링 구멍을 위아래 반쪽으로 가르고, 링 + 덧줄이 opening을 견뎌 「꽉 찬 머리」 덩어리가
++    # 되어 자기 구멍을 가린다(Verovio 개발 20쪽 빈 → 꽉 엇갈림 31 중 30 — 오선 위 첫 덧줄 C4 · A5). 구멍을 살리지 않는다(기각 20 ~ 23: 구멍 채택은
++    # `_inside_ring` 삭제를 부른다) — 가린 덩어리 자신의 `filled`만 바꾼다(머리 수 · 좌표 그대로).
++    # 조건: 구멍 중심이 가린 덩어리 중심에서 가로 · 세로 LEDGER_HOLLOW_CENTER_SP 안 + 덩어리 중심 행의 가로 잉크 런 ≥ LEDGER_RUN_SP(덧줄).
++    #   런 1.30sp = 덧줄 판정 상수(verify, 정상 최소 1.40 / 유령 최대 1.19)이고, 이 경로 실측도 같은 자리를 가리킨다 — 중심 창 0.2sp 안 가려진 구멍
++    #   진짜 31의 런 최소 1.72(덧줄 30, 오선 위 B2 1개만 0.66) · 가짜 32의 런 최대 1.12(`tools/measure_center_blocked.py`)
++    #   중심 0.15sp: 진짜 최대 0.06 · 런 ≥ 1.3인 가짜 중 가장 가까운 것 0.24(Schumann L (526,674), 덩어리 높이 1.4)의 사이
++    from .verify import LEDGER_RUN_SP
++    W = no_staff_img.shape[1]
++    for cx, cy, blocker, _hy0, _hy1 in hollow_candidates:
++        if blocker is None or blocker in artifacts:
++            continue
++        it = raw_pre[blocker]
++        if not it[2] or abs(cx - it[0]) > spacing * LEDGER_HOLLOW_CENTER_SP or abs(cy - it[1]) > spacing * LEDGER_HOLLOW_CENTER_SP:
++            continue
++        r = int(round(it[1]))
++        if not (0 <= r < no_staff_img.shape[0]):
++            continue
++        row = no_staff_img[r, max(0, int(it[0] - spacing * 1.5)):min(W, int(it[0] + spacing * 1.5))] > 0
++        run = best = 0
++        for v in row:
++            run = run + 1 if v else 0
++            best = max(best, run)
++        if best < spacing * LEDGER_RUN_SP:
++            continue
++        for k, cur in enumerate(raw):
++            if cur is it:
++                raw[k] = (it[0], it[1], False, it[3], it[4])
++
+     # 빈 음표로 확정된 링의 좌/우 벽이 타원 opening을 견디고 남으면 '채워진 머리'로도
+     # 잡혀 같은 음표에 라벨이 두 번 붙는다 (실측: 3마디 베이스 온음표의 링이
+     # x=792/802 두 조각으로 남아 "라"가 두 번 찍혔다).

@@ -1,0 +1,222 @@
+{
+  "01_irregular.png": {
+    "bytes": 73876,
+    "sha256": "d1d9d2c670797c80a201ab96f11f9b933993dbf619dea71ab8c0c19bb9eab376",
+    "serialization": "binary"
+  },
+  "02_chord.png": {
+    "bytes": 59318,
+    "sha256": "fa8ba213be138d731b811e853b85e473a441c2ca32a5d4307c5627cc493ba8ed",
+    "serialization": "binary"
+  },
+  "03_dense.png": {
+    "bytes": 90643,
+    "sha256": "da52cd45ce43099f0b972ce958b36b058c8b03b3aae5a25937778b412948ba1f",
+    "serialization": "binary"
+  },
+  "04_ink_tradeoff.png": {
+    "bytes": 69956,
+    "sha256": "191957fa711bd7bd8950edbb04fd19c8f17db1d5530514f57f241c0550c3ab1e",
+    "serialization": "binary"
+  },
+  "05_aoharu_column.png": {
+    "bytes": 21532,
+    "sha256": "ac1ad40fe1673e7608c45e6bc9b762b324bdf509c6d589289d6d2e75e6fd6644",
+    "serialization": "binary"
+  },
+  "06_control.png": {
+    "bytes": 35546,
+    "sha256": "b9153b65b50e30f7b8c604752f066c7ead3d2e67dc5f00d7f53990aca3408aca",
+    "serialization": "binary"
+  },
+  "07_rejected_guard.png": {
+    "bytes": 78043,
+    "sha256": "37a4af953aedf417af3a1a7641169917fe08b03c71f87ee87872ebdb76986d4d",
+    "serialization": "binary"
+  },
+  "08_ink_audit.png": {
+    "bytes": 72800,
+    "sha256": "059864df67f3599f1aa336127d7342d6bd611fb61b1b0dc06754286bf1f8393c",
+    "serialization": "binary"
+  },
+  "09_fingering_zoom.png": {
+    "bytes": 162259,
+    "sha256": "993a8dcc4f2a01e58bab1f048033c1b137a9813a890dd87926c1a642a91174ac",
+    "serialization": "binary"
+  },
+  "baseline-run-all.log.gz": {
+    "bytes": 509,
+    "sha256": "5810eacb24ba6b4a323b43acccdcd1343765437e38d08762517a346be226577e",
+    "serialization": "binary"
+  },
+  "candidate-sources.json.gz": {
+    "bytes": 64881,
+    "sha256": "6f604bc766e14d02ee02b5253888a3dbadcb6bb39fd8701218e15bc91ad48959",
+    "serialization": "binary"
+  },
+  "crops.json": {
+    "bytes": 1284,
+    "sha256": "72e6c2b134d255445bf99e90ca84ad95177240dc9f462b89a74f5f6ec0ac5a37",
+    "serialization": "UTF-8 LF"
+  },
+  "direction-red.log.gz": {
+    "bytes": 332,
+    "sha256": "9440ffbd1997f91d0b76d04c503d592f05e2ddf47f8dff3cfb6c29ccba6fc360",
+    "serialization": "binary"
+  },
+  "final-unit.log.gz": {
+    "bytes": 59,
+    "sha256": "4baa64d94bbd148a8d98036a46900fc8b253be3de784c047acde8c0b6fdcd0ef",
+    "serialization": "binary"
+  },
+  "ink_revision/audit.json": {
+    "bytes": 34092,
+    "sha256": "75f87463099ffecf320784d0183c1002184aa6eb695385b5ccb05f571c986909",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/audit.log.gz": {
+    "bytes": 198,
+    "sha256": "e12ff17f64273baa7c5207e4f24f68692da028407ec600786bc0fc87cf962a06",
+    "serialization": "binary"
+  },
+  "ink_revision/audit.py": {
+    "bytes": 5044,
+    "sha256": "26df08b7bc4ee737d1d0432c57f93abbc9555b50cb94ad9067906ba61968eeed",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/candidate.json.gz": {
+    "bytes": 142730,
+    "sha256": "cd67c4eb5f416a3a60fa61dcaf2cbf209785d3b2bd358dc0e5eda5ddc5d44b13",
+    "serialization": "binary"
+  },
+  "ink_revision/candidate.log.gz": {
+    "bytes": 866,
+    "sha256": "dc5962e4c568c016c0fe8fc4615d85ecc9b4726119ef07f094f5dd84814c2755",
+    "serialization": "binary"
+  },
+  "ink_revision/gray-red.log.gz": {
+    "bytes": 360,
+    "sha256": "dc6a7b5dce193c279ff14e2483da7720cc5f9fccf742b5e0e14668a86d927ac1",
+    "serialization": "binary"
+  },
+  "ink_revision/green.log.gz": {
+    "bytes": 59,
+    "sha256": "3a3a26ee5649d5fad1208f492b3c0f9fb6fc1f18e6a77a6d35e7630da1bc8c25",
+    "serialization": "binary"
+  },
+  "ink_revision/measure.py": {
+    "bytes": 7231,
+    "sha256": "3ea47e3075be8c70ea1b4d74550b482c9f1bfa9ca9ee8fd5692faef8d5089e3d",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/method.json": {
+    "bytes": 641,
+    "sha256": "ae1181292d20a429bdc0be05dd0893ce1ad59a8ac1944e132a197937108ea338",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/pipeline-byte-check.py": {
+    "bytes": 1430,
+    "sha256": "bad3d37423e21724db8d259cb4860e0cff5bfaa73851024b852fc111d80a697e",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/pipeline-proof.json": {
+    "bytes": 748,
+    "sha256": "2e991266a6c8ddeda181ab6ab0b76ccb472e11548369adeb9c51b02899ae3057",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/pipeline.log.gz": {
+    "bytes": 267,
+    "sha256": "da7d2a5a89194633179a334c733b120dfd63dcd4d19360ad3bd66c9fb5a54ae1",
+    "serialization": "binary"
+  },
+  "ink_revision/red.log.gz": {
+    "bytes": 558,
+    "sha256": "1045613a29677ebf04c5c6712def6422d4771c1c5be22b64a01ba4967c9b01c2",
+    "serialization": "binary"
+  },
+  "ink_revision/rejected-symbol-audit.json": {
+    "bytes": 1300,
+    "sha256": "81fba4d3a825dc3d724f9361cada720eccd1e9a68bc79b01055b204ffb7c74e8",
+    "serialization": "UTF-8 LF"
+  },
+  "ink_revision/rejected-v1-report.md.gz": {
+    "bytes": 6511,
+    "sha256": "1005a9dd9e231554960fcd75f090850020ce99c5df7756fd6ab495a0f2406a36",
+    "serialization": "binary"
+  },
+  "ink_revision/rejected-v1-verify-records.py.gz": {
+    "bytes": 1141,
+    "sha256": "e2fd2556b54a133c1c2f95056c01cd8baa32c33158a3eb52855f49e1fb02f018",
+    "serialization": "binary"
+  },
+  "ink_revision/run-all.log.gz": {
+    "bytes": 520,
+    "sha256": "f672816066778ef2d99a9f04ae2b3864f16fb85d07c76d92571aa0ef438a1d4d",
+    "serialization": "binary"
+  },
+  "ink_revision/symbols.json": {
+    "bytes": 1279,
+    "sha256": "bf633085acf52e237c5bd8ff9b73c3f6699e96ab62c1738c46ce39d25f0135d7",
+    "serialization": "UTF-8 LF"
+  },
+  "make-crops.py": {
+    "bytes": 3461,
+    "sha256": "52d157e3583946efd266990a59be897fb0c3d1af7c382298aa96a399ce485ff3",
+    "serialization": "UTF-8 LF"
+  },
+  "measure.py": {
+    "bytes": 7231,
+    "sha256": "3ea47e3075be8c70ea1b4d74550b482c9f1bfa9ca9ee8fd5692faef8d5089e3d",
+    "serialization": "UTF-8 LF"
+  },
+  "measurements.json.gz": {
+    "bytes": 1278553,
+    "sha256": "b3970e2b51709672831814663432b932c3fa29b2213f984f6d07d70b176ffd3f",
+    "serialization": "binary"
+  },
+  "method.json": {
+    "bytes": 733,
+    "sha256": "0ccebcf592a8b224ba11e56a657c4eef48e6a026b72c21efb2916d286c9a85f9",
+    "serialization": "UTF-8 LF"
+  },
+  "pipeline-byte-check.log.gz": {
+    "bytes": 267,
+    "sha256": "da7d2a5a89194633179a334c733b120dfd63dcd4d19360ad3bd66c9fb5a54ae1",
+    "serialization": "binary"
+  },
+  "pipeline-byte-check.py": {
+    "bytes": 1417,
+    "sha256": "873dc3904a4de564ec6f464e6c5dcfc298d448cf388125cd37bf90e5e0fd06ef",
+    "serialization": "UTF-8 LF"
+  },
+  "red.log.gz": {
+    "bytes": 434,
+    "sha256": "82638593da0ab85ef3d33a43f0d8968d3d12ef227b055b2f35c04de86d55e2a5",
+    "serialization": "binary"
+  },
+  "RESULTS.md": {
+    "bytes": 5155,
+    "sha256": "37d9e538b30e54e99725055a16d23ac7ad7ab000c5e7c2bf25062dea43bdea74",
+    "serialization": "UTF-8 LF"
+  },
+  "run-all.log.gz": {
+    "bytes": 520,
+    "sha256": "f672816066778ef2d99a9f04ae2b3864f16fb85d07c76d92571aa0ef438a1d4d",
+    "serialization": "binary"
+  },
+  "verification.json": {
+    "bytes": 38425,
+    "sha256": "230cde2206df64ea7fa6a94ef954d3a19fb1bf2d2310c8e801e41d7bfb7e2bef",
+    "serialization": "UTF-8 LF"
+  },
+  "verify-records.py": {
+    "bytes": 2241,
+    "sha256": "28b980947f2ed2fbf41c0bc3c4d19ce9b95f75b4d04305f8b5f37054fa3508d7",
+    "serialization": "UTF-8 LF"
+  },
+  "vertical-red.log.gz": {
+    "bytes": 353,
+    "sha256": "3246942b16dc8a15f341538c1f1a9fcc4674635ec568b50ef168115876af7308",
+    "serialization": "binary"
+  }
+}

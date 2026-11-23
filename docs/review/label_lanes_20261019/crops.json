@@ -1,0 +1,93 @@
+[
+  {
+    "file": "01_irregular.png",
+    "original_crop": [
+      980,
+      1290,
+      1980,
+      1660
+    ],
+    "crop": [
+      980,
+      1290,
+      1980,
+      1660
+    ],
+    "scale": 1
+  },
+  {
+    "file": "02_chord.png",
+    "original_crop": [
+      500,
+      2670,
+      1190,
+      2930
+    ],
+    "crop": [
+      500,
+      2670,
+      1190,
+      2930
+    ],
+    "scale": 1
+  },
+  {
+    "file": "03_dense.png",
+    "original_crop": [
+      1420,
+      2650,
+      2420,
+      2950
+    ],
+    "crop": [
+      1420,
+      2650,
+      2420,
+      2950
+    ],
+    "scale": 1
+  },
+  {
+    "file": "04_fingering_zoom.png",
+    "original_crop": [
+      550,
+      2700,
+      1205,
+      2815
+    ],
+    "crop": [
+      550,
+      2700,
+      1205,
+      2815
+    ],
+    "scale": 2
+  },
+  {
+    "file": "06_chopin_bars10_12.png",
+    "original_crop": [
+      350,
+      2470,
+      2470,
+      3070
+    ],
+    "crop": [
+      350,
+      2470,
+      2470,
+      3070
+    ],
+    "scale": 2
+  },
+  {
+    "file": "05_aoharu_stack.png",
+    "case": "aoharu_p1",
+    "crop": [
+      350,
+      540,
+      900,
+      704
+    ],
+    "scale": 2
+  }
+]

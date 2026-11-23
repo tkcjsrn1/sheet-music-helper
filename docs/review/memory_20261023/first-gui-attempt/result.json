@@ -1,0 +1,32 @@
+{
+  "name": "015908d 실제GUI 2쪽 변환",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:\\akbo-data\\tmp\\codex-memory-20261023\\exe-gui-case.py"
+  ],
+  "cwd": "F:\\sheet-music-helper-progress-test-20261020",
+  "started": "2026-10-23T18:58:41.875464+09:00",
+  "initial": {
+    "available": 3764064256,
+    "commit_headroom": 12487913472,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 321183744,
+  "peak_sampled_private": 210636800,
+  "peak_job_commit": 210681856,
+  "min_available": 3153534976,
+  "min_commit_headroom": 11922038784,
+  "max_processes": 7,
+  "samples": 1141,
+  "aborted": null,
+  "exit_code": 1,
+  "seconds": 231.13,
+  "finished": "2026-10-23T19:02:33.006015+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

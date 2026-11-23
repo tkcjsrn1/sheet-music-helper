@@ -1,0 +1,17 @@
+...F
+======================================================================
+FAIL: test_shortcuts_respect_input_focus_and_editor (__main__.ReviewNavigationTests.test_shortcuts_respect_input_focus_and_editor)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 98, in test_shortcuts_respect_input_focus_and_editor
+    press(app.preview_canvas,'<KeyPress-n>');self.assertEqual(app._review_index,1)
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 96, in press
+    self.assertIs(app.focus_get(),widget,'화면에 표시된 대상에 포커스를 먼저 맞춘다')
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: <gui.SheetHelperApp object .> is not <tkinter.Canvas object .!ctkframe2.!canvas> : 화면에 표시된 대상에 포커스를 먼저 맞춘다
+
+----------------------------------------------------------------------
+Ran 4 tests in 12.972s
+
+FAILED (failures=1)

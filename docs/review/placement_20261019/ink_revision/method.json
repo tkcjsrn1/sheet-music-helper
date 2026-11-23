@@ -1,0 +1,14 @@
+{
+  "base_main": "a42f66e",
+  "original_renderer_commit": "9b5709986079f15a397773bba0958defdff7714e",
+  "candidate_renderer_lf_sha256": "d27eb42b3a42c8817ab3e48f080d0b1fb6ca5573b56abf5e959aa810bbbe9ad0",
+  "font_file": "C:/Windows/Fonts/malgun.ttf",
+  "font_sha256": "7a183cf1c6c56b9609fcc16eda8b5229fbc11758a21e669ec00343239b02192f",
+  "font_size": 18,
+  "color": "#dc1414",
+  "baseline_control": "actual e141908 exe PNG pixel equality, 12 cases",
+  "heavy_run": "tests/run_all.py",
+  "pr_merge_allowed": false,
+  "pr397_mixed": false,
+  "revision": "사용자의 원본기호 보존0 요구(흰 테두리·점선·회색 윤곽 포함)"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "file": "blank.png",
+    "exception": "StaffNotFoundError",
+    "message": "오선으로 볼 만한 긴 수평선이 없습니다. 악보 이미지가 맞는지 확인해주세요."
+  },
+  {
+    "file": "broken.png",
+    "exception": "SheetMusicImageError",
+    "message": "이미지 디코딩 실패(손상된 파일 가능성): output\\prepared-error-cases-20261013\\broken.png"
+  },
+  {
+    "file": "locked.pdf",
+    "exception": "ValueError",
+    "message": "document closed or encrypted"
+  },
+  {
+    "file": "tiny.png",
+    "exception": "StaffNotFoundError",
+    "message": "오선으로 볼 만한 긴 수평선이 없습니다. 악보 이미지가 맞는지 확인해주세요."
+  }
+]

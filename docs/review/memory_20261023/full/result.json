@@ -1,0 +1,32 @@
+{
+  "name": "#431 전체검사 골든1/OpenCV1",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "tests/run_all.py"
+  ],
+  "cwd": "F:\\sheet-music-helper-keyboard-20261020",
+  "started": "2026-10-23T19:05:05.276305+09:00",
+  "initial": {
+    "available": 3661819904,
+    "commit_headroom": 12527050752,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 587644928,
+  "peak_sampled_private": 509083648,
+  "peak_job_commit": 529186816,
+  "min_available": 3035418624,
+  "min_commit_headroom": 11780976640,
+  "max_processes": 9,
+  "samples": 5637,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 1135.41,
+  "finished": "2026-10-23T19:24:00.686009+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

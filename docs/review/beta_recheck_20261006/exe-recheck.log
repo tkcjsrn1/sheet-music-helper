@@ -1,0 +1,55 @@
+1/54 bach: 라벨184 source/exe=True 기존기준=True PNG=True
+2/54 bbm1: 라벨280 source/exe=True 기존기준=True PNG=True
+3/54 bbm2: 라벨309 source/exe=True 기존기준=True PNG=True
+4/54 bbm3: 라벨339 source/exe=True 기존기준=True PNG=True
+5/54 bbm4: 라벨343 source/exe=True 기존기준=True PNG=True
+6/54 bbm5: 라벨335 source/exe=True 기존기준=True PNG=True
+7/54 bbm6: 라벨218 source/exe=True 기존기준=True PNG=True
+8/54 db1: 라벨260 source/exe=True 기존기준=True PNG=True
+9/54 db2: 라벨366 source/exe=True 기존기준=True PNG=True
+10/54 db3: 라벨322 source/exe=True 기존기준=True PNG=True
+11/54 db4: 라벨307 source/exe=True 기존기준=True PNG=True
+12/54 db5: 라벨369 source/exe=True 기존기준=True PNG=True
+13/54 db6: 라벨337 source/exe=True 기존기준=True PNG=True
+14/54 em1: 라벨299 source/exe=True 기존기준=True PNG=True
+15/54 em2: 라벨350 source/exe=True 기존기준=True PNG=True
+16/54 em3: 라벨300 source/exe=True 기존기준=True PNG=True
+17/54 em4: 라벨200 source/exe=True 기존기준=True PNG=True
+18/54 aoharu1: 라벨226 source/exe=True 기존기준=True PNG=True
+19/54 aoharu2: 라벨327 source/exe=True 기존기준=True PNG=True
+20/54 aoharu3: 라벨158 source/exe=True 기존기준=True PNG=True
+21/54 moon1: 라벨216 source/exe=True 기존기준=True PNG=True
+22/54 moon2: 라벨293 source/exe=True 기존기준=True PNG=True
+23/54 moon11: 라벨434 source/exe=True 기존기준=True PNG=True
+24/54 moon18: 라벨359 source/exe=True 기존기준=True PNG=True
+25/54 rain1: 라벨379 source/exe=True 기존기준=True PNG=True
+26/54 rain2: 라벨387 source/exe=True 기존기준=True PNG=True
+27/54 rain3: 라벨416 source/exe=True 기존기준=True PNG=True
+28/54 rain4: 라벨343 source/exe=True 기존기준=True PNG=True
+29/54 organ2: 라벨413 source/exe=True 기존기준=True PNG=True
+30/54 bach_bwv846_bravura_p1: 라벨337 source/exe=True 기존기준=True PNG=True
+31/54 bach_bwv846_leipzig_p1: 라벨327 source/exe=True 기존기준=True PNG=True
+32/54 beethoven_op18no1_bravura_p1: 라벨223 source/exe=True 기존기준=True PNG=True
+33/54 beethoven_op18no1_leipzig_p1: 라벨223 source/exe=True 기존기준=True PNG=True
+34/54 clara_polonaise_1_bravura_p1: 라벨599 source/exe=True 기존기준=True PNG=True
+35/54 clara_polonaise_1_leipzig_p1: 라벨612 source/exe=True 기존기준=True PNG=True
+36/54 clara_polonaise_2_bravura_p1: 라벨548 source/exe=True 기존기준=True PNG=True
+37/54 clara_polonaise_2_leipzig_p1: 라벨546 source/exe=True 기존기준=True PNG=True
+38/54 clara_polonaise_3_bravura_p1: 라벨455 source/exe=True 기존기준=True PNG=True
+39/54 clara_polonaise_3_leipzig_p1: 라벨461 source/exe=True 기존기준=True PNG=True
+40/54 clara_polonaise_4_bravura_p1: 라벨396 source/exe=True 기존기준=True PNG=True
+41/54 clara_polonaise_4_leipzig_p1: 라벨401 source/exe=True 기존기준=True PNG=True
+42/54 joplin_maple_leaf_bravura_p1: 라벨537 source/exe=True 기존기준=True PNG=True
+43/54 joplin_maple_leaf_leipzig_p1: 라벨502 source/exe=True 기존기준=True PNG=True
+44/54 mozart_k545_bravura_p1: 라벨198 source/exe=True 기존기준=True PNG=True
+45/54 mozart_k545_leipzig_p1: 라벨195 source/exe=True 기존기준=True PNG=True
+46/54 schubert_lindenbaum_piano_bravura_p1: 라벨480 source/exe=True 기존기준=True PNG=True
+47/54 schubert_lindenbaum_piano_leipzig_p1: 라벨481 source/exe=True 기존기준=True PNG=True
+48/54 schumann_op48no2_piano_bravura_p1: 라벨179 source/exe=True 기존기준=True PNG=True
+49/54 schumann_op48no2_piano_leipzig_p1: 라벨195 source/exe=True 기존기준=True PNG=True
+50/54 phase-0.25-0: 라벨223 source/exe=True 기존기준=해당없음 PNG=True
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\output\beta-recheck-20261006\recheck_exe.py", line 72, in <module>
+    assert not symbols and first==[1,1],(name,symbols,first)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ('phase-0.5-0', [], [0, 1])

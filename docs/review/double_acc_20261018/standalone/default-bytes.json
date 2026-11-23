@@ -1,0 +1,62 @@
+{
+  "baseline": {
+    "commit": "718abd3480d4c98c2dde99e447137d62ac229ef3",
+    "modules": {
+      "note_namer.py": "dda7a22690742c0a076750e982207ba979f6e27b4af350e453b10c6f8afcefab",
+      "label_audio.py": "2c8e8a5fefc382925c3924368e76566575ead2b61f7009ecf35ef459d0b4504f"
+    }
+  },
+  "method": "제품 변경은 두 소비 모듈뿐임을 먼저 확인. 별도 프로세스에서 기준 git blob 모듈을 읽고 같은 main으로 대조. 인식 파일 수정0.",
+  "rows": [
+    {
+      "case": "aoharu_p1",
+      "input": "sample_images/KakaoTalk_20260731_162400402.png",
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "kind": "_계이름.png",
+      "equal": true,
+      "sha256": "88d9f26193d0d7ceb679f30e4dbe0f8ef3daa92a05c7ca1d749b76115b54e38b"
+    },
+    {
+      "case": "aoharu_p1",
+      "input": "sample_images/KakaoTalk_20260731_162400402.png",
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "kind": "_라벨.json",
+      "equal": true,
+      "sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input": "tests/fixtures/selftest/chopin_Db_p1.png",
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "kind": "_계이름.png",
+      "equal": true,
+      "sha256": "f88378e220811be02ac0fdcfd8f48844b628fa1c11c3f81d1ceb3964332ddc87"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input": "tests/fixtures/selftest/chopin_Db_p1.png",
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "kind": "_라벨.json",
+      "equal": true,
+      "sha256": "7376a6c4cbc958037a736a018c0884637ec48f199041e647c2d343332ed0a058"
+    },
+    {
+      "case": "bach_p1",
+      "input": "output/night-inputs/bach_p1.png",
+      "input_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+      "kind": "_계이름.png",
+      "equal": true,
+      "sha256": "503e5d2b08e7a64b6090b97a59b100db63d3703fb8de1d7bc7db8d375337f778"
+    },
+    {
+      "case": "bach_p1",
+      "input": "output/night-inputs/bach_p1.png",
+      "input_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+      "kind": "_라벨.json",
+      "equal": true,
+      "sha256": "fddafb25c7cdddd44af6bb6f0b6459d9ac700708257596cbb6900a9fda30e7a4"
+    }
+  ],
+  "all_equal": true,
+  "typed_detection_connected": false
+}

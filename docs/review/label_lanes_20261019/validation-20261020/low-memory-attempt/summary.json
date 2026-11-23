@@ -1,0 +1,15 @@
+{
+  "golden_pool": [
+    {
+      "pid": 22056,
+      "script": "F:\\sheet-music-helper-beta-cf4dd44-20261019\\tests\\test_golden_regression.py",
+      "kind": "golden_pool",
+      "requested": 4,
+      "effective": 1
+    }
+  ],
+  "opencv_threads": 1,
+  "full_suite_completed": false,
+  "reason": "본인 감시기가 가용 메모리1.5GiB 미만에서 검사 트리만 중단",
+  "min_available_bytes": 1592512512
+}

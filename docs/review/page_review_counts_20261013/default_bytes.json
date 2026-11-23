@@ -1,0 +1,20 @@
+[
+  {
+    "case": "aoharu_p1",
+    "png_sha256": "a81c6268bf2391f8d298ec793c09f31e8a3373125b6ad6f5525efdb649c3261d",
+    "json_sha256": "aee46e57f697ad39eb2319006fdd43cbd6345c168a6f4b5d8cc25f8e4a699af2",
+    "labels": 226
+  },
+  {
+    "case": "chopin_Db_p1",
+    "png_sha256": "e6e4b7fad4840a07a18ba3a502b09d6211d0a0a6c11385ecb488866cd231e9bc",
+    "json_sha256": "f11bc7afffc793e9e2fa9ad72a449e968028ce7d015b8e0da9b58699eaf28b23",
+    "labels": 262
+  },
+  {
+    "case": "bach_p1",
+    "png_sha256": "ba44ae9fbe06f03313835856fedb8f8f2182b86698f438c2afca15f49a2f38a3",
+    "json_sha256": "ba3ef6cad28b01d3cd4201742b0a7d0eeb02301201c40035a0bd335e5f8b1624",
+    "labels": 184
+  }
+]

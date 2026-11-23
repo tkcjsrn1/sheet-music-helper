@@ -1,0 +1,32 @@
+{
+  "name": "official-build",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:/akbo-data/tmp/merge-beta-20261023/build-once.py"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\beta-features-20261023",
+  "started": "2026-10-23T20:06:27.996582+09:00",
+  "initial": {
+    "available": 3474972672,
+    "commit_headroom": 12445560832,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 672813056,
+  "peak_sampled_private": 563892224,
+  "peak_job_commit": 583000064,
+  "min_available": 2708197376,
+  "min_commit_headroom": 11678322688,
+  "max_processes": 13,
+  "samples": 4887,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 983.275,
+  "finished": "2026-10-23T20:22:51.271809+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

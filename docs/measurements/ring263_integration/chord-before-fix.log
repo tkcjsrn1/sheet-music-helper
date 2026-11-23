@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_chord_wiring.py", line 49, in <module>
+    main()
+    ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_chord_wiring.py", line 39, in main
+    assert len(labels) == 255  # 254 + #217로 남는 중복1(사용자 감수 승인, 정답 복구로 세지 않음)
+           ^^^^^^^^^^^^^^^^^^
+AssertionError

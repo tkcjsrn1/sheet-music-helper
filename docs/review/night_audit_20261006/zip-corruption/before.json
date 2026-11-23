@@ -1,0 +1,14 @@
+[
+  {
+    "case": "unsupported",
+    "error": "NotImplementedError",
+    "message": "That compression method is not supported",
+    "output_created": false
+  },
+  {
+    "case": "damaged-deflate",
+    "error": "error",
+    "message": "Error -3 while decompressing data: invalid block type",
+    "output_created": false
+  }
+]

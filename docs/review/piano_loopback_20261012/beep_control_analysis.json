@@ -1,0 +1,63 @@
+{
+  "wav_sha256": "adad4f1183b5e139e839eaa014380b007a80299231d3f65f8d8b1c05344b8e68",
+  "rate": 48000,
+  "channels": 2,
+  "captured_seconds": 2.61,
+  "onset_seconds": 0.03,
+  "first_note_truth": "C4",
+  "expected_hz": 261.6255653005986,
+  "best_single_sine_hz": 261.65,
+  "single_sine_explained_energy": 0.9889463875005323,
+  "spectral_peaks": [
+    {
+      "hz": 260.0,
+      "relative": 1.0
+    },
+    {
+      "hz": 165.0,
+      "relative": 4.7145695902823224e-05
+    },
+    {
+      "hz": 140.0,
+      "relative": 3.540897372531384e-05
+    },
+    {
+      "hz": 370.0,
+      "relative": 3.410813010110864e-05
+    },
+    {
+      "hz": 130.0,
+      "relative": 2.520946091348299e-05
+    },
+    {
+      "hz": 390.0,
+      "relative": 2.0302888581045813e-05
+    },
+    {
+      "hz": 405.0,
+      "relative": 1.5434298703678696e-05
+    },
+    {
+      "hz": 415.0,
+      "relative": 1.492836150094295e-05
+    },
+    {
+      "hz": 110.0,
+      "relative": 1.4286942506636823e-05
+    },
+    {
+      "hz": 425.0,
+      "relative": 1.253328228755585e-05
+    },
+    {
+      "hz": 435.0,
+      "relative": 1.2532417031307956e-05
+    },
+    {
+      "hz": 120.0,
+      "relative": 1.2205046038712928e-05
+    }
+  ],
+  "microphone_used": false,
+  "interpretation": "기존 사인파 WAV의 같은 Windows 출력 루프백 대조."
+}

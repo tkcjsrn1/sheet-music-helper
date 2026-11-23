@@ -1,0 +1,32 @@
+{
+  "name": "feature-full",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:/akbo-data/tmp/unattended-20261026/feature-validation.py"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\practice-controls-20261026",
+  "started": "2026-10-26T11:57:42.683923+09:00",
+  "initial": {
+    "available": 4411293696,
+    "commit_headroom": 12520558592,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 628973568,
+  "peak_sampled_private": 534470656,
+  "peak_job_commit": 552947712,
+  "min_available": 1568628736,
+  "min_commit_headroom": 9758420992,
+  "max_processes": 11,
+  "samples": 4692,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 944.926,
+  "finished": "2026-10-26T12:13:27.610393+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

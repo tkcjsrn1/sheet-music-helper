@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "03C993A5E7F2013998B1C4C63FCE376BC28C7DD9FECA686370DCFABC37C507AC",
+    "Path": "F:\\sheet-music-helper-codex-night-20261004\\tools\\replay_report.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "E94C6E87D95DF76B0D3079F019C01830ABA64EEE378C50D5511357A00FEB3A24",
+    "Path": "F:\\sheet-music-helper-codex-night-20261004\\tests\\test_replay_report.py"
+  }
+]

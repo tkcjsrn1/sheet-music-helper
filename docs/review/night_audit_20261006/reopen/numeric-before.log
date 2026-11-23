@@ -1,0 +1,17 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_edits.py", line 167, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_reopen_edits.py", line 114, in main
+    try: load(str(folder),str(source),str(root)); assert False,'손상된 간격 목록으로 열었다'
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 243, in _load_edit_version
+    session['original_placements'] = _render_edit_document(session, original, original_png)
+                                     ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\sheet-music-helper-codex-night-20261004\gui.py", line 136, in _render_edit_document
+    placements = render_solfege_on_image(session['image'], document_notes(doc), png,
+        confidences=display_confidences(doc), **session['render_options'])
+  File "F:\sheet-music-helper-codex-night-20261004\modules\renderer.py", line 303, in render_solfege_on_image
+    note_font_size = (max(16, round(sp_for_font * 1.1 * font_size / 18))
+                              ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OverflowError: cannot convert float infinity to integer

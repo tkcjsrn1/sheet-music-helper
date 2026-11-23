@@ -1,0 +1,14 @@
+F
+======================================================================
+FAIL: test_ime_other_key_while_n_held_is_not_another_n (__main__.ReviewNavigationTests.test_ime_other_key_while_n_held_is_not_another_n)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_gui_review_navigation.py", line 257, in test_ime_other_key_while_n_held_is_not_another_n
+    self.assertEqual(app._review_index,1)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 2 != 1
+
+----------------------------------------------------------------------
+Ran 1 test in 2.577s
+
+FAILED (failures=1)

@@ -1,0 +1,355 @@
+{
+  "reference_commit": "13d73f669abce51567526f4ae6ba9804612baeac",
+  "user_approved": true,
+  "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+  "aoharu_file_bytes_unchanged": true,
+  "aoharu_sha256": "5c640b06e68496149c8bda8c6807921b97e640ca4d7868e668a77e6fc7037a15",
+  "db_label_count_before": 262,
+  "db_label_count_after": 262,
+  "added": 0,
+  "deleted": 0,
+  "position_changes": 0,
+  "pitch_changes": 0,
+  "changed_labels": [
+    {
+      "before": {
+        "id": "s4-p11-x129",
+        "staff": 4,
+        "x": 1235,
+        "y": 2024,
+        "nx": 64.323,
+        "pitch": "B5",
+        "step": 11,
+        "accidental": "b",
+        "text": "시b",
+        "confidence": "check",
+        "flags": [
+          "snap_residual",
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s4-p11-x129",
+        "staff": 4,
+        "x": 1235,
+        "y": 2024,
+        "nx": 64.323,
+        "pitch": "B5",
+        "step": 11,
+        "accidental": "bb",
+        "text": "시bb",
+        "confidence": "check",
+        "flags": [
+          "snap_residual",
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "text"
+      ]
+    },
+    {
+      "before": {
+        "id": "s5-p2-x102",
+        "staff": 5,
+        "x": 978,
+        "y": 2322,
+        "nx": 50.938,
+        "pitch": "B2",
+        "step": 2,
+        "accidental": "b",
+        "text": "시b",
+        "confidence": "check",
+        "flags": [
+          "double_acc"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s5-p2-x102",
+        "staff": 5,
+        "x": 978,
+        "y": 2322,
+        "nx": 50.938,
+        "pitch": "B2",
+        "step": 2,
+        "accidental": "bb",
+        "text": "시bb",
+        "confidence": "check",
+        "flags": [
+          "double_acc"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "text"
+      ]
+    },
+    {
+      "before": {
+        "id": "s5-p9-x115",
+        "staff": 5,
+        "x": 1106,
+        "y": 2255,
+        "nx": 57.604,
+        "pitch": "B3",
+        "step": 9,
+        "accidental": "b",
+        "text": "시b",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s5-p9-x115",
+        "staff": 5,
+        "x": 1106,
+        "y": 2255,
+        "nx": 57.604,
+        "pitch": "B3",
+        "step": 9,
+        "accidental": "bb",
+        "text": "시bb",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "text"
+      ]
+    },
+    {
+      "before": {
+        "id": "s6-p7-x163",
+        "staff": 6,
+        "x": 1566,
+        "y": 2812,
+        "nx": 81.562,
+        "pitch": "E5",
+        "step": 7,
+        "accidental": null,
+        "text": "미b",
+        "confidence": "certain",
+        "flags": [],
+        "edited": false
+      },
+      "after": {
+        "id": "s6-p7-x163",
+        "staff": 6,
+        "x": 1566,
+        "y": 2812,
+        "nx": 81.562,
+        "pitch": "E5",
+        "step": 7,
+        "accidental": null,
+        "text": "미b",
+        "confidence": "check",
+        "flags": [
+          "side_pair"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "confidence",
+        "flags"
+      ]
+    },
+    {
+      "before": {
+        "id": "s6-p3-x245",
+        "staff": 6,
+        "x": 2352,
+        "y": 2850,
+        "nx": 122.5,
+        "pitch": "A4",
+        "step": 3,
+        "accidental": null,
+        "text": "라b",
+        "confidence": "check",
+        "flags": [
+          "double_acc"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s6-p3-x245",
+        "staff": 6,
+        "x": 2352,
+        "y": 2850,
+        "nx": 122.5,
+        "pitch": "A4",
+        "step": 3,
+        "accidental": "bb",
+        "text": "라bb",
+        "confidence": "check",
+        "flags": [
+          "side_pair",
+          "double_acc"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "flags",
+        "text"
+      ]
+    },
+    {
+      "before": {
+        "id": "s7-p13-x114",
+        "staff": 7,
+        "x": 1098,
+        "y": 2996,
+        "nx": 56.891,
+        "pitch": "F4",
+        "step": 13,
+        "accidental": null,
+        "text": "파",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s7-p13-x114",
+        "staff": 7,
+        "x": 1098,
+        "y": 2996,
+        "nx": 56.891,
+        "pitch": "F4",
+        "step": 13,
+        "accidental": "##",
+        "text": "파##",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "text"
+      ]
+    },
+    {
+      "before": {
+        "id": "s7-p13-x139",
+        "staff": 7,
+        "x": 1340,
+        "y": 2996,
+        "nx": 69.43,
+        "pitch": "F4",
+        "step": 13,
+        "accidental": null,
+        "text": "파",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s7-p13-x139",
+        "staff": 7,
+        "x": 1340,
+        "y": 2996,
+        "nx": 69.43,
+        "pitch": "F4",
+        "step": 13,
+        "accidental": "##",
+        "text": "파##",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "text"
+      ]
+    },
+    {
+      "before": {
+        "id": "s7-p13-x150",
+        "staff": 7,
+        "x": 1447,
+        "y": 2996,
+        "nx": 74.974,
+        "pitch": "F4",
+        "step": 13,
+        "accidental": null,
+        "text": "파",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "after": {
+        "id": "s7-p13-x150",
+        "staff": 7,
+        "x": 1447,
+        "y": 2996,
+        "nx": 74.974,
+        "pitch": "F4",
+        "step": 13,
+        "accidental": "##",
+        "text": "파##",
+        "confidence": "check",
+        "flags": [
+          "double_acc",
+          "off_staff"
+        ],
+        "edited": false
+      },
+      "fields": [
+        "accidental",
+        "text"
+      ]
+    }
+  ],
+  "document_change": {
+    "schema": {
+      "before": 1,
+      "after": 2
+    }
+  },
+  "new_baseline_sha256": "58e462ac69503fc39046c8bd659906faf1f8c35441182c3a51aba7dda2d1ae76",
+  "approved_prs": [
+    388,
+    391,
+    390
+  ],
+  "product_changes": 0,
+  "golden_changes": 0,
+  "run_all_after_fixture_update": {
+    "exit_code": 0,
+    "failed": 0,
+    "skipped": 0,
+    "golden711": "unchanged",
+    "pdf17_snapshot": "matched"
+  },
+  "packaged_guide_changed": "승인된 표기·소리·확인표시와 내부 검증 상태를 사용자 말로 반영, 제품 코드 불변",
+  "build_related_check_after_guide_update": "passed",
+  "independent_review": "Critical/Important 없음, 원전후행/실제 출력/Aoharu 파일 불변 확인"
+}

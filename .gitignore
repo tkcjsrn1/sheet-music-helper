@@ -1,0 +1,37 @@
+# 가상환경 / 빌드 산출물
+venv/
+build/
+dist/
+*.spec
+!악보헬퍼.spec
+__pycache__/
+*.pyc
+
+# 실행 중 생성되는 파일
+output/
+debug/
+settings.json
+
+# 이미지: 기본은 제외하고, 검증에 쓰는 것만 되살린다
+*.png
+*.jpg
+*.jpeg
+!assets/*.png
+!docs/*.png
+!sample_images/*.png
+!docs/review/**/*.png
+
+# 루트에 흩어진 개인 파일 (sample_images/ 안의 것이 정본이다)
+/KakaoTalk*.png
+/화면 캡처*.png
+/*.pdf
+
+# 옛 프롬프트 파일 — docs/COLLAB.md 로 대체되었다
+CODEX_PROMPT*
+CONTINUE_PROMPT*
+
+# Windows reserved file
+nul
+
+# 사용자 실제 악보 원본: 형식과 하위 폴더에 관계없이 제외
+/inputs/

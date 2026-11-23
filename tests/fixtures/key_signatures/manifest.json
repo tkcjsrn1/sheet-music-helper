@@ -1,0 +1,255 @@
+{
+  "generator": "LilyPond 2.26.0",
+  "keys": [
+    {
+      "order": 1,
+      "slug": "C_major_0",
+      "name": "C major",
+      "lily": "c",
+      "transpose": "c",
+      "symbol": "",
+      "count": 0,
+      "letters": [],
+      "source": "sources\\01_C_major_0.ly",
+      "pdf": "pdf/01_C_major_0.pdf"
+    },
+    {
+      "order": 2,
+      "slug": "G_major_sharp1",
+      "name": "G major",
+      "lily": "g",
+      "transpose": "g,",
+      "symbol": "sharp",
+      "count": 1,
+      "letters": [
+        "F"
+      ],
+      "source": "sources\\02_G_major_sharp1.ly",
+      "pdf": "pdf/02_G_major_sharp1.pdf"
+    },
+    {
+      "order": 3,
+      "slug": "D_major_sharp2",
+      "name": "D major",
+      "lily": "d",
+      "transpose": "d",
+      "symbol": "sharp",
+      "count": 2,
+      "letters": [
+        "F",
+        "C"
+      ],
+      "source": "sources\\03_D_major_sharp2.ly",
+      "pdf": "pdf/03_D_major_sharp2.pdf"
+    },
+    {
+      "order": 4,
+      "slug": "A_major_sharp3",
+      "name": "A major",
+      "lily": "a",
+      "transpose": "a,",
+      "symbol": "sharp",
+      "count": 3,
+      "letters": [
+        "F",
+        "C",
+        "G"
+      ],
+      "source": "sources\\04_A_major_sharp3.ly",
+      "pdf": "pdf/04_A_major_sharp3.pdf"
+    },
+    {
+      "order": 5,
+      "slug": "E_major_sharp4",
+      "name": "E major",
+      "lily": "e",
+      "transpose": "e",
+      "symbol": "sharp",
+      "count": 4,
+      "letters": [
+        "F",
+        "C",
+        "G",
+        "D"
+      ],
+      "source": "sources\\05_E_major_sharp4.ly",
+      "pdf": "pdf/05_E_major_sharp4.pdf"
+    },
+    {
+      "order": 6,
+      "slug": "B_major_sharp5",
+      "name": "B major",
+      "lily": "b",
+      "transpose": "b,",
+      "symbol": "sharp",
+      "count": 5,
+      "letters": [
+        "F",
+        "C",
+        "G",
+        "D",
+        "A"
+      ],
+      "source": "sources\\06_B_major_sharp5.ly",
+      "pdf": "pdf/06_B_major_sharp5.pdf"
+    },
+    {
+      "order": 7,
+      "slug": "Fs_major_sharp6",
+      "name": "F-sharp major",
+      "lily": "fis",
+      "transpose": "fis",
+      "symbol": "sharp",
+      "count": 6,
+      "letters": [
+        "F",
+        "C",
+        "G",
+        "D",
+        "A",
+        "E"
+      ],
+      "source": "sources\\07_Fs_major_sharp6.ly",
+      "pdf": "pdf/07_Fs_major_sharp6.pdf"
+    },
+    {
+      "order": 8,
+      "slug": "Db_major_flat5",
+      "name": "D-flat major",
+      "lily": "des",
+      "transpose": "des",
+      "symbol": "flat",
+      "count": 5,
+      "letters": [
+        "B",
+        "E",
+        "A",
+        "D",
+        "G"
+      ],
+      "source": "sources\\08_Db_major_flat5.ly",
+      "pdf": "pdf/08_Db_major_flat5.pdf"
+    },
+    {
+      "order": 9,
+      "slug": "Ab_major_flat4",
+      "name": "A-flat major",
+      "lily": "aes",
+      "transpose": "aes,",
+      "symbol": "flat",
+      "count": 4,
+      "letters": [
+        "B",
+        "E",
+        "A",
+        "D"
+      ],
+      "source": "sources\\09_Ab_major_flat4.ly",
+      "pdf": "pdf/09_Ab_major_flat4.pdf"
+    },
+    {
+      "order": 10,
+      "slug": "Eb_major_flat3",
+      "name": "E-flat major",
+      "lily": "ees",
+      "transpose": "ees",
+      "symbol": "flat",
+      "count": 3,
+      "letters": [
+        "B",
+        "E",
+        "A"
+      ],
+      "source": "sources\\10_Eb_major_flat3.ly",
+      "pdf": "pdf/10_Eb_major_flat3.pdf"
+    },
+    {
+      "order": 11,
+      "slug": "Bb_major_flat2",
+      "name": "B-flat major",
+      "lily": "bes",
+      "transpose": "bes,",
+      "symbol": "flat",
+      "count": 2,
+      "letters": [
+        "B",
+        "E"
+      ],
+      "source": "sources\\11_Bb_major_flat2.ly",
+      "pdf": "pdf/11_Bb_major_flat2.pdf"
+    },
+    {
+      "order": 12,
+      "slug": "F_major_flat1",
+      "name": "F major",
+      "lily": "f",
+      "transpose": "f",
+      "symbol": "flat",
+      "count": 1,
+      "letters": [
+        "B"
+      ],
+      "source": "sources\\12_F_major_flat1.ly",
+      "pdf": "pdf/12_F_major_flat1.pdf"
+    },
+    {
+      "order": 13,
+      "slug": "Cs_major_sharp7",
+      "name": "C-sharp major",
+      "lily": "cis",
+      "transpose": "cis",
+      "symbol": "sharp",
+      "count": 7,
+      "letters": [
+        "F",
+        "C",
+        "G",
+        "D",
+        "A",
+        "E",
+        "B"
+      ],
+      "source": "sources\\13_Cs_major_sharp7.ly",
+      "pdf": "pdf/13_Cs_major_sharp7.pdf"
+    },
+    {
+      "order": 14,
+      "slug": "Gb_major_flat6",
+      "name": "G-flat major",
+      "lily": "ges",
+      "transpose": "ges",
+      "symbol": "flat",
+      "count": 6,
+      "letters": [
+        "B",
+        "E",
+        "A",
+        "D",
+        "G",
+        "C"
+      ],
+      "source": "sources\\14_Gb_major_flat6.ly",
+      "pdf": "pdf/14_Gb_major_flat6.pdf"
+    },
+    {
+      "order": 15,
+      "slug": "Cb_major_flat7",
+      "name": "C-flat major",
+      "lily": "ces",
+      "transpose": "ces",
+      "symbol": "flat",
+      "count": 7,
+      "letters": [
+        "B",
+        "E",
+        "A",
+        "D",
+        "G",
+        "C",
+        "F"
+      ],
+      "source": "sources\\15_Cb_major_flat7.ly",
+      "pdf": "pdf/15_Cb_major_flat7.pdf"
+    }
+  ]
+}

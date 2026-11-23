@@ -1,0 +1,93 @@
+{
+  "exe": "F:\\sheet-music-helper-codex-night-20261004\\dist\\d6cf163eea02-20261007-160020-688938\\악보헬퍼.exe",
+  "exe_sha256": "D97C34ADA062B063B4D9FEDD845FBB0C28C6CE0D94E5797FDF97E3FD7E1DD4C8",
+  "source": "exe에서 추출한 동봉 GUI/label_audio 코드, UI 생성 없이 실행",
+  "cases": [
+    {
+      "case": "complete",
+      "note_on": [
+        60,
+        64,
+        67,
+        62,
+        64,
+        49
+      ],
+      "note_off": [
+        60,
+        64,
+        67,
+        62,
+        64,
+        49
+      ],
+      "program": 0,
+      "bank": 0,
+      "reset": 1,
+      "close": 1,
+      "logs": [
+        "피아노 음높이 듣기: 4묶음, 제외 1개 (박자 없음)"
+      ],
+      "cancelled": false,
+      "labels_unchanged": true,
+      "winmm_api_success": true,
+      "midi_messages": [
+        176,
+        8368,
+        192,
+        16560,
+        5258384,
+        5259408,
+        5260176,
+        15488,
+        16512,
+        17280,
+        5258896,
+        16000,
+        5259408,
+        16512,
+        5255568,
+        12672
+      ]
+    },
+    {
+      "case": "cancel_during_chord",
+      "note_on": [
+        60,
+        64,
+        67
+      ],
+      "note_off": [
+        60,
+        64,
+        67
+      ],
+      "program": 0,
+      "bank": 0,
+      "reset": 1,
+      "close": 1,
+      "logs": [
+        "피아노 음높이 듣기: 4묶음, 제외 1개 (박자 없음)"
+      ],
+      "cancelled": true,
+      "labels_unchanged": true,
+      "winmm_api_success": true,
+      "midi_messages": [
+        176,
+        8368,
+        192,
+        16560,
+        5258384,
+        5259408,
+        5260176,
+        15488,
+        16512,
+        17280
+      ]
+    }
+  ],
+  "speaker_listening_verified": false,
+  "exe_window_clicked": false,
+  "loopback_capture_available": false,
+  "microphone_used": false
+}

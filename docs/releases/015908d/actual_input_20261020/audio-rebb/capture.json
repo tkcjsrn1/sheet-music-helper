@@ -1,0 +1,229 @@
+{
+  "rate": 48000,
+  "channels": 2,
+  "bits": 32,
+  "float32": true,
+  "frames": 20160,
+  "seconds": 0.42,
+  "peak": 0.016754150390625,
+  "rms": 0.004756571259349585,
+  "packet_count": 42,
+  "packets": [
+    {
+      "seconds": 0.8304694000034942,
+      "frames": 480,
+      "flags": 1
+    },
+    {
+      "seconds": 0.8363004000057117,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.8472551000013482,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.8581861999991816,
+      "frames": 480,
+      "flags": 1
+    },
+    {
+      "seconds": 0.8688064000016311,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.8794860999987577,
+      "frames": 480,
+      "flags": 1
+    },
+    {
+      "seconds": 0.8911455000052229,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.8965028000020538,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9130929000020842,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9183980000016163,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9330972000025213,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9385140000013052,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9495527000035509,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9607223999992129,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9664950000005774,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9772393000021111,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9884091999992961,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 0.9990179000014905,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0097070000047097,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0206201000037254,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0263132000036421,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0359142000015709,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0467535999996471,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0565429000052973,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0671927000003052,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.078023400004895,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.08864590000303,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.0996251000033226,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1104763000039384,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1160804000028293,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1281579999995301,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1389952000026824,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1506718000018736,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1565555000051972,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1735096000047633,
+      "frames": 480,
+      "flags": 1
+    },
+    {
+      "seconds": 1.1789113000049838,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.1899137000000337,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.2008583999995608,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.2065449000001536,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.2180564000009326,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.2288398000018788,
+      "frames": 480,
+      "flags": 0
+    },
+    {
+      "seconds": 1.2395801000020583,
+      "frames": 480,
+      "flags": 0
+    }
+  ],
+  "baseline_peak": 0,
+  "source": "실제 검사 exe의 듣기 버튼을 SendInput으로 클릭한 기본출력 WASAPI loopback",
+  "microphone_used": false,
+  "gui_clicked": true,
+  "hwnd": 7473934,
+  "pid": 28640
+}

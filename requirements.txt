@@ -1,0 +1,12 @@
+# 핵심 의존성 (모두 permissive 라이선스: BSD/MIT/Apache/HPND)
+opencv-python>=4.9.0
+numpy>=1.26.0
+Pillow>=10.2.0
+scipy>=1.12.0
+customtkinter>=5.2.0
+
+# 빌드 도구
+pyinstaller>=6.0
+
+# 선택 설치: PDF 입력 지원 (라이선스가 AGPL-3.0이므로 배포용 exe에는 포함하지 않음)
+# pip install PyMuPDF

@@ -1,0 +1,356 @@
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+======================================================================
+FAIL: test_bad_duration_list_never_opens_device (__main__.PianoRepeat.test_bad_duration_list_never_opens_device)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 87, in test_bad_duration_list_never_opens_device
+    self.assertIn('durations',inspect.signature(audio.play_piano).parameters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'durations' not found in mappingproxy(OrderedDict({'groups': <Parameter "groups: list">, 'cancel': <Parameter "cancel">, 'duration': <Parameter "duration=0.28">, 'on_group': <Parameter "on_group=None">}))
+
+======================================================================
+FAIL: test_repeat_restarts_indices_and_uses_per_group_time_with_one_device (__main__.PianoRepeat.test_repeat_restarts_indices_and_uses_per_group_time_with_one_device)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 59, in test_repeat_restarts_indices_and_uses_per_group_time_with_one_device
+    self.assertIn('durations',inspect.signature(audio.play_piano).parameters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'durations' not found in mappingproxy(OrderedDict({'groups': <Parameter "groups: list">, 'cancel': <Parameter "cancel">, 'duration': <Parameter "duration=0.28">, 'on_group': <Parameter "on_group=None">}))
+
+======================================================================
+FAIL: test_stop_during_repeat_and_callback_failure_always_release_device (__main__.PianoRepeat.test_stop_during_repeat_and_callback_failure_always_release_device)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 74, in test_stop_during_repeat_and_callback_failure_always_release_device
+    self.assertIn('repeat',inspect.signature(audio.play_piano).parameters)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'repeat' not found in mappingproxy(OrderedDict({'groups': <Parameter "groups: list">, 'cancel': <Parameter "cancel">, 'duration': <Parameter "duration=0.28">, 'on_group': <Parameter "on_group=None">}))
+
+======================================================================
+FAIL: test_boundary_in_chord_keeps_whole_chord_and_original_indices (__main__.PracticePlan.test_boundary_in_chord_keeps_whole_chord_and_original_indices)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 33, in test_boundary_in_chord_keeps_whole_chord_and_original_indices
+    plan,times=self.prepare(self.plan,start=1,end=4,speed=.5)
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_defaults_preserve_original_plan_and_equal_time (__main__.PracticePlan.test_defaults_preserve_original_plan_and_equal_time)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 29, in test_defaults_preserve_original_plan_and_equal_time
+    before=copy.deepcopy(self.plan);plan,times=self.prepare(self.plan)
+                                               ~~~~~~~~~~~~^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_future_timing_is_independent_from_pitch_and_scaled_after_slicing (__main__.PracticePlan.test_future_timing_is_independent_from_pitch_and_scaled_after_slicing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 39, in test_future_timing_is_independent_from_pitch_and_scaled_after_slicing
+    plan,times=self.prepare(self.plan,start=4,end=8,speed=.5,durations=[.1,.3,.7])
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'start': 0})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'end': 4})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'start': 8, 'end': 0})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'start': 3, 'end': 8})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'start': -1, 'end': 4})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'start': True, 'end': 4})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved) (kw={'start': 0.0, 'end': 4})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 45, in test_invalid_boundary_is_never_silently_moved
+    with self.subTest(kw=kw),self.assertRaises(ValueError):self.prepare(self.plan,**kw)
+                                                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_invalid_boundary_is_never_silently_moved (__main__.PracticePlan.test_invalid_boundary_is_never_silently_moved)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 47, in test_invalid_boundary_is_never_silently_moved
+    with self.assertRaises(ValueError):self.prepare(self.plan[1:],start=0,end=8)
+                                       ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=0.49)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=1.51)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=-1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=nan)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=inf)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (speed='1')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 51, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(speed=speed),self.assertRaises(ValueError):self.prepare(self.plan,speed=speed)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=[0.1])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=[0.1, 0.2, 0])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=[0.1, -0.2, 0.3])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=[0.1, nan, 0.3])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=[0.1, True, 0.3])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected) (times=['.1', 0.2, 0.3])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 53, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    with self.subTest(times=times),self.assertRaises(ValueError):self.prepare(self.plan,durations=times)
+                                                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+======================================================================
+FAIL: test_nonfinite_or_outside_speed_and_bad_timing_rejected (__main__.PracticePlan.test_nonfinite_or_outside_speed_and_bad_timing_rejected)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 54, in test_nonfinite_or_outside_speed_and_bad_timing_rejected
+    self.assertEqual(self.prepare([]),([],[]))
+                     ~~~~~~~~~~~~^^^^
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_practice_audio.py", line 22, in prepare
+    self.assertTrue(hasattr(audio,'practice_plan'),'구간/시간 축 함수가 없음')
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: False is not true : 구간/시간 축 함수가 없음
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.011s
+
+FAILED (failures=30)

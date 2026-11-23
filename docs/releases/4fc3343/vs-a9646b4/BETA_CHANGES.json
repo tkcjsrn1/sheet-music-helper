@@ -1,0 +1,2070 @@
+{
+  "old_commit": "a9646b4675218402ace5f4adf325105611c5b712",
+  "new_commit": "4fc33430b8cd17009390fafc18f6cacd00db2293",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "old_labels": 226,
+      "new_labels": 226,
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "json_sha256": [
+        "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+        "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "aoharu_p2",
+      "old_labels": 327,
+      "new_labels": 327,
+      "input_sha256": "9c06d33900da9f2baf8e6e404dfe6488eda4c220ebbda4304bb449e1c97f68e6",
+      "json_sha256": [
+        "81e80edad4ae93c954da78fa116e9ccbc36ce67d973c34a27869157c8b91aa57",
+        "81e80edad4ae93c954da78fa116e9ccbc36ce67d973c34a27869157c8b91aa57"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "aoharu_p3",
+      "old_labels": 158,
+      "new_labels": 158,
+      "input_sha256": "40b2f9d39e0297c6d034ae498302b30b1eaacfcc97b656b92400cfa1eb173ea1",
+      "json_sha256": [
+        "92a5e72e6a96e26854610d9de0935f817fdf351e6dbf19f13da25f054884b0ea",
+        "92a5e72e6a96e26854610d9de0935f817fdf351e6dbf19f13da25f054884b0ea"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 0,
+        "confidence_changed": 0
+      },
+      "differences": []
+    },
+    {
+      "case": "chopin_Db_p1",
+      "old_labels": 262,
+      "new_labels": 262,
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "json_sha256": [
+        "96de9562ee34fbd0b68595cf17ec125b8d69208dfb2e61ad37600bccd471ab52",
+        "1d564a35f589160b72adcee35c067a67dda5bb0212e200aeac3573cb596e6d50"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 0,
+        "text_changed": 3,
+        "confidence_changed": 7
+      },
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            4,
+            1235,
+            2024
+          ],
+          "before": [
+            {
+              "id": "s4-p11-x129",
+              "staff": 4,
+              "x": 1235,
+              "y": 2024,
+              "nx": 64.323,
+              "pitch": "B5",
+              "step": 11,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "certain",
+              "flags": [
+                "snap_residual",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s4-p11-x129",
+              "staff": 4,
+              "x": 1235,
+              "y": 2024,
+              "nx": 64.323,
+              "pitch": "B5",
+              "step": 11,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "snap_residual",
+                "double_acc",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            5,
+            978,
+            2322
+          ],
+          "before": [
+            {
+              "id": "s5-p2-x102",
+              "staff": 5,
+              "x": 978,
+              "y": 2322,
+              "nx": 50.938,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s5-p2-x102",
+              "staff": 5,
+              "x": 978,
+              "y": 2322,
+              "nx": 50.938,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "double_acc"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            5,
+            1106,
+            2255
+          ],
+          "before": [
+            {
+              "id": "s5-p9-x115",
+              "staff": 5,
+              "x": 1106,
+              "y": 2255,
+              "nx": 57.604,
+              "pitch": "B3",
+              "step": 9,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s5-p9-x115",
+              "staff": 5,
+              "x": 1106,
+              "y": 2255,
+              "nx": 57.604,
+              "pitch": "B3",
+              "step": 9,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "double_acc",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            1132,
+            2834
+          ],
+          "before": [
+            {
+              "id": "s6-p5-x118",
+              "staff": 6,
+              "x": 1132,
+              "y": 2834,
+              "nx": 58.958,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "caution",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p5-x118",
+              "staff": 6,
+              "x": 1132,
+              "y": 2834,
+              "nx": 58.958,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": null,
+              "text": "도",
+              "confidence": "caution",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            1209,
+            2830
+          ],
+          "before": [
+            {
+              "id": "s6-p5-x126",
+              "staff": 6,
+              "x": 1209,
+              "y": 2830,
+              "nx": 62.969,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p5-x126",
+              "staff": 6,
+              "x": 1209,
+              "y": 2830,
+              "nx": 62.969,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            1511,
+            2830
+          ],
+          "before": [
+            {
+              "id": "s6-p5-x157",
+              "staff": 6,
+              "x": 1511,
+              "y": 2830,
+              "nx": 78.698,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p5-x157",
+              "staff": 6,
+              "x": 1511,
+              "y": 2830,
+              "nx": 78.698,
+              "pitch": "C5",
+              "step": 5,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            1586,
+            2815
+          ],
+          "before": [
+            {
+              "id": "s6-p7-x165",
+              "staff": 6,
+              "x": 1586,
+              "y": 2815,
+              "nx": 82.604,
+              "pitch": "E5",
+              "step": 7,
+              "accidental": "b",
+              "text": "미b",
+              "confidence": "check",
+              "flags": [
+                "snap_residual",
+                "accidental_unstable",
+                "chord_rescue_added"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p7-x165",
+              "staff": 6,
+              "x": 1586,
+              "y": 2815,
+              "nx": 82.604,
+              "pitch": "E5",
+              "step": 7,
+              "accidental": null,
+              "text": "미b",
+              "confidence": "check",
+              "flags": [
+                "snap_residual",
+                "accidental_unstable",
+                "chord_rescue_added"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            6,
+            2352,
+            2850
+          ],
+          "before": [
+            {
+              "id": "s6-p3-x245",
+              "staff": 6,
+              "x": 2352,
+              "y": 2850,
+              "nx": 122.5,
+              "pitch": "A4",
+              "step": 3,
+              "accidental": null,
+              "text": "라b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s6-p3-x245",
+              "staff": 6,
+              "x": 2352,
+              "y": 2850,
+              "nx": 122.5,
+              "pitch": "A4",
+              "step": 3,
+              "accidental": null,
+              "text": "라b",
+              "confidence": "check",
+              "flags": [
+                "double_acc"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1098,
+            2996
+          ],
+          "before": [
+            {
+              "id": "s7-p13-x114",
+              "staff": 7,
+              "x": 1098,
+              "y": 2996,
+              "nx": 56.891,
+              "pitch": "F4",
+              "step": 13,
+              "accidental": null,
+              "text": "파",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p13-x114",
+              "staff": 7,
+              "x": 1098,
+              "y": 2996,
+              "nx": 56.891,
+              "pitch": "F4",
+              "step": 13,
+              "accidental": null,
+              "text": "파",
+              "confidence": "check",
+              "flags": [
+                "double_acc",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1340,
+            2996
+          ],
+          "before": [
+            {
+              "id": "s7-p13-x139",
+              "staff": 7,
+              "x": 1340,
+              "y": 2996,
+              "nx": 69.43,
+              "pitch": "F4",
+              "step": 13,
+              "accidental": null,
+              "text": "파",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p13-x139",
+              "staff": 7,
+              "x": 1340,
+              "y": 2996,
+              "nx": 69.43,
+              "pitch": "F4",
+              "step": 13,
+              "accidental": null,
+              "text": "파",
+              "confidence": "check",
+              "flags": [
+                "double_acc",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1447,
+            2996
+          ],
+          "before": [
+            {
+              "id": "s7-p13-x150",
+              "staff": 7,
+              "x": 1447,
+              "y": 2996,
+              "nx": 74.974,
+              "pitch": "F4",
+              "step": 13,
+              "accidental": null,
+              "text": "파",
+              "confidence": "certain",
+              "flags": [
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p13-x150",
+              "staff": 7,
+              "x": 1447,
+              "y": 2996,
+              "nx": 74.974,
+              "pitch": "F4",
+              "step": 13,
+              "accidental": null,
+              "text": "파",
+              "confidence": "check",
+              "flags": [
+                "double_acc",
+                "off_staff"
+              ],
+              "edited": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "bach_p1",
+      "old_labels": 184,
+      "new_labels": 182,
+      "input_sha256": "a6897f836ea2ee838358a278e57df54e4bf2c1d37d6a599378764dda0acec3e0",
+      "json_sha256": [
+        "6d107714d81b9c814a8554c6d0971961c811e5c0a856927883e797126dfc69e5",
+        "b03127a06d03b2170043aeb9e973ca90cc54e3a694b43998db01f88ef5ffcf6c"
+      ],
+      "counts": {
+        "added": 0,
+        "removed": 2,
+        "text_changed": 3,
+        "confidence_changed": 2
+      },
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            7,
+            221,
+            2141
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x21",
+              "staff": 7,
+              "x": 221,
+              "y": 2141,
+              "nx": 10.676,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            252,
+            2142
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x24",
+              "staff": 7,
+              "x": 252,
+              "y": 2142,
+              "nx": 12.174,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p2-x24",
+              "staff": 7,
+              "x": 252,
+              "y": 2142,
+              "nx": 12.174,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            306,
+            2142
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x30",
+              "staff": 7,
+              "x": 306,
+              "y": 2142,
+              "nx": 14.783,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            333,
+            2142
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x32",
+              "staff": 7,
+              "x": 333,
+              "y": 2142,
+              "nx": 16.087,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p2-x32",
+              "staff": 7,
+              "x": 333,
+              "y": 2142,
+              "nx": 16.087,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "flat_propagated"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            441,
+            2142
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x43",
+              "staff": 7,
+              "x": 441,
+              "y": 2142,
+              "nx": 21.304,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시",
+              "confidence": "certain",
+              "flags": [],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p2-x43",
+              "staff": 7,
+              "x": 441,
+              "y": 2142,
+              "nx": 21.304,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "flat_propagated"
+              ],
+              "edited": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "clara_p1",
+      "old_labels": 600,
+      "new_labels": 601,
+      "input_sha256": "a78b0a632529d0676a532d946cbc72c275bf72ad716c88d2b6470b960a0a7daf",
+      "json_sha256": [
+        "0077d38e157cab4b33ede39b7fb8dffcac8aafc6495c35cd5847de9347b81440",
+        "ce37cac26837f151c91df38bb1a2e87f7e83aac6f23285192f11dab687eebf7d"
+      ],
+      "counts": {
+        "added": 2,
+        "removed": 1,
+        "text_changed": 15,
+        "confidence_changed": 0
+      },
+      "differences": [
+        {
+          "kind": "label",
+          "key": [
+            3,
+            797,
+            867
+          ],
+          "before": [
+            {
+              "id": "s3-p2-x88",
+              "staff": 3,
+              "x": 797,
+              "y": 867,
+              "nx": 43.791,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_candidate",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p2-x88",
+              "staff": 3,
+              "x": 797,
+              "y": 867,
+              "nx": 43.791,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            797,
+            887
+          ],
+          "before": [
+            {
+              "id": "s3-p0-x88",
+              "staff": 3,
+              "x": 797,
+              "y": 887,
+              "nx": 43.791,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_candidate",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p0-x88",
+              "staff": 3,
+              "x": 797,
+              "y": 887,
+              "nx": 43.791,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            826,
+            867
+          ],
+          "before": [
+            {
+              "id": "s3-p2-x91",
+              "staff": 3,
+              "x": 826,
+              "y": 867,
+              "nx": 45.385,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_candidate",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p2-x91",
+              "staff": 3,
+              "x": 826,
+              "y": 867,
+              "nx": 45.385,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            826,
+            887
+          ],
+          "before": [
+            {
+              "id": "s3-p0-x91",
+              "staff": 3,
+              "x": 826,
+              "y": 887,
+              "nx": 45.385,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_candidate",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p0-x91",
+              "staff": 3,
+              "x": 826,
+              "y": 887,
+              "nx": 45.385,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            855,
+            867
+          ],
+          "before": [
+            {
+              "id": "s3-p2-x94",
+              "staff": 3,
+              "x": 855,
+              "y": 867,
+              "nx": 46.978,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p2-x94",
+              "staff": 3,
+              "x": 855,
+              "y": 867,
+              "nx": 46.978,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            899,
+            867
+          ],
+          "before": [
+            {
+              "id": "s3-p2-x99",
+              "staff": 3,
+              "x": 899,
+              "y": 867,
+              "nx": 49.396,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p2-x99",
+              "staff": 3,
+              "x": 899,
+              "y": 867,
+              "nx": 49.396,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            987,
+            867
+          ],
+          "before": [
+            {
+              "id": "s3-p2-x108",
+              "staff": 3,
+              "x": 987,
+              "y": 867,
+              "nx": 54.231,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p2-x108",
+              "staff": 3,
+              "x": 987,
+              "y": 867,
+              "nx": 54.231,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            3,
+            1075,
+            867
+          ],
+          "before": [
+            {
+              "id": "s3-p2-x118",
+              "staff": 3,
+              "x": 1075,
+              "y": 867,
+              "nx": 59.066,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s3-p2-x118",
+              "staff": 3,
+              "x": 1075,
+              "y": 867,
+              "nx": 59.066,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            509,
+            1778
+          ],
+          "before": [
+            {
+              "id": "s7-p4-x57",
+              "staff": 7,
+              "x": 509,
+              "y": 1778,
+              "nx": 28.278,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "glyph_shape"
+              ],
+              "edited": false
+            }
+          ],
+          "after": []
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            535,
+            1778
+          ],
+          "before": [
+            {
+              "id": "s7-p4-x59",
+              "staff": 7,
+              "x": 535,
+              "y": 1778,
+              "nx": 29.722,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p4-x59",
+              "staff": 7,
+              "x": 535,
+              "y": 1778,
+              "nx": 29.722,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": "b",
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            639,
+            1777
+          ],
+          "before": [
+            {
+              "id": "s7-p4-x71",
+              "staff": 7,
+              "x": 639,
+              "y": 1777,
+              "nx": 35.5,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p4-x71",
+              "staff": 7,
+              "x": 639,
+              "y": 1777,
+              "nx": 35.5,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": "b",
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable",
+                "flat_propagated"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            729,
+            1777
+          ],
+          "before": [
+            {
+              "id": "s7-p4-x81",
+              "staff": 7,
+              "x": 729,
+              "y": 1777,
+              "nx": 40.5,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": null,
+              "text": "레",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p4-x81",
+              "staff": 7,
+              "x": 729,
+              "y": 1777,
+              "nx": 40.5,
+              "pitch": "D3",
+              "step": 4,
+              "accidental": "b",
+              "text": "레b",
+              "confidence": "check",
+              "flags": [
+                "accidental_unstable",
+                "flat_propagated"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1181,
+            1790
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s7-p3-x131",
+              "staff": 7,
+              "x": 1181,
+              "y": 1790,
+              "nx": 65.611,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual",
+                "clef_glyph",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1194,
+            1799
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x133",
+              "staff": 7,
+              "x": 1194,
+              "y": 1799,
+              "nx": 66.333,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "snap_residual",
+                "clef_glyph",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p2-x133",
+              "staff": 7,
+              "x": 1194,
+              "y": 1799,
+              "nx": 66.333,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "snap_residual",
+                "clef_glyph",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1223,
+            1785
+          ],
+          "before": [
+            {
+              "id": "s7-p3-x136",
+              "staff": 7,
+              "x": 1223,
+              "y": 1785,
+              "nx": 67.944,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p3-x136",
+              "staff": 7,
+              "x": 1223,
+              "y": 1785,
+              "nx": 67.944,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1253,
+            1785
+          ],
+          "before": [
+            {
+              "id": "s7-p3-x139",
+              "staff": 7,
+              "x": 1253,
+              "y": 1785,
+              "nx": 69.611,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p3-x139",
+              "staff": 7,
+              "x": 1253,
+              "y": 1785,
+              "nx": 69.611,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1283,
+            1785
+          ],
+          "before": [
+            {
+              "id": "s7-p3-x143",
+              "staff": 7,
+              "x": 1283,
+              "y": 1785,
+              "nx": 71.278,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p3-x143",
+              "staff": 7,
+              "x": 1283,
+              "y": 1785,
+              "nx": 71.278,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1327,
+            1785
+          ],
+          "before": [
+            {
+              "id": "s7-p3-x147",
+              "staff": 7,
+              "x": 1327,
+              "y": 1785,
+              "nx": 73.722,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p3-x147",
+              "staff": 7,
+              "x": 1327,
+              "y": 1785,
+              "nx": 73.722,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1417,
+            1785
+          ],
+          "before": [
+            {
+              "id": "s7-p3-x157",
+              "staff": 7,
+              "x": 1417,
+              "y": 1785,
+              "nx": 78.722,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p3-x157",
+              "staff": 7,
+              "x": 1417,
+              "y": 1785,
+              "nx": 78.722,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1506,
+            1785
+          ],
+          "before": [
+            {
+              "id": "s7-p3-x167",
+              "staff": 7,
+              "x": 1506,
+              "y": 1785,
+              "nx": 83.667,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": "b",
+              "text": "도b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p3-x167",
+              "staff": 7,
+              "x": 1506,
+              "y": 1785,
+              "nx": 83.667,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1644,
+            1790
+          ],
+          "before": [],
+          "after": [
+            {
+              "id": "s7-p3-x183",
+              "staff": 7,
+              "x": 1644,
+              "y": 1790,
+              "nx": 91.333,
+              "pitch": "C3",
+              "step": 3,
+              "accidental": null,
+              "text": "도",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "snap_residual",
+                "clef_glyph",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1656,
+            1799
+          ],
+          "before": [
+            {
+              "id": "s7-p2-x184",
+              "staff": 7,
+              "x": 1656,
+              "y": 1799,
+              "nx": 92.0,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": "b",
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "snap_residual",
+                "accidental_unstable",
+                "clef_glyph",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p2-x184",
+              "staff": 7,
+              "x": 1656,
+              "y": 1799,
+              "nx": 92.0,
+              "pitch": "B2",
+              "step": 2,
+              "accidental": null,
+              "text": "시b",
+              "confidence": "check",
+              "flags": [
+                "weak_side_ink",
+                "snap_residual",
+                "accidental_unstable",
+                "clef_glyph",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1686,
+            1815
+          ],
+          "before": [
+            {
+              "id": "s7-p0-x187",
+              "staff": 7,
+              "x": 1686,
+              "y": 1815,
+              "nx": 93.667,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": "b",
+              "text": "솔b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p0-x187",
+              "staff": 7,
+              "x": 1686,
+              "y": 1815,
+              "nx": 93.667,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1715,
+            1815
+          ],
+          "before": [
+            {
+              "id": "s7-p0-x191",
+              "staff": 7,
+              "x": 1715,
+              "y": 1815,
+              "nx": 95.278,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": "b",
+              "text": "솔b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p0-x191",
+              "staff": 7,
+              "x": 1715,
+              "y": 1815,
+              "nx": 95.278,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1745,
+            1815
+          ],
+          "before": [
+            {
+              "id": "s7-p0-x194",
+              "staff": 7,
+              "x": 1745,
+              "y": 1815,
+              "nx": 96.944,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": "b",
+              "text": "솔b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p0-x194",
+              "staff": 7,
+              "x": 1745,
+              "y": 1815,
+              "nx": 96.944,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1790,
+            1815
+          ],
+          "before": [
+            {
+              "id": "s7-p0-x199",
+              "staff": 7,
+              "x": 1790,
+              "y": 1815,
+              "nx": 99.444,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": "b",
+              "text": "솔b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p0-x199",
+              "staff": 7,
+              "x": 1790,
+              "y": 1815,
+              "nx": 99.444,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1879,
+            1815
+          ],
+          "before": [
+            {
+              "id": "s7-p0-x209",
+              "staff": 7,
+              "x": 1879,
+              "y": 1815,
+              "nx": 104.389,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": "b",
+              "text": "솔b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p0-x209",
+              "staff": 7,
+              "x": 1879,
+              "y": 1815,
+              "nx": 104.389,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        },
+        {
+          "kind": "label",
+          "key": [
+            7,
+            1968,
+            1815
+          ],
+          "before": [
+            {
+              "id": "s7-p0-x219",
+              "staff": 7,
+              "x": 1968,
+              "y": 1815,
+              "nx": 109.333,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": "b",
+              "text": "솔b",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ],
+          "after": [
+            {
+              "id": "s7-p0-x219",
+              "staff": 7,
+              "x": 1968,
+              "y": 1815,
+              "nx": 109.333,
+              "pitch": "G2",
+              "step": 0,
+              "accidental": null,
+              "text": "솔",
+              "confidence": "check",
+              "flags": [
+                "vertical_blocked",
+                "accidental_unstable",
+                "clef_changed"
+              ],
+              "edited": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

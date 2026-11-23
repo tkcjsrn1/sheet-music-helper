@@ -1,0 +1,341 @@
+[
+  {
+    "dx": 0,
+    "calls": [
+      {
+        "x": 911.9285714285714,
+        "input_y": 488.7857142857143,
+        "output_y": 489.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 47,
+            "bbox": [
+              890,
+              55,
+              26,
+              5
+            ]
+          },
+          {
+            "id": 55,
+            "bbox": [
+              906,
+              61,
+              21,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 914.9285714285714,
+        "input_y": 500.6666666666667,
+        "output_y": 500.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 55,
+            "bbox": [
+              906,
+              61,
+              21,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 911.9285714285714,
+        "input_y": 488.7857142857143,
+        "output_y": 489.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 47,
+            "bbox": [
+              890,
+              55,
+              26,
+              5
+            ]
+          },
+          {
+            "id": 55,
+            "bbox": [
+              906,
+              61,
+              21,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 914.9285714285714,
+        "input_y": 500.6666666666667,
+        "output_y": 500.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 55,
+            "bbox": [
+              906,
+              61,
+              21,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      }
+    ]
+  },
+  {
+    "dx": 0.25,
+    "calls": [
+      {
+        "x": 912.9090909090909,
+        "input_y": 489.6909090909091,
+        "output_y": 491.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 51,
+            "bbox": [
+              890,
+              54,
+              26,
+              6
+            ]
+          },
+          {
+            "id": 60,
+            "bbox": [
+              906,
+              61,
+              20,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 1
+      },
+      {
+        "x": 871.0,
+        "input_y": 1418.8333333333333,
+        "output_y": 1418.5,
+        "staff": 7,
+        "original_components": [
+          {
+            "id": 16,
+            "bbox": [
+              857,
+              34,
+              30,
+              68
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 912.0,
+        "input_y": 488.6896551724138,
+        "output_y": 489.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 51,
+            "bbox": [
+              890,
+              55,
+              26,
+              5
+            ]
+          },
+          {
+            "id": 61,
+            "bbox": [
+              906,
+              61,
+              21,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 912.9090909090909,
+        "input_y": 489.6909090909091,
+        "output_y": 491.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 51,
+            "bbox": [
+              890,
+              54,
+              26,
+              6
+            ]
+          },
+          {
+            "id": 60,
+            "bbox": [
+              906,
+              61,
+              20,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 1
+      },
+      {
+        "x": 871.0,
+        "input_y": 1418.8333333333333,
+        "output_y": 1418.5,
+        "staff": 7,
+        "original_components": [
+          {
+            "id": 16,
+            "bbox": [
+              857,
+              34,
+              30,
+              68
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 912.0,
+        "input_y": 488.6896551724138,
+        "output_y": 489.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 51,
+            "bbox": [
+              890,
+              55,
+              26,
+              5
+            ]
+          },
+          {
+            "id": 61,
+            "bbox": [
+              906,
+              61,
+              21,
+              49
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      }
+    ]
+  },
+  {
+    "dx": 0.5,
+    "calls": [
+      {
+        "x": 912.8064516129032,
+        "input_y": 489.258064516129,
+        "output_y": 491.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 51,
+            "bbox": [
+              890,
+              54,
+              26,
+              6
+            ]
+          },
+          {
+            "id": 61,
+            "bbox": [
+              814,
+              61,
+              172,
+              89
+            ]
+          }
+        ],
+        "isolated_supported": 1
+      },
+      {
+        "x": 873.0,
+        "input_y": 870.7027027027027,
+        "output_y": 870.0,
+        "staff": 3,
+        "original_components": [
+          {
+            "id": 9,
+            "bbox": [
+              865,
+              0,
+              66,
+              93
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      },
+      {
+        "x": 912.8064516129032,
+        "input_y": 489.258064516129,
+        "output_y": 491.0,
+        "staff": 0,
+        "original_components": [
+          {
+            "id": 51,
+            "bbox": [
+              890,
+              54,
+              26,
+              6
+            ]
+          },
+          {
+            "id": 61,
+            "bbox": [
+              814,
+              61,
+              172,
+              89
+            ]
+          }
+        ],
+        "isolated_supported": 1
+      },
+      {
+        "x": 873.0,
+        "input_y": 870.7027027027027,
+        "output_y": 870.0,
+        "staff": 3,
+        "original_components": [
+          {
+            "id": 9,
+            "bbox": [
+              865,
+              0,
+              66,
+              93
+            ]
+          }
+        ],
+        "isolated_supported": 0
+      }
+    ]
+  }
+]

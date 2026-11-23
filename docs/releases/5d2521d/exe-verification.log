@@ -1,0 +1,7 @@
+aoharu_p1 {'certain': 225, 'caution': 1} 소스/exe/재렌더링 픽셀과 JSON 일치
+chopin_Db_p1 {'certain': 208, 'check': 12, 'caution': 34} 소스/exe/재렌더링 픽셀과 JSON 일치
+bach_p1 {'certain': 172, 'check': 10, 'caution': 2} 소스/exe/재렌더링 픽셀과 JSON 일치
+음자리표 변경 check 144
+clef_change_clara1 {'caution': 67, 'certain': 356, 'check': 158} 소스/exe/재렌더링 픽셀과 JSON 일치
+새 폴더·settings 없음·Python 없는 PATH·exe 옆 output·ZIP5개 통과
+D-3 exe 수정 JSON: 진한 글씨·점선 제거·원래 확신도 보존·소스 픽셀 동일

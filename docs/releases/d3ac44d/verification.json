@@ -1,0 +1,77 @@
+{
+  "build_commit": "d3ac44d85ac5ed1abb8e8b3f9e7fa069e7057612",
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "labels": 226,
+      "confidence": {
+        "certain": 225,
+        "caution": 1
+      },
+      "staves": 12,
+      "music": {
+        "key_symbol": "♯",
+        "key_count": 2,
+        "key_letters": [
+          "F",
+          "C"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 0,
+      "caution_light_pixels": 63,
+      "exe_png": "output\\release-d3ac44d\\aoharu_p1_exe\\KakaoTalk_20260731_162400402_계이름.png",
+      "exe_json": "output\\release-d3ac44d\\aoharu_p1_exe\\KakaoTalk_20260731_162400402_라벨.json"
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "labels": 255,
+      "confidence": {
+        "certain": 208,
+        "check": 12,
+        "caution": 35
+      },
+      "staves": 8,
+      "music": {
+        "key_symbol": "♭",
+        "key_count": 5,
+        "key_letters": [
+          "B",
+          "E",
+          "A",
+          "D",
+          "G"
+        ],
+        "tonic": "",
+        "minor": false,
+        "notation": "solfege"
+      },
+      "source_exe_pixels_equal": true,
+      "source_exe_json_equal": true,
+      "baseline_json_equal": true,
+      "exe_relabel_pixels_equal": true,
+      "check_orange_pixels": 946,
+      "caution_light_pixels": 4134,
+      "exe_png": "output\\release-d3ac44d\\chopin_Db_p1_exe\\chopin_Db_p1_계이름.png",
+      "exe_json": "output\\release-d3ac44d\\chopin_Db_p1_exe\\chopin_Db_p1_라벨.json"
+    }
+  ],
+  "python_removed_from_path": true,
+  "settings_absent_cli_first_run": true,
+  "exe_adjacent_default_output": true,
+  "zip_files": [
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.txt",
+    "build-info.json",
+    "먼저 읽어주세요.txt",
+    "악보헬퍼.exe"
+  ]
+}

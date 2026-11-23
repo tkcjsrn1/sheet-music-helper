@@ -1,0 +1,54 @@
+{
+  "build_source_commit": "13d73f669abce51567526f4ae6ba9804612baeac",
+  "status": "blocked_before_build",
+  "full_run_all": {
+    "exit_code": 0,
+    "failed": 0,
+    "skipped": 0,
+    "golden_711": "unchanged",
+    "pdf17_snapshot": "matched"
+  },
+  "source_selftest_reference_comparison_exit_code": 1,
+  "source_files_modified": false,
+  "baseline_updated": false,
+  "exe_built": false,
+  "actions_dispatched": false,
+  "defender_run": false,
+  "real_input_run": false,
+  "cases": [
+    {
+      "case": "aoharu_p1",
+      "input_sha256": "34dab8064e56796256ea8a11fa89452cb09263c543ffbb353ad7f0acb4e867f8",
+      "baseline_sha256": "5c640b06e68496149c8bda8c6807921b97e640ca4d7868e668a77e6fc7037a15",
+      "actual_sha256": "dbbe0af68093f3d5f4796c3742858a36dd93dc6937b5d99ca4da11ee07d5889f",
+      "json_text_equal_after_newline_normalization": true,
+      "labels_before": 226,
+      "labels_after": 226,
+      "changed_labels": 0,
+      "changed_fields": {}
+    },
+    {
+      "case": "chopin_Db_p1",
+      "input_sha256": "85b0792c2caee0225664daf060da800621291dd65fca47eb9aeebf599177fdf2",
+      "baseline_sha256": "98795a4c5044c56e56f2137cd2a8c58b2e56bc3a8c71b560af85902699d7e9a6",
+      "actual_sha256": "58e462ac69503fc39046c8bd659906faf1f8c35441182c3a51aba7dda2d1ae76",
+      "json_text_equal_after_newline_normalization": false,
+      "labels_before": 262,
+      "labels_after": 262,
+      "changed_labels": 8,
+      "changed_fields": {
+        "text": 7,
+        "accidental": 7,
+        "confidence": 1,
+        "flags": 2
+      }
+    }
+  ],
+  "approved_changes": {
+    "double_acc_388_391": "7 accidental/text pairs; schema 1->2",
+    "side_pair_390": "1 confidence downgrade, 2 flag additions"
+  },
+  "cli_reference_labels_multiset_equal": true,
+  "cli_reference_sha256": "dddccb6b5e9b3d0203b8080c0fa33ab03ebec080fbfd20081d6549275c4f0611",
+  "raw_diff_sha256": "abe3f7af3fe80d9a4328ceb48619f497c26c8909bba3c30bb4d45e495400980c"
+}

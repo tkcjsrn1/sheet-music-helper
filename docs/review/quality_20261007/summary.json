@@ -1,0 +1,24 @@
+{
+  "input_pixel_identity_and_profile_output_equal": 23,
+  "identity_controls_equal": 9,
+  "base_pitch_causes": {
+    "음자리표 오판(머리)": 164,
+    "음자리표 바뀜(보표 중간)": 634,
+    "반칸 -1": 11,
+    "반칸 +1": 11
+  },
+  "base_missing_categories": {
+    "덧줄": 46,
+    "단일": 124,
+    "화음": 337,
+    "빈 머리": 48
+  },
+  "base_certain_wrong": {
+    "음고": 27,
+    "표기": 96
+  },
+  "base_header": {
+    "조표 불일치": 0,
+    "보표 소실": 0
+  }
+}

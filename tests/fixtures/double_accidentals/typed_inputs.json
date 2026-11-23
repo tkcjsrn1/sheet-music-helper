@@ -1,0 +1,50 @@
+{
+  "notes": [
+    {
+      "x": 100,
+      "y": 100,
+      "note_name": "D",
+      "octave": 4,
+      "staff_index": 0
+    },
+    {
+      "x": 200,
+      "y": 100,
+      "note_name": "D",
+      "octave": 4,
+      "staff_index": 0
+    },
+    {
+      "x": 300,
+      "y": 100,
+      "note_name": "D",
+      "octave": 4,
+      "staff_index": 0
+    },
+    {
+      "x": 400,
+      "y": 100,
+      "note_name": "F",
+      "octave": 4,
+      "staff_index": 0
+    }
+  ],
+  "accidentals": [
+    "bb",
+    "natural",
+    "b",
+    "##"
+  ],
+  "expected_text": [
+    "레bb",
+    "레",
+    "레b",
+    "파##"
+  ],
+  "expected_midi": [
+    60,
+    62,
+    61,
+    67
+  ]
+}

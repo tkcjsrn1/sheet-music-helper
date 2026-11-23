@@ -1,0 +1,82 @@
+[
+  {
+    "file": "main.py",
+    "line": 571,
+    "photo": false,
+    "enable": true,
+    "positional_names": [
+      "result",
+      "contexts",
+      "clef_arg",
+      "key_letters",
+      "key_symbol",
+      "notation",
+      "tonic",
+      "pitched",
+      "accidentals",
+      "named",
+      "diag_rows",
+      "rare_warnings"
+    ]
+  },
+  {
+    "file": "main.py",
+    "line": 571,
+    "photo": true,
+    "enable": false,
+    "positional_names": [
+      "result",
+      "contexts",
+      "clef_arg",
+      "key_letters",
+      "key_symbol",
+      "notation",
+      "tonic",
+      "pitched",
+      "accidentals",
+      "named",
+      "diag_rows",
+      "rare_warnings"
+    ]
+  },
+  {
+    "file": "gui.py",
+    "line": 1078,
+    "photo": false,
+    "enable": true,
+    "positional_names": [
+      "result",
+      "contexts",
+      "clef_arg",
+      "key_letters",
+      "key_symbol",
+      "notation",
+      "tonic",
+      "pitched",
+      "accidentals",
+      "named",
+      "diag_rows",
+      "rare_warnings"
+    ]
+  },
+  {
+    "file": "gui.py",
+    "line": 1078,
+    "photo": true,
+    "enable": false,
+    "positional_names": [
+      "result",
+      "contexts",
+      "clef_arg",
+      "key_letters",
+      "key_symbol",
+      "notation",
+      "tonic",
+      "pitched",
+      "accidentals",
+      "named",
+      "diag_rows",
+      "rare_warnings"
+    ]
+  }
+]

@@ -1,0 +1,40 @@
+test_boundary_uses_image_coordinates_not_fixed_symbol_box (__main__.HeaderSymbols.test_boundary_uses_image_coordinates_not_fixed_symbol_box) ... FAIL
+test_quartet_numbers_are_header_and_real_first_notes_survive (__main__.HeaderSymbols.test_quartet_numbers_are_header_and_real_first_notes_survive) ... 
+  test_quartet_numbers_are_header_and_real_first_notes_survive (__main__.HeaderSymbols.test_quartet_numbers_are_header_and_real_first_notes_survive) (font='bravura') ... FAIL
+  test_quartet_numbers_are_header_and_real_first_notes_survive (__main__.HeaderSymbols.test_quartet_numbers_are_header_and_real_first_notes_survive) (font='leipzig') ... FAIL
+
+======================================================================
+FAIL: test_boundary_uses_image_coordinates_not_fixed_symbol_box (__main__.HeaderSymbols.test_boundary_uses_image_coordinates_not_fixed_symbol_box)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_header_symbols.py", line 55, in test_boundary_uses_image_coordinates_not_fixed_symbol_box
+    self.assertEqual(contexts[i].header_end, 365 + 73)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 361 != 438
+
+======================================================================
+FAIL: test_quartet_numbers_are_header_and_real_first_notes_survive (__main__.HeaderSymbols.test_quartet_numbers_are_header_and_real_first_notes_survive) (font='bravura')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_header_symbols.py", line 27, in test_quartet_numbers_are_header_and_real_first_notes_survive
+    self.assertGreaterEqual(contexts[i].header_end, end,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            "찾은 박자표 끝을 최종 경계에서 버렸습니다")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 288 not greater than or equal to 365 : 찾은 박자표 끝을 최종 경계에서 버렸습니다
+
+======================================================================
+FAIL: test_quartet_numbers_are_header_and_real_first_notes_survive (__main__.HeaderSymbols.test_quartet_numbers_are_header_and_real_first_notes_survive) (font='leipzig')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_header_symbols.py", line 27, in test_quartet_numbers_are_header_and_real_first_notes_survive
+    self.assertGreaterEqual(contexts[i].header_end, end,
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                            "찾은 박자표 끝을 최종 경계에서 버렸습니다")
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 287 not greater than or equal to 362 : 찾은 박자표 끝을 최종 경계에서 버렸습니다
+
+----------------------------------------------------------------------
+Ran 2 tests in 0.966s
+
+FAILED (failures=3)

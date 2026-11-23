@@ -1,0 +1,31 @@
+{
+  "numlock_before": true,
+  "ime_before": 1,
+  "input_scope": "Aoharu p1 + Chopin Db p1 실제 GUI 선택·변환",
+  "launcher_pid": 15224,
+  "gui_pid": 19396,
+  "select_click": {
+    "x": 240,
+    "y": 200,
+    "actual_xy": [
+      240,
+      200
+    ],
+    "expected_root": 5377354,
+    "hit_root": 5377354,
+    "pid": 19396
+  },
+  "convert_click": {
+    "x": 240,
+    "y": 310,
+    "actual_xy": [
+      240,
+      310
+    ],
+    "expected_root": 5377354,
+    "hit_root": 5377354,
+    "pid": 19396
+  },
+  "ime_restored": true,
+  "numlock_unchanged": true
+}

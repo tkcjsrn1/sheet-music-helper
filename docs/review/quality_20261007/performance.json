@@ -1,0 +1,77 @@
+[
+  {
+    "name": "aoharu_p1",
+    "wall_s": {
+      "source": 7.027031499997975,
+      "exe": 11.6632282999999
+    },
+    "source_metrics": {
+      "import_s": 1.9491387000016402,
+      "pipeline_s": 4.810120000001916,
+      "stages_s": {
+        "preprocess": 0.07477050000306917,
+        "analyze_staves": 0.1016462000006868,
+        "detect_noteheads": 0.1768728999995801,
+        "drop_beam_ghosts": 0.21476499999698717,
+        "drop_offstaff_ghosts": 0.5033993999968516,
+        "calculate_pitches": 0.0006653999989794102,
+        "annotate_accidentals": 0.18270730000222102,
+        "remove_accidental_ghosts": 0.06091480000031879,
+        "apply_chord_rescue": 2.2113184000008914,
+        "render_solfege_on_image": 0.12124340000082157
+      },
+      "peak_working_bytes": 229421056
+    },
+    "source_exe_json_png_equal": true
+  },
+  {
+    "name": "chopin_Db_p1",
+    "wall_s": {
+      "source": 11.737324300000182,
+      "exe": 17.056367400000454
+    },
+    "source_metrics": {
+      "import_s": 2.0977614000003086,
+      "pipeline_s": 9.3788155000002,
+      "stages_s": {
+        "preprocess": 0.1330564999989292,
+        "analyze_staves": 0.17828120000194758,
+        "detect_noteheads": 0.38187150000158,
+        "drop_beam_ghosts": 0.40494719999696827,
+        "drop_offstaff_ghosts": 1.1035740999941481,
+        "calculate_pitches": 0.0005357999980333261,
+        "annotate_accidentals": 0.4058697999971628,
+        "remove_accidental_ghosts": 0.08922840000013821,
+        "apply_chord_rescue": 4.2948752000011154,
+        "render_solfege_on_image": 0.26075439999840455
+      },
+      "peak_working_bytes": 356294656
+    },
+    "source_exe_json_png_equal": true
+  },
+  {
+    "name": "bach",
+    "wall_s": {
+      "source": 12.787083300001541,
+      "exe": 16.15614149999965
+    },
+    "source_metrics": {
+      "import_s": 2.4669420999998692,
+      "pipeline_s": 10.013189400000556,
+      "stages_s": {
+        "preprocess": 0.1654484999999113,
+        "analyze_staves": 0.236129400000209,
+        "detect_noteheads": 0.35142049999922165,
+        "drop_beam_ghosts": 0.4740471000004618,
+        "drop_offstaff_ghosts": 0.4460938000011083,
+        "calculate_pitches": 0.0007452000027114991,
+        "annotate_accidentals": 0.4391851000000315,
+        "remove_accidental_ghosts": 0.09397619999799645,
+        "apply_chord_rescue": 4.44422399999894,
+        "render_solfege_on_image": 0.21210330000030808
+      },
+      "peak_working_bytes": 355127296
+    },
+    "source_exe_json_png_equal": true
+  }
+]

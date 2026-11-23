@@ -1,0 +1,871 @@
+[
+  {
+    "action": "launch",
+    "pid": 18796,
+    "sha256": "2667ecfadbddb2adb50e60166b8510c0bb031b41a8a5417a062968e41cf54bde",
+    "utc": "2026-10-14T02:23:00Z"
+  },
+  {
+    "action": "focus",
+    "ok": 0,
+    "window": {
+      "hwnd": 3740164,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42908,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T02:23:44Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      260,
+      198
+    ],
+    "expected": {
+      "hwnd": 3740164,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42908,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 791348,
+      "pid": 12472,
+      "rect": [
+        -9,
+        -9,
+        1929,
+        1029
+      ],
+      "cls": "Chrome_WidgetWin_1",
+      "visible": true
+    },
+    "utc": "2026-10-14T02:23:44Z"
+  },
+  {
+    "action": "focus",
+    "ok": 0,
+    "window": {
+      "hwnd": 3740164,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42908,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T02:24:13Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      260,
+      198
+    ],
+    "expected": {
+      "hwnd": 3740164,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42908,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 791348,
+      "pid": 12472,
+      "rect": [
+        -9,
+        -9,
+        1929,
+        1029
+      ],
+      "cls": "Chrome_WidgetWin_1",
+      "visible": true
+    },
+    "utc": "2026-10-14T02:24:13Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      260,
+      198
+    ],
+    "expected": {
+      "hwnd": 3740164,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42908,
+      "rect": [
+        -32000,
+        -32000,
+        -31801,
+        -31966
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 11142420,
+      "pid": 1844,
+      "rect": [
+        -8,
+        -8,
+        1928,
+        1088
+      ],
+      "cls": "Ghost",
+      "visible": true
+    },
+    "utc": "2026-10-14T02:25:03Z"
+  },
+  {
+    "action": "launch",
+    "pid": 8796,
+    "sha256": "2667ecfadbddb2adb50e60166b8510c0bb031b41a8a5417a062968e41cf54bde",
+    "utc": "2026-10-14T03:24:55Z"
+  },
+  {
+    "action": "top",
+    "window": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        224,
+        224,
+        1680,
+        1221
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:25:40Z"
+  },
+  {
+    "action": "focus",
+    "ok": 1,
+    "window": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:25:41Z"
+  },
+  {
+    "action": "top",
+    "window": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:25:41Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      260,
+      198
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:25:41Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      500,
+      573
+    ],
+    "expected": {
+      "hwnd": 3019510,
+      "title": "악보 파일 선택",
+      "pid": 42072,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 3019510,
+      "title": "악보 파일 선택",
+      "pid": 42072,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:26:02Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      260,
+      314
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:26:04Z"
+  },
+  {
+    "action": "scroll",
+    "xy": [
+      270,
+      650
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:26:19Z"
+  },
+  {
+    "action": "scroll",
+    "xy": [
+      270,
+      650
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:26:34Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      230,
+      770
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:26:54Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      230,
+      818
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:26:57Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      230,
+      525
+    ],
+    "expected": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 4526644,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 42072,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:27:31Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      310,
+      472
+    ],
+    "expected": {
+      "hwnd": 3936732,
+      "title": "라벨 수정 / 삭제",
+      "pid": 42072,
+      "rect": [
+        32,
+        32,
+        700,
+        654
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 3936732,
+      "title": "라벨 수정 / 삭제",
+      "pid": 42072,
+      "rect": [
+        32,
+        32,
+        700,
+        654
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:28:03Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      215,
+      522
+    ],
+    "expected": {
+      "hwnd": 3936732,
+      "title": "라벨 수정 / 삭제",
+      "pid": 42072,
+      "rect": [
+        32,
+        32,
+        700,
+        654
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 3936732,
+      "title": "라벨 수정 / 삭제",
+      "pid": 42072,
+      "rect": [
+        32,
+        32,
+        700,
+        654
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:28:03Z"
+  },
+  {
+    "action": "launch",
+    "pid": 26196,
+    "sha256": "2667ecfadbddb2adb50e60166b8510c0bb031b41a8a5417a062968e41cf54bde",
+    "utc": "2026-10-14T03:28:36Z"
+  },
+  {
+    "action": "top",
+    "window": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        128,
+        128,
+        1584,
+        1125
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:29:15Z"
+  },
+  {
+    "action": "focus",
+    "ok": 0,
+    "window": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:29:16Z"
+  },
+  {
+    "action": "top",
+    "window": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:29:16Z"
+  },
+  {
+    "action": "scroll",
+    "xy": [
+      270,
+      650
+    ],
+    "expected": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:29:16Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      230,
+      586
+    ],
+    "expected": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:29:32Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      500,
+      573
+    ],
+    "expected": {
+      "hwnd": 3871480,
+      "title": "저장한 수정본 폴더 선택",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 3871480,
+      "title": "저장한 수정본 폴더 선택",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:30:05Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      775,
+      613
+    ],
+    "expected": {
+      "hwnd": 3871480,
+      "title": "저장한 수정본 폴더 선택",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 3674780,
+      "title": "",
+      "pid": 41532,
+      "rect": [
+        247,
+        588,
+        957,
+        636
+      ],
+      "cls": "Auto-Suggest Dropdown",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:30:06Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      775,
+      613
+    ],
+    "expected": {
+      "hwnd": 3871480,
+      "title": "저장한 수정본 폴더 선택",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 3871480,
+      "title": "저장한 수정본 폴더 선택",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:30:47Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      500,
+      573
+    ],
+    "expected": {
+      "hwnd": 1184658,
+      "title": "이 수정본의 원본 악보 선택 (해시 확인)",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 1184658,
+      "title": "이 수정본의 원본 악보 선택 (해시 확인)",
+      "pid": 41532,
+      "rect": [
+        29,
+        58,
+        989,
+        658
+      ],
+      "cls": "#32770",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:31:22Z"
+  },
+  {
+    "action": "click",
+    "xy": [
+      230,
+      525
+    ],
+    "expected": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:31:25Z"
+  },
+  {
+    "action": "scroll",
+    "xy": [
+      270,
+      650
+    ],
+    "expected": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "hit_top": {
+      "hwnd": 7409880,
+      "title": "악보헬퍼 - 계이름 자동 표기",
+      "pid": 41532,
+      "rect": [
+        20,
+        20,
+        1238,
+        867
+      ],
+      "cls": "TkTopLevel",
+      "visible": true
+    },
+    "utc": "2026-10-14T03:32:21Z"
+  }
+]

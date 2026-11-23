@@ -1,0 +1,146 @@
+[
+  {
+    "case": "clara_polonaise_3_bravura_p1",
+    "before": {
+      "id": "s4-p13-x86",
+      "staff": 4,
+      "x": 773,
+      "y": 1174,
+      "nx": 42.944,
+      "pitch": "D6",
+      "step": 13,
+      "accidental": null,
+      "text": "레",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "snap_residual",
+        "grace_size",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s4-p13-x86",
+      "staff": 4,
+      "x": 773,
+      "y": 1170,
+      "nx": 42.944,
+      "pitch": "D6",
+      "step": 13,
+      "accidental": null,
+      "text": "레",
+      "confidence": "check",
+      "flags": [
+        "grace_size",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "nearest_source_truth": {
+      "page": "1",
+      "x": "773.65",
+      "y": "1171.75",
+      "note_name": "D",
+      "octave": "6",
+      "accidental": "",
+      "chord": "0",
+      "grace": "1",
+      "cue": "0"
+    }
+  },
+  {
+    "case": "clara_polonaise_3_leipzig_p1",
+    "before": {
+      "id": "s4-p13-x84",
+      "staff": 4,
+      "x": 760,
+      "y": 1180,
+      "nx": 42.222,
+      "pitch": "D6",
+      "step": 13,
+      "accidental": null,
+      "text": "레",
+      "confidence": "check",
+      "flags": [
+        "weak_side_ink",
+        "snap_residual",
+        "grace_size",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s4-p13-x84",
+      "staff": 4,
+      "x": 760,
+      "y": 1177,
+      "nx": 42.222,
+      "pitch": "D6",
+      "step": 13,
+      "accidental": null,
+      "text": "레",
+      "confidence": "check",
+      "flags": [
+        "grace_size",
+        "off_staff"
+      ],
+      "edited": false
+    },
+    "nearest_source_truth": {
+      "page": "1",
+      "x": "760.75",
+      "y": "1177.85",
+      "note_name": "D",
+      "octave": "6",
+      "accidental": "",
+      "chord": "0",
+      "grace": "1",
+      "cue": "0"
+    }
+  },
+  {
+    "case": "clara_polonaise_4_bravura_p1",
+    "before": {
+      "id": "s0-p0-x42",
+      "staff": 0,
+      "x": 377,
+      "y": 316,
+      "nx": 20.944,
+      "pitch": "E4",
+      "step": 0,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [
+        "snap_residual"
+      ],
+      "edited": false
+    },
+    "after": {
+      "id": "s0-p0-x42",
+      "staff": 0,
+      "x": 377,
+      "y": 313,
+      "nx": 20.944,
+      "pitch": "E4",
+      "step": 0,
+      "accidental": null,
+      "text": "미",
+      "confidence": "certain",
+      "flags": [],
+      "edited": false
+    },
+    "nearest_source_truth": {
+      "page": "1",
+      "x": "377.5",
+      "y": "313.7",
+      "note_name": "E",
+      "octave": "4",
+      "accidental": "",
+      "chord": "0",
+      "grace": "0",
+      "cue": "0"
+    }
+  }
+]

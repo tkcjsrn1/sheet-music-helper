@@ -1,0 +1,2692 @@
+{
+  "schema": 1,
+  "source": "sources/beam_melody.ly",
+  "source_sha256": "0ba98905c4af8019d87c1f0ed258d8b0a5cfae78f8e0b2af63046b525ee8c7fa",
+  "pdf": "pdf/beam_melody.pdf",
+  "pdf_sha256": "8bc8e9c85bfb66e9b4c9e0994c876a8660241947a304c35345dae0ea235bc78c",
+  "generator": "LilyPond 2.26.0",
+  "dpi": 300,
+  "page": 1,
+  "page_size_pt": [
+    595.280029296875,
+    841.8900146484375
+  ],
+  "coordinate_origin": "PDF 좌상단, point-and-click 음표 머리 상자의 중심",
+  "truth_origin": "음고·길이·마디·빔 묶음은 .ly, 좌표는 LilyPond PDF 링크. OMR 미사용.",
+  "notes": [
+    {
+      "id": "treble-23",
+      "source_line": 23,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "0",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-23",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        83.0396,
+        115.15002,
+        89.5362,
+        120.57904
+      ],
+      "center_300dpi": [
+        359.53291,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-24",
+      "source_line": 24,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "1/8",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-23",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        108.759,
+        115.15002,
+        115.255,
+        120.57904
+      ],
+      "center_300dpi": [
+        466.69583,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-25",
+      "source_line": 25,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "1/4",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-23",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        134.478,
+        115.15002,
+        140.974,
+        120.57904
+      ],
+      "center_300dpi": [
+        573.85832,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-26",
+      "source_line": 26,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "3/8",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-23",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        160.19701,
+        115.15002,
+        166.69299,
+        120.57904
+      ],
+      "center_300dpi": [
+        681.02083,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-27",
+      "source_line": 27,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "1/2",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-27",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        185.916,
+        115.15002,
+        192.412,
+        120.57904
+      ],
+      "center_300dpi": [
+        788.18334,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-28",
+      "source_line": 28,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "5/8",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-27",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        211.63499,
+        115.15002,
+        218.132,
+        120.57904
+      ],
+      "center_300dpi": [
+        895.34791,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-29",
+      "source_line": 29,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "3/4",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-27",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        237.354,
+        115.15002,
+        243.851,
+        120.57904
+      ],
+      "center_300dpi": [
+        1002.51042,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-30",
+      "source_line": 30,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 1,
+      "onset_whole": "7/8",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-27",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        263.073,
+        115.15002,
+        269.57001,
+        120.57904
+      ],
+      "center_300dpi": [
+        1109.67293,
+        491.10222
+      ]
+    },
+    {
+      "id": "treble-34",
+      "source_line": 34,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "0",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        297.57199,
+        100.20599,
+        304.069,
+        105.63501
+      ],
+      "center_300dpi": [
+        1253.41873,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-35",
+      "source_line": 35,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "1/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        313.67999,
+        100.20599,
+        320.177,
+        105.63501
+      ],
+      "center_300dpi": [
+        1320.53541,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-36",
+      "source_line": 36,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "1/8",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        329.78799,
+        100.20599,
+        336.284,
+        105.63501
+      ],
+      "center_300dpi": [
+        1387.64998,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-37",
+      "source_line": 37,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "3/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        345.896,
+        100.20599,
+        352.39301,
+        105.63501
+      ],
+      "center_300dpi": [
+        1454.76875,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-38",
+      "source_line": 38,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "1/4",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        362.004,
+        100.20599,
+        368.5,
+        105.63501
+      ],
+      "center_300dpi": [
+        1521.88333,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-39",
+      "source_line": 39,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "5/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        378.112,
+        100.20599,
+        384.608,
+        105.63501
+      ],
+      "center_300dpi": [
+        1589.0,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-40",
+      "source_line": 40,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "3/8",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        394.21899,
+        100.20599,
+        400.716,
+        105.63501
+      ],
+      "center_300dpi": [
+        1656.11458,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-41",
+      "source_line": 41,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "7/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-34",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        410.327,
+        100.20599,
+        416.82401,
+        105.63501
+      ],
+      "center_300dpi": [
+        1723.23125,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-42",
+      "source_line": 42,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "1/2",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        426.435,
+        100.20599,
+        432.93201,
+        105.63501
+      ],
+      "center_300dpi": [
+        1790.34793,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-43",
+      "source_line": 43,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "9/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        442.543,
+        100.20599,
+        449.04001,
+        105.63501
+      ],
+      "center_300dpi": [
+        1857.4646,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-44",
+      "source_line": 44,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "5/8",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        458.651,
+        100.20599,
+        465.14801,
+        105.63501
+      ],
+      "center_300dpi": [
+        1924.58127,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-45",
+      "source_line": 45,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "11/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        474.759,
+        100.20599,
+        481.255,
+        105.63501
+      ],
+      "center_300dpi": [
+        1991.69585,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-46",
+      "source_line": 46,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "3/4",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        490.867,
+        100.20599,
+        497.36301,
+        105.63501
+      ],
+      "center_300dpi": [
+        2058.81252,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-47",
+      "source_line": 47,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "13/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        506.97501,
+        100.20599,
+        513.47101,
+        105.63501
+      ],
+      "center_300dpi": [
+        2125.9292,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-48",
+      "source_line": 48,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "7/8",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        523.08197,
+        100.20599,
+        529.57898,
+        105.63501
+      ],
+      "center_300dpi": [
+        2193.04365,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-49",
+      "source_line": 49,
+      "staff": "treble",
+      "staff_index": 0,
+      "measure": 2,
+      "onset_whole": "15/16",
+      "duration_denominator": 16,
+      "pitch": "D5",
+      "midi": 74,
+      "beam_group": "treble-42",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        539.19098,
+        100.20599,
+        545.68701,
+        105.63501
+      ],
+      "center_300dpi": [
+        2260.16248,
+        428.83542
+      ]
+    },
+    {
+      "id": "treble-54",
+      "source_line": 54,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "0",
+      "duration_denominator": 8,
+      "pitch": "C4",
+      "midi": 60,
+      "beam_group": "treble-54",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        68.5768,
+        274.552,
+        75.0735,
+        279.98199
+      ],
+      "center_300dpi": [
+        299.27146,
+        1155.27916
+      ]
+    },
+    {
+      "id": "treble-55",
+      "source_line": 55,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "1/8",
+      "duration_denominator": 8,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": "treble-54",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        95.209,
+        272.06104,
+        101.706,
+        277.49103
+      ],
+      "center_300dpi": [
+        410.23959,
+        1144.90013
+      ]
+    },
+    {
+      "id": "treble-56",
+      "source_line": 56,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "1/4",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-54",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        121.842,
+        269.57104,
+        128.338,
+        275.0
+      ],
+      "center_300dpi": [
+        521.20833,
+        1134.52301
+      ]
+    },
+    {
+      "id": "treble-57",
+      "source_line": 57,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "3/8",
+      "duration_denominator": 8,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": "treble-54",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        148.474,
+        267.08002,
+        154.97,
+        272.51001
+      ],
+      "center_300dpi": [
+        632.175,
+        1124.14589
+      ]
+    },
+    {
+      "id": "treble-58",
+      "source_line": 58,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "1/2",
+      "duration_denominator": 8,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": "treble-58",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        175.106,
+        264.58899,
+        181.603,
+        270.01904
+      ],
+      "center_300dpi": [
+        743.14375,
+        1113.76673
+      ]
+    },
+    {
+      "id": "treble-59",
+      "source_line": 59,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "5/8",
+      "duration_denominator": 8,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": "treble-58",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        201.73801,
+        267.08002,
+        208.235,
+        272.51001
+      ],
+      "center_300dpi": [
+        854.11043,
+        1124.14589
+      ]
+    },
+    {
+      "id": "treble-60",
+      "source_line": 60,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "3/4",
+      "duration_denominator": 8,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-58",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        228.371,
+        269.57104,
+        234.868,
+        275.0
+      ],
+      "center_300dpi": [
+        965.08125,
+        1134.52301
+      ]
+    },
+    {
+      "id": "treble-61",
+      "source_line": 61,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 3,
+      "onset_whole": "7/8",
+      "duration_denominator": 8,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": "treble-58",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        255.00301,
+        272.06104,
+        261.5,
+        277.49103
+      ],
+      "center_300dpi": [
+        1076.04793,
+        1144.90013
+      ]
+    },
+    {
+      "id": "treble-65",
+      "source_line": 65,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "0",
+      "duration_denominator": 16,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": "treble-65",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        290.11301,
+        264.58899,
+        296.60901,
+        270.01904
+      ],
+      "center_300dpi": [
+        1222.33753,
+        1113.76673
+      ]
+    },
+    {
+      "id": "treble-66",
+      "source_line": 66,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "1/16",
+      "duration_denominator": 16,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        306.677,
+        267.08002,
+        313.17401,
+        272.51001
+      ],
+      "center_300dpi": [
+        1291.35628,
+        1124.14589
+      ]
+    },
+    {
+      "id": "treble-67",
+      "source_line": 67,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "1/8",
+      "duration_denominator": 16,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        323.241,
+        269.57104,
+        329.73801,
+        275.0
+      ],
+      "center_300dpi": [
+        1360.37292,
+        1134.52301
+      ]
+    },
+    {
+      "id": "treble-68",
+      "source_line": 68,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "3/16",
+      "duration_denominator": 16,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        339.806,
+        272.06104,
+        346.30301,
+        277.49103
+      ],
+      "center_300dpi": [
+        1429.39377,
+        1144.90013
+      ]
+    },
+    {
+      "id": "treble-69",
+      "source_line": 69,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "1/4",
+      "duration_denominator": 16,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        356.371,
+        264.58899,
+        362.867,
+        270.01904
+      ],
+      "center_300dpi": [
+        1498.41251,
+        1113.76673
+      ]
+    },
+    {
+      "id": "treble-70",
+      "source_line": 70,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "5/16",
+      "duration_denominator": 16,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        372.935,
+        267.08002,
+        379.43201,
+        272.51001
+      ],
+      "center_300dpi": [
+        1567.43126,
+        1124.14589
+      ]
+    },
+    {
+      "id": "treble-71",
+      "source_line": 71,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "3/8",
+      "duration_denominator": 16,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        389.49899,
+        269.57104,
+        395.996,
+        275.0
+      ],
+      "center_300dpi": [
+        1636.44791,
+        1134.52301
+      ]
+    },
+    {
+      "id": "treble-72",
+      "source_line": 72,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "7/16",
+      "duration_denominator": 16,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": "treble-65",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        406.064,
+        272.06104,
+        412.561,
+        277.49103
+      ],
+      "center_300dpi": [
+        1705.46875,
+        1144.90013
+      ]
+    },
+    {
+      "id": "treble-73",
+      "source_line": 73,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "1/2",
+      "duration_denominator": 16,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": "treble-73",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        422.629,
+        264.58899,
+        429.125,
+        270.01904
+      ],
+      "center_300dpi": [
+        1774.4875,
+        1113.76673
+      ]
+    },
+    {
+      "id": "treble-74",
+      "source_line": 74,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "9/16",
+      "duration_denominator": 16,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        439.19299,
+        267.08002,
+        445.69,
+        272.51001
+      ],
+      "center_300dpi": [
+        1843.50624,
+        1124.14589
+      ]
+    },
+    {
+      "id": "treble-75",
+      "source_line": 75,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "5/8",
+      "duration_denominator": 16,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        455.75699,
+        269.57104,
+        462.254,
+        275.0
+      ],
+      "center_300dpi": [
+        1912.52289,
+        1134.52301
+      ]
+    },
+    {
+      "id": "treble-76",
+      "source_line": 76,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "11/16",
+      "duration_denominator": 16,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        472.32199,
+        272.06104,
+        478.819,
+        277.49103
+      ],
+      "center_300dpi": [
+        1981.54373,
+        1144.90013
+      ]
+    },
+    {
+      "id": "treble-77",
+      "source_line": 77,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "3/4",
+      "duration_denominator": 16,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        488.88699,
+        264.58899,
+        495.383,
+        270.01904
+      ],
+      "center_300dpi": [
+        2050.56248,
+        1113.76673
+      ]
+    },
+    {
+      "id": "treble-78",
+      "source_line": 78,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "13/16",
+      "duration_denominator": 16,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        505.45099,
+        267.08002,
+        511.948,
+        272.51001
+      ],
+      "center_300dpi": [
+        2119.58122,
+        1124.14589
+      ]
+    },
+    {
+      "id": "treble-79",
+      "source_line": 79,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "7/8",
+      "duration_denominator": 16,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        522.01599,
+        269.57104,
+        528.51202,
+        275.0
+      ],
+      "center_300dpi": [
+        2188.60003,
+        1134.52301
+      ]
+    },
+    {
+      "id": "treble-80",
+      "source_line": 80,
+      "staff": "treble",
+      "staff_index": 2,
+      "measure": 4,
+      "onset_whole": "15/16",
+      "duration_denominator": 16,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": "treble-73",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        538.58002,
+        272.06104,
+        545.07703,
+        277.49103
+      ],
+      "center_300dpi": [
+        2257.61884,
+        1144.90013
+      ]
+    },
+    {
+      "id": "treble-85",
+      "source_line": 85,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 5,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "D4",
+      "midi": 62,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        68.5768,
+        426.48203,
+        75.4381,
+        431.91202
+      ],
+      "center_300dpi": [
+        300.03104,
+        1788.32092
+      ]
+    },
+    {
+      "id": "treble-86",
+      "source_line": 86,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 5,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "E4",
+      "midi": 64,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        186.39301,
+        423.992,
+        193.254,
+        429.42102
+      ],
+      "center_300dpi": [
+        790.93126,
+        1777.9438
+      ]
+    },
+    {
+      "id": "treble-90",
+      "source_line": 90,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 6,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "G4",
+      "midi": 67,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        319.285,
+        419.01001,
+        326.146,
+        424.44
+      ],
+      "center_300dpi": [
+        1344.64792,
+        1757.18753
+      ]
+    },
+    {
+      "id": "treble-91",
+      "source_line": 91,
+      "staff": "treble",
+      "staff_index": 4,
+      "measure": 6,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "F4",
+      "midi": 65,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        437.10101,
+        421.50101,
+        443.96201,
+        426.93002
+      ],
+      "center_300dpi": [
+        1835.54796,
+        1767.56465
+      ]
+    },
+    {
+      "id": "bass-99",
+      "source_line": 99,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "0",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-99",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        83.0396,
+        159.98199,
+        89.5362,
+        165.41101
+      ],
+      "center_300dpi": [
+        359.53291,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-100",
+      "source_line": 100,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "1/8",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-99",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        108.759,
+        159.98199,
+        115.255,
+        165.41101
+      ],
+      "center_300dpi": [
+        466.69583,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-101",
+      "source_line": 101,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "1/4",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-99",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        134.478,
+        159.98199,
+        140.974,
+        165.41101
+      ],
+      "center_300dpi": [
+        573.85832,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-102",
+      "source_line": 102,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "3/8",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-99",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        160.19701,
+        159.98199,
+        166.69299,
+        165.41101
+      ],
+      "center_300dpi": [
+        681.02083,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-103",
+      "source_line": 103,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "1/2",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-103",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        185.916,
+        159.98199,
+        192.412,
+        165.41101
+      ],
+      "center_300dpi": [
+        788.18334,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-104",
+      "source_line": 104,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "5/8",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-103",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        211.63499,
+        159.98199,
+        218.132,
+        165.41101
+      ],
+      "center_300dpi": [
+        895.34791,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-105",
+      "source_line": 105,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "3/4",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-103",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        237.354,
+        159.98199,
+        243.851,
+        165.41101
+      ],
+      "center_300dpi": [
+        1002.51042,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-106",
+      "source_line": 106,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 1,
+      "onset_whole": "7/8",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-103",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        263.073,
+        159.98199,
+        269.57001,
+        165.41101
+      ],
+      "center_300dpi": [
+        1109.67293,
+        677.90209
+      ]
+    },
+    {
+      "id": "bass-110",
+      "source_line": 110,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "0",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        297.57199,
+        155.0,
+        304.069,
+        160.42999
+      ],
+      "center_300dpi": [
+        1253.41873,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-111",
+      "source_line": 111,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "1/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        313.67999,
+        155.0,
+        320.177,
+        160.42999
+      ],
+      "center_300dpi": [
+        1320.53541,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-112",
+      "source_line": 112,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "1/8",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        329.78799,
+        155.0,
+        336.284,
+        160.42999
+      ],
+      "center_300dpi": [
+        1387.64998,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-113",
+      "source_line": 113,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "3/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        345.896,
+        155.0,
+        352.39301,
+        160.42999
+      ],
+      "center_300dpi": [
+        1454.76875,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-114",
+      "source_line": 114,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "1/4",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        362.004,
+        155.0,
+        368.5,
+        160.42999
+      ],
+      "center_300dpi": [
+        1521.88333,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-115",
+      "source_line": 115,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "5/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        378.112,
+        155.0,
+        384.608,
+        160.42999
+      ],
+      "center_300dpi": [
+        1589.0,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-116",
+      "source_line": 116,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "3/8",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        394.21899,
+        155.0,
+        400.716,
+        160.42999
+      ],
+      "center_300dpi": [
+        1656.11458,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-117",
+      "source_line": 117,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "7/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-110",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        410.327,
+        155.0,
+        416.82401,
+        160.42999
+      ],
+      "center_300dpi": [
+        1723.23125,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-118",
+      "source_line": 118,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "1/2",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        426.435,
+        155.0,
+        432.93201,
+        160.42999
+      ],
+      "center_300dpi": [
+        1790.34793,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-119",
+      "source_line": 119,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "9/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        442.543,
+        155.0,
+        449.04001,
+        160.42999
+      ],
+      "center_300dpi": [
+        1857.4646,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-120",
+      "source_line": 120,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "5/8",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        458.651,
+        155.0,
+        465.14801,
+        160.42999
+      ],
+      "center_300dpi": [
+        1924.58127,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-121",
+      "source_line": 121,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "11/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        474.759,
+        155.0,
+        481.255,
+        160.42999
+      ],
+      "center_300dpi": [
+        1991.69585,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-122",
+      "source_line": 122,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "3/4",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        490.867,
+        155.0,
+        497.36301,
+        160.42999
+      ],
+      "center_300dpi": [
+        2058.81252,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-123",
+      "source_line": 123,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "13/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        506.97501,
+        155.0,
+        513.47101,
+        160.42999
+      ],
+      "center_300dpi": [
+        2125.9292,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-124",
+      "source_line": 124,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "7/8",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        523.08197,
+        155.0,
+        529.57898,
+        160.42999
+      ],
+      "center_300dpi": [
+        2193.04365,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-125",
+      "source_line": 125,
+      "staff": "bass",
+      "staff_index": 1,
+      "measure": 2,
+      "onset_whole": "15/16",
+      "duration_denominator": 16,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-118",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        539.19098,
+        155.0,
+        545.68701,
+        160.42999
+      ],
+      "center_300dpi": [
+        2260.16248,
+        657.14582
+      ]
+    },
+    {
+      "id": "bass-130",
+      "source_line": 130,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "0",
+      "duration_denominator": 8,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": "bass-130",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        68.5768,
+        306.92999,
+        75.0735,
+        312.35999
+      ],
+      "center_300dpi": [
+        299.27146,
+        1290.18745
+      ]
+    },
+    {
+      "id": "bass-131",
+      "source_line": 131,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "1/8",
+      "duration_denominator": 8,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-130",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        95.209,
+        309.42102,
+        101.706,
+        314.85101
+      ],
+      "center_300dpi": [
+        410.23959,
+        1300.56674
+      ]
+    },
+    {
+      "id": "bass-132",
+      "source_line": 132,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "1/4",
+      "duration_denominator": 8,
+      "pitch": "A2",
+      "midi": 45,
+      "beam_group": "bass-130",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        121.842,
+        311.91199,
+        128.338,
+        317.341
+      ],
+      "center_300dpi": [
+        521.20833,
+        1310.94373
+      ]
+    },
+    {
+      "id": "bass-133",
+      "source_line": 133,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "3/8",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-130",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        148.474,
+        314.40204,
+        154.97,
+        319.83203
+      ],
+      "center_300dpi": [
+        632.175,
+        1321.32098
+      ]
+    },
+    {
+      "id": "bass-134",
+      "source_line": 134,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "1/2",
+      "duration_denominator": 8,
+      "pitch": "F2",
+      "midi": 41,
+      "beam_group": "bass-134",
+      "beam_start": true,
+      "stem": "up",
+      "bbox_pt": [
+        175.106,
+        316.89301,
+        181.603,
+        322.323
+      ],
+      "center_300dpi": [
+        743.14375,
+        1331.70001
+      ]
+    },
+    {
+      "id": "bass-135",
+      "source_line": 135,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "5/8",
+      "duration_denominator": 8,
+      "pitch": "G2",
+      "midi": 43,
+      "beam_group": "bass-134",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        201.73801,
+        314.40204,
+        208.235,
+        319.83203
+      ],
+      "center_300dpi": [
+        854.11043,
+        1321.32098
+      ]
+    },
+    {
+      "id": "bass-136",
+      "source_line": 136,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "3/4",
+      "duration_denominator": 8,
+      "pitch": "A2",
+      "midi": 45,
+      "beam_group": "bass-134",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        228.371,
+        311.91199,
+        234.868,
+        317.341
+      ],
+      "center_300dpi": [
+        965.08125,
+        1310.94373
+      ]
+    },
+    {
+      "id": "bass-137",
+      "source_line": 137,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 3,
+      "onset_whole": "7/8",
+      "duration_denominator": 8,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": "bass-134",
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        255.00301,
+        309.42102,
+        261.5,
+        314.85101
+      ],
+      "center_300dpi": [
+        1076.04793,
+        1300.56674
+      ]
+    },
+    {
+      "id": "bass-141",
+      "source_line": 141,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "0",
+      "duration_denominator": 16,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": "bass-141",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        290.11301,
+        306.92999,
+        296.60901,
+        312.35999
+      ],
+      "center_300dpi": [
+        1222.33753,
+        1290.18745
+      ]
+    },
+    {
+      "id": "bass-142",
+      "source_line": 142,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "1/16",
+      "duration_denominator": 16,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        306.677,
+        304.44,
+        313.17401,
+        309.86902
+      ],
+      "center_300dpi": [
+        1291.35628,
+        1279.81046
+      ]
+    },
+    {
+      "id": "bass-143",
+      "source_line": 143,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "1/8",
+      "duration_denominator": 16,
+      "pitch": "E3",
+      "midi": 52,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        323.241,
+        301.94904,
+        329.73801,
+        307.37903
+      ],
+      "center_300dpi": [
+        1360.37292,
+        1269.43347
+      ]
+    },
+    {
+      "id": "bass-144",
+      "source_line": 144,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "3/16",
+      "duration_denominator": 16,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        339.806,
+        299.45801,
+        346.30301,
+        304.888
+      ],
+      "center_300dpi": [
+        1429.39377,
+        1259.05418
+      ]
+    },
+    {
+      "id": "bass-145",
+      "source_line": 145,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "1/4",
+      "duration_denominator": 16,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        356.371,
+        306.92999,
+        362.867,
+        312.35999
+      ],
+      "center_300dpi": [
+        1498.41251,
+        1290.18745
+      ]
+    },
+    {
+      "id": "bass-146",
+      "source_line": 146,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "5/16",
+      "duration_denominator": 16,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        372.935,
+        304.44,
+        379.43201,
+        309.86902
+      ],
+      "center_300dpi": [
+        1567.43126,
+        1279.81046
+      ]
+    },
+    {
+      "id": "bass-147",
+      "source_line": 147,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "3/8",
+      "duration_denominator": 16,
+      "pitch": "E3",
+      "midi": 52,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        389.49899,
+        301.94904,
+        395.996,
+        307.37903
+      ],
+      "center_300dpi": [
+        1636.44791,
+        1269.43347
+      ]
+    },
+    {
+      "id": "bass-148",
+      "source_line": 148,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "7/16",
+      "duration_denominator": 16,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": "bass-141",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        406.064,
+        299.45801,
+        412.561,
+        304.888
+      ],
+      "center_300dpi": [
+        1705.46875,
+        1259.05418
+      ]
+    },
+    {
+      "id": "bass-149",
+      "source_line": 149,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "1/2",
+      "duration_denominator": 16,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": "bass-149",
+      "beam_start": true,
+      "stem": "down",
+      "bbox_pt": [
+        422.629,
+        306.92999,
+        429.125,
+        312.35999
+      ],
+      "center_300dpi": [
+        1774.4875,
+        1290.18745
+      ]
+    },
+    {
+      "id": "bass-150",
+      "source_line": 150,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "9/16",
+      "duration_denominator": 16,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        439.19299,
+        304.44,
+        445.69,
+        309.86902
+      ],
+      "center_300dpi": [
+        1843.50624,
+        1279.81046
+      ]
+    },
+    {
+      "id": "bass-151",
+      "source_line": 151,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "5/8",
+      "duration_denominator": 16,
+      "pitch": "E3",
+      "midi": 52,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        455.75699,
+        301.94904,
+        462.254,
+        307.37903
+      ],
+      "center_300dpi": [
+        1912.52289,
+        1269.43347
+      ]
+    },
+    {
+      "id": "bass-152",
+      "source_line": 152,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "11/16",
+      "duration_denominator": 16,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        472.32199,
+        299.45801,
+        478.819,
+        304.888
+      ],
+      "center_300dpi": [
+        1981.54373,
+        1259.05418
+      ]
+    },
+    {
+      "id": "bass-153",
+      "source_line": 153,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "3/4",
+      "duration_denominator": 16,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        488.88699,
+        306.92999,
+        495.383,
+        312.35999
+      ],
+      "center_300dpi": [
+        2050.56248,
+        1290.18745
+      ]
+    },
+    {
+      "id": "bass-154",
+      "source_line": 154,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "13/16",
+      "duration_denominator": 16,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        505.45099,
+        304.44,
+        511.948,
+        309.86902
+      ],
+      "center_300dpi": [
+        2119.58122,
+        1279.81046
+      ]
+    },
+    {
+      "id": "bass-155",
+      "source_line": 155,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "7/8",
+      "duration_denominator": 16,
+      "pitch": "E3",
+      "midi": 52,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        522.01599,
+        301.94904,
+        528.51202,
+        307.37903
+      ],
+      "center_300dpi": [
+        2188.60003,
+        1269.43347
+      ]
+    },
+    {
+      "id": "bass-156",
+      "source_line": 156,
+      "staff": "bass",
+      "staff_index": 3,
+      "measure": 4,
+      "onset_whole": "15/16",
+      "duration_denominator": 16,
+      "pitch": "F3",
+      "midi": 53,
+      "beam_group": "bass-149",
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        538.58002,
+        299.45801,
+        545.07703,
+        304.888
+      ],
+      "center_300dpi": [
+        2257.61884,
+        1259.05418
+      ]
+    },
+    {
+      "id": "bass-161",
+      "source_line": 161,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 5,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "B2",
+      "midi": 47,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        68.5768,
+        463.84201,
+        75.4381,
+        469.272
+      ],
+      "center_300dpi": [
+        300.03104,
+        1943.98753
+      ]
+    },
+    {
+      "id": "bass-162",
+      "source_line": 162,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 5,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "up",
+      "bbox_pt": [
+        186.39301,
+        461.35101,
+        193.254,
+        466.78101
+      ],
+      "center_300dpi": [
+        790.93126,
+        1933.60837
+      ]
+    },
+    {
+      "id": "bass-166",
+      "source_line": 166,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 6,
+      "onset_whole": "0",
+      "duration_denominator": 2,
+      "pitch": "D3",
+      "midi": 50,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        319.285,
+        458.86102,
+        326.146,
+        464.29001
+      ],
+      "center_300dpi": [
+        1344.64792,
+        1923.23132
+      ]
+    },
+    {
+      "id": "bass-167",
+      "source_line": 167,
+      "staff": "bass",
+      "staff_index": 5,
+      "measure": 6,
+      "onset_whole": "1/2",
+      "duration_denominator": 2,
+      "pitch": "C3",
+      "midi": 48,
+      "beam_group": null,
+      "beam_start": false,
+      "stem": "down",
+      "bbox_pt": [
+        437.10101,
+        461.35101,
+        443.96201,
+        466.78101
+      ],
+      "center_300dpi": [
+        1835.54796,
+        1933.60837
+      ]
+    }
+  ],
+  "beams": [
+    {
+      "id": "treble-23",
+      "staff_index": 0,
+      "levels": 1,
+      "bbox_pt": [
+        88.8887,
+        101.72504,
+        166.69299,
+        104.11603
+      ]
+    },
+    {
+      "id": "treble-27",
+      "staff_index": 0,
+      "levels": 1,
+      "bbox_pt": [
+        191.765,
+        101.72504,
+        269.57001,
+        104.11603
+      ]
+    },
+    {
+      "id": "treble-34",
+      "staff_index": 0,
+      "levels": 2,
+      "bbox_pt": [
+        297.57199,
+        112.63403,
+        410.97501,
+        119.06
+      ]
+    },
+    {
+      "id": "treble-42",
+      "staff_index": 0,
+      "levels": 2,
+      "bbox_pt": [
+        426.435,
+        112.63403,
+        539.83801,
+        119.06
+      ]
+    },
+    {
+      "id": "treble-54",
+      "staff_index": 2,
+      "levels": 1,
+      "bbox_pt": [
+        74.4259,
+        255.19904,
+        154.97,
+        262.57202
+      ]
+    },
+    {
+      "id": "treble-58",
+      "staff_index": 2,
+      "levels": 1,
+      "bbox_pt": [
+        180.955,
+        252.11102,
+        261.5,
+        258.53699
+      ]
+    },
+    {
+      "id": "treble-65",
+      "staff_index": 2,
+      "levels": 2,
+      "bbox_pt": [
+        290.11301,
+        281.052,
+        406.71201,
+        287.47803
+      ]
+    },
+    {
+      "id": "treble-73",
+      "staff_index": 2,
+      "levels": 2,
+      "bbox_pt": [
+        422.629,
+        281.052,
+        539.22803,
+        287.47803
+      ]
+    },
+    {
+      "id": "bass-99",
+      "staff_index": 1,
+      "levels": 1,
+      "bbox_pt": [
+        88.8887,
+        146.55701,
+        166.69299,
+        148.948
+      ]
+    },
+    {
+      "id": "bass-103",
+      "staff_index": 1,
+      "levels": 1,
+      "bbox_pt": [
+        191.765,
+        146.55701,
+        269.57001,
+        148.948
+      ]
+    },
+    {
+      "id": "bass-110",
+      "staff_index": 1,
+      "levels": 2,
+      "bbox_pt": [
+        297.57199,
+        166.48199,
+        410.97501,
+        172.90802
+      ]
+    },
+    {
+      "id": "bass-118",
+      "staff_index": 1,
+      "levels": 2,
+      "bbox_pt": [
+        426.435,
+        166.48199,
+        539.83801,
+        172.90802
+      ]
+    },
+    {
+      "id": "bass-130",
+      "staff_index": 3,
+      "levels": 1,
+      "bbox_pt": [
+        74.4259,
+        295.04999,
+        154.97,
+        302.422
+      ]
+    },
+    {
+      "id": "bass-134",
+      "staff_index": 3,
+      "levels": 1,
+      "bbox_pt": [
+        180.955,
+        296.94299,
+        261.5,
+        303.36902
+      ]
+    },
+    {
+      "id": "bass-141",
+      "staff_index": 3,
+      "levels": 2,
+      "bbox_pt": [
+        290.11301,
+        316.86804,
+        406.71201,
+        323.29401
+      ]
+    },
+    {
+      "id": "bass-149",
+      "staff_index": 3,
+      "levels": 2,
+      "bbox_pt": [
+        422.629,
+        316.86804,
+        539.22803,
+        323.29401
+      ]
+    }
+  ]
+}

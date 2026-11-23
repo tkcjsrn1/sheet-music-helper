@@ -1,0 +1,90 @@
+[
+  {
+    "case": "aoharu_p1",
+    "old_labels": 226,
+    "new_labels": 226,
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "text_changed": 0,
+      "confidence_changed": 0
+    }
+  },
+  {
+    "case": "aoharu_p2",
+    "old_labels": 327,
+    "new_labels": 327,
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "text_changed": 0,
+      "confidence_changed": 0
+    }
+  },
+  {
+    "case": "aoharu_p3",
+    "old_labels": 158,
+    "new_labels": 158,
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "text_changed": 0,
+      "confidence_changed": 0
+    }
+  },
+  {
+    "case": "chopin_Db_p1",
+    "old_labels": 262,
+    "new_labels": 262,
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "text_changed": 3,
+      "confidence_changed": 0
+    }
+  },
+  {
+    "case": "bach_p1",
+    "old_labels": 184,
+    "new_labels": 182,
+    "counts": {
+      "added": 0,
+      "removed": 2,
+      "text_changed": 3,
+      "confidence_changed": 2
+    }
+  },
+  {
+    "case": "clef_change_clara1",
+    "old_labels": 600,
+    "new_labels": 601,
+    "counts": {
+      "added": 2,
+      "removed": 1,
+      "text_changed": 15,
+      "confidence_changed": 0
+    }
+  },
+  {
+    "case": "alto_beethoven1",
+    "old_labels": 223,
+    "new_labels": 223,
+    "counts": {
+      "added": 0,
+      "removed": 0,
+      "text_changed": 2,
+      "confidence_changed": 1
+    }
+  },
+  {
+    "case": "schubert_restored",
+    "old_labels": 492,
+    "new_labels": 493,
+    "counts": {
+      "added": 1,
+      "removed": 0,
+      "text_changed": 2,
+      "confidence_changed": 0
+    }
+  }
+]

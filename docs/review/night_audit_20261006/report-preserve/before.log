@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_feedback_bundle.py", line 70, in <module>
+    main()
+    ~~~~^^
+  File "F:\sheet-music-helper-codex-night-20261004\tests\test_feedback_bundle.py", line 58, in main
+    raise AssertionError('입력 파일을 신고 ZIP으로 덮어썼습니다')
+AssertionError: 입력 파일을 신고 ZIP으로 덮어썼습니다

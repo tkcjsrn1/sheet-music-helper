@@ -1,0 +1,6 @@
+{
+  "legacy_name_warning_cases": 1680,
+  "legacy_audio_cases": 2100,
+  "all_equal": true,
+  "basis": "수정 전 함수 사본과 기존 유효값의 표기/경고/MIDI/범위 오류를 대조; bb/##는 제외"
+}

@@ -1,0 +1,210 @@
+{
+  "baseline": "38274707a3e98ecb2e69cc7443fc002901eb4bdb",
+  "clef_keysig_sha256": "137c268370b6a5a809274ae48ae2f8c4c1ce4cd4b9fc6e84f10d0e95fea6d956",
+  "rows": [
+    {
+      "kind": "photo",
+      "name": "bach__lighting_shadow_left",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 182,
+      "after_count": 182,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "bach__noise_focus_blur",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 187,
+      "after_count": 187,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "bach__rotation_0p5deg",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 188,
+      "after_count": 188,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "bach__translate_x0p5_y0p5",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 183,
+      "after_count": 183,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "chopin_Db__lighting_shadow_left",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 230,
+      "after_count": 230,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "chopin_Db__noise_focus_blur",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 245,
+      "after_count": 245,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "chopin_Db__rotation_0p5deg",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 247,
+      "after_count": 247,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "chopin_Db__translate_x0p5_y0p5",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 237,
+      "after_count": 237,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "F_flat1__lighting_shadow_left",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 166,
+      "after_count": 166,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "F_flat1__noise_focus_blur",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 167,
+      "after_count": 167,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "F_flat1__rotation_0p5deg",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 169,
+      "after_count": 169,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    },
+    {
+      "kind": "photo",
+      "name": "F_flat1__translate_x0p5_y0p5",
+      "status": {
+        "before": "완료",
+        "after": "완료"
+      },
+      "before_count": 162,
+      "after_count": 162,
+      "added": [],
+      "removed": [],
+      "retained_value_changes": [],
+      "json_equal": true,
+      "png_equal": true,
+      "music_equal": true,
+      "possible_true_note_loss": []
+    }
+  ]
+}

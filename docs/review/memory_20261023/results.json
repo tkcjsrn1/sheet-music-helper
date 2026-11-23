@@ -1,0 +1,110 @@
+{
+  "measured": [
+    {
+      "stage": "render",
+      "name": "고정3쪽×3배치+비교그림",
+      "command": [
+        "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+        "-B",
+        "F:\\akbo-data\\tmp\\codex-memory-20261023\\render-case.py"
+      ],
+      "cwd": "F:\\sheet-music-helper-beta-cf4dd44-20261019",
+      "started": "2026-10-23T18:57:56.723816+09:00",
+      "initial": {
+        "available": 3790983168,
+        "commit_headroom": 12511408128,
+        "commit_limit": 32943534080,
+        "total_physical": 16837406720
+      },
+      "sample_interval_seconds": 0.2,
+      "guard_available_bytes": 1073741824,
+      "guard_commit_bytes": 2147483648,
+      "peak_sampled_working_set": 443801600,
+      "peak_sampled_private": 400236544,
+      "peak_job_commit": 415797248,
+      "min_available": 3322216448,
+      "min_commit_headroom": 11873972224,
+      "max_processes": 7,
+      "samples": 224,
+      "aborted": null,
+      "exit_code": 0,
+      "seconds": 45.143,
+      "finished": "2026-10-23T18:58:41.867910+09:00",
+      "own_job_closed": true,
+      "own_lock_removed": true
+    },
+    {
+      "stage": "exe-retry",
+      "name": "015908d 실제GUI 2쪽 변환",
+      "command": [
+        "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+        "-B",
+        "F:\\akbo-data\\tmp\\codex-memory-20261023\\exe-gui-retry.py"
+      ],
+      "cwd": "F:\\sheet-music-helper-progress-test-20261020",
+      "started": "2026-10-23T19:04:02.113882+09:00",
+      "initial": {
+        "available": 3678953472,
+        "commit_headroom": 12510801920,
+        "commit_limit": 32943534080,
+        "total_physical": 16837406720
+      },
+      "sample_interval_seconds": 0.2,
+      "guard_available_bytes": 1073741824,
+      "guard_commit_bytes": 2147483648,
+      "peak_sampled_working_set": 550162432,
+      "peak_sampled_private": 437305344,
+      "peak_job_commit": 448118784,
+      "min_available": 3212963840,
+      "min_commit_headroom": 12085284864,
+      "max_processes": 7,
+      "samples": 311,
+      "aborted": null,
+      "exit_code": 0,
+      "seconds": 63.155,
+      "finished": "2026-10-23T19:05:05.270147+09:00",
+      "own_job_closed": true,
+      "own_lock_removed": true
+    },
+    {
+      "stage": "full",
+      "name": "#431 전체검사 골든1/OpenCV1",
+      "command": [
+        "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+        "-B",
+        "tests/run_all.py"
+      ],
+      "cwd": "F:\\sheet-music-helper-keyboard-20261020",
+      "started": "2026-10-23T19:05:05.276305+09:00",
+      "initial": {
+        "available": 3661819904,
+        "commit_headroom": 12527050752,
+        "commit_limit": 32943534080,
+        "total_physical": 16837406720
+      },
+      "sample_interval_seconds": 0.2,
+      "guard_available_bytes": 1073741824,
+      "guard_commit_bytes": 2147483648,
+      "peak_sampled_working_set": 587644928,
+      "peak_sampled_private": 509083648,
+      "peak_job_commit": 529186816,
+      "min_available": 3035418624,
+      "min_commit_headroom": 11780976640,
+      "max_processes": 9,
+      "samples": 5637,
+      "aborted": null,
+      "exit_code": 0,
+      "seconds": 1135.41,
+      "finished": "2026-10-23T19:24:00.686009+09:00",
+      "own_job_closed": true,
+      "own_lock_removed": true
+    }
+  ],
+  "full_summary": "52개 중 통과 52 · 건너뜀 0 · 실패 0",
+  "source_head": "379212615313cb3c2ddf8d323a9cad0ff90f83a2",
+  "sampled_working_set_shared_pages_counted_per_process": true,
+  "sampler_not_in_job": true,
+  "peak_commit_source": "Windows Job Object PeakJobMemoryUsed",
+  "full_suite_golden_workers": 1,
+  "opencv_threads": 1
+}

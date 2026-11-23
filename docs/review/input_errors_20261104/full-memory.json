@@ -1,0 +1,32 @@
+{
+  "name": "input-errors-full-20261104",
+  "command": [
+    "C:\\Users\\정혁\\Desktop\\악보헬퍼\\venv\\Scripts\\python.exe",
+    "-B",
+    "F:\\akbo-data\\tmp\\input-errors-20261104\\tests\\run_all.py"
+  ],
+  "cwd": "F:\\akbo-data\\tmp\\input-errors-20261104",
+  "started": "2026-11-04T13:50:45.419823+09:00",
+  "initial": {
+    "available": 4536627200,
+    "commit_headroom": 15850700800,
+    "commit_limit": 32943534080,
+    "total_physical": 16837406720
+  },
+  "sample_interval_seconds": 0.2,
+  "guard_available_bytes": 1073741824,
+  "guard_commit_bytes": 2147483648,
+  "peak_sampled_working_set": 601677824,
+  "peak_sampled_private": 509734912,
+  "peak_job_commit": 529801216,
+  "min_available": 3024404480,
+  "min_commit_headroom": 14411997184,
+  "max_processes": 9,
+  "samples": 4622,
+  "aborted": null,
+  "exit_code": 0,
+  "seconds": 929.568,
+  "finished": "2026-11-04T14:06:14.988287+09:00",
+  "own_job_closed": true,
+  "own_lock_removed": true
+}

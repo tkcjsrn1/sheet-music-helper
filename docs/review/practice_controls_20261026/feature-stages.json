@@ -1,0 +1,10 @@
+[
+  {
+    "stage": "default-six",
+    "exit": 0
+  },
+  {
+    "stage": "run-all",
+    "exit": 0
+  }
+]

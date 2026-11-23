@@ -1,0 +1,162 @@
+[
+  {
+    "score": "mozart_k545",
+    "source": "mozart/k545/movement1_exposition.mxl",
+    "font": "Bravura",
+    "pages_in_source": 1,
+    "notes_on_page": 191,
+    "piano_part": null
+  },
+  {
+    "score": "mozart_k545",
+    "source": "mozart/k545/movement1_exposition.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 1,
+    "notes_on_page": 191,
+    "piano_part": null
+  },
+  {
+    "score": "bach_bwv846",
+    "source": "bach/bwv846.mxl",
+    "font": "Bravura",
+    "pages_in_source": 2,
+    "notes_on_page": 324,
+    "piano_part": null
+  },
+  {
+    "score": "bach_bwv846",
+    "source": "bach/bwv846.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 2,
+    "notes_on_page": 324,
+    "piano_part": null
+  },
+  {
+    "score": "joplin_maple_leaf",
+    "source": "joplin/maple_leaf_rag.mxl",
+    "font": "Bravura",
+    "pages_in_source": 3,
+    "notes_on_page": 534,
+    "piano_part": null
+  },
+  {
+    "score": "joplin_maple_leaf",
+    "source": "joplin/maple_leaf_rag.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 3,
+    "notes_on_page": 518,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_1",
+    "source": "schumann_clara/polonaise_op1n1.mxl",
+    "font": "Bravura",
+    "pages_in_source": 2,
+    "notes_on_page": 562,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_1",
+    "source": "schumann_clara/polonaise_op1n1.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 2,
+    "notes_on_page": 562,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_2",
+    "source": "schumann_clara/polonaise_op1n2.mxl",
+    "font": "Bravura",
+    "pages_in_source": 2,
+    "notes_on_page": 622,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_2",
+    "source": "schumann_clara/polonaise_op1n2.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 2,
+    "notes_on_page": 593,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_3",
+    "source": "schumann_clara/polonaise_op1n3.mxl",
+    "font": "Bravura",
+    "pages_in_source": 2,
+    "notes_on_page": 484,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_3",
+    "source": "schumann_clara/polonaise_op1n3.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 3,
+    "notes_on_page": 484,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_4",
+    "source": "schumann_clara/polonaise_op1n4.mxl",
+    "font": "Bravura",
+    "pages_in_source": 2,
+    "notes_on_page": 409,
+    "piano_part": null
+  },
+  {
+    "score": "clara_polonaise_4",
+    "source": "schumann_clara/polonaise_op1n4.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 2,
+    "notes_on_page": 409,
+    "piano_part": null
+  },
+  {
+    "score": "schubert_lindenbaum_piano",
+    "source": "schubert/Lindenbaum.xml",
+    "font": "Bravura",
+    "pages_in_source": 4,
+    "notes_on_page": 502,
+    "piano_part": "P2"
+  },
+  {
+    "score": "schubert_lindenbaum_piano",
+    "source": "schubert/Lindenbaum.xml",
+    "font": "Leipzig",
+    "pages_in_source": 4,
+    "notes_on_page": 502,
+    "piano_part": "P2"
+  },
+  {
+    "score": "schumann_op48no2_piano",
+    "source": "schumann_robert/opus48no2.mxl",
+    "font": "Bravura",
+    "pages_in_source": 1,
+    "notes_on_page": 196,
+    "piano_part": "P2"
+  },
+  {
+    "score": "schumann_op48no2_piano",
+    "source": "schumann_robert/opus48no2.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 1,
+    "notes_on_page": 196,
+    "piano_part": "P2"
+  },
+  {
+    "score": "beethoven_op18no1",
+    "source": "beethoven/opus18no1/movement1.mxl",
+    "font": "Bravura",
+    "pages_in_source": 19,
+    "notes_on_page": 215,
+    "piano_part": null
+  },
+  {
+    "score": "beethoven_op18no1",
+    "source": "beethoven/opus18no1/movement1.mxl",
+    "font": "Leipzig",
+    "pages_in_source": 19,
+    "notes_on_page": 215,
+    "piano_part": null
+  }
+]

@@ -1,0 +1,34 @@
+{
+  "basis": "기존 015908d 고정 JSON에서 만든10-20 배치자료 재집계; 새 인식/렌더0",
+  "source_sha256": "8bf996803f44d73694d35386960a7f80060686e0815ac2d9d77f9aeac8560b93",
+  "crop": [
+    350,
+    2470,
+    2470,
+    3070
+  ],
+  "rows": [
+    {
+      "mode": "default",
+      "labels_intersecting_crop": 96,
+      "overlapping_label_rectangle_pairs": 0,
+      "involved_label_indices": [],
+      "pairs": [],
+      "staffs": [
+        6,
+        7
+      ]
+    },
+    {
+      "mode": "lanes",
+      "labels_intersecting_crop": 96,
+      "overlapping_label_rectangle_pairs": 0,
+      "involved_label_indices": [],
+      "pairs": [],
+      "staffs": [
+        6,
+        7
+      ]
+    }
+  ]
+}

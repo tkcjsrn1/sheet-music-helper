@@ -1,0 +1,72 @@
+[
+  {
+    "case": "phase-0.25-0",
+    "dx": 0.25,
+    "dy": 0.0,
+    "interpolation": "INTER_LINEAR",
+    "border": [
+      255,
+      255,
+      255
+    ],
+    "pixels_equal_to_actual_warp": true,
+    "pixels_differ_from_original": true,
+    "input_sha256": "d4706591c2918b4e8294b8fa7c5bb35bf205ce0e94fb7f3b7820fc17f38ebd45"
+  },
+  {
+    "case": "phase-0.5-0",
+    "dx": 0.5,
+    "dy": 0.0,
+    "interpolation": "INTER_LINEAR",
+    "border": [
+      255,
+      255,
+      255
+    ],
+    "pixels_equal_to_actual_warp": true,
+    "pixels_differ_from_original": true,
+    "input_sha256": "e7e449695871f8a6fb0df35584f25b6c05b98924353decd20b3f997e4621b09c"
+  },
+  {
+    "case": "phase-0.75-0",
+    "dx": 0.75,
+    "dy": 0.0,
+    "interpolation": "INTER_LINEAR",
+    "border": [
+      255,
+      255,
+      255
+    ],
+    "pixels_equal_to_actual_warp": true,
+    "pixels_differ_from_original": true,
+    "input_sha256": "21f8c432cc5957e6e7c93e0468e9065c4a94a63517077d5b32bc22c70b525dc5"
+  },
+  {
+    "case": "phase-0-0.5",
+    "dx": 0.0,
+    "dy": 0.5,
+    "interpolation": "INTER_LINEAR",
+    "border": [
+      255,
+      255,
+      255
+    ],
+    "pixels_equal_to_actual_warp": true,
+    "pixels_differ_from_original": true,
+    "input_sha256": "e8e5fecb4ec4732848ac3563209a0a91afce5483d48a37079646b3994325f629"
+  },
+  {
+    "case": "phase-0.5-0.5",
+    "dx": 0.5,
+    "dy": 0.5,
+    "interpolation": "INTER_LINEAR",
+    "border": [
+      255,
+      255,
+      255
+    ],
+    "pixels_equal_to_actual_warp": true,
+    "pixels_differ_from_original": true,
+    "input_sha256": "f93875a16d0db08a3ed38ad6ef836de71ee23b81c31068e8c7d0559de51a5439"
+  }
+]

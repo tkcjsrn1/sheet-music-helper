@@ -1,0 +1,17 @@
+{
+  "target": "F:\\sheet-music-helper-codex-night-20261004\\dist\\4fc33430b8cd-20261015-180559-980943\\악보헬퍼.exe",
+  "scanner": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpCmdRun.exe",
+  "started_at": "2026-10-15T18:17:54.9820351+09:00",
+  "finished_at": "2026-10-15T18:18:01.0771766+09:00",
+  "exit_code": 0,
+  "detections": [],
+  "threats": [],
+  "status": {
+    "AMProductVersion": "4.18.26090.9",
+    "AMEngineVersion": "1.1.26090.9",
+    "AntivirusSignatureVersion": "1.461.28.0",
+    "AntivirusSignatureLastUpdated": "2026-10-15T01:18:38+09:00",
+    "AMRunningMode": "Normal",
+    "AntivirusEnabled": true
+  }
+}

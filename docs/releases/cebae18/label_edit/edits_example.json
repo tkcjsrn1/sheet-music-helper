@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "description": "사용자 수정",
+  "source": {
+    "file": "chopin_nocturne_Db_6-8.pdf",
+    "page": 0,
+    "width": 2481,
+    "height": 3508,
+    "dpi": 300,
+    "sha256": "bb3c154d5bd54d5662b111a7e47fdede23fe386f0830436d6ab6b537508f46af"
+  },
+  "changes": [
+    {
+      "action": "set_text",
+      "before": {
+        "staff": 0,
+        "x": 1694,
+        "y": 618,
+        "pitch": "B3",
+        "text": "시b"
+      },
+      "after": {
+        "text": "미"
+      }
+    }
+  ]
+}

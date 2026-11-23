@@ -1,0 +1,17 @@
+{
+  "target": "F:\\sheet-music-helper-beta-13d73f6-record-20261018\\dist\\e141908fca36-20261018-210718-028242\\악보헬퍼.exe",
+  "scanner": "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26090.9-0\\MpCmdRun.exe",
+  "started_at": "2026-10-18T21:21:45.0209391+09:00",
+  "finished_at": "2026-10-18T21:21:50.6657594+09:00",
+  "exit_code": 0,
+  "detections": [],
+  "threats": [],
+  "status": {
+    "AMProductVersion": "4.18.26090.9",
+    "AMEngineVersion": "1.1.26090.9",
+    "AntivirusSignatureVersion": "1.461.86.0",
+    "AntivirusSignatureLastUpdated": "2026-10-18T12:34:13+09:00",
+    "AMRunningMode": "Normal",
+    "AntivirusEnabled": true
+  }
+}

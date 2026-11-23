@@ -1,0 +1,63 @@
+{
+  "wav_sha256": "b293db9ae4788b86b4f143030c04034a3e7994b7056ab66e13409b3030d78b0a",
+  "rate": 48000,
+  "channels": 2,
+  "captured_seconds": 2.74,
+  "onset_seconds": 0.25,
+  "first_note_truth": "C4",
+  "expected_hz": 261.6255653005986,
+  "best_single_sine_hz": 261.55,
+  "single_sine_explained_energy": 0.4936718036919089,
+  "spectral_peaks": [
+    {
+      "hz": 260.0,
+      "relative": 0.9361527444471431
+    },
+    {
+      "hz": 525.0,
+      "relative": 0.11455091902885187
+    },
+    {
+      "hz": 2115.0,
+      "relative": 0.09642286420538658
+    },
+    {
+      "hz": 785.0,
+      "relative": 0.08115137175690602
+    },
+    {
+      "hz": 1310.0,
+      "relative": 0.06557556760898256
+    },
+    {
+      "hz": 1575.0,
+      "relative": 0.04679583305989948
+    },
+    {
+      "hz": 1050.0,
+      "relative": 0.046587081800197605
+    },
+    {
+      "hz": 1845.0,
+      "relative": 0.03192832971774813
+    },
+    {
+      "hz": 2655.0,
+      "relative": 0.026250350201443912
+    },
+    {
+      "hz": 3210.0,
+      "relative": 0.023457797003169384
+    },
+    {
+      "hz": 3495.0,
+      "relative": 0.015976366232904795
+    },
+    {
+      "hz": 2935.0,
+      "relative": 0.01176685996662945
+    }
+  ],
+  "microphone_used": false,
+  "interpretation": "선택된 GM Acoustic Grand Piano의 실제 출력. 단일 사인파 대체가 아님. 음질의 사람 청취 판정은 별도."
+}

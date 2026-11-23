@@ -1,0 +1,20 @@
+{
+  "folder": "F:\\sheet-music-helper-progress-test-20261020\\output\\human-beta-015908d\\app\\output\\사용자수정-0070115d2fb54967acd4144cd0c61cb3",
+  "labels": [
+    {
+      "id": "s0-p8-x122",
+      "staff": 0,
+      "x": 1178,
+      "y": 516,
+      "nx": 61.036,
+      "pitch": "F5",
+      "step": 8,
+      "accidental": null,
+      "text": "파##",
+      "confidence": "certain",
+      "flags": [],
+      "edited": true
+    }
+  ],
+  "actual_input": true
+}

@@ -1,0 +1,21 @@
+.....F.
+======================================================================
+FAIL: test_two_page_sessions_sharing_a_doc_still_clear_boundaries (__main__.PracticeControls.test_two_page_sessions_sharing_a_doc_still_clear_boundaries)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "F:\akbo-data\tmp\practice-controls-20261026\tests\test_gui_practice_controls.py", line 56, in test_two_page_sessions_sharing_a_doc_still_clear_boundaries
+    self.assertEqual((app._practice_start,app._practice_end),(None,None));self.assertFalse(app.practice_repeat.get())
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Tuples differ: (0, 1) != (None, None)
+
+First differing element 0:
+0
+None
+
+- (0, 1)
++ (None, None)
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.011s
+
+FAILED (failures=1)

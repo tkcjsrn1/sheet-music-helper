@@ -1,0 +1,13 @@
+{
+  "build_commit": "53d674bfe653ada3de3d2ac8258376401c0b4ec0",
+  "exe": {
+    "path": "F:\\sheet-music-helper-codex-night-20261004\\dist\\53d674bfe653-20261005-201451-020137\\악보헬퍼.exe",
+    "bytes": 118669445,
+    "sha256": "B134B3F7474531F19ACADA8F7727216721165FD921E6D382C1001B5476DF6C74"
+  },
+  "zip": {
+    "path": "F:\\sheet-music-helper-codex-night-20261004\\dist\\악보헬퍼-53d674bfe653-20261005-201451-020137.zip",
+    "bytes": 124746244,
+    "sha256": "03DEEB7A329CA16B456673E27BFCF45F8474EE0718E73B97449A7F5D1C6C6883"
+  }
+}
